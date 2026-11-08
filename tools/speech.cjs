@@ -8,6 +8,7 @@ const path = require('path');
 const crypto = require('crypto');
 const { steps } = require('../js/timeline.js');
 const { sayable, sentences } = require('./say.cjs');
+const { plain } = require('../js/markup.js');
 
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'build', 'speech');
@@ -45,7 +46,7 @@ const narration = (v, lines, lastGap) => lines.flatMap(sentences).map((s, i, all
 
 function sectionSegs(lines, cast) {
   return lines.flatMap(([id, text]) => {
-    const parts = sentences(text);
+    const parts = sentences(plain(text));
     return parts.map((s, i) => seg(cast[id], s, i === parts.length - 1 ? GAP.turn : GAP.sentence));
   });
 }

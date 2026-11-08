@@ -285,13 +285,13 @@
           "layout": "flow",
           "title": "Plan for the presentation",
           "options": [
-            "a short quiz",
-            "a video clip",
             "a diagram",
-            "comments from participants",
-            "graphs",
             "practical suggestions",
+            "a short quiz",
+            "comments from participants",
             "a demonstration",
+            "a video clip",
+            "graphs",
             "a list of further reading"
           ],
           "rows": [
@@ -300,7 +300,7 @@
             "Give key survey figures and {29}",
             "Finish with {30} for teachers"
           ],
-          "answers": { "27": "A", "28": "C", "29": "D", "30": "F" }
+          "answers": { "27": "C", "28": "A", "29": "D", "30": "B" }
         }
       ]
     },

@@ -184,7 +184,7 @@
               { "k": "zone", "x": 430, "y": 230, "w": 140, "h": 90, "fill": "wood", "label": "Orchard" },
               {
                 "k": "path",
-                "pts": [[320, 345], [320, 75]],
+                "pts": [[320, 345], [320, 200], [320, 75]],
                 "w": 20,
                 "fill": "path",
                 "label": "Main track"
@@ -324,14 +324,14 @@
           "to": 30,
           "layout": "flow",
           "title": "Tracking wheatears",
-          "options": ["nets", "traps", "light", "temperature", "satellites", "recaptured", "followed", "location", "speed", "weight"],
+          "options": ["followed", "temperature", "nets", "location", "satellites", "traps", "speed", "recaptured", "light", "weight"],
           "rows": [
             "Birds are caught at the breeding site using {27}",
             "A small device that measures {28} is attached to each bird",
             "The birds are released and are {29} a year later",
             "The stored data is used to calculate each bird's daily {30}"
           ],
-          "answers": { "27": "A", "28": "C", "29": "F", "30": "H" }
+          "answers": { "27": "C", "28": "I", "29": "H", "30": "D" }
         }
       ]
     },

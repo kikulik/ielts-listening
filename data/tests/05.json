@@ -270,13 +270,7 @@
             "- frequent readers were more likely to own a {24}",
             "- most common reason for not reading more: lack of {25}"
           ],
-          "answers": {
-            "21": ["reading log", "log"],
-            "22": ["bedtime", "bed time"],
-            "23": ["graphic novels"],
-            "24": ["library card"],
-            "25": ["free time", "time"]
-          }
+          "answers": { "21": ["reading log", "log"], "22": ["bedtime"], "23": ["graphic novels"], "24": ["library card"], "25": ["free time", "time"] }
         },
         {
           "type": "mcq",
@@ -376,7 +370,7 @@
           ],
           "answers": {
             "31": ["trees"],
-            "32": ["laboratory", "lab"],
+            "32": ["laboratory"],
             "33": ["identical"],
             "34": ["coin"],
             "35": ["fuse"],

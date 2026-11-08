@@ -59,7 +59,7 @@
             ["B", "Right, I've got my card here."],
             ["A", "Lovely. That's gone through now. Your booking reference is [[10|WB5836]]."],
             ["B", "Sorry, was that WB5386?"],
-            ["A", "No, it's 5836 at the end. So, WB5836. Keep that safe, because you'll need it if you want to change or cancel the collection. You can cancel free of charge up to two days before."],
+            ["A", "No, it's five, eight, three, six at the end. So, WB5836. Keep that safe, because you'll need it if you want to change or cancel the collection. You can cancel free of charge up to two days before."],
             ["B", "Got it. Thanks very much for your help."]
           ]
         }
@@ -203,7 +203,7 @@
             "# Listeners' help",
             "- send in {20} for the three boats"
           ],
-          "answers": { "15": ["bus pass"], "16": ["trams"], "17": ["country park"], "18": ["open deck"], "19": ["thick fog", "fog"], "20": ["names"] }
+          "answers": { "15": ["bus pass"], "16": ["trams"], "17": ["country park"], "18": ["open deck", "deck"], "19": ["thick fog", "fog"], "20": ["names"] }
         }
       ]
     },

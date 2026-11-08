@@ -89,7 +89,10 @@ node tests/check-tests.cjs 7                       # fix every error first
 node tools/speech.cjs 7                            # speech plan -> build/speech/07.json
 .venv/bin/python tools/audio/synth.py 0 7          # record -> audio/07/*.mp3 (0 = sound check)
 node tools/catalog.cjs                             # update the test list
+.venv/bin/python tools/audio/hear_check.py 7       # Whisper listens: is every typed answer audible?
 ```
+
+`hear_check.py` needs `.venv/bin/pip install faster-whisper` once (its model downloads on first use).
 
 Only files whose text changed are recorded again. All 30 tests take a little over an hour on a
 24-core CPU (`--workers 6 --threads 4`). `tools/say.cjs` turns prices, times, years, phone

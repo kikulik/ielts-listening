@@ -16,10 +16,10 @@
             ["A", "Of course. Have you had a market stall before?"],
             ["B", "Not here. I moved over from Ohio two years ago. Back home I sold at a couple of markets, but this would be my first one in England."],
             ["A", "Well, we'd be glad to hear from you. Let me take a few details first. What's your name?"],
-            ["B", "Kristen Teague."],
+            ["B", "Kristen [[1|Teague]]."],
             ["A", "Could you spell the surname for me?"],
             ["B", "Sure, it's T-E-A-G-U-E."],
-            ["A", "Thanks, Ms [[1|Teague]]. And what would you be selling?"],
+            ["A", "Thanks. And what would you be selling?"],
             ["B", "Mainly chilli sauces. I grow the chillies myself in a couple of polytunnels, so everything's my own produce. I also make jam with the fruit from our garden, so I was thinking I could bring some of that, too."],
             ["A", "Ah, I'm afraid not. We've already got three jam stalls, and we try not to have too many people selling the same thing."],
             ["B", "Oh, that's fine. I also do [[2|pickles]]. Cucumbers, mostly, and some onions."],
@@ -380,7 +380,7 @@
             "# Uses",
             "- food, especially in East Asia",
             "- extracts used as thickeners in dairy foods and in non-food products, e.g. {32}",
-            "- in cattle feed: one red seaweed may greatly reduce the {33} the animals produce",
+            "- in cattle feed: one red seaweed may greatly reduce the animals' emissions of {33}",
             "# Farming methods",
             "- cool waters (kelp): spores grown on {34} in hatchery tanks",
             "- lines put out to sea in {35}; kelp harvested in spring",
@@ -398,12 +398,12 @@
             "32": ["toothpaste"],
             "33": ["methane"],
             "34": ["string"],
-            "35": ["autumn", "fall"],
+            "35": ["autumn"],
             "36": ["stakes"],
             "37": ["land"],
             "38": ["nitrogen"],
             "39": ["fish"],
-            "40": ["temperatures"]
+            "40": ["temperatures", "temperature"]
           }
         }
       ]

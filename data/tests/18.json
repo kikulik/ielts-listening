@@ -143,7 +143,7 @@
             ["Friday", "free time in small groups; visit to the {15}", "one of Europe's largest"],
             ["Saturday", "return flight", "back at school at about {16} pm"]
           ],
-          "answers": { "11": ["4.15"], "12": ["bike", "bicycle"], "13": ["rice"], "14": ["volleyball"], "15": ["aquarium"], "16": ["8.30"] }
+          "answers": { "11": ["4.15"], "12": ["bike"], "13": ["rice"], "14": ["volleyball"], "15": ["aquarium"], "16": ["8.30"] }
         },
         {
           "type": "multi",
@@ -233,7 +233,13 @@
             "Rowers who used {24} performed no better than those who drank only water.",
             "The results may have been affected by the unusually {25} conditions."
           ],
-          "answers": { "21": ["rowing club"], "22": ["body weight", "weight"], "23": ["a third", "one third"], "24": ["sports drinks"], "25": ["humid"] }
+          "answers": {
+            "21": ["rowing club"],
+            "22": ["body weight", "bodyweight", "weight"],
+            "23": ["a third", "one third"],
+            "24": ["sports drinks"],
+            "25": ["humid"]
+          }
         },
         {
           "type": "mcq",

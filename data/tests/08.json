@@ -75,7 +75,7 @@
             ["Southwold", "Sunday {3}", "9 am", "£26", "optional visit to the {4} (£5 extra)"],
             ["Ely", "Wednesday 24th", "{5} am", "£19", "suitable for people with limited {6}"]
           ],
-          "answers": { "1": ["34"], "2": ["walking"], "3": ["21st", "21"], "4": ["lighthouse"], "5": ["8.45"], "6": ["mobility"] }
+          "answers": { "1": ["34"], "2": ["walking"], "3": ["21st", "21"], "4": ["lighthouse"], "5": ["8.45", "8.45am"], "6": ["mobility"] }
         },
         {
           "type": "gap",
@@ -145,7 +145,7 @@
               { "k": "zone", "x": 525, "y": 245, "w": 65, "h": 130, "fill": "parking", "label": "Car park" },
               {
                 "k": "path",
-                "pts": [[500, 0], [500, 400]],
+                "pts": [[500, 0], [500, 180], [500, 400]],
                 "w": 30,
                 "fill": "water",
                 "label": "River Kell"
@@ -165,14 +165,14 @@
                 "label": "Church Street"
               },
               { "k": "spot", "x": 100, "y": 160, "letter": "A" },
-              { "k": "spot", "x": 325, "y": 120, "letter": "B" },
+              { "k": "spot", "x": 325, "y": 146, "letter": "B" },
               { "k": "spot", "x": 165, "y": 330, "letter": "C" },
               { "k": "spot", "x": 445, "y": 120, "letter": "D" },
               { "k": "spot", "x": 100, "y": 258, "letter": "E" },
               { "k": "spot", "x": 305, "y": 345, "letter": "F" },
-              { "k": "spot", "x": 442, "y": 310, "letter": "G" },
-              { "k": "spot", "x": 557, "y": 125, "letter": "H" },
-              { "k": "spot", "x": 557, "y": 310, "letter": "I" }
+              { "k": "spot", "x": 442, "y": 360, "letter": "G" },
+              { "k": "spot", "x": 557, "y": 158, "letter": "H" },
+              { "k": "spot", "x": 557, "y": 350, "letter": "I" }
             ]
           },
           "items": [
@@ -342,7 +342,7 @@
             ["L", "Another important change had already happened before printing arrived. Books had traditionally been written on parchment, which was made from animal skin. A single large Bible could require the skins of two hundred animals, so books were extremely costly to produce. [[32|Paper]], which had reached Europe from the Islamic world, was far cheaper, and by the fifteenth century it was being manufactured in large quantities in Italy and Germany. Without a cheap material to print on, the press would have made little economic sense."],
             ["L", "Johannes Gutenberg, working in the German city of Mainz around 1450, did not invent printing itself. Printing from carved wooden blocks had existed for centuries in China and Korea, and metal type had been used in Korea too. Gutenberg's achievement was to combine several technologies into a single system. The first was movable metal type. Each letter was cast in a mould, using an alloy that consisted mostly of [[33|lead]], with smaller amounts of tin and antimony added to make the letters harder and more durable. Thousands of these letters could be arranged into pages, printed, and then taken apart and used again."],
             ["L", "The second element was the press itself. Screw presses were already a familiar sight in the Rhineland, where Mainz is located. Some textbooks will tell you that Gutenberg adapted a press used for making paper, or for crushing olives. But there were very few paper mills in that part of Germany at the time, and olives don't grow that far north, and the presses he would have seen every autumn were the ones used to squeeze grapes for [[34|wine]]."],
-            ["L", "The third element is often overlooked. The water-based inks that scribes had always used simply ran off metal type, so Gutenberg developed an oil-based [[35|ink]], closer in fact to a kind of varnish, which stuck to the metal and transferred cleanly onto the paper."],
+            ["L", "The third element is often overlooked. The water-based inks that scribes had always used simply ran off metal type, so Gutenberg developed an oil-based [[35|ink]], made from soot and linseed oil, which stuck to the metal and transferred cleanly onto the paper."],
             ["L", "Printing spread with remarkable speed. By 1500, there were presses in more than two hundred and fifty European towns. Estimates vary, but by then somewhere between eight million and twenty million copies had been printed, which is probably more than all the scribes of Europe had produced in the previous thousand years. Interestingly, though, printers did not necessarily go where the scholars were. Printing was a risky business. A printer had to buy paper and type months before selling a single book, so he needed access to money and to customers. As a result, printers tended to settle in centres of [[36|trade]], cities like Venice, Antwerp and Lyon, rather than in quiet university towns."],
             ["L", "Venice became the most important printing city of all. One Venetian printer, Aldus Manutius, began producing classical texts in a much smaller format, using a compact new style of letter that we now call italic. The scholarly books of the time were huge volumes that had to be read at a desk, but his books were small enough to slip into a [[37|pocket]], so for the first time, a reader could carry a book around and read it anywhere."],
             ["L", "So what were the effects of printing? One was standardisation. When every scribe wrote as he pleased, the same word might be written in three or four different ways, sometimes on the same page. Printers gradually settled on fixed forms, partly to make their work quicker, and so [[38|spelling]] became much more consistent. Pronunciation, of course, continued to vary enormously from one region to another."],
@@ -367,7 +367,7 @@
             "# Gutenberg's press (Mainz, about 1450)",
             "- letters cast from a metal mixture made mainly of {33}",
             "- press based on the type used in the production of {34}",
-            "- new oil-based {35} that would stick to metal",
+            "- new {35}, made with oil, that would stick to metal",
             "# The spread of printing",
             "- by 1500: presses in over 250 towns",
             "- printers usually chose cities that were centres of {36}",

@@ -68,8 +68,10 @@
 
   const spot = s => `<g><circle cx="${s.x}" cy="${s.y}" r="13" fill="#FFFFFF" stroke="${INK}" stroke-width="2.2"/>` +
     `<text x="${s.x}" y="${s.y}" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="700" fill="${INK}">${esc(s.letter)}</text></g>`;
-  const gate = s => `<path d="M${s.x - 9} ${s.y + 6} L${s.x} ${s.y - 8} L${s.x + 9} ${s.y + 6} Z" fill="${INK}"/>` + label(s.x, s.y + 18, s.text, { size: 12 });
-  const you = s => `<circle cx="${s.x}" cy="${s.y}" r="7" fill="#C62828" stroke="#FFFFFF" stroke-width="2"/>` + label(s.x, s.y + 17, s.text || 'You are here', { size: 12 });
+  /* Marker labels go below the marker, or above it when that would run off the bottom edge. */
+  const under = (y, gap) => (y + gap + 8 <= H ? y + gap : y - gap);
+  const gate = s => `<path d="M${s.x - 9} ${s.y + 6} L${s.x} ${s.y - 8} L${s.x + 9} ${s.y + 6} Z" fill="${INK}"/>` + label(s.x, under(s.y, 18), s.text, { size: 12 });
+  const you = s => `<circle cx="${s.x}" cy="${s.y}" r="7" fill="#C62828" stroke="#FFFFFF" stroke-width="2"/>` + label(s.x, under(s.y, 17), s.text || 'You are here', { size: 12 });
   const free = s => label(s.x, s.y, s.text, { size: 12, weight: 400, italic: true, width: 220 });
   const compass = () => `<g transform="translate(570 30)"><circle r="17" fill="#FFFFFF" stroke="${INK}" stroke-width="1.5"/>` +
     `<path d="M0 -12 L6 6 L0 2 L-6 6 Z" fill="${INK}"/><text y="-21" text-anchor="middle" font-size="11" font-weight="700" fill="${INK}" dominant-baseline="auto">N</text></g>`;

@@ -44,7 +44,7 @@
           "from": 6,
           "to": 10,
           "lines": [
-            ["A", "Now, there are two kinds of bike in the scheme. Last year we tried out some cargo bikes, with a big box on the front for shopping, but they weren't very popular, so we've withdrawn them. Most of the bikes are standard ones, which are included in your membership. The others are [[6|electric]], and those cost an extra 10p a minute."],
+            ["A", "Now, there are two kinds of bike in the scheme. Last year we tried out some cargo bikes, with a big box on the front for shopping, but they weren't very popular, so we've withdrawn them. Most of the bikes are standard ones, which are included in your membership. The others are [[6|electric]], and those cost an extra ten pence a minute."],
             ["B", "That's useful to know. The hills here are steeper than I expected."],
             ["A", "They are! Next, how would you like to unlock the bikes? Most of our members use the app."],
             ["B", "Normally I'd say the app, but my phone's pretty old and the battery runs out all the time. Is there any other way?"],

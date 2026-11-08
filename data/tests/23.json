@@ -110,7 +110,7 @@
             ["A", "Now, some practical details. In previous years we always met outside the café on the promenade, but that's closed for refurbishment at the moment, so from this month we'll be meeting by the [[15|lifeboat station]], just north of the pier. It's the big blue building with the slipway, so you can't miss it."],
             ["A", "Young people are very welcome, and we have quite a few teenagers who come regularly. Anyone under sixteen must either come with a parent, or bring a [[16|consent form]] signed by a parent or carer. You can download that from our website, and I've also got some paper copies here tonight."],
             ["A", "Safety is our top priority. You can pick up most things with the litter pickers, even broken glass, as long as it goes into the separate plastic bucket. But there are two things we never want you to touch. One is anything that looks like a syringe. The other is [[17|marine flares]]. These are the emergency flares that boats carry, and old ones sometimes wash up on the beach. They can still go off and cause serious burns, so if you find one, keep well away and tell one of the organisers in a yellow jacket. We'll call the coastguard."],
-            ["A", "We also record everything we find, because the information goes to researchers at the university who are trying to work out where the rubbish comes from. Each group is given a [[18|clipboard]] with a recording sheet on it, and one person keeps count while the others collect. We did try recording on our phones a couple of years ago, but the screens were impossible to read in bright sunlight, and they didn't cope very well with the rain either."],
+            ["A", "We also record everything we find. Some of our volunteers are university students, and people sometimes assume the figures are for their coursework, but in fact the information goes to [[18|researchers]] at the university who are trying to work out where the rubbish comes from. Each group is given a clipboard with a recording sheet on it, and one person keeps count while the others collect. We did try recording on our phones a couple of years ago, but the screens were impossible to read in bright sunlight, and they didn't cope very well with the rain either."],
             ["A", "People are often surprised by what turns up. Last year we expected plastic drinks bottles to be the most common item, and we certainly found hundreds of them. But there were actually far more pieces of [[19|fishing line]], which is especially dangerous for seabirds, because they get tangled up in it."],
             ["A", "And finally, what's in it for you? Apart from a cleaner beach, of course. Everyone gets a hot drink and a bacon roll afterwards, kindly provided by one of the cafés on the seafront, and there's a vegetarian option too. And if you come along regularly, say four or five times, we'll offer you free training to become a [[20|team leader]]. That involves a first aid course and a day learning about tides and beach safety, and it looks very good on a CV if you're a student. Right, does anyone have any questions?"]
           ]
@@ -153,7 +153,7 @@
             "# Safety",
             "- never touch syringes or {17}",
             "# Recording what is found",
-            "- items recorded on a sheet attached to a {18}",
+            "- information passed on to {18} at the university",
             "- most frequent item found last year: {19}",
             "# Benefits",
             "- frequent volunteers may train as a {20}"
@@ -162,7 +162,7 @@
             "15": ["lifeboat station"],
             "16": ["consent form"],
             "17": ["marine flares", "flares"],
-            "18": ["clipboard"],
+            "18": ["researchers"],
             "19": ["fishing line"],
             "20": ["team leader"]
           }
@@ -336,7 +336,7 @@
             "- control: by shifting the position of his {36}",
             "- {37} showing him flying were printed internationally",
             "# Samuel Langley",
-            "- full-size machine launched from a {38}, but fell into the river",
+            "- full-size machine catapulted from the top of a {38}, but fell into the river",
             "# Octave Chanute",
             "- applied methods used in building {39} to his biplane glider",
             "# The Wright brothers",
@@ -349,7 +349,7 @@
             "34": ["storks"],
             "35": ["hill"],
             "36": ["legs"],
-            "37": ["photographs"],
+            "37": ["photographs", "photos"],
             "38": ["houseboat"],
             "39": ["bridges"],
             "40": ["bicycles"]

@@ -194,23 +194,23 @@
               { "k": "zone", "x": 230, "y": 110, "w": 140, "h": 110, "fill": "building", "label": "Castle" },
               { "k": "zone", "x": 320, "y": 340, "w": 90, "h": 40, "fill": "building", "label": "Visitor centre" },
               { "k": "gate", "x": 300, "y": 388, "text": "Entrance" },
-              { "k": "spot", "x": 200, "y": 355, "letter": "A" },
-              { "k": "spot", "x": 175, "y": 295, "letter": "B" },
-              { "k": "spot", "x": 140, "y": 150, "letter": "C" },
-              { "k": "spot", "x": 300, "y": 45, "letter": "D" },
-              { "k": "spot", "x": 430, "y": 110, "letter": "E" },
-              { "k": "spot", "x": 470, "y": 210, "letter": "F" },
-              { "k": "spot", "x": 565, "y": 290, "letter": "G" },
-              { "k": "spot", "x": 365, "y": 295, "letter": "H" }
+              { "k": "spot", "x": 200, "y": 355, "letter": "E" },
+              { "k": "spot", "x": 178, "y": 282, "letter": "H" },
+              { "k": "spot", "x": 140, "y": 150, "letter": "B" },
+              { "k": "spot", "x": 300, "y": 45, "letter": "G" },
+              { "k": "spot", "x": 410, "y": 160, "letter": "A" },
+              { "k": "spot", "x": 470, "y": 210, "letter": "C" },
+              { "k": "spot", "x": 565, "y": 290, "letter": "F" },
+              { "k": "spot", "x": 365, "y": 295, "letter": "D" }
             ]
           },
           "items": [
-            { "q": 15, "text": "Café", "answer": "A" },
-            { "q": 16, "text": "Herb garden", "answer": "B" },
-            { "q": 17, "text": "Maze", "answer": "C" },
-            { "q": 18, "text": "Ice house", "answer": "D" },
-            { "q": 19, "text": "Falconry display", "answer": "F" },
-            { "q": 20, "text": "Adventure playground", "answer": "G" }
+            { "q": 15, "text": "Café", "answer": "E" },
+            { "q": 16, "text": "Herb garden", "answer": "H" },
+            { "q": 17, "text": "Maze", "answer": "B" },
+            { "q": 18, "text": "Ice house", "answer": "G" },
+            { "q": 19, "text": "Falconry display", "answer": "C" },
+            { "q": 20, "text": "Adventure playground", "answer": "F" }
           ]
         }
       ]
@@ -352,7 +352,7 @@
             ["A", "Let's turn now to economics. You may have heard that the English word salary comes from the Latin salarium, and that Roman soldiers were paid in salt. It's an appealing story, and the word may well be connected with salt in some way. However, historians point out that there's very little [[36|evidence]] that soldiers ever received salt instead of money. It's more likely that the term referred to an allowance for buying salt, or possibly to something else altogether."],
             ["A", "What is certain is that salt was traded over enormous distances. One of the best-documented examples is the trade across the Sahara. For centuries, camel caravans carried large slabs of rock salt, cut from deposits in the middle of the desert, southwards to cities such as Timbuktu. There it was exchanged for cloth and ivory, but above all for [[37|gold]] from the mines of West Africa. In some regions, salt was so highly valued that pieces of it were even used as a form of currency."],
             ["A", "Because everybody needed it, salt was also an ideal thing to tax. Governments could count on a steady income, since people couldn't simply stop buying it. In China, the state took control of salt production in the second century BC. The emperor at the time needed money for military [[38|campaigns]] against peoples on the northern frontier, and the profits from salt helped to pay for them."],
-            ["A", "In France, the salt tax, known as the gabelle, was so unpopular that it came to symbolise everything people hated about the old system of government, and it was abolished during the Revolution, in 1790. In India, under British rule, it was illegal to make or sell salt without paying a tax to the colonial authorities. In 1930, Gandhi turned this into a powerful act of protest. He and his followers set out from his base near the city of Ahmedabad and walked almost four hundred kilometres to the [[39|coast]], where he collected natural salt from the shore, deliberately breaking the law."],
+            ["A", "In France, the salt tax, known as the gabelle, was so unpopular that it came to symbolise everything people hated about the old system of government, and it was abolished during the Revolution, in 1790. In India, under British rule, it was illegal to make or sell salt without paying a tax to the colonial authorities. In 1930, Gandhi turned this into a powerful act of protest. He and his followers set out from his base near the city of Ahmedabad and walked almost four hundred kilometres to the [[39|coast]], where he picked up a lump of natural salt left by the tide, deliberately breaking the law."],
             ["A", "Finally, a word about salt today. Most people assume that the bulk of the salt produced ends up in our food. In fact, food accounts for only a small fraction. In some countries with harsh winters, a large share is spread on the roads to stop ice from forming. But globally, the biggest single user is the [[40|chemical]] industry, which uses salt to manufacture chlorine and other basic substances found in everything from plastics to medicines. So a material that once paid for armies and provoked revolutions has become one of the quiet foundations of modern industry."]
           ]
         }

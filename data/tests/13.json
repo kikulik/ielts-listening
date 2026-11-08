@@ -143,7 +143,7 @@
               { "k": "zone", "x": 20, "y": 60, "w": 560, "h": 280, "fill": "building" },
               {
                 "k": "path",
-                "pts": [[30, 190], [570, 190]],
+                "pts": [[30, 190], [180, 190], [570, 190]],
                 "w": 24,
                 "fill": "corridor",
                 "label": "Main corridor"

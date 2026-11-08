@@ -82,7 +82,7 @@
             "4": ["18", "eighteen"],
             "5": ["48"],
             "6": ["October"],
-            "7": ["75"],
+            "7": ["75", "seventy-five"],
             "8": ["bonfires", "bonfire"],
             "9": ["induction"],
             "10": ["bill"]
@@ -172,7 +172,7 @@
               { "k": "zone", "x": 360, "y": 30, "w": 170, "h": 130, "fill": "wood", "label": "Bole Wood" },
               {
                 "k": "path",
-                "pts": [[0, 375], [600, 375]],
+                "pts": [[0, 375], [200, 375], [600, 375]],
                 "w": 24,
                 "fill": "road",
                 "label": "Station Road"
@@ -199,9 +199,9 @@
               { "k": "spot", "x": 200, "y": 205, "letter": "B" },
               { "k": "spot", "x": 360, "y": 255, "letter": "C" },
               { "k": "spot", "x": 110, "y": 100, "letter": "D" },
-              { "k": "spot", "x": 450, "y": 95, "letter": "E" },
+              { "k": "spot", "x": 445, "y": 122, "letter": "E" },
               { "k": "spot", "x": 115, "y": 290, "letter": "F" },
-              { "k": "spot", "x": 420, "y": 210, "letter": "G" },
+              { "k": "spot", "x": 420, "y": 185, "letter": "G" },
               { "k": "spot", "x": 290, "y": 265, "letter": "H" }
             ]
           },

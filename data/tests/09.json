@@ -52,8 +52,8 @@
             ["B", "Okay. And what time do we need to bring the car back on the 23rd? Our flight's not until nine in the evening."],
             ["A", "The station office is open until seven, but we ask for cars to be returned by [[9|5.30]], so that the staff have time to check them over before closing."],
             ["B", "That should be fine. We can get the airport bus from just outside the station."],
-            ["A", "Yes, it goes every half an hour. One other thing to mention. If you're running late on the day, there's no extra charge, as long as you give us a call. But there is a cleaning charge of £60 if the car comes back very [[10|dirty]]. A lot of our customers drive down muddy farm tracks to get to the walks, so it's worth stopping at a car wash on your way back."],
-            ["B", "That's useful to know. My brother's a keen hill walker, so I expect we'll be on some muddy roads."],
+            ["A", "Yes, it goes every half an hour. One other thing to mention. If you're running late on the day, there's no extra charge, as long as you give us a call. But there is a cleaning charge of £60 if the car comes back very [[10|dirty]]. A lot of our customers drive down farm tracks to get to the walks, so it's worth stopping at a car wash on your way back."],
+            ["B", "That's useful to know. My brother's a keen hill walker, so I expect we'll be on a few of those."],
             ["A", "Lovely. I'll send you a text with the booking reference, and we'll see you on the 17th."],
             ["B", "Thank you very much. Goodbye."]
           ]
@@ -93,7 +93,7 @@
             "6": ["39"],
             "7": ["credit"],
             "8": ["passport"],
-            "9": ["5.30"],
+            "9": ["5.30", "5.30pm"],
             "10": ["dirty"]
           }
         }
@@ -297,7 +297,7 @@
           "to": 30,
           "layout": "flow",
           "title": "Accepting a donated object into the collection",
-          "options": ["history", "value", "quarantine", "freezer", "committee", "curator", "number", "label", "photograph"],
+          "options": ["value", "curator", "history", "committee", "photograph", "freezer", "label", "quarantine", "number"],
           "rows": [
             "The donor completes a form giving the object's {27}",
             "The object is kept in {28} for a fortnight and checked for insects",
@@ -306,7 +306,7 @@
             "The object is marked with its own {30}",
             "The object is photographed, labelled and entered on the database"
           ],
-          "answers": { "27": "A", "28": "C", "29": "E", "30": "G" }
+          "answers": { "27": "C", "28": "H", "29": "D", "30": "I" }
         }
       ]
     },
