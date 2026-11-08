@@ -1,0 +1,408 @@
+{
+  "id": 17,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Arranging catering for a company event",
+      "context": "a man phoning a catering company to arrange food for a work event",
+      "speakers": { "A": { "name": "Rosie", "g": "f", "accent": "gb" }, "B": { "name": "Brandon", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon, Saltmarsh Kitchen. Rosie speaking."],
+            ["B", "Hi there. I'm calling from Brightwell Analytics. We're organising an event next month, and one of my colleagues recommended you for the catering."],
+            ["A", "Oh, that's kind of them. Let me take a few details, then. Could I have your name first?"],
+            ["B", "Sure. It's Brandon [[1|Kellaway]]. That's K-E-L-L-A-W-A-Y."],
+            ["A", "Thanks, Brandon. And when's the event?"],
+            ["B", "It'll be on a Friday in June. We'd pencilled in the 7th, but it turns out half the team are away at a conference that week, so we've moved it to the [[2|14th]]."],
+            ["A", "Friday the 14th of June. Let me just look at the diary. Yes, we're free that evening. What time were you thinking of starting?"],
+            ["B", "Six o'clock, and we have the space until ten."],
+            ["A", "Lovely. And what's the occasion?"],
+            ["B", "It's a farewell party. When people first heard about it, a lot of them assumed it was for our chief executive, because she's the one everybody sees, but she's not going anywhere. It's for our [[3|founder]]. He started the company in his spare bedroom twenty years ago, and he's finally retiring."],
+            ["A", "Oh, how nice. And how many guests are you expecting?"],
+            ["B", "We sent out ninety invitations, and so far five people have told us they can't make it, so it'll be [[4|85]]."],
+            ["A", "Eighty-five. And where will it be held? At your offices?"],
+            ["B", "Yes. The obvious place would be the reception area on the ground floor, but it's pretty dark down there, even in summer. So we've decided to hold it on the [[5|roof]] terrace instead. It's on the sixth floor, and the elevator goes all the way up."],
+            ["A", "That sounds wonderful, as long as the weather behaves itself. Is there any kind of kitchen up there?"],
+            ["B", "There's a small one, with a fridge and a sink."],
+            ["A", "That's fine. We bring everything else with us. Is there somewhere our van can unload? We'll be bringing quite a lot of equipment up."],
+            ["B", "There's a loading bay behind the building, on Quay Street. I'll let security know you're coming, and they'll give you a pass for the service elevator."],
+            ["A", "Perfect. We usually arrive about two hours before the start, so that would be around four o'clock."],
+            ["B", "That's no problem. Someone from the office will be there to meet you and show you where everything is."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, have you thought about what kind of food you'd like?"],
+            ["B", "My manager's first idea was a sit-down dinner, but on a roof terrace, people are going to want to walk around and enjoy the view. So we'd prefer a [[6|buffet]], with a few hot dishes."],
+            ["A", "That works really well outdoors. Are there any special diets I need to know about?"],
+            ["B", "About fifteen people are vegetarian, and one person has an allergy. I was told it was nuts, but I double-checked with her this morning, and it's actually [[7|sesame]]."],
+            ["A", "That's important to know, because sesame turns up in all sorts of things, like bread and salad dressings. We'll make sure everything's clearly labelled."],
+            ["B", "Great. And for dessert, what would you suggest?"],
+            ["A", "Our chocolate mousse is very popular, but on a warm evening outside, it doesn't hold up well. I'd recommend our little [[8|lemon]] tarts instead. They're light and refreshing, and they won't melt in the sun."],
+            ["B", "Those sound perfect."],
+            ["A", "Will you need any equipment? Plates, cutlery and glasses are all included in the package."],
+            ["B", "We have plenty of tables and chairs in the building, so we don't need those. But it can get pretty chilly up there once the sun goes down. Could you provide some [[9|heaters]]?"],
+            ["A", "Yes, we hire out patio heaters. I'd suggest four for a space that size. They're £15 each for the evening."],
+            ["B", "OK, let's do that."],
+            ["A", "And what about drinks? We can run a full bar, or just provide soft drinks, if you'd prefer."],
+            ["B", "We've actually arranged drinks separately. A local brewery is bringing a bar, so it's just the food we need from you."],
+            ["A", "That's fine. For a group of your size, we'd send four members of staff to serve the food and clear away afterwards, and that's included."],
+            ["B", "Great. So what sort of price per person are we looking at?"],
+            ["A", "The buffet menu with hot dishes and a dessert is normally £26 a head. But for groups of more than eighty, we reduce it to [[10|£23.50]]."],
+            ["B", "That's very reasonable. So what happens next?"],
+            ["A", "I'll send you a written quote today, and we'll need a deposit of twenty per cent to confirm the booking. If we receive that within two weeks, the date is yours. Could I have a phone number for you?"],
+            ["B", "Sure, it's 0117 496 0382."],
+            ["A", "Thanks, Brandon. I'll be in touch later today."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "SALTMARSH KITCHEN: CATERING BOOKING FORM",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "Company: Brightwell Analytics",
+            "Contact name: Brandon {1}",
+            "Date: Friday {2} June",
+            "Time: 6 pm to 10 pm",
+            "Occasion: retirement of the company's {3}",
+            "Number of guests: {4}",
+            "Location: {5} terrace, sixth floor",
+            "# Food and equipment",
+            "Style of service: {6}",
+            "Special diets: about 15 vegetarians; one guest allergic to {7}",
+            "Dessert: small {8} tarts",
+            "Plates, cutlery and glasses: included",
+            "Equipment to hire: {9} (£15 each)",
+            "Price per person: £{10}"
+          ],
+          "answers": {
+            "1": ["Kellaway"],
+            "2": ["14th", "14"],
+            "3": ["founder"],
+            "4": ["85"],
+            "5": ["roof"],
+            "6": ["buffet"],
+            "7": ["sesame"],
+            "8": ["lemon"],
+            "9": ["heaters"],
+            "10": ["23.50"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Coastal walking trails",
+      "context": "a tourist information officer giving a talk about coastal walking trails",
+      "speakers": { "A": { "name": "Graham", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "Good morning, and welcome to the Tourist Information Centre here in Wrenmouth. I'm Graham, and I'm one of the information officers. Every Saturday in the summer we give a short talk about the walking trails along this part of the coast, so thank you all for coming along."],
+            ["A", "Before I describe the routes, a few words of advice. People often ask whether they need proper walking boots. Honestly, on these trails the paths are firm and well drained, and a decent pair of trainers is perfectly adequate. Nor do you need to carry a lot of water, because there are cafés and drinking taps in every village along the way. What you really must do is [[11|look at the tide tables before you set off]]. Two of the routes cross beaches that are completely cut off at high tide, and every summer somebody gets stranded."],
+            ["A", "The other thing to bear in mind is that between April and July, [[12|dogs have to be kept on a lead]], because ground-nesting birds are raising their chicks in the dunes and on the cliff tops. And people sometimes ask if it's safe to walk on their own. It is. The paths are well used, and there's almost always someone within shouting distance, so there's no need to go in a group unless you want company."],
+            ["A", "Now, a couple of things have changed this year. Many of you will have used the coast bus that links the villages. That's been running for over ten years now, and it still comes every half an hour. What is new is [[13|a little passenger ferry across the river mouth]], which saves you a walk of almost three miles inland to the nearest bridge. It runs from Easter until the end of October. We'd hoped to start guided walks at night, to look at the stars, but we couldn't find enough trained guides, so that's been put off until next year. On the other hand, thanks to a grant from the county council, [[14|the first two kilometres of the Dunes Walk now have a smooth, hard surface that wheelchair users can manage]]. We'd also like to put up information boards in other languages, but we're still waiting to hear whether we've got the funding."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "So let me tell you about our three main trails. You'll find all of them on the leaflet I've handed out, but there are a couple of changes the leaflet doesn't show yet."],
+            ["A", "The first is the Herring Path. It's six kilometres long, and it follows the route that fishermen's families once used to carry the catch to market in the next town. About halfway along, you'll come to a ruined stone building. Many visitors assume it was a chapel, because of its arched windows, but it was actually a [[15|smokehouse]], where the herring were preserved before they were sold."],
+            ["A", "The path runs along low cliffs, and in May and June it's the best place on the whole coast to watch [[16|puffins]] diving for fish just offshore. You may well see seals too, though they're much more common in the winter months."],
+            ["A", "The second route is the Beacon Trail, a circular walk of nine kilometres. The leaflet says it starts in the main car park, but that's out of date. Because of building work, the start has moved, and it now begins beside the [[17|lifeboat station]] at the far end of the harbour. It's the most dramatic of the three walks, with wonderful views from the headland."],
+            ["A", "It does, however, include a section where you go down to a little cove, and the [[18|stone steps]] there are worn very smooth. After rain they can be treacherous, so if the weather's wet, please take extra care on that part, or simply turn back when you reach the headland."],
+            ["A", "Finally, the Dunes Walk. This is the easiest of the three, five kilometres and completely flat, so it's ideal for families. The route is marked with wooden posts. If you've got an old leaflet, it'll tell you to follow a green fish symbol, but those signs were replaced last winter, so now you need to look out for posts with a [[19|white shell]] painted on them."],
+            ["A", "The walk ends at the estuary. There used to be a café there, but sadly it closed last year. What you'll find instead is a [[20|bird hide]], run by the local wildlife trust, where you can sit and watch the wading birds on the mudflats. And from there, of course, you can catch the new ferry back across the river."],
+            ["A", "If you'd like a copy of this week's tide tables, they're free at the desk, along with the bus timetables. Enjoy your walking, and do come back and tell us how you got on."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 11,
+          "to": 12,
+          "stem": "Which TWO pieces of advice does the speaker give about walking on this coast?",
+          "options": [
+            "check the times of high tide",
+            "wear waterproof walking boots",
+            "carry plenty of water",
+            "keep dogs under control",
+            "walk with at least one other person"
+          ],
+          "answer": ["A", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 13,
+          "to": 14,
+          "stem": "Which TWO things are new on the trails this year?",
+          "options": [
+            "a bus service between the villages",
+            "a ferry across the river",
+            "guided walks after dark",
+            "information boards in several languages",
+            "a route section suitable for wheelchairs"
+          ],
+          "answer": ["B", "E"]
+        },
+        {
+          "type": "gap",
+          "from": 15,
+          "to": 20,
+          "layout": "notes",
+          "title": "Three coastal trails",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# The Herring Path (6 km)",
+            "- follows an old route used for taking fish to market",
+            "- halfway point: the remains of a {15}",
+            "- in early summer, a good place to see {16}",
+            "# The Beacon Trail (9 km, circular)",
+            "- starting point is now next to the {17}",
+            "- the {18} leading to the cove are dangerous when wet",
+            "# The Dunes Walk (5 km)",
+            "- flat and suitable for families",
+            "- follow posts marked with a {19}",
+            "- finishes at a {20} overlooking the estuary"
+          ],
+          "answers": {
+            "15": ["smokehouse"],
+            "16": ["puffins"],
+            "17": ["lifeboat station"],
+            "18": ["stone steps", "steps"],
+            "19": ["white shell", "shell"],
+            "20": ["bird hide"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "An architecture project on tiny houses",
+      "context": "two architecture students discussing their project on tiny houses",
+      "speakers": { "A": { "name": "Callum", "g": "m", "accent": "gb" }, "B": { "name": "Bethan", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["B", "Shall we start by going through the four tiny houses we visited, so we can agree what to say about each one in the report?"],
+            ["A", "Good idea. We've only got about two thousand words for the case studies, so we'll need to be selective. The shipping container first. I must admit I expected the owner to complain about the cold. A metal box in the middle of a field in January."],
+            ["B", "So did I, but he said the insulation deals with that perfectly well. [[21|The real problem is July and August, when the sun beats down on the steel and it turns into an oven inside]]."],
+            ["A", "Right, and he's had to fit blinds on every window. He also said other builders had copied his design, didn't he?"],
+            ["B", "No, that was the woman with the timber cabin, the one on wheels. And actually, she said she hoped people would copy it, but as far as she knew, nobody had so far."],
+            ["A", "Oh, yes. What struck me about the cabin was [[22|how big it felt once you were inside]]. It's only twelve square metres, but with that high ceiling and the huge window at one end, you'd never guess."],
+            ["B", "I measured it twice because I didn't believe it. And she'd built nearly all the furniture herself, which I thought was amazing."],
+            ["A", "So did I. Then there's the rooftop studio in the city centre. Beautiful views over the river, and the architect told us it came in under budget."],
+            ["B", "Did he? I thought he said the steel frame cost more than they'd planned, so they went slightly over."],
+            ["A", "Oh, you're right, it went over. Anyway, the main thing about that one was the planning process. [[23|Because it sits on top of an existing building, they had to get approval from the council, and that took nearly a year]]."],
+            ["B", "Which must have been very frustrating, with the builders just waiting around."],
+            ["A", "And finally the straw-bale cottage. That was my favourite."],
+            ["B", "Mine too. People think straw must be a fire risk, but the walls are covered in thick lime plaster. And the owners said [[24|they only had the heating on for a couple of weeks last winter, because the walls hold the warmth so well]]."],
+            ["A", "That's impressive. Although they'd hoped it would be cheaper to build than a normal house, and it ended up costing just as much."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["B", "Now, Dr Hendry's feedback on our draft. I was worried she'd say we'd included too many case studies."],
+            ["A", "So was I, but she seemed quite happy with four. And she didn't mind that we'd used a lot of websites, as long as we reference them properly. Her main point was that [[25|we'd only looked at the cost of building the houses, and forgotten that buying the land is often the most expensive part]]."],
+            ["B", "Fair enough. We need a whole section on that. She mentioned schemes where councils rent out small plots cheaply, didn't she?"],
+            ["A", "Yes, there's one in Bristol that would make a good example. I'll look it up."],
+            ["B", "Great. So, the reasons people choose to live in tiny houses. I'd assumed it was mainly about the environment."],
+            ["A", "That came up, but it was a long way down the list in the survey we found. Some people talked about wanting a simpler life with fewer possessions, and that came second. But by far the most common reason was [[26|that they didn't want to spend thirty years paying off a mortgage]]."],
+            ["B", "That makes sense, given what houses cost these days. And the drawbacks? I'd say storage is the obvious one."],
+            ["A", "I'm not so sure. Every house we saw had clever storage under the stairs and the floor. And yes, built-in furniture costs more, but none of the owners seemed bothered about that."],
+            ["B", "That's true. What about the couple in the container, though? They said [[27|the hardest thing was never having anywhere to be alone]]."],
+            ["A", "Yes, I think that's the real issue for anyone who isn't living by themselves. Let's make that our main point."],
+            ["B", "OK. Now, our own design. The brief says we can choose who it's for. What about a student? There's a real shortage of student housing."],
+            ["A", "There is, but the other groups in our year are all doing student housing. I wondered about a family with a small child."],
+            ["B", "After what we've just said about privacy? I don't think so."],
+            ["A", "No, you're right. So what about [[28|someone who's retired and living alone, and wants to move somewhere smaller and easier to look after]]?"],
+            ["B", "I like that. It fits the department's theme of ageing well, too. It means no ladder up to a sleeping platform, though, which almost every tiny house has."],
+            ["A", "True. Everything will have to be on one level, with wider doorways. That's a nice design challenge, actually."],
+            ["B", "It is. And the model? I'd love to use the 3D printer."],
+            ["A", "So would everyone. There's a three-week waiting list, and our deadline is in two. Balsa wood looks lovely, but it's expensive and it splits when you cut it."],
+            ["B", "So it's back to [[29|cardboard, then. If we use the laser cutter, it'll still look neat]]."],
+            ["A", "Agreed. So, what's next? I'd still like to visit that company in Devon that builds the cabins."],
+            ["B", "Their manager emailed back, actually. He's away until after our deadline. And we've already got plenty of interviews with residents."],
+            ["A", "In that case, the most useful thing would be [[30|to phone the planning office at the council and find out what rules apply to a tiny house in someone's back garden]]."],
+            ["B", "Good idea. I'll ring them first thing tomorrow."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 21,
+          "to": 24,
+          "lead": "What comment do the students make about each of the following tiny houses?",
+          "boxTitle": "Comments",
+          "options": [
+            "It needed special permission from the local council.",
+            "It stays warm with very little heating.",
+            "It feels more spacious than it really is.",
+            "It cost less to build than the owners expected.",
+            "It becomes uncomfortably hot in summer.",
+            "Its design has been copied by other builders."
+          ],
+          "items": [
+            { "q": 21, "text": "the shipping container", "answer": "E" },
+            { "q": 22, "text": "the timber cabin", "answer": "C" },
+            { "q": 23, "text": "the rooftop studio", "answer": "A" },
+            { "q": 24, "text": "the straw-bale cottage", "answer": "B" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 25,
+          "to": 30,
+          "items": [
+            {
+              "q": 25,
+              "stem": "What did the tutor say about the students' draft?",
+              "options": ["It included too many case studies.", "It ignored the price of land.", "It relied too heavily on online sources."],
+              "answer": "B"
+            },
+            {
+              "q": 26,
+              "stem": "According to the survey, what is the main reason people choose to live in tiny houses?",
+              "options": ["to avoid long-term debt", "to reduce their impact on the environment", "to lead a simpler life"],
+              "answer": "A"
+            },
+            {
+              "q": 27,
+              "stem": "What do the students agree is the biggest drawback of tiny houses?",
+              "options": ["the lack of storage", "the cost of furniture made to fit", "the lack of privacy for people sharing"],
+              "answer": "C"
+            },
+            {
+              "q": 28,
+              "stem": "Who will the students design their tiny house for?",
+              "options": ["a student", "an older person living on their own", "a family with a young child"],
+              "answer": "B"
+            },
+            {
+              "q": 29,
+              "stem": "What will the students use to make their model?",
+              "options": ["balsa wood", "a 3D printer", "cardboard"],
+              "answer": "C"
+            },
+            {
+              "q": 30,
+              "stem": "What will the students do next?",
+              "options": ["visit a company that builds tiny houses", "contact the local council", "interview more residents of tiny houses"],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "How honeybees communicate",
+      "context": "part of a lecture on how honeybees communicate",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "In today's lecture, I want to look at how honeybees communicate. A single colony can contain fifty thousand bees or more, and yet it behaves almost like one organism, finding food, defending itself and even choosing a new home. That's only possible because the bees are constantly passing information to one another, through movement, through vibration and through smell."],
+            ["A", "Much of what we know began with the Austrian scientist Karl von Frisch, who shared a Nobel Prize for his work in 1973. He noticed that a forager returning with food performs a kind of dance on the honeycomb, and he described two forms of it: a round dance, in which the bee simply circles, and a waggle dance, which I'll come to in a moment. Von Frisch's first explanation was that [[31|the two dances referred to two different kinds of food, the round dance meaning nectar and the waggle dance meaning pollen]]. He also observed that the dancers were always older bees, the foragers, but that wasn't part of his explanation. It was only years later, after more careful experiments, that he realised the difference between the dances was really about distance."],
+            ["A", "So let's look at the waggle dance. The bee runs in a straight line across the comb, waggling her body from side to side, then loops back round and repeats the run, again and again. The direction of that straight run is the key. You might guess that it points towards the hive entrance, or shows which way the wind is blowing, but neither is correct. Inside the hive, the comb hangs vertically, and the bee uses straight up as a stand-in for the position of the sun. [[32|So if she runs at forty degrees to the right of vertical, the food lies forty degrees to the right of the sun]]."],
+            ["A", "The length of each waggle run tells the other bees how far away the food is. But how does the dancer herself know the distance? Von Frisch believed bees measured the energy they used on the flight, and others suggested they simply timed the journey. The answer came from experiments in which bees were trained to fly through narrow tunnels with patterns on the walls. The bees used no more energy, and took no longer, than on a normal short flight. Yet [[33|in a tunnel lined with busy stripes, they danced as if they'd flown many times further, because so much visual movement had passed across their eyes]]."],
+            ["A", "There are other signals too. One of the most interesting is called the tremble dance. You might expect a bee that's found a particularly rich source of food to tremble with excitement, but in fact she shows that by dancing the waggle dance for longer and with more energy. And a bee that's been attacked at a flower, by a spider, for example, uses a different signal altogether, a short buzzing head-butt that discourages others from going there. The tremble dance is performed [[34|when a returning forager has to wait a long time before a younger bee comes to take her nectar]]. It tells the colony that not enough bees are doing that job, and more of them switch to unloading."],
+            ["A", "So far I've talked about movement, but bees also communicate a great deal through chemicals called pheromones. The queen produces a mixture of these, which is passed around the colony as workers touch her and then touch each other. As long as the workers can detect it, they know their queen is alive and well, and they don't build any new queen [[35|cells]], the large chambers in which a replacement queen would be raised. If the queen dies, the workers start building them within hours."],
+            ["A", "Then there's the alarm pheromone. When a guard bee stings an intruder, she releases a scent that attracts other guards and makes them more likely to sting as well. Some people say it smells like pear drops, but to most of us it smells remarkably like [[36|bananas]], which is why beekeepers are often advised not to eat one before opening a hive."],
+            ["A", "A third pheromone helps bees find their way. If you watch the entrance of a hive, you'll sometimes see workers standing with the tip of the abdomen raised, exposing a small gland, while they [[37|fan]] their wings hard to blow the scent into the air. This is the Nasonov pheromone, and it guides returning or lost bees back to the hive."],
+            ["A", "Finally, I'd like to look at one of the most impressive examples of bee communication: choosing a new home. In late spring, when a colony gets too crowded, the old queen leaves with around half of the workers. This swarm doesn't fly straight to a new home. Instead, it settles in a tight cluster, occasionally on a fence post, but far more often on the [[38|branch]] of a tree, and waits there while a few hundred scouts search the area for a suitable cavity, typically a hollow tree."],
+            ["A", "When a scout finds a promising site, she returns and performs a waggle dance for it on the surface of the swarm. Other scouts go and inspect it, and if they like it, they dance for it too, while scouts that found poorer sites gradually stop dancing. But the final decision isn't made on the swarm. It's made at the site. When a scout at the new home notices that enough other scouts are there at the same time, perhaps twenty or thirty, what's known as a [[39|quorum]], the choice has effectively been made."],
+            ["A", "The scouts then return to the swarm and make a high-pitched piping sound, which tells the bees to prepare for take-off. Flying requires a body temperature of about thirty-five degrees, so the bees shiver to warm up their flight [[40|muscles]]. When the whole swarm is warm enough, it lifts off, and the scouts guide it to its new home. It's a remarkable example of group decision-making, and we'll return to it next week."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 31,
+          "to": 34,
+          "items": [
+            {
+              "q": 31,
+              "stem": "What did von Frisch originally believe about the round dance and the waggle dance?",
+              "options": [
+                "They referred to different types of food.",
+                "They were performed by bees of different ages.",
+                "They showed food at different distances."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 32,
+              "stem": "What does the direction of the waggle run indicate?",
+              "options": [
+                "the position of the food in relation to the hive entrance",
+                "the position of the food in relation to the sun",
+                "the direction of the wind on the way to the food"
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 33,
+              "stem": "The tunnel experiments showed that bees judge distance by",
+              "options": ["the amount of energy they use.", "the length of time they spend flying.", "the amount of movement they see."],
+              "answer": "C"
+            },
+            {
+              "q": 34,
+              "stem": "A forager performs the tremble dance when",
+              "options": [
+                "it cannot quickly hand over the nectar it has collected.",
+                "it has found an unusually rich source of food.",
+                "it has been attacked while collecting food."
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 35,
+          "to": 40,
+          "layout": "notes",
+          "title": "Honeybee communication: pheromones and swarming",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Communication by scent",
+            "- the queen's pheromone stops workers producing new queen {35}",
+            "- alarm pheromone: its smell is usually compared to {36}",
+            "- Nasonov pheromone: bees {37} their wings to spread the scent and guide others home",
+            "# Choosing a new home",
+            "- the swarm gathers in a cluster, usually on a {38}, while scouts search",
+            "- scouts dance for the sites they find; weaker sites lose support",
+            "- a site is chosen once a {39} of scouts is present there",
+            "- before take-off, bees shiver to heat their flight {40}"
+          ],
+          "answers": { "35": ["cells"], "36": ["bananas", "banana"], "37": ["fan"], "38": ["branch"], "39": ["quorum"], "40": ["muscles"] }
+        }
+      ]
+    }
+  ]
+}

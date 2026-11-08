@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Map preview</title>
+<!-- Every map and plan in the tests, with the answer key, for checking the drawings by eye.
+     Serve the project folder (python3 -m http.server) and open /tools/map-preview.html,
+     or add ?t=7 for one test. -->
+<style>
+  body{font:15px/1.4 system-ui,sans-serif; margin:20px; background:#f4f1ea; color:#1b1f2a}
+  .card{background:#fff; border:1px solid #ccc; border-radius:10px; padding:14px; margin:0 0 18px; display:grid; grid-template-columns:620px 1fr; gap:16px; break-inside:avoid}
+  .card svg{width:600px; height:auto; border:1px solid #999}
+  h2{margin:0 0 6px; font-size:16px}
+  li{margin:2px 0}
+</style>
+</head>
+<body>
+<div id="out">Loading…</div>
+<script src="../js/render-map.js"></script>
+<script>
+(async () => {
+  const pad = n => String(n).padStart(2, '0');
+  const only = Number(new URLSearchParams(location.search).get('t')) || 0;
+  const list = await (await fetch('../data/catalog.json')).json();
+  const cards = [];
+  for (const t of list.filter(x => !only || x.id === only)) {
+    const test = await (await fetch(`../data/tests/${pad(t.id)}.json`)).json();
+    for (const part of test.parts) for (const g of part.groups.filter(x => x.type === 'map')) {
+      const key = g.items.map(it => `<li>${it.q}. ${it.text} = <b>${it.answer}</b></li>`).join('');
+      cards.push(`<div class="card">${IL.map.svg(g.map, g.title)}<div><h2>Test ${t.id}, Part ${part.n}: ${g.title || ''}</h2><ol>${key}</ol></div></div>`);
+    }
+  }
+  document.getElementById('out').innerHTML = cards.join('') || 'No maps.';
+  document.title = `Map preview (${cards.length})`;
+})();
+</script>
+</body>
+</html>

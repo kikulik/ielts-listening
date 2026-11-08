@@ -1,0 +1,380 @@
+{
+  "id": 25,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Booking adult swimming lessons",
+      "context": "a woman phoning a leisure centre about swimming lessons for adults",
+      "speakers": { "A": { "name": "Receptionist", "g": "m", "accent": "gb" }, "B": { "name": "Joanna", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Abbeyfields Leisure Centre, Craig speaking. How can I help you?"],
+            ["B", "Oh, hello. I'm calling about swimming lessons for adults. I saw a poster in the library, and I wondered whether there are still places on the courses starting next month."],
+            ["A", "There are, yes. We run three levels for adults, so it depends on your swimming at the moment. How confident are you in the water?"],
+            ["B", "Not very, to be honest. I'd probably describe myself as a beginner. I can just about get across the width of the pool, but my breathing goes all wrong and I end up standing up halfway."],
+            ["A", "Right. Well, if you can already manage a width on your own, I think you'd find the beginners' group a bit slow. They spend the first few weeks just getting used to putting their faces in the water. It sounds as if you'd be better off in the [[1|improvers]] group. That's for people who can swim a little but want to improve their technique."],
+            ["B", "Yes, that sounds much more like me. When are those classes?"],
+            ["A", "That course is on Wednesday evenings, and there are two groups. The earlier one starts at 6.30, but I'm afraid that filled up last week. There are still a few places left in the later group, though, which starts at [[2|7.45]]."],
+            ["B", "Hmm, that's quite late, but it's better than waiting until the summer. How long are the lessons?"],
+            ["A", "Each one's forty-five minutes, so you'd be out of the pool by half past eight. And the course lasts [[3|10]] weeks altogether. It used to be eight, but people said that wasn't long enough to notice much improvement, so we added a couple more this year."],
+            ["B", "That makes sense. And how much does it cost?"],
+            ["A", "The standard price for the whole course is £96. Do you live in the borough, though? Because there's a reduced rate for local residents."],
+            ["B", "I do, yes. I live in Shrewsbury itself, just off Castle Foregate."],
+            ["A", "Then it would be [[4|£78]] for you. You'd just need to show us something with your address on it, like a bank statement, the first time you come in."],
+            ["B", "That's very reasonable. Is there anything I need to bring? I haven't got any equipment, apart from a rather old swimming costume."],
+            ["A", "Well, goggles are useful, but if you haven't got any, the instructors keep a box of spare pairs you can borrow. Swimming caps aren't compulsory in the adult classes. What people do tend to forget is a [[5|padlock]]. The lockers in the changing rooms used to take a pound coin, but they were replaced over the summer, so now you need to bring your own to lock them."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["B", "Right, I'll make a note of that. Is there anything else I should know about the first evening?"],
+            ["A", "Yes. Normally we ask people to get here about five minutes before their lesson, but on the first night of a course, please come [[6|15]] minutes early. Everyone has to fill in a short health questionnaire before they go in the water."],
+            ["A", "Shall I take your details, then? Can I have your name, please?"],
+            ["B", "Yes, it's Joanna [[7|Kettleby]]."],
+            ["A", "Could you spell the surname for me?"],
+            ["B", "Of course. It's K-E-T-T-L-E-B-Y. People usually miss out one of the Ts."],
+            ["A", "Thank you. And what's the best number to contact you on?"],
+            ["B", "My mobile, really. It's 07832 506 149."],
+            ["A", "Lovely. Can I also ask what made you decide to take lessons? We pass that on to the instructors."],
+            ["B", "Well, everyone assumes it's because of my children, because they're always begging me to come in the pool with them. But honestly, they're both much better swimmers than me and they'd rather I just watched. My doctor did say swimming would be good for my knee, too, but that's not really it either. What finally made me pick up the phone is that my husband and I have booked a week in Egypt in the spring, and [[8|the hotel runs snorkelling trips out to the reef]]. I'd hate to be the only one left sitting on the boat."],
+            ["A", "Oh, you'll love that. The instructor sometimes does a session with masks and snorkels near the end of the course."],
+            ["B", "Really? That would be perfect. Can I ask about the pool itself? I'm a bit self-conscious, and I'd rather not have lots of people looking at me."],
+            ["A", "I understand. The lessons are in the learner pool, not the main one. I should be honest, though. You can be seen from the café upstairs, because the windows look straight down over it. We were hoping to have that whole area refurbished this year, with screens put in, but the work's been put off until next spring. The good news is that the learner pool is [[9|kept about three degrees warmer than the main pool]], so you won't be shivering while you practise."],
+            ["B", "Well, that's something. And how do I pay? Can I do it online?"],
+            ["A", "Usually, yes, but online booking for adult courses is closed at the moment while the new timetable's being finalised, and that won't be until after the deadline. I could take a card payment over the phone now, if you like."],
+            ["B", "I'd rather not give my card details over the phone, if that's all right. Is there another way?"],
+            ["A", "Of course. You can pay at reception, by cash or card. I can hold the place for you until five o'clock on Friday."],
+            ["B", "That's easy, then. I go past the centre on my way home from work, so [[10|I'll call in on Thursday and pay at the desk]]. I'll bring my bank statement as well."],
+            ["A", "Perfect. I'll put your name down now."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 7,
+          "layout": "notes",
+          "title": "ADULT SWIMMING LESSONS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Course details",
+            "- Level: {1}",
+            "- Time: Wednesdays at {2} pm",
+            "- Length of course: {3} weeks",
+            "- Cost with discount: £{4}",
+            "# Equipment",
+            "- goggles can be borrowed",
+            "- must bring a {5} for the changing-room lockers",
+            "# First lesson",
+            "- arrive {6} minutes early to complete a health form",
+            "# Contact details",
+            "- Name: Joanna {7}",
+            "- Mobile: 07832 506 149"
+          ],
+          "answers": {
+            "1": ["improvers", "improver"],
+            "2": ["7.45"],
+            "3": ["10", "ten"],
+            "4": ["78"],
+            "5": ["padlock"],
+            "6": ["15", "fifteen"],
+            "7": ["Kettleby"]
+          }
+        },
+        {
+          "type": "mcq",
+          "from": 8,
+          "to": 10,
+          "items": [
+            {
+              "q": 8,
+              "stem": "What is Joanna's main reason for wanting to improve her swimming?",
+              "options": ["to be able to join her children in the pool", "to take part in an activity on a holiday", "to help with a medical problem"],
+              "answer": "B"
+            },
+            {
+              "q": 9,
+              "stem": "What does the receptionist say about the learner pool?",
+              "options": ["It is heated to a higher temperature than the main pool.", "It cannot be seen from the café.", "It has recently been refurbished."],
+              "answer": "A"
+            },
+            { "q": 10, "stem": "How will Joanna pay for the course?", "options": ["by phone", "online", "in person at the centre"], "answer": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Home energy-saving grants",
+      "context": "an adviser giving a talk about grants for making homes more energy efficient",
+      "speakers": { "A": { "name": "Adrian", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "Good evening, everyone, and thank you for coming out on such a cold night, which is rather appropriate, given what I'm here to talk about. My name's Adrian Bellamy, and I'm an adviser with Warmer Homes Norwich. We're a small team funded by the city council, and our job is to help people bring down their heating bills. One of the main ways we do that is by helping them apply for grants, and at the moment there are three different grants available. I'll go through each of them in turn, and then I'll say a little about the application process."],
+            ["A", "The first is the Insulation Grant. As you'd expect, this pays for loft insulation, which is one of the cheapest and most effective improvements you can make to a house. It also covers wall insulation, but I should be clear that it's only [[11|cavity]] wall insulation, where the gap between the inner and outer walls is filled with insulating material. A lot of people ask about solid walls, which you find in many older houses in the city centre. Unfortunately, insulating those costs many times more, so they're not included in this scheme."],
+            ["A", "There's also a condition about the age of the property. When the grant was first introduced, it was only for houses built before 1980. That's since been extended, so any home built before [[12|1995]] now qualifies. Anything newer than that should already have been built to a reasonable standard of insulation, which is why there's a cut-off at all."],
+            ["A", "The second is the Heating Grant, which is for replacing an old, inefficient boiler. You may have read in the local paper that a boiler has to be at least fifteen years old. That's actually the rule for a different scheme, a national one. For ours, the boiler only needs to be more than [[13|12]] years old, so quite a few of you may find you're eligible."],
+            ["A", "This grant does depend on income, though. The total income of your household, and that means everyone who lives there, not just you, has to be below a certain figure. Last year the limit was £28,000, but it went up in April and it's now [[14|£31,000]]. If you're not sure which side of the line you are, come and find me at the end and we can work it out together."],
+            ["A", "The third is what we call the Small Measures Grant. It doesn't sound very exciting, but it can make a real difference to how warm a room feels. It pays for draught-proofing around doors and windows, and until last year it also paid for thermal blinds. Those weren't very popular, so instead we now supply lined [[15|curtains]], which people tell us keep in far more heat. They're made to measure, so they fit your windows properly. And this is the only one of the three grants that isn't limited to people who own their homes. [[16|Tenants]] can apply as well, as long as they have written permission from their landlord. Landlords themselves can't apply for it, I'm afraid, because the government runs a separate scheme for them."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "So, how do you actually apply? It's all done through a form on our website, or you can take a paper copy from the table by the door tonight. Before you start, there are a couple of things I'd strongly recommend. First of all, [[17|dig out a recent energy bill]]. The form asks for your account number and how much energy you've used over the past year, and you can't send it off without them."],
+            ["A", "Some people assume they need to get quotes from builders or installers before they apply. You don't. We have a list of approved firms, and we arrange all of that once the grant's been agreed. You don't need to measure anything either. What really does help is to [[18|take a few photos]] of your loft and your boiler, or of your doors and windows if it's the Small Measures Grant. Our assessors look at those first, and quite often they can approve an application without visiting at all. And you don't need to find your energy performance certificate, by the way. We can look that up ourselves from your address."],
+            ["A", "We deal with several hundred applications a year, and the same few problems come up again and again. People often worry about applying for more than one grant at the same time, but that's absolutely fine. In fact, we'd encourage it. We also used to get a lot of forms with the income section left blank, but the online form won't let you carry on until you've filled it in, so that hardly ever happens now. And paper forms are no problem either. We process them just as quickly as online ones."],
+            ["A", "What does cause trouble is when people get impatient and [[19|have work done before their grant has been approved]]. If an installer has already started, we simply can't pay for it, however good the work is. The other common problem is with the assessor's visit. If we do need to come round, we'll send you an appointment, and a surprising number of people [[20|aren't at home when the assessor turns up]]. Every missed visit puts an application back by about six weeks, so if the time doesn't suit you, please ring and change it."],
+            ["A", "Right, I've got leaflets here about each of the grants, and I'll be around for the next half hour if you'd like to ask about your own home."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 11,
+          "to": 16,
+          "layout": "table",
+          "title": "Warmer Homes Norwich: grants available",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Grant", "What it pays for", "Who can apply"],
+            ["Insulation Grant", "loft insulation and {11} wall insulation", "owners of homes built before {12}"],
+            ["Heating Grant", "replacing a boiler that is over {13} years old", "homeowners whose total household income is below £{14}"],
+            ["Small Measures Grant", "draught-proofing and lined {15}", "homeowners and {16}"]
+          ],
+          "answers": { "11": ["cavity"], "12": ["1995"], "13": ["12", "twelve"], "14": ["31,000"], "15": ["curtains"], "16": ["tenants"] }
+        },
+        {
+          "type": "multi",
+          "from": 17,
+          "to": 18,
+          "stem": "Which TWO things does the speaker advise people to do before they apply?",
+          "options": [
+            "obtain prices from installers",
+            "find information about their energy account",
+            "measure the rooms in their home",
+            "photograph certain parts of their home",
+            "locate their energy performance certificate"
+          ],
+          "answer": ["B", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 19,
+          "to": 20,
+          "stem": "Which TWO mistakes do applicants often make?",
+          "options": [
+            "applying for several grants at once",
+            "leaving out details of their income",
+            "starting work too early",
+            "sending a paper form instead of applying online",
+            "missing an appointment"
+          ],
+          "answer": ["C", "E"]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "History project: lighthouse keepers",
+      "context": "two students discussing their history project on the lives of lighthouse keepers",
+      "speakers": { "A": { "name": "Isla", "g": "f", "accent": "gb" }, "B": { "name": "Ryan", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["B", "So, Isla, Dr Collins wants a draft of the introduction by Friday, including a paragraph on why we picked the topic. What should we say?"],
+            ["A", "Well, I suppose people will assume it's because of my family. Everyone at home says my great-grandfather worked on the lighthouse at Carrick Point, but when I actually looked into it, he was the harbourmaster in the village. So that's not really a connection at all."],
+            ["B", "Right. And Dr Collins originally wanted us to do something on shipwrecks, didn't she?"],
+            ["A", "She did suggest that, but we'd already started reading about the keepers by then. Honestly, I think it was more to do with the Penwith Maritime Archive. Until last spring you could only see the keepers' logbooks and letters if you went to the archive in person, and then [[21|they put the whole collection online]]. Nobody's really written about it yet."],
+            ["B", "Yeah, that's definitely what got me hooked. Okay, I'll write that up. Then there's the part on the logbooks themselves. I have to say, I went in expecting them to be full of weather observations, and they were. Wind direction every four hours, visibility, the state of the sea. So that was no surprise."],
+            ["A", "No. And I'd hoped we'd find something more personal, how the keepers felt about being stuck out there, but there was almost nothing like that. They were incredibly formal."],
+            ["B", "Apart from that one guy who complained about the bread every single week."],
+            ["A", "True! But what really struck me was the handwriting. In quite a few of the books, [[22|whole months were written up by the keeper's wife]], usually when he was ill or away on the mainland. I hadn't realised the wives did so much of the work."],
+            ["B", "Me neither. That should definitely go in. Then we need a section on family life. I still think the danger must have been the worst thing. Some of those winter storms sound terrifying."],
+            ["A", "I know, but if you look at the records, hardly anyone was actually hurt. The towers and cottages were incredibly solidly built. And I was going to say the children's schooling was a problem, but it turns out a teacher came out from the village twice a week."],
+            ["B", "So what does that leave?"],
+            ["A", "Well, the letters keep coming back to the same thing, don't they? The station was miles from the nearest village, and the road was often impassable in winter."],
+            ["B", "Yeah, you're right. One of the wives wrote that [[23|she hadn't spoken to anyone apart from the other keepers' families for three months]]. Okay, so that's our main point about family life."],
+            ["A", "Agreed. What about pictures for the presentation? It would be great to include some of those old photos of the keepers and their families."],
+            ["B", "Can we, though? I assumed the originals would be too fragile."],
+            ["A", "They are, but the archive scanned them all years ago, so that's not a problem. I asked the archivist about using them. Normally they charge fifteen pounds an image, which I thought would rule it out completely, but apparently that doesn't apply to students. [[24|We just have to credit the archive underneath each picture]]."],
+            ["B", "Great, that's easy enough. Then there's the format of the presentation. I know we said we'd make a short documentary, but realistically, editing video takes forever, and neither of us has done it before."],
+            ["A", "It does. Posters would be much quicker, but Dr Collins said she sees so many of those that they all start to look the same."],
+            ["B", "What about doing it like a radio programme? We could read out extracts from the letters, and maybe include a short interview with the archivist."],
+            ["A", "Oh, I like that. [[25|A recorded programme, with the letters read aloud]]. That would really bring their voices across, and it's far less work than filming."],
+            ["B", "Okay, decided, then."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "The other thing Dr Collins said we need is a proper evaluation of our sources. Shall we go through them now? Let's start with the memoir, the one by Walter Pascoe."],
+            ["B", "Sure. I expected that to be our best source, honestly. A keeper writing about his own life. But it's surprisingly dry. He mostly just lists the stations he was posted to and who his colleagues were."],
+            ["A", "And the trouble is, he wrote it in the 1950s, nearly forty years after he retired. [[26|He gets quite a few of the dates wrong]], and in one chapter he even names the wrong lighthouse."],
+            ["B", "So we'll need to be careful how we use it. Then there are the inspectors' reports. The inspectors visited every station twice a year, so there are hundreds of them."],
+            ["A", "And I'm sure they're accurate. But they all say exactly the same thing. Lamp clean, brass polished, stores in order. [[27|They could be describing any lighthouse in the country]]. They don't tell us anything about Carrick Point in particular."],
+            ["B", "Yeah, not much use to us, then. What about the newspaper reports? I'd assumed they'd exaggerate everything, especially the big rescue in 1891."],
+            ["A", "So had I, but actually the newspaper account matches the logbook almost exactly. Same times, same number of people brought ashore. So we can't say there's any conflict between them."],
+            ["B", "That's good to know. The only problem is that [[28|they're only on microfilm in the library in Truro]], and you have to book a machine weeks in advance. I still haven't seen the 1890s ones."],
+            ["A", "I'll try to book one for next week, then. And there are the oral history recordings, the interviews with keepers' children that were made in the 1970s."],
+            ["B", "Those were my favourite. There's one woman who describes [[29|carrying water up from the well every morning, and the smell of paraffin in the kitchen]]. You really get a sense of what it was like to grow up there."],
+            ["A", "I was worried they might not fit with the written records, since they were recorded so much later. But they match up pretty well, don't they?"],
+            ["B", "They do. And the last one is the magazine the lighthouse authority published for its staff."],
+            ["A", "It's beautifully produced, I'll give it that. But it was really there to [[30|make the service look good]], to attract new recruits and keep the public on its side. Every article is cheerful, and nobody ever complains about anything."],
+            ["B", "Right. We should say that clearly in the evaluation."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 25,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did the students choose lighthouse keepers as their topic?",
+              "options": [
+                "The keepers' records had recently become easier to access.",
+                "Their tutor suggested it to them.",
+                "One of them has a relative who was a keeper."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 22,
+              "stem": "What surprised the students about the logbooks?",
+              "options": [
+                "how much information they contained about the weather",
+                "how often the keepers described their feelings",
+                "how many entries were written by women"
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "What do the students agree was the greatest hardship for keepers' families?",
+              "options": ["the danger of injury during storms", "being cut off from other people", "the lack of education for children"],
+              "answer": "B"
+            },
+            {
+              "q": 24,
+              "stem": "What has Isla found out about the archive's photographs?",
+              "options": [
+                "They are in too poor a condition to be copied.",
+                "Students may use them if the source is acknowledged.",
+                "There is a fee for each image used."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 25,
+              "stem": "How will the students present their project?",
+              "options": ["as a short film", "as a set of posters", "as an audio recording"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 26,
+          "to": 30,
+          "lead": "What do the students say about each of the following sources?",
+          "boxTitle": "Comments",
+          "options": [
+            "It contains a number of mistakes.",
+            "It is too general to be useful.",
+            "It gives a vivid picture of daily life.",
+            "It is difficult to get hold of.",
+            "It disagrees with other evidence.",
+            "It was intended to create a positive image."
+          ],
+          "items": [
+            { "q": 26, "text": "the memoir of a former keeper", "answer": "A" },
+            { "q": 27, "text": "the inspectors' reports", "answer": "B" },
+            { "q": 28, "text": "local newspaper reports", "answer": "D" },
+            { "q": 29, "text": "interviews with keepers' children", "answer": "C" },
+            { "q": 30, "text": "the staff magazine", "answer": "F" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Mangrove forests",
+      "context": "part of a lecture on mangrove forests",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today I'm going to talk about mangrove forests, which are among the most productive, and also the most threatened, ecosystems on the planet. Mangroves are trees and shrubs that grow along tropical and subtropical coastlines, in the strip of land between the high and low tide marks. They're found in more than a hundred countries, but the largest area by far is in Southeast Asia, and Indonesia alone has around a fifth of the world's total."],
+            ["A", "Living in this zone presents a tree with some serious difficulties. The most obvious one is salt, and I'll come back to that in a moment. But in some ways the bigger challenge is underground. The mud that mangroves grow in is fine, permanently waterlogged and almost entirely lacking in [[31|oxygen]], which roots normally need in order to function. So mangroves have developed some remarkable root systems."],
+            ["A", "Take the red mangrove, which has what are known as prop roots. These arch out from the trunk and down into the mud, rather like the legs of a table, and they do two jobs. They anchor the tree in very soft ground, of course. But just as importantly, they slow the water down as the tide comes in and goes out, and that causes [[32|sediment]] to settle out among the roots. Over many years, this process can actually build up the level of the land. Other species, such as the black mangrove, send up hundreds of small vertical roots from below the surface. These stick out of the mud like pencils, and they're covered in tiny pores which take in air when the tide is out."],
+            ["A", "Now, back to salt. Mangroves deal with it in a variety of ways. Some species have roots that work as a kind of filter, blocking most of the salt before it can enter the plant at all. Others allow the salt in and then push it out again through special glands on their [[33|leaves]]. If you walk through a mangrove forest on a dry day, you can sometimes see small white crystals glinting on the leaf surfaces."],
+            ["A", "Reproduction is equally unusual. In many mangrove species, the seed doesn't simply drop and wait for the right conditions. Instead, it starts to grow while it's still attached to the parent tree, producing a long, pointed seedling. When this falls, it may lodge in the mud straight away. But if it lands in the water, it floats. Most seedlings survive like this for a few weeks, but those of some species can stay alive for up to a [[34|year]] before they put down roots. That explains why the same species can be found on coastlines thousands of kilometres apart."],
+            ["A", "So why do mangroves matter? Firstly, they're extraordinarily important for wildlife. The tangle of roots underwater gives shelter from predators, and so a great many species of fish spend the early part of their lives there. Once they're large enough, a lot of them move out to coral [[35|reefs]], which means that the health of a reef often depends on there being mangroves somewhere nearby."],
+            ["A", "Secondly, they protect coastlines. A belt of mangroves a few hundred metres wide can greatly reduce the height of [[36|waves]] during a storm, and this protects the villages and farmland behind it. After the Indian Ocean tsunami in 2004, there was a great deal of discussion about whether mangroves had saved lives. The evidence on that is actually mixed, because a tsunami carries so much energy. But for ordinary storms, which happen every year, the protective effect is very clear."],
+            ["A", "The third reason, and the one that's attracted most attention recently, is carbon. Mangroves store an enormous amount of carbon for their area, several times more than most tropical rainforests. What surprises many people is where that carbon is kept. It's natural to imagine it locked up in the trunks and branches, but in fact the majority, often three quarters or more, is held in the [[37|soil]] beneath the trees, where the lack of oxygen means that dead plant material decays extremely slowly. And that has an important consequence. When a mangrove forest is cleared, much of that carbon is released into the atmosphere."],
+            ["A", "Which brings me to the threats. Over the past fifty years or so, the world has lost somewhere between a fifth and a third of its mangroves. There are many causes, including coastal development for housing and tourism, and the cutting of trees for timber and charcoal. But in Asia in particular, one of the biggest single causes has been clearance to make way for shrimp [[38|farms]]. These are often only productive for a few years before disease or pollution makes them unusable, and then they're simply abandoned."],
+            ["A", "Finally, restoration. Many countries have run large replanting programmes, and the results have often been disappointing. In some projects, fewer than one in five seedlings survived. Part of the problem was that projects tended to plant just one [[39|species]], usually because its seedlings were the easiest to collect, whereas a natural forest has several, each suited to a different part of the shore. But the main reason for failure was simpler. Seedlings were often planted on open mudflats that had never supported mangroves, just because the land happened to be available. The young trees ended up at the wrong [[40|elevation]], so they spent too long underwater at each high tide and simply drowned. Today, the most successful projects concentrate on restoring the natural flow of tidal water to a site, and then allowing seedlings to arrive and establish themselves on their own."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Mangrove forests",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Adaptations",
+            "- grow in mud that contains very little {31}",
+            "- prop roots support the tree and cause {32} to collect",
+            "- some species excrete salt through glands in their {33}",
+            "- seedlings start growing on the parent tree",
+            "- floating seedlings may survive for as long as a {34}",
+            "# Importance",
+            "- young fish shelter among the roots, then many move to coral {35}",
+            "- a wide belt of trees makes storm {36} much smaller",
+            "- most of their carbon is stored in the {37}, not in the trees",
+            "# Threats",
+            "- in Asia, large areas cleared for shrimp {38}",
+            "# Restoration",
+            "- early projects often planted only one {39}",
+            "- main cause of failure: seedlings planted at the wrong {40}"
+          ],
+          "answers": {
+            "31": ["oxygen"],
+            "32": ["sediment"],
+            "33": ["leaves"],
+            "34": ["year"],
+            "35": ["reefs"],
+            "36": ["waves"],
+            "37": ["soil"],
+            "38": ["farms"],
+            "39": ["species"],
+            "40": ["elevation"]
+          }
+        }
+      ]
+    }
+  ]
+}

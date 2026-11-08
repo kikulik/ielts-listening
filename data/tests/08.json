@@ -1,0 +1,396 @@
+{
+  "id": 8,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Booking a coach day trip",
+      "context": "a woman phoning a coach company to book a day trip",
+      "speakers": { "A": { "name": "Gareth", "g": "m", "accent": "gb" }, "B": { "name": "Ruth", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Kingfisher Coach Tours, Gareth speaking. How can I help?"],
+            ["B", "Oh, hello. I'm ringing about your day trips. I picked up one of your leaflets in the library, but I've just noticed it's last year's, so I wanted to check what you've got coming up in September."],
+            ["A", "No problem at all. We've got three trips that month that still have seats available. Shall I run through them for you?"],
+            ["B", "Yes, please. I've got a pen ready."],
+            ["A", "Right. The first is to Cambridge, on Saturday the 13th. The coach leaves at 7.45, which is a bit early, I know, but it means you get a full day there."],
+            ["B", "And how much is that one?"],
+            ["A", "Our standard fare to Cambridge is £29, but this trip includes a guided tour, so it comes to [[1|£34]] per person."],
+            ["B", "What sort of tour is it? The last time I went to Cambridge, it was with another company, and we went round on one of those open-top buses."],
+            ["A", "We used to do the bus tour, but people told us they couldn't see the colleges properly from the road. So now it's a [[2|walking]] tour with a local expert. It lasts about an hour and a half, and after that your time's your own."],
+            ["B", "That sounds lovely. What else is there?"],
+            ["A", "The second one is to Southwold, on the Suffolk coast. That was going to be on Sunday the 14th, but we've had to move it, because the coach is needed for a wedding that weekend. So it's now on the [[3|21st]]."],
+            ["B", "So the following Sunday. And what does that one cost?"],
+            ["A", "It's £26, and it leaves at nine. A lot of people ask about the brewery tour in the town, but unfortunately the brewery doesn't do tours on Sundays. What you can do, though, for an extra £5, is go up the [[4|lighthouse]]. The views along the coast are wonderful."],
+            ["B", "Hmm, I'm not sure that would suit my mother, actually. She's eighty-four and stairs are difficult for her these days. That's really why I'm calling. I'd like to take her somewhere for her birthday."],
+            ["A", "Oh, how nice. Then the third trip might be the best one. It's to Ely, on Wednesday the 24th, and it's also the cheapest, at £19."],
+            ["B", "And what time does that leave?"],
+            ["A", "Most of our weekday trips leave at 9.30, but Ely has its market on Wednesdays and the coach park fills up early, so this one goes at [[5|8.45]]."],
+            ["B", "That's fine. We're both early risers."],
+            ["A", "And it's the trip I'd recommend for your mother. The coach drops everyone right outside the cathedral, there's a café and toilets inside, and you hardly need to walk at all. We get a lot of passengers on that one whose [[6|mobility]] isn't what it used to be."],
+            ["B", "That sounds perfect. Let's go for that one."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["A", "Lovely. So that's two seats on the Ely trip. Can I take a name for the booking?"],
+            ["B", "Yes, it's Ruth [[7|Pennick]], and my mother's Edna, same surname."],
+            ["A", "Is that P-E-N-N-O-C-K?"],
+            ["B", "No, it's I-C-K at the end. P-E-N-N-I-C-K."],
+            ["A", "Thank you. And a contact number, in case there are any changes?"],
+            ["B", "My mobile's the best. It's 07733 492 618."],
+            ["A", "07733 492 618. Now, where would you like to be picked up? Most people get on at the bus station in the city centre, but we stop at a few places on the way out of the city as well."],
+            ["B", "The bus station's a bit of a trek for us. We live out in Eaton. My leaflet says there's a stop by the swimming pool there."],
+            ["A", "There used to be, but the road layout was changed last spring and the coach can't pull in there any more. Instead, we stop outside the [[8|cinema]], about two hundred metres further along. The coach gets there about ten minutes after leaving the bus station."],
+            ["B", "Oh, that's even better. It's right round the corner from my mother's flat."],
+            ["A", "Great. And would you like any particular seats? We can reserve them at no extra cost."],
+            ["B", "Well, my mother always used to insist on a window seat, but she gets travel sick now, so the important thing is to be near the [[9|front]]."],
+            ["A", "I'll put you in the second row, then. The very first row is kept for our staff."],
+            ["B", "That's kind. Thank you."],
+            ["A", "So, payment. It's £19 each, so that's £38 altogether."],
+            ["B", "Do you have any discounts for older passengers? My mother's eighty-four, as I said."],
+            ["A", "We do. Anyone over seventy gets £3 off the fare. So that brings the total down to [[10|£35]]."],
+            ["B", "Wonderful. Can I pay by card now?"],
+            ["A", "Of course. And we'll post the tickets out to you. Could I have your postcode?"],
+            ["B", "It's NR2 4PJ."],
+            ["A", "NR2 4PJ. Thank you. The tickets should arrive within a week, and the coach will be back in the city at about six."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "table",
+          "title": "Kingfisher Coach Tours: September day trips",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Destination", "Date", "Leaves at", "Price per person", "Notes"],
+            ["Cambridge", "Saturday 13th", "7.45 am", "£{1}", "price includes a {2} tour with a guide"],
+            ["Southwold", "Sunday {3}", "9 am", "£26", "optional visit to the {4} (£5 extra)"],
+            ["Ely", "Wednesday 24th", "{5} am", "£19", "suitable for people with limited {6}"]
+          ],
+          "answers": { "1": ["34"], "2": ["walking"], "3": ["21st", "21"], "4": ["lighthouse"], "5": ["8.45"], "6": ["mobility"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Booking details",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Booking", "Details"],
+            ["Passengers", "Ruth and Edna {7}"],
+            ["Pick-up point", "outside the {8}, Eaton"],
+            ["Seats", "near the {9} of the coach"],
+            ["Total to pay", "£{10}"]
+          ],
+          "answers": { "7": ["Pennick"], "8": ["cinema"], "9": ["front"], "10": ["35"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Changes to a town centre",
+      "context": "a council officer speaking at a public meeting about changes to a town centre",
+      "speakers": { "C": { "name": "Chair", "g": "m", "accent": "gb" }, "O": { "name": "Joanna", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["C", "Good evening, everyone, and thank you for coming out on such a wet night. As you know, the council has now approved the final plans for the redevelopment of Kelbridge town centre, and Joanna Pryce from the planning department is here to take us through them. Joanna."],
+            ["O", "Thank you, Martin, and good evening. You should all have been handed a copy of the map as you came in. It shows the town centre as it will look when the work is finished. You'll see the High Street running from west to east across the middle, Church Street crossing it from north to south, and the River Kell along the eastern side."],
+            ["O", "Let's start with the biggest change, which is the bus station. At the moment, as you all know, the buses stop in the Market Square, which causes a great deal of congestion. Under the new plan, the bus station will move to the south side of the High Street, [[11|on the land between the railway station and Church Street]]. That means passengers will be able to step off a train and straight onto a bus."],
+            ["O", "Many of you asked for better facilities for cyclists, and we've listened. There'll be a covered cycle park with room for two hundred bikes. We had hoped to put it beside the new bus station, but there simply isn't enough space there. So instead, [[12|it'll be on the north side of the High Street, between St Anne's Church and the road]]."],
+            ["O", "Next, public toilets. The old ones in the Market Square are going to be demolished. Several people suggested building new ones in Riverside Park, but parts of the park flood almost every winter, so that wasn't practical. Instead, [[13|they'll be directly behind the Town Hall, on the side facing away from the High Street]]."],
+            ["O", "The park itself will get a brand-new children's playground. Some residents wanted it on the open ground between the Market Square and the river, but that's where the market traders unload their vans, so it wouldn't be safe for children. [[14|So it'll go inside the park, well away from the traffic]]."],
+            ["O", "On the far side of the river there are two car parks. The one to the south of the High Street will be kept for coaches and long-stay parking, as it is now. But [[15|the one north of the High Street will have twenty charging points for electric cars]], and for the first year, charging will be free."],
+            ["O", "And finally, once the buses have moved out of the Market Square, the whole square will be repaved, and [[16|a permanent outdoor stage will be built right in the middle of it]], so that we can hold concerts and other events throughout the summer."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["O", "Now, the other big change is to the High Street itself. From next spring, the section between Church Street and the river will be closed to traffic between ten in the morning and six in the evening. I know many people believe we're doing this to cut air pollution, and cleaner air will certainly be a welcome result. We also hope a more pleasant street will encourage new businesses to open. But the decision was really driven by one thing. Last year, there were fourteen accidents on that stretch in which people on foot were hurt, and [[17|we simply couldn't allow that to continue]]."],
+            ["O", "I've had a lot of questions about the Thursday market while the work's going on. Some traders were worried that we'd move it to Riverside Park, but the ground there is far too soft for vans. We also looked at moving it to Saturdays, when the builders won't be working, but most traders already have Saturday markets in other towns. So the market will stay in the square on Thursdays, but [[18|there'll only be room for about half the usual number of stalls]], because the contractors will need the rest of the space."],
+            ["O", "We know that shops and cafés in the centre are anxious about losing customers during the building work. Unfortunately, the council isn't legally allowed to pay compensation to businesses. And we did look into reducing business rates, but those are set nationally, so it's not in our power. What we will do is [[19|produce a free guide, delivered to every home in the area, showing which businesses are open]] and how to reach them during each stage of the work."],
+            ["O", "Finally, many of you have asked where you can see the plans in more detail. There's a scale model of the new town centre, which some of you may have seen in the library over the summer. Several people suggested putting it in the railway station, where more people would see it, but there isn't the space. So [[20|it's now been moved to the entrance hall of the Town Hall]], and it'll stay there until the work begins. Right, I think Martin has some questions from the audience."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "map",
+          "from": 11,
+          "to": 16,
+          "kind": "map",
+          "title": "Kelbridge town centre: new plan",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "plain" },
+              { "k": "zone", "x": 50, "y": 50, "w": 100, "h": 70, "fill": "building", "label": "St Anne's Church" },
+              { "k": "zone", "x": 250, "y": 70, "w": 150, "h": 100, "fill": "paving", "label": "Market Square" },
+              { "k": "zone", "x": 250, "y": 250, "w": 110, "h": 60, "fill": "building", "label": "Town Hall" },
+              { "k": "zone", "x": 30, "y": 300, "w": 110, "h": 60, "fill": "building", "label": "Railway Station" },
+              { "k": "zone", "x": 405, "y": 240, "w": 75, "h": 150, "fill": "grass", "label": "Riverside Park" },
+              { "k": "zone", "x": 525, "y": 70, "w": 65, "h": 110, "fill": "parking", "label": "Car park" },
+              { "k": "zone", "x": 525, "y": 245, "w": 65, "h": 130, "fill": "parking", "label": "Car park" },
+              {
+                "k": "path",
+                "pts": [[500, 0], [500, 400]],
+                "w": 30,
+                "fill": "water",
+                "label": "River Kell"
+              },
+              {
+                "k": "path",
+                "pts": [[0, 210], [600, 210]],
+                "w": 30,
+                "fill": "road",
+                "label": "High Street"
+              },
+              {
+                "k": "path",
+                "pts": [[200, 0], [200, 400]],
+                "w": 26,
+                "fill": "road",
+                "label": "Church Street"
+              },
+              { "k": "spot", "x": 100, "y": 160, "letter": "A" },
+              { "k": "spot", "x": 325, "y": 120, "letter": "B" },
+              { "k": "spot", "x": 165, "y": 330, "letter": "C" },
+              { "k": "spot", "x": 445, "y": 120, "letter": "D" },
+              { "k": "spot", "x": 100, "y": 258, "letter": "E" },
+              { "k": "spot", "x": 305, "y": 345, "letter": "F" },
+              { "k": "spot", "x": 442, "y": 310, "letter": "G" },
+              { "k": "spot", "x": 557, "y": 125, "letter": "H" },
+              { "k": "spot", "x": 557, "y": 310, "letter": "I" }
+            ]
+          },
+          "items": [
+            { "q": 11, "text": "Bus station", "answer": "C" },
+            { "q": 12, "text": "Cycle park", "answer": "A" },
+            { "q": 13, "text": "Public toilets", "answer": "F" },
+            { "q": 14, "text": "Children's playground", "answer": "G" },
+            { "q": 15, "text": "Electric car charging points", "answer": "H" },
+            { "q": 16, "text": "Outdoor stage", "answer": "B" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 17,
+          "to": 20,
+          "items": [
+            {
+              "q": 17,
+              "stem": "What was the main reason for closing part of the High Street to traffic?",
+              "options": ["to improve air quality", "to bring new businesses into the area", "to make the street safer for pedestrians"],
+              "answer": "C"
+            },
+            {
+              "q": 18,
+              "stem": "What will happen to the weekly market during the building work?",
+              "options": ["It will be smaller than usual.", "It will move to Riverside Park.", "It will be held on a different day."],
+              "answer": "A"
+            },
+            {
+              "q": 19,
+              "stem": "How will the council support town-centre businesses during the work?",
+              "options": ["by offering them compensation", "by publicising them free of charge", "by lowering their business rates"],
+              "answer": "B"
+            },
+            {
+              "q": 20,
+              "stem": "Where is the model of the redevelopment currently on display?",
+              "options": ["in the library", "at the railway station", "in the Town Hall"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A seminar on the history of the bicycle",
+      "context": "two students preparing a seminar presentation on the history of the bicycle",
+      "speakers": { "J": { "name": "Jake", "g": "m", "accent": "us" }, "E": { "name": "Ellie", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["E", "So, Jake, we've got twenty minutes for the seminar next Thursday. I thought we could start with the very first machine, the one Karl Drais built in 1817."],
+            ["J", "The running machine, yeah. Or the hobby horse, as people in England called it. I think we need to make the point right away that [[21|you didn't pedal it at all]]. You just sat on it and pushed yourself along the ground with your feet."],
+            ["E", "Definitely. Everyone assumes it had pedals. What about the theory that Drais invented it because so many horses had died? You know, the volcanic eruption in 1815, the failed harvests, no oats to feed the horses."],
+            ["J", "It's a great story, but I've read three different historians on it, and they don't agree at all. I don't think we can present it as a fact. Maybe a quick mention at most."],
+            ["E", "Hmm, if nobody's sure, let's leave it out altogether. We haven't got time to go through both sides of the argument."],
+            ["J", "Fair enough. Then there's what it was made of. One of the websites I looked at said the frame was iron."],
+            ["E", "That's wrong, though. The originals were almost entirely wooden. The one in the museum in Mannheim certainly is. So there's nothing to say there, unless we want to correct a mistake."],
+            ["J", "True. What I'd really like to include is that [[22|some cities stopped people riding them on the pavements]], because riders kept crashing into pedestrians. Milan did it, and so did London, I think."],
+            ["E", "Yes, that's a nice detail, and it links to the arguments people have about cyclists on pavements today. And Drais hoped the army would buy his machine, didn't he?"],
+            ["J", "He did, but there's no record that they ever used it, so there's not much to say about that either."],
+            ["E", "Okay, so it's those two points. Then we jump to the penny-farthing in the 1870s. I thought we'd list its main problems, as a way of leading into the safety bicycle."],
+            ["J", "Good idea. The obvious one is that it was dangerous. If the front wheel hit a stone, [[23|you'd go flying over the handlebars head first]]."],
+            ["E", "Exactly. People also say it was expensive, which it was, but so was every bicycle at that time. It wasn't really a problem with that particular design."],
+            ["J", "Agreed. What about comfort? With solid tyres, it must have been terrible on bumpy roads."],
+            ["E", "Actually, I was surprised to read that the huge front wheel made it smoother than the earlier machines, because it rolled over holes more easily. So I wouldn't say that."],
+            ["J", "Oh, really? Okay. But the other big thing was that [[24|just climbing onto it took a lot of practice]]. You had to put one foot on a little step at the back and jump up while it was already moving."],
+            ["E", "Yes, there are some brilliant old cartoons of people trying. Let's include that. It couldn't carry any luggage, either, I suppose."],
+            ["J", "True, but I don't think anyone bought one for shopping. Let's leave that out."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["E", "So, the safety bicycle. The key development there was the chain drive, wasn't it? Driving the back wheel with a chain."],
+            ["J", "Right. People sometimes say it made bikes faster, but a good rider on a penny-farthing could go just as fast. The real point is that because the chain was geared, the wheels could be small, so [[25|the rider sat much lower down, and a fall was far less likely to do serious harm]]."],
+            ["E", "Okay, that's our point, then. Next, the pneumatic tyre, Dunlop's air-filled tyre from 1888."],
+            ["J", "Well, racers who used them started winning everything, so you could say it was about speed."],
+            ["E", "For racing, maybe. But for most people, the difference was that [[26|they no longer felt every stone in the road]]. That's what made people want to go out riding for pleasure."],
+            ["J", "I'll go along with that. And then there's the frame with the lowered crossbar, the one women could ride in long skirts."],
+            ["E", "I read that every manufacturer brought one out almost straight away."],
+            ["J", "Not according to the book I've got. It says most makers took years to produce one, because they didn't believe there'd be a market. But once they did, [[27|women could ride without having to change the way they dressed]]."],
+            ["E", "Yes, and that's what matters for our topic. Then mass production, the big factories in Coventry and Birmingham."],
+            ["J", "That's the one I find most interesting. In the 1880s, a new bicycle cost several months' wages. By the end of the 1890s, [[28|someone working in a factory could afford one]], and lots of people started cycling to work."],
+            ["E", "That changed where people could live, too. Then the cycling clubs."],
+            ["J", "I always thought they were mostly social. People going out for rides together at weekends."],
+            ["E", "They were, but they also campaigned. In both Britain and America, it was cyclists' organisations that [[29|pushed governments to resurface the roads]], years before there were many cars around."],
+            ["J", "Oh, that's a good one. So drivers have cyclists to thank. And last, gears."],
+            ["E", "Derailleur gears, early twentieth century. Were they about speed, would you say?"],
+            ["J", "Not really. You can go fast on the flat with a single gear. What gears did was [[30|let ordinary riders get up steep slopes without getting off and pushing]]."],
+            ["E", "Good. I think that gives us enough for the main part. Shall we look at the slides tomorrow?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 21,
+          "to": 22,
+          "stem": "Which TWO points about Drais's machine do the students decide to include?",
+          "options": [
+            "It had no pedals.",
+            "It was invented because of a shortage of horses.",
+            "It had an iron frame.",
+            "Its use on pavements was banned in some places.",
+            "It was used by the army."
+          ],
+          "answer": ["A", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 23,
+          "to": 24,
+          "stem": "Which TWO problems with the penny-farthing will the students mention?",
+          "options": [
+            "It was costly to buy.",
+            "Riders could easily be thrown forward.",
+            "It was uncomfortable on rough roads.",
+            "Getting on it was difficult.",
+            "It could not carry luggage."
+          ],
+          "answer": ["B", "D"]
+        },
+        {
+          "type": "match",
+          "from": 25,
+          "to": 30,
+          "lead": "What do the students say was the main effect of each of the following developments?",
+          "boxTitle": "Effects",
+          "options": [
+            "It made riding much more comfortable.",
+            "It made cycling more practical for women.",
+            "It made bicycles affordable for working people.",
+            "It made hills easier to climb.",
+            "It reduced the risk of serious injury.",
+            "It led to improvements in roads.",
+            "It allowed much higher speeds.",
+            "It was quickly copied by other manufacturers."
+          ],
+          "items": [
+            { "q": 25, "text": "the chain drive", "answer": "E" },
+            { "q": 26, "text": "the air-filled tyre", "answer": "A" },
+            { "q": 27, "text": "the lowered crossbar", "answer": "B" },
+            { "q": 28, "text": "factory production", "answer": "C" },
+            { "q": 29, "text": "cycling clubs", "answer": "F" },
+            { "q": 30, "text": "derailleur gears", "answer": "D" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The printing press in early modern Europe",
+      "context": "part of a lecture on the printing press in early modern Europe",
+      "speakers": { "L": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good afternoon. Today we're looking at one of the most significant technologies in European history: the printing press with movable type, and the ways in which it changed European society in the fifteenth and sixteenth centuries."],
+            ["L", "First, some background. Before the fourteen-fifties, every book in Europe was copied by hand. For centuries, this work was done mainly in monasteries, by monks working in a room set aside for writing. By the fourteenth century, however, demand for books was growing, and commercial copying workshops had appeared in towns. These were found not, as you might expect, near the royal courts, but close to the [[31|universities]], where students and teachers needed large numbers of texts."],
+            ["L", "Another important change had already happened before printing arrived. Books had traditionally been written on parchment, which was made from animal skin. A single large Bible could require the skins of two hundred animals, so books were extremely costly to produce. [[32|Paper]], which had reached Europe from the Islamic world, was far cheaper, and by the fifteenth century it was being manufactured in large quantities in Italy and Germany. Without a cheap material to print on, the press would have made little economic sense."],
+            ["L", "Johannes Gutenberg, working in the German city of Mainz around 1450, did not invent printing itself. Printing from carved wooden blocks had existed for centuries in China and Korea, and metal type had been used in Korea too. Gutenberg's achievement was to combine several technologies into a single system. The first was movable metal type. Each letter was cast in a mould, using an alloy that consisted mostly of [[33|lead]], with smaller amounts of tin and antimony added to make the letters harder and more durable. Thousands of these letters could be arranged into pages, printed, and then taken apart and used again."],
+            ["L", "The second element was the press itself. Screw presses were already a familiar sight in the Rhineland, where Mainz is located. Some textbooks will tell you that Gutenberg adapted a press used for making paper, or for crushing olives. But there were very few paper mills in that part of Germany at the time, and olives don't grow that far north, and the presses he would have seen every autumn were the ones used to squeeze grapes for [[34|wine]]."],
+            ["L", "The third element is often overlooked. The water-based inks that scribes had always used simply ran off metal type, so Gutenberg developed an oil-based [[35|ink]], closer in fact to a kind of varnish, which stuck to the metal and transferred cleanly onto the paper."],
+            ["L", "Printing spread with remarkable speed. By 1500, there were presses in more than two hundred and fifty European towns. Estimates vary, but by then somewhere between eight million and twenty million copies had been printed, which is probably more than all the scribes of Europe had produced in the previous thousand years. Interestingly, though, printers did not necessarily go where the scholars were. Printing was a risky business. A printer had to buy paper and type months before selling a single book, so he needed access to money and to customers. As a result, printers tended to settle in centres of [[36|trade]], cities like Venice, Antwerp and Lyon, rather than in quiet university towns."],
+            ["L", "Venice became the most important printing city of all. One Venetian printer, Aldus Manutius, began producing classical texts in a much smaller format, using a compact new style of letter that we now call italic. The scholarly books of the time were huge volumes that had to be read at a desk, but his books were small enough to slip into a [[37|pocket]], so for the first time, a reader could carry a book around and read it anywhere."],
+            ["L", "So what were the effects of printing? One was standardisation. When every scribe wrote as he pleased, the same word might be written in three or four different ways, sometimes on the same page. Printers gradually settled on fixed forms, partly to make their work quicker, and so [[38|spelling]] became much more consistent. Pronunciation, of course, continued to vary enormously from one region to another."],
+            ["L", "Printing also transformed religion and politics. When Martin Luther published his criticisms of the Church in 1517, they spread across Germany within weeks. Crucially, many of his pamphlets were short and cheap, and they were written in German rather than in [[39|Latin]], the language of the Church and the universities, so ordinary townspeople could read them, or have them read aloud."],
+            ["L", "Not surprisingly, the authorities were alarmed. In some places, rulers tried to restrict printing altogether, but that proved impossible, so instead they turned to [[40|censorship]]. This took two main forms: official lists of books that people were forbidden to own, and a system of licences that printers had to obtain before publishing anything at all. Many printers responded by moving to more tolerant cities, such as Amsterdam, which became a major centre of publishing in the following century."],
+            ["L", "So, to sum up, printing did not simply make books cheaper. It changed where books were made, what they looked like, who could read them, and who tried to control them. Next week, we'll follow the story on into the seventeenth century, and look at the birth of the newspaper."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "The printing press in early modern Europe",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Books before printing",
+            "- copied by hand in monasteries; later also in workshops near {31}",
+            "- {32} took the place of parchment, so materials became cheaper",
+            "# Gutenberg's press (Mainz, about 1450)",
+            "- letters cast from a metal mixture made mainly of {33}",
+            "- press based on the type used in the production of {34}",
+            "- new oil-based {35} that would stick to metal",
+            "# The spread of printing",
+            "- by 1500: presses in over 250 towns",
+            "- printers usually chose cities that were centres of {36}",
+            "- Venice: small books that could be carried in a {37}",
+            "# Effects",
+            "- {38} gradually became more uniform",
+            "- Luther's pamphlets were cheap and in German instead of {39}",
+            "- authorities responded with {40}, including lists of banned books"
+          ],
+          "answers": {
+            "31": ["universities"],
+            "32": ["paper"],
+            "33": ["lead"],
+            "34": ["wine"],
+            "35": ["ink"],
+            "36": ["trade"],
+            "37": ["pocket"],
+            "38": ["spelling"],
+            "39": ["Latin"],
+            "40": ["censorship"]
+          }
+        }
+      ]
+    }
+  ]
+}

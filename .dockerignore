@@ -1,0 +1,9 @@
+.git
+.gitignore
+.venv
+build
+tools/audio
+docs
+*.md
+deploy.sh
+docker-compose.yml

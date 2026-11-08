@@ -1,0 +1,404 @@
+{
+  "id": 20,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Booking a hotel for a small conference",
+      "context": "a woman phoning a hotel to book facilities for a small conference",
+      "speakers": { "A": { "name": "Simon", "g": "m", "accent": "gb" }, "B": { "name": "Diane", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Larkfield Manor Hotel, events team. Simon speaking."],
+            ["B", "Hi there. I'm organising a small conference next spring, and someone who held a meeting at your hotel last year gave me your number. Do you have a few minutes?"],
+            ["A", "Of course. Let me take some details first. Is this for a company?"],
+            ["B", "No, it's for an association, the Association of Independent Bookbinders. We have a two-day get-together every year, with talks and demonstrations, and this year it's my job to arrange it."],
+            ["A", "Lovely. And can I have your name?"],
+            ["B", "Sure. It's Diane [[1|Gatenby]]. That's G-A-T-E-N-B-Y."],
+            ["A", "Thank you. And a contact number?"],
+            ["B", "It's 0117 496 0382. That's my home number, but I work from home, so I'm usually here."],
+            ["A", "0117 496 0382. Got it. So, how many people are we talking about?"],
+            ["B", "Well, last year we had sixty, but that was in London, which is easier for most people to get to. This year registrations closed on Monday, and we've ended up with [[2|42]]."],
+            ["A", "That's a nice size for us. And what dates did you have in mind?"],
+            ["B", "We'd really hoped to have it on the 7th and 8th of March, the first weekend, but when I looked at your website, it seemed you're fully booked then."],
+            ["A", "Yes, I'm afraid there's a wedding that weekend, and it takes over the whole ground floor. The following weekend's completely clear, though."],
+            ["B", "That's what I thought. So could we go for Friday the [[3|14th]] and Saturday the 15th?"],
+            ["A", "Certainly. I'll pencil that in now. As for the room, for a group of your size there are really two options. The Library is lovely, with all the old wood panelling, but it only seats thirty comfortably, so I don't think that would work. I'd recommend the [[4|Orchard]] Room. It takes up to sixty, and it has doors opening onto the garden."],
+            ["B", "The Orchard Room. That sounds perfect. And it has a projector and a screen?"],
+            ["A", "Yes, both, and a microphone. Is there anything else you'd need in there?"],
+            ["B", "Actually, yes. Our members like to bring examples of their work to show each other, so we'll need some tables around the sides of the room. I was going to ask for ten, but most of the books aren't very large, so let's say [[5|8]]. That should be plenty."],
+            ["A", "No problem at all. I'll make a note of that."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, as far as the cost goes, we charge what's called a day delegate rate. That covers the room hire, the equipment, coffee in the morning and the afternoon, and lunch."],
+            ["B", "I think your website said £52 per person."],
+            ["A", "That's our standard rate, yes, but for groups of more than forty, it comes down to [[6|£46]]. So you'd just qualify."],
+            ["B", "Oh, that's good news. And where's lunch served? Not in the meeting room, I hope, because of the books."],
+            ["A", "No, no. Normally we'd use the restaurant, but it's being refurbished over the winter and it won't be ready until April. So we'll be serving lunch in the [[7|conservatory]], which overlooks the lake. It's actually a nicer setting."],
+            ["B", "Lovely. Now, on the Friday night, we'd like to have a meal for everyone. What are the options?"],
+            ["A", "We can do a set menu in the dining room, three courses, or there's a buffet, which we can set up in the bar. In summer, a lot of groups go for a barbecue on the terrace, but in March I really wouldn't recommend it."],
+            ["B", "No, I can imagine. Hmm, a set menu sounds a little formal. Most of our members only see each other once a year, and they like to move around and chat. So [[8|let's go for the buffet]]."],
+            ["A", "Good choice. And will most of your delegates be staying overnight?"],
+            ["B", "Most of them, yes. Will they need to book their rooms with you individually?"],
+            ["A", "They can, or you can send us a list of names and we'll do it all at once, whichever's easier. What I would say is that [[9|we can give them fifteen per cent off the usual price, as long as they book before the end of January]]. After that, I can't guarantee it."],
+            ["B", "That's great. Somebody told me that the rooms at the front can be noisy, because of the main road."],
+            ["A", "That used to be true, but we had new windows put in last year, so they're just as quiet as the ones at the back now."],
+            ["B", "Good. Last thing. What do you need from me to confirm the booking?"],
+            ["A", "We'd need a deposit of twenty per cent. We don't accept cheques any more, I'm afraid, but I could take a card payment over the phone now, if you like."],
+            ["B", "Actually, our treasurer handles all the payments, so I can't do it myself."],
+            ["A", "In that case, the simplest thing would be for her to [[10|pay it straight into the hotel's bank account]]. I'll send you the details this afternoon."],
+            ["B", "Perfect. Thanks so much for your help, Simon."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 7,
+          "layout": "notes",
+          "title": "Larkfield Manor Hotel: conference enquiry",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Client",
+            "- organisation: Association of Independent Bookbinders",
+            "- contact: Diane {1}",
+            "# Event",
+            "- number of people attending: {2}",
+            "- dates: Friday {3} March and the following day",
+            "- main room: the {4} Room",
+            "- tables for displaying members' work: {5}",
+            "# Costs and catering",
+            "- day delegate rate: £{6} per person",
+            "- lunch will take place in the {7}"
+          ],
+          "answers": {
+            "1": ["Gatenby"],
+            "2": ["42", "forty-two"],
+            "3": ["14th", "14", "fourteenth"],
+            "4": ["Orchard"],
+            "5": ["8", "eight"],
+            "6": ["46"],
+            "7": ["conservatory"]
+          }
+        },
+        {
+          "type": "mcq",
+          "from": 8,
+          "to": 10,
+          "items": [
+            {
+              "q": 8,
+              "stem": "What does Diane choose for the Friday evening meal?",
+              "options": ["a buffet in the bar", "a three-course meal in the dining room", "a barbecue outside"],
+              "answer": "A"
+            },
+            {
+              "q": 9,
+              "stem": "What does Simon say about bedrooms for the delegates?",
+              "options": ["Each delegate has to book separately.", "There is a reduction for booking early.", "Rooms at the back are quieter."],
+              "answer": "B"
+            },
+            {
+              "q": 10,
+              "stem": "How will the deposit be paid?",
+              "options": ["by card over the phone", "by cheque", "by bank transfer"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Welcome to a science conference",
+      "context": "a conference organiser giving delegates practical information",
+      "speakers": { "F": { "name": "Fiona", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["F", "Good morning, everyone, and welcome to Aberdeen, and to the eighth conference of the European Forum for Science Communication. I'm Fiona Reid, and I'm the local organiser, so if anything goes wrong over the next three days, I'm the person to blame. I'll keep this short, because I know you're all keen to get started, but there are a few practical things you need to know."],
+            ["F", "First of all, a change to the programme. The opening session was going to be in the Kerr Lecture Theatre, which seats about two hundred and fifty. However, [[11|registrations kept coming in long after we'd expected them to stop, and there are now almost four hundred of you]], so we've moved it to the Great Hall, next door. Some of you may have heard that our keynote speaker's flight was delayed last night. It was, but she landed at midnight and she's here this morning, so we'll start on time. And the problem with the projector in the Kerr theatre has been sorted out, so all the other sessions there will go ahead as planned."],
+            ["F", "Next, your badges. Please wear them at all times, because the security staff will ask to see them at the doors. A few of you have asked whether the badge gets you free travel on the city buses. That was the arrangement at our last conference, but I'm afraid the council couldn't agree to it this time. The shuttle bus between the hotels and the campus is free, of course. And when the conference finishes on Friday, [[12|please drop your badge into the box on the reception desk]], because the holders get used again the following year."],
+            ["F", "Now, the internet. The password is printed on the back of your badge, and it stays the same for the whole conference. It does slow down a little during the coffee breaks, when everyone checks their messages at once, but that's not usually a problem. The main thing to know is that [[13|you can only connect in this building and in the library]]. In the Great Hall there's no signal at all, so do download anything you need before you go in."],
+            ["F", "As for lunch, there's no need to order anything in advance, and there's a wide choice, including plenty of dishes for vegetarians. But because there are so many of you, [[14|we'll be serving it in two groups, one at twelve and one at one o'clock]]. The colour of the dot on your badge tells you which group you're in."],
+            ["F", "The conference dinner is on Thursday evening. It's included in your registration fee, so there's nothing extra to pay. And it [[15|won't be here on campus, but at the Maritime Museum, down by the harbour]]. Coaches will leave from the main gate at seven. People always ask me about the dress code. There isn't one. Come as you are."],
+            ["F", "Finally, the Saturday excursion to see the dolphins. I'm sorry to say it's now full, though you can still put your name on the waiting list. It leaves at nine, as it says in the programme. But [[16|because of the tides, the boat will now go from Stonehaven rather than from the city harbour]], so the coach will take you down there first."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["F", "Right. A lot of you will want to get out and about in the evenings, so let me mention a few places near the campus. I've marked them all on the map at the back of your programme."],
+            ["F", "Just across the road from the main gate is the Granite Café. Some of you may have heard that it was closed. It was, last week, while they put in a new kitchen, but it's open again now. It shuts at five, so it's not much use in the evening, but it's very handy at lunchtime if you can't face the queue, and [[17|if you show them your badge, they'll take ten per cent off your bill]]."],
+            ["F", "If you'd like some exercise, the university sports centre is about five minutes' walk away, and delegates are welcome to use the pool and the gym. It isn't free, I'm afraid. It's five pounds a visit, and there's no reduction for us. It's also very popular with students in the evenings, so [[18|you'll need to reserve a time at the front desk before you turn up]]."],
+            ["F", "For those of you who like to stay up late, the Harbour Arms is a traditional pub just down the hill. People sometimes tell me it only takes cash, but that hasn't been true for years. It's where most of the students go [[19|after everywhere else has shut, because it doesn't close until two in the morning]]."],
+            ["F", "And if you want a special meal, try the Customs House restaurant. It's on the top floor of the old customs building, and [[20|from the windows you can look right out across the harbour to the open sea]]. You'd think somewhere like that would need booking weeks ahead, but they always keep a few tables for people who just walk in. Right, that's everything from me. Enjoy the conference."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 16,
+          "items": [
+            {
+              "q": 11,
+              "stem": "Why has the opening session been moved?",
+              "options": ["The keynote speaker arrived late.", "More people registered than expected.", "There was a problem with the equipment."],
+              "answer": "B"
+            },
+            {
+              "q": 12,
+              "stem": "What are delegates asked to do with their badges?",
+              "options": ["keep them for next year's conference", "use them for free travel on city buses", "hand them in at the end of the conference"],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "What does Fiona say about the internet connection?",
+              "options": ["It can only be used in some buildings.", "The password changes every day.", "It is slow at the start of each day."],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "What does Fiona say about lunch?",
+              "options": ["It will be served at two different times.", "Delegates must choose their meals in advance.", "There are few options for vegetarians."],
+              "answer": "A"
+            },
+            {
+              "q": 15,
+              "stem": "The conference dinner",
+              "options": ["costs extra.", "will be held away from the campus.", "requires formal clothes."],
+              "answer": "B"
+            },
+            {
+              "q": 16,
+              "stem": "What has changed about the Saturday excursion?",
+              "options": ["More places have become available.", "It will leave earlier than planned.", "It will depart from a different place."],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 17,
+          "to": 20,
+          "lead": "What does Fiona say about each of the following places?",
+          "boxTitle": "Comments",
+          "options": [
+            "It gives delegates a discount.",
+            "It stays open late.",
+            "It must be booked in advance.",
+            "It has a view of the sea.",
+            "It is temporarily closed.",
+            "It only accepts cash."
+          ],
+          "items": [
+            { "q": 17, "text": "the Granite Café", "answer": "A" },
+            { "q": 18, "text": "the sports centre", "answer": "C" },
+            { "q": 19, "text": "the Harbour Arms", "answer": "B" },
+            { "q": 20, "text": "the Customs House restaurant", "answer": "D" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A linguistics assignment on bilingual children",
+      "context": "two students discussing a linguistics assignment about bilingual children",
+      "speakers": { "N": { "name": "Nadia", "g": "f", "accent": "gb" }, "B": { "name": "Ben", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["N", "Hi Ben. Have you got the draft with you? I thought we could sort out the structure of the assignment today, now that we've finished collecting the data."],
+            ["B", "Yes, I've printed it out. I think the first thing is that we need to explain in the introduction why we chose this age group, the six to ten year olds."],
+            ["N", "Right. Our tutor did say she'd accept anything between two and twelve, so it isn't as if she pushed us towards it."],
+            ["B", "No. And I was originally keen on toddlers, because that's when so much of the interesting acquisition happens. Then I started to worry that children that young would be too shy to say anything in front of a stranger with a microphone. But when we did a trial with my little cousin, who's three, she wouldn't stop talking, so that wasn't really what decided it."],
+            ["N", "And then when we did the reading, we found that almost all the studies were on children under five. [[21|There's hardly anything on what happens once they start school and the school language begins to take over]]. So that's our justification, really."],
+            ["B", "Good. Then there's the parents' questionnaire. I was expecting most of them to say they were worried about their children falling behind at school."],
+            ["N", "So was I, but only one family mentioned that. What really stood out was how many of them [[22|had been told by a teacher or a health visitor to stop using their own language at home and just speak English]]."],
+            ["B", "Yes, that was quite shocking, considering what the research says. And two of the families actually spoke three languages, which we hadn't expected at all."],
+            ["N", "Two out of five, though, so I wouldn't make too much of it. It's interesting, but it isn't a pattern. Maybe we could mention it as something for further research."],
+            ["B", "OK. Then the part I found most interesting, the code-switching. Remember I thought the children mixed their languages mainly when they were tired?"],
+            ["N", "You did, and we tested that by comparing the morning recordings with the evening ones. There was no real difference."],
+            ["B", "No. And the other assumption, that they switched because they didn't know a word in one of the languages, didn't really hold up either. In most cases they knew both words."],
+            ["N", "Exactly. [[23|They seemed to switch on purpose, to make a joke, or to make a point more strongly]]. Like when Mei changed to Mandarin to tell her little brother off."],
+            ["B", "We should give a few examples like that. Now, the problems section. I was sure the background noise at the school would ruin the recordings, but the microphones coped really well."],
+            ["N", "And none of the parents changed their minds about taking part, which was a relief. The real issue was that [[24|in the first session the children kept showing off in front of the microphone]], so we couldn't use any of it."],
+            ["B", "Yes, we'll have to say we threw the first recordings away. Then, how do we present the findings? I'd thought about putting everything into tables, with percentages."],
+            ["N", "With five children? The figures wouldn't mean anything. And we can't really compare the younger and older children either, because there are only two in the younger group."],
+            ["B", "Fair point. So [[25|we write about each child separately, one after the other]], and then bring it all together in the discussion."],
+            ["N", "Yes, that's what I'd do."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["N", "Right, let's go through the children, so that we agree on the main point to make about each one. Amira first."],
+            ["B", "Well, we expected her to prefer Arabic, because her mother speaks so little English. But she actually seems more comfortable in English."],
+            ["N", "Yes, but I don't think that's the main thing. What struck me was that [[26|whenever they went to the doctor's or the bank, she was the one explaining everything to her mum]]. At eight years old."],
+            ["B", "That's true. That should be the focus for her. Then Tomasz."],
+            ["N", "His Polish is excellent. His grandparents said his vocabulary is better than some adults'. So it's certainly not that he's losing it."],
+            ["B", "No, but [[27|he won't say a word of Polish when his school friends are around]]. His mum says he pretends not to understand her at the school gate."],
+            ["N", "OK. Mei next. She's the one who [[28|makes up her own words by putting bits of Mandarin and English together]]."],
+            ["B", "Yes, like the word she had for her tablet. Her reading's about the same in both languages, by the way, so she's not really ahead in English, whatever her teacher thinks."],
+            ["N", "Interesting. And Rohan?"],
+            ["B", "I thought Rohan was the most interesting of the lot. People assume children in bilingual families just pick whichever language is easiest at the time. But [[29|he speaks Gujarati with his grandmother, English with his dad, and both with his mum]], and he never mixes them up."],
+            ["N", "He's very consistent, isn't he? And finally, Ines."],
+            ["B", "Hers is the sad one. Her grandmother went back to Portugal last year, and since then [[30|she's been losing Portuguese words that she used to know]]. Her mum says she has to stop and think about things like the names of vegetables."],
+            ["N", "We should link that to the reading on language loss. There was that article about children who stop using a language when a relative moves away."],
+            ["B", "Yes, I've still got my notes on it. Shall I write up the case studies, and you do the introduction and the methods?"],
+            ["N", "Fine. Let's swap drafts on Monday, then. I think we've got a plan."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 25,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did the students choose to study children aged six to ten?",
+              "options": ["Their tutor advised them to.", "Younger children were too shy to be recorded.", "There is little research on this age group."],
+              "answer": "C"
+            },
+            {
+              "q": 22,
+              "stem": "What did the parents' questionnaire show?",
+              "options": [
+                "Many parents had been told to use only one language.",
+                "Most parents were worried about their child's progress at school.",
+                "Most of the families spoke three languages."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 23,
+              "stem": "What did the students find about code-switching?",
+              "options": ["It happened most often when children were tired.", "It was often done deliberately.", "It showed gaps in the children's vocabulary."],
+              "answer": "B"
+            },
+            {
+              "q": 24,
+              "stem": "What problem did the students have with the recordings?",
+              "options": [
+                "Background noise made some of them unclear.",
+                "Some parents withdrew their permission.",
+                "The children did not behave naturally at first."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 25,
+              "stem": "How will the students present their findings?",
+              "options": ["as a series of individual case studies", "as a comparison of two age groups", "as tables of statistics"],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 26,
+          "to": 30,
+          "lead": "What is the main point the students will make about each child?",
+          "boxTitle": "Main points",
+          "options": [
+            "prefers the home language",
+            "refuses to use the home language in front of friends",
+            "translates for a parent",
+            "reads better in English than in the home language",
+            "uses each language with different people",
+            "is forgetting words in the home language",
+            "invents words that combine both languages"
+          ],
+          "items": [
+            { "q": 26, "text": "Amira", "answer": "C" },
+            { "q": 27, "text": "Tomasz", "answer": "B" },
+            { "q": 28, "text": "Mei", "answer": "G" },
+            { "q": 29, "text": "Rohan", "answer": "E" },
+            { "q": 30, "text": "Ines", "answer": "F" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Biomimicry in engineering",
+      "context": "part of a lecture on biomimicry in engineering",
+      "speakers": { "L": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good afternoon. In this lecture I'm going to look at biomimicry, which is the practice of studying designs found in nature and adapting them to solve engineering problems. The idea itself isn't new. Leonardo da Vinci filled notebooks with sketches of birds' wings when he was trying to design flying machines. But it's only in the last thirty years or so that biomimicry has become a recognised field, with its own research centres and its own journals. The term itself became widely known after a popular book on the subject appeared in 1997, and since then the number of patents based on natural designs has risen steadily."],
+            ["L", "So why should engineers look to nature at all? The usual answer is that living things have had to solve many of the same problems that engineers face: how to move efficiently, how to keep warm or cool, how to stay clean. And the solutions we see around us today have been refined over an enormously long period of [[31|evolution]]. Anything that didn't work simply didn't survive. That doesn't mean nature always gets things right, of course, but it does mean there's a vast library of tested designs to learn from."],
+            ["L", "Let me start with transport, and with what is probably the best-known example. In the 1990s, Japan's high-speed trains had a problem. When a train entered a tunnel at speed, it pushed a wall of air ahead of it, and the noise as trains came out of [[32|tunnels]] could be heard hundreds of metres away. Not surprisingly, people living nearby complained."],
+            ["L", "One of the engineers working on the problem happened to be a keen birdwatcher, and he thought of the [[33|kingfisher]], a bird which dives from the air into water, a much denser substance, with hardly a splash. After testing a series of models, the team redesigned the front of the train to copy the long, narrow shape of its beak, and the new design was not only quieter but faster, and it used around fifteen per cent less electricity."],
+            ["L", "The same engineer tackled a second problem. The pantograph, which is the frame on the roof that collects electricity from the overhead wires, was also very noisy. For its main support, he borrowed the smooth shape of a penguin's body, but the real breakthrough came from the [[34|owl]]. Owls hunt in near silence, because the edges of their feathers have tiny serrations which break up the flow of air. By adding similar serrations to the pantograph, the engineers reduced the noise considerably."],
+            ["L", "Moving on to buildings. In Harare, the capital of Zimbabwe, there's a large office and shopping complex that has no conventional air conditioning. The architect studied the [[35|mounds]] that termites build, which stay at a remarkably constant temperature, even though the air outside swings from very hot during the day to cold at night. He designed the building so that cool air is drawn in at the bottom, and warm air escapes through chimneys at the top. People sometimes claim that it needs no mechanical help at all, which isn't true, as it does rely on fans. But it uses only around a tenth of the [[36|energy]] of a similar building with air conditioning."],
+            ["L", "The third area I want to cover is surfaces. The leaves of the lotus plant are covered in microscopic bumps, which are coated with wax. Water can't spread out on them, so it forms droplets that roll straight off, collecting any [[37|dirt]] on the way. This so-called lotus effect has been copied in a number of products. You may have heard of self-cleaning glass, but that actually works on a completely different principle. The most successful application has been an exterior [[38|paint]], which keeps the walls of a building clean simply when it rains."],
+            ["L", "Sharks provide another example. Their skin is covered in tiny scales arranged in a diamond pattern, and very little grows on it. Researchers first tried to copy this pattern to stop barnacles attaching themselves to the bottoms of ships. However, it has turned out to be far more useful in hospitals, where surfaces with the same pattern make it much harder for [[39|bacteria]] to settle and spread."],
+            ["L", "Finally, I should say something about the limitations. Critics sometimes argue that biomimicry is more about marketing than real engineering, and there's some truth in that. Another objection is that living things are rarely designed for a single purpose. A bird's wing has to keep the bird warm as well as help it fly, so copying its shape for just one function doesn't always produce the best result. But the biggest obstacle is a practical one. Many natural structures are built on an incredibly small scale, and although we can copy them in a laboratory, they're often extremely difficult to [[40|manufacture]] cheaply and in large quantities. Until that changes, a lot of the most exciting ideas will remain experiments rather than products."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Biomimicry in engineering",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Introduction",
+            "- biomimicry: adapting designs from nature to solve engineering problems",
+            "- natural designs have been improved over a very long period of {31}",
+            "# Transport: Japanese high-speed trains",
+            "- problem: loud noise as trains left {32}",
+            "- front redesigned to copy the beak of the {33}",
+            "- pantograph: noise reduced by copying the feathers of the {34}",
+            "# Buildings",
+            "- complex in Zimbabwe: ventilation based on termite {35}",
+            "- uses only about 10% of the {36} of comparable buildings",
+            "# Surfaces",
+            "- lotus leaf: water rolls off, taking {37} with it",
+            "- copied in a type of outdoor {38}",
+            "- shark skin: first copied for ships, but most useful in hospitals against {39}",
+            "# Limitations",
+            "- many natural structures are hard to {40} at low cost"
+          ],
+          "answers": {
+            "31": ["evolution"],
+            "32": ["tunnels"],
+            "33": ["kingfisher"],
+            "34": ["owl"],
+            "35": ["mounds"],
+            "36": ["energy"],
+            "37": ["dirt"],
+            "38": ["paint"],
+            "39": ["bacteria"],
+            "40": ["manufacture"]
+          }
+        }
+      ]
+    }
+  ]
+}

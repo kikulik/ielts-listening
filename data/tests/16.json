@@ -1,0 +1,422 @@
+{
+  "id": 16,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Buying a second-hand piano",
+      "context": "a woman phoning a shop that sells reconditioned pianos",
+      "speakers": { "A": { "name": "Gareth", "g": "m", "accent": "gb" }, "B": { "name": "Customer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Larkfield Pianos. Gareth speaking."],
+            ["B", "Oh, hello. I saw your advertisement in the local paper for reconditioned pianos, and I was hoping to ask a few questions before I come in to have a look."],
+            ["A", "Of course. Are you thinking of an upright or a grand?"],
+            ["B", "Oh, an upright, definitely. We'd never fit a grand into our house."],
+            ["A", "Most people say that. Can I take your name first, so I can keep a note of what we discuss?"],
+            ["B", "Yes, it's Helen [[1|Haddow]]. That's H-A-D-D-O-W."],
+            ["A", "Thank you, Mrs Haddow. And who'll be playing the piano? Is it for yourself?"],
+            ["B", "Well, I did think my daughter might take it up again. She had lessons for years when she was at school. But she tells me she simply hasn't got the time these days. So really it's for my [[2|grandson]]. He's eight, and he's been learning on a little electric keyboard, and his teacher says he's ready for a proper instrument now."],
+            ["A", "That's a very good age to make the change. Now, before we go any further, have you measured the space where it's going to stand?"],
+            ["B", "I have. There's an alcove in the sitting room, and it's 155 centimetres across."],
+            ["A", "That sounds generous, but do allow a little room at each side, otherwise the sound gets trapped."],
+            ["B", "Oh, and I've just remembered, there's a radiator pipe running up one side of the alcove. So, realistically, nothing wider than [[3|148]] centimetres."],
+            ["A", "Right, I'll write that down. Most of our uprights are between 140 and 150, so that won't rule out too many. And it's a good thing you mentioned the pipe. You don't want a piano standing too close to any source of heat."],
+            ["B", "No, I suppose not. That brings me to something else. How often does a piano need tuning? I've really no idea."],
+            ["A", "Well, the general advice is once a year, and for a piano that's been in the same house for a long time, that's fine. But a piano that's just been moved takes a while to settle in a new room, so for the first two years I'd recommend having it done every [[4|six]] months."],
+            ["B", "That's useful to know. And is that something you do yourselves?"],
+            ["A", "Yes, we have two tuners who cover the whole of Suffolk."],
+            ["B", "And is there anything else he'll need? I was wondering whether you sell music books, for instance."],
+            ["A", "We used to, but the music shop on the high street has a far better range than we ever had, so we stopped. What we can offer you is a [[5|stool]] with a seat that goes up and down. That's ideal for a child, because you can raise it as he grows."],
+            ["B", "Oh, that's a good idea. Now, I'd like to come and see what you've got. The trouble is, I work full-time. Are you open in the evenings at all?"],
+            ["A", "We used to stay open until eight on Fridays, but hardly anyone came in, so now our late opening is on [[6|Thursday]]. We're here until half past seven that day. And of course we're open all day on Saturdays."],
+            ["B", "An evening would suit me much better than a weekend, actually."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["B", "Before I come in, could you tell me a bit about the pianos you've got at the moment that would fit the space?"],
+            ["A", "Certainly. There are three I'd suggest. The first is an Ashworth. It was built in 1994, so it's fairly modern, and it has a lovely bright tone. It was priced at £1,395, but we've brought it down to [[7|£1,250]] because there's a small scratch on one side. You'd hardly notice it, to be honest."],
+            ["B", "And what's the case like? Most of the ones I've seen in adverts are black."],
+            ["A", "That's true of most modern uprights, but this one's [[8|walnut]], so it's a warm, reddish brown. It would probably suit a traditional room."],
+            ["B", "Our sitting room is rather old-fashioned, so that might be perfect. What's the second one?"],
+            ["A", "That's a Brenner. Now, a lot of customers assume it's much older than it is, because the legs are carved in a style that was fashionable in the 1950s. But in fact it was made in [[9|1978]]. The previous owner took great care of it."],
+            ["B", "And how much is that one?"],
+            ["A", "It's £1,800."],
+            ["B", "Oh, that's rather more than I'd planned to spend."],
+            ["A", "I understand. But we've replaced all the strings and the hammers, so it's almost like new inside. That's why it comes with a five-year guarantee, rather than our usual two years."],
+            ["B", "I see. And the third?"],
+            ["A", "The third is a Fairley, from 2009. It's the newest of the three, and the most expensive, at £2,350. When it came in, I was told it had belonged to a school, and we do get a lot of those, but when I checked the paperwork, it turned out it had been in a [[10|hotel]]. It stood in the residents' lounge, and hardly anyone ever played it, so it's in excellent condition."],
+            ["B", "Well, I think the Ashworth and the Brenner sound the most promising, given what I want to spend. I'll come in on Thursday after work."],
+            ["A", "Lovely. I'll make sure they've both been tuned before you arrive. Could I have a phone number, in case anything changes?"],
+            ["B", "Yes, it's 07723 418 095."],
+            ["A", "Thank you, Mrs Haddow. We'll see you on Thursday, then."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "notes",
+          "title": "LARKFIELD PIANOS: ENQUIRY NOTES",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Customer",
+            "- Name: Helen {1}",
+            "- Piano is mainly for her {2}",
+            "- Maximum width of piano: {3} cm",
+            "# Advice and services",
+            "- Tuning recommended every {4} months at first",
+            "- Shop can supply a {5} with adjustable height",
+            "- Showroom stays open late on {6}"
+          ],
+          "answers": { "1": ["Haddow"], "2": ["grandson"], "3": ["148"], "4": ["six", "6"], "5": ["stool"], "6": ["Thursday", "Thursdays"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Pianos currently available",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Make", "Year built", "Price", "Comments"],
+            ["Ashworth", "1994", "£{7}", "{8} case\n- slightly marked on one side"],
+            ["Brenner", "{9}", "£1,800", "new strings and hammers\n- five-year guarantee"],
+            ["Fairley", "2009", "£2,350", "previously kept in a {10}\n- excellent condition"]
+          ],
+          "answers": { "7": ["1,250"], "8": ["walnut"], "9": ["1978"], "10": ["hotel"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A new public library building",
+      "context": "the manager of a new public library talking to a local residents' association",
+      "speakers": { "A": { "name": "Library manager", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "Good evening, everyone, and thank you for inviting me. My name's Joanne Pike, and I'm the manager of the new Eastgate Library, which, as many of you know, opens to the public next month. I'd like to start by explaining the layout of the ground floor, and then I'll tell you about some of the things that are new."],
+            ["A", "If you look at the plan I've handed out, you'll see the main entrance at the bottom, on the south side of the building, facing Tanners Row. As you come in, the reception desk is immediately on your right, and on your left is the café, which is run by a local charity. Straight ahead of you is the main corridor, which runs right through the building from south to north. About halfway along, it crosses another corridor running from east to west, and that crossing point is a useful place to get your bearings."],
+            ["A", "If you turn left at the crossing, so that you're heading west, you'll pass the café on your left and the lifts on your right. [[11|At the far end of that corridor, on the left, is the children's library]], which takes up the whole corner of the building. A few people expected it to be beside the entrance, but we put it here deliberately, so that parents can sit in the café next door while their children choose books."],
+            ["A", "[[12|Directly across the corridor from the children's library is the local history room]]. Originally that was going to be on the first floor, but people told us they didn't want to carry heavy boxes of old documents up the stairs, so we brought it down. You'll find the lifts between that room and the main corridor."],
+            ["A", "Now, go back to the crossing and carry straight on towards the north. You'll see the lifts on your left. [[13|Just past them, right at the top end of the main corridor and on the same side, is our exhibition space]]. At the moment it's showing photographs of the old library being built in the 1930s."],
+            ["A", "[[14|On the other side of the corridor, facing the lifts and the exhibition space, there's a long room, and that's the computer suite]]. It has forty machines, which is twice as many as we had before."],
+            ["A", "Finally, go back to the crossing once more and turn right, so you're heading east. [[15|The first door on your right leads into the group study room, which is directly behind the reception desk]]. That's useful, because staff can keep an eye on noise levels. Further along, the large room at the end on the right, in the south-east corner, is where staff sort deliveries, so that one isn't open to the public. [[16|The quiet reading room is the one facing it, at the end of the corridor on the left]]. Some of you have asked whether it'll really be quiet so close to the staff area, but the walls have extra soundproofing. And behind it, in the north-east corner, is a small office for the building manager."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "Now let me tell you a little about the building itself. A lot of people have asked whether we were able to reuse anything from the old library on Station Road. We'd hoped to keep some of its timber beams, but when the builders examined them, they were full of woodworm, so sadly none of them could be used. There was also a plan for a roof planted with grasses and wild flowers, but the engineers decided the structure couldn't support the weight, so we've got solar panels up there instead. What I'm proudest of is the heating. [[17|Pipes go down about a hundred metres below the building and bring up warmth from deep in the ground]], so we hardly use any gas at all."],
+            ["A", "Next, opening hours. I know many of you hoped we'd open on Sundays, and I'm sorry to say that won't be possible with the number of staff we have. We also looked at staying open until nine in the evening, but very few people used the old library after seven, so our staffed hours remain nine till seven, Monday to Saturday. The big change is this. [[18|From the spring, members who've done a short induction will be able to let themselves in with their library card from seven in the morning, before any staff arrive]]. They'll be able to study, and borrow and return books using the machines."],
+            ["A", "You may have heard about our Library of Things. It's a collection of useful household items that members can borrow for a small fee, just like books. We expected the drills and the sewing machines to be in the greatest demand, and they've certainly been popular during our trial run. But the item with the longest waiting list, [[19|believe it or not, is the carpet cleaner]]. And the telescope, which I was sure would be a favourite, has only been borrowed twice."],
+            ["A", "Finally, I'd like to ask for your help. We're still deciding what to call the café, and I've had dozens of suggestions already, so I think we have plenty of those, thank you. Our new website will be launched in January, so please save your comments on that until then. What we really need is [[20|people who are willing to give up an hour on Saturday mornings to read stories to the under-fives]]. You don't need any experience, just a bit of enthusiasm. If you're interested, please leave your name with me before you go."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "map",
+          "from": 11,
+          "to": 16,
+          "kind": "plan",
+          "title": "Eastgate Library: ground floor",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "paving" },
+              {
+                "k": "path",
+                "pts": [[0, 388], [600, 388]],
+                "w": 20,
+                "fill": "road",
+                "label": "Tanners Row"
+              },
+              { "k": "zone", "x": 30, "y": 40, "w": 500, "h": 330, "fill": "building" },
+              { "k": "zone", "x": 30, "y": 220, "w": 115, "h": 150, "fill": "room" },
+              { "k": "zone", "x": 150, "y": 220, "w": 115, "h": 150, "fill": "room", "label": "Café" },
+              { "k": "zone", "x": 295, "y": 290, "w": 105, "h": 80, "fill": "room", "label": "Reception" },
+              { "k": "zone", "x": 295, "y": 220, "w": 105, "h": 65, "fill": "room" },
+              { "k": "zone", "x": 405, "y": 220, "w": 125, "h": 150, "fill": "room" },
+              { "k": "zone", "x": 30, "y": 40, "w": 115, "h": 150, "fill": "room" },
+              { "k": "zone", "x": 150, "y": 40, "w": 115, "h": 80, "fill": "room" },
+              { "k": "zone", "x": 150, "y": 125, "w": 115, "h": 65, "fill": "room", "label": "Lifts" },
+              { "k": "zone", "x": 295, "y": 40, "w": 115, "h": 150, "fill": "room" },
+              { "k": "zone", "x": 415, "y": 40, "w": 115, "h": 70, "fill": "room" },
+              { "k": "zone", "x": 415, "y": 115, "w": 115, "h": 75, "fill": "room" },
+              {
+                "k": "path",
+                "pts": [[280, 370], [280, 40]],
+                "w": 30,
+                "fill": "corridor"
+              },
+              {
+                "k": "path",
+                "pts": [[30, 205], [530, 205]],
+                "w": 30,
+                "fill": "corridor"
+              },
+              { "k": "gate", "x": 280, "y": 370, "text": "Main entrance" },
+              { "k": "spot", "x": 88, "y": 115, "letter": "A" },
+              { "k": "spot", "x": 348, "y": 252, "letter": "B" },
+              { "k": "spot", "x": 472, "y": 75, "letter": "C" },
+              { "k": "spot", "x": 352, "y": 115, "letter": "D" },
+              { "k": "spot", "x": 88, "y": 295, "letter": "E" },
+              { "k": "spot", "x": 472, "y": 152, "letter": "F" },
+              { "k": "spot", "x": 468, "y": 295, "letter": "G" },
+              { "k": "spot", "x": 208, "y": 80, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 11, "text": "Children's library", "answer": "E" },
+            { "q": 12, "text": "Local history room", "answer": "A" },
+            { "q": 13, "text": "Exhibition space", "answer": "H" },
+            { "q": 14, "text": "Computer suite", "answer": "D" },
+            { "q": 15, "text": "Group study room", "answer": "B" },
+            { "q": 16, "text": "Quiet reading room", "answer": "F" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 17,
+          "to": 20,
+          "items": [
+            {
+              "q": 17,
+              "stem": "What does the speaker say about the new building?",
+              "options": ["Some of its timber came from the old library.", "Its roof is covered with plants.", "Its heating comes from underground."],
+              "answer": "C"
+            },
+            {
+              "q": 18,
+              "stem": "What is changing about the library's opening hours?",
+              "options": [
+                "Some members will be able to use the library when no staff are present.",
+                "The library will open on Sundays for the first time.",
+                "The library will stay open later in the evenings."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 19,
+              "stem": "Which item has been most in demand during the trial of the Library of Things?",
+              "options": ["a sewing machine", "a carpet cleaner", "a telescope"],
+              "answer": "B"
+            },
+            {
+              "q": 20,
+              "stem": "What does the speaker ask the audience to do?",
+              "options": ["suggest a name for the café", "comment on the library's website", "volunteer to read to young children"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A start-up idea for an app",
+      "context": "two business students discussing their start-up idea for a mobile app",
+      "speakers": { "A": { "name": "Fiona", "g": "f", "accent": "gb" }, "B": { "name": "Josh", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["B", "OK, Fiona, the pitch for Dr Wallace's enterprise seminar is in two weeks, so shall we go through what we've got so far?"],
+            ["A", "Yes, let's. So the idea is an app that lets people book a café table during the quiet part of the day, usually the afternoon, for a fixed price that includes their drinks. We're calling it Perch."],
+            ["B", "Right. And the survey results came in yesterday. I have to say, they weren't what I expected. I was sure cost would be the main thing that stops students working in cafés."],
+            ["A", "So was I. But only a handful of people mentioned it. Noise came up a bit more often, although quite a few people said they actually like a bit of background noise, because it helps them concentrate."],
+            ["B", "Yeah, I'm one of those."],
+            ["A", "But the thing that came up again and again was that [[21|people felt awkward sitting at a table for three hours after buying one coffee]]. They were convinced the staff were waiting for them to leave."],
+            ["B", "Which is exactly what our app solves, because they've paid for the time. OK, next question: how do we actually make money?"],
+            ["A", "I wondered about advertising. Local businesses might pay to appear in the app."],
+            ["B", "Hmm, I'm not keen. Every time an app shows me adverts, I delete it. And the number of users we'd need before advertising paid anything is enormous."],
+            ["A", "Fair enough. What about a monthly subscription for the cafés, then?"],
+            ["B", "That was my first thought, too. But when I spoke to the owner of that place on Mill Road, she said she'd never pay a regular fee for something before she knew it worked."],
+            ["A", "So the alternative is to [[22|take a small cut every time someone books a table]]. That way, the cafés only pay when they actually get customers through the door."],
+            ["B", "Exactly. Something like ten per cent. That's the only model that'll persuade them to sign up."],
+            ["A", "Agreed. Now, Dr Wallace said the panel will definitely ask us what could go wrong."],
+            ["B", "Well, I keep thinking a bigger company could just copy us."],
+            ["A", "They could, but there's not much we can do about that, and being first gives us an advantage anyway. I was more worried about people booking a table and then not turning up."],
+            ["B", "But they pay when they book, so if they don't come, the café still gets the money. That's not really anyone's problem except the customer's."],
+            ["A", "True. Actually, what worries me most is [[23|whether café staff will remember to change the number of free tables in the app when they get busy]]. If someone arrives and there's nowhere to sit, they'll never use us again."],
+            ["B", "You're right. That's the one we'll need a really good answer for. Maybe a simple button next to the till."],
+            ["A", "And where do we launch it first? The obvious place is right next to the campus."],
+            ["B", "I thought so too, at first. But think about it. The university library is free, and it's open until midnight. Why would students pay to sit in a café near campus?"],
+            ["A", "Good point. The city centre, then?"],
+            ["B", "The cafés there are packed at lunchtime, and they're full of shoppers in the afternoon, so they don't need us. But the cafés out in the eastern suburbs, [[24|where loads of students rent houses]], are almost empty after two o'clock."],
+            ["A", "And the students living out there would rather not travel in every day. OK, let's start there. And the pitch itself, did you read Dr Wallace's email?"],
+            ["B", "I skimmed it. Did she say we need detailed financial forecasts?"],
+            ["A", "No, she said at this stage any figures are just guesses, and the panel know that, so one slide on money is plenty. She wasn't bothered about how many slides we use, either, as long as we finish within ten minutes. What she really stressed was [[25|that we should let the panel see the app in action, even if it's only a mock-up on a phone]]."],
+            ["B", "Right. I can put something together with one of those free design tools."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "OK, let's decide on features. We can't build everything for the first version."],
+            ["B", "No. So, first, the map showing nearby cafés with free tables. I was thinking that might have to wait, because maps are expensive to develop."],
+            ["A", "But without a map, nobody will know where to go. And there are free mapping tools we can plug in. I really think [[26|it has to be there from day one]]."],
+            ["B", "OK, you've convinced me. It goes in."],
+            ["A", "What about customer reviews of the cafés? People love leaving reviews."],
+            ["B", "I was keen on that, but when I mentioned it to the café owners, two of them said they'd think twice about joining if customers could criticise them on our app."],
+            ["A", "And people can find reviews on lots of other websites anyway."],
+            ["B", "Exactly. [[27|So let's not have them at all]]. Not now, and not later either."],
+            ["A", "Agreed. Then there's group bookings. Study groups would love to be able to reserve a big table."],
+            ["B", "They would, but then you've got to work out how to split the payment between four or five people, and that's complicated."],
+            ["A", "Hmm. It's a nice idea, though."],
+            ["B", "It is. [[28|Let's get the basic version working first and add it once we've got some regular users]]."],
+            ["A", "Fine by me. I had another idea, too. A noise rating, so users could tell each other how quiet each café is."],
+            ["B", "I like it in principle, but noise changes from hour to hour. A café could be silent at two and full of parents with toddlers at three. The rating would be misleading."],
+            ["A", "So we'd be giving people the wrong information. [[29|I suppose we'd better forget about that one]]."],
+            ["B", "I think so. And the last thing on the list is discounts on food. You know, ten per cent off a sandwich for Perch users."],
+            ["A", "Would the cafés agree to that?"],
+            ["B", "Actually, most of the owners I spoke to suggested it themselves. They make far more on food than on coffee, so they want to encourage it. And it costs us nothing to build."],
+            ["A", "In that case, [[30|we might as well launch with it]]."],
+            ["B", "Great. That's the feature list sorted, then."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 25,
+          "items": [
+            {
+              "q": 21,
+              "stem": "What was the main finding of the students' survey?",
+              "options": [
+                "Students thought cafés were too expensive to work in.",
+                "Students felt uncomfortable about staying in cafés for long periods.",
+                "Students found cafés too noisy for studying."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 22,
+              "stem": "How do the students decide the app will make money?",
+              "options": ["by charging cafés a monthly fee", "by selling advertising space", "by taking a percentage of each booking"],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "What do the students see as the most serious risk for the app?",
+              "options": [
+                "Cafés may not keep information about free seats up to date.",
+                "Customers may fail to arrive for their booking.",
+                "Other companies may copy the idea."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 24,
+              "stem": "Where do the students decide to launch the app first?",
+              "options": ["in districts where many students live", "close to the university", "in the main shopping area"],
+              "answer": "A"
+            },
+            {
+              "q": 25,
+              "stem": "What did the tutor advise the students to do in their pitch?",
+              "options": ["include detailed financial forecasts", "demonstrate how the app works", "limit the number of slides"],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 26,
+          "to": 30,
+          "lead": "What do the students decide about each of the following features for their app?",
+          "boxTitle": "Decisions",
+          "options": ["include it in the first version", "add it in a later version", "leave it out completely"],
+          "items": [
+            { "q": 26, "text": "a map of nearby cafés", "answer": "A" },
+            { "q": 27, "text": "customer reviews", "answer": "C" },
+            { "q": 28, "text": "group bookings", "answer": "B" },
+            { "q": 29, "text": "a noise rating", "answer": "C" },
+            { "q": 30, "text": "food discounts", "answer": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "What ice cores reveal about past climates",
+      "context": "part of a lecture on what ice cores reveal about past climates",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today I'm going to look at one of the most valuable sources of information we have about the Earth's past climate, and that's ice cores. These are long cylinders of ice drilled out of the great ice sheets of Greenland and Antarctica, and some of them hold a continuous record going back hundreds of thousands of years. I'll start with how the ice forms, then look at what it can tell us, and finish with some practical difficulties and where the research is heading."],
+            ["A", "In the coldest parts of the polar regions, snow that falls in winter doesn't melt the following summer. Instead, it's buried by the next year's snow, and then the next, and gradually the weight of everything above presses it into solid ice. In places where a lot of snow falls each year, such as parts of Greenland, the layers laid down in summer and winter look quite different from each other. So scientists can count back year by year, much as you'd count the [[31|rings]] in the trunk of a tree. In central Antarctica, on the other hand, so little snow falls that the layers are too thin to see, and researchers have to rely on other methods of dating."],
+            ["A", "So what can the ice tell us? Perhaps the most remarkable thing is that it contains actual samples of the ancient atmosphere. As the snow is compressed, the air between the snowflakes gets sealed into tiny [[32|bubbles]]. When scientists crush a piece of ice in a vacuum, they can release that air and measure what's in it. Now, most of it is nitrogen and oxygen, of course, but those hardly vary over time, so they're not very informative. What climate scientists are really interested in are the greenhouse gases, carbon dioxide and [[33|methane]], and the ice shows that both rose and fell in step with temperature through the ice ages. One complication, by the way, is that the air in the bubbles is always younger than the ice around it, because the snow stays porous for a long time before the bubbles finally close."],
+            ["A", "The frozen water itself holds information too. Water molecules contain oxygen atoms, and a small proportion of these atoms are slightly heavier than the rest. How much heavy oxygen ends up in the snow depends on how cold it was when the snow formed. So by measuring the proportion of heavy to light oxygen, scientists can work out the [[34|temperature]] at the time. It's a kind of natural thermometer, and it's how we know just how cold the last ice age was at its peak."],
+            ["A", "Then there's what we might call the impurities. Ice from the coldest periods contains far more [[35|dust]], in some cases twenty times as much as ice from warmer periods. That tells us the climate wasn't only colder but also drier and windier, with larger deserts, and lower sea levels that exposed wide areas of land for the wind to pick up. You'll find sea salt in the ice as well, but that comes from the ocean surface rather than from land, so it's a rather different story."],
+            ["A", "Volcanic eruptions leave their mark too. A large eruption throws sulphur high into the atmosphere, which comes down as acid in the snow, and sometimes there are fine particles of volcanic [[36|ash]] as well. These layers are extremely useful. A big eruption may show up in cores drilled thousands of kilometres apart, so it acts as a time marker that allows researchers to line up records from different places."],
+            ["A", "Ice cores also record human activity, and sometimes surprisingly early. You might assume that pollution only appears in the ice with the Industrial Revolution. But in fact, Greenland ice contains pollution from mining and smelting in Roman times, which was carried there on the wind from Europe, more than four thousand kilometres away. And it isn't soot from cooking fires, as you might expect, but [[37|lead]]. What's fascinating is that the amount isn't constant from one decade to the next. It closely follows what was happening to the Roman economy. When the mines were working at full capacity, levels were high, and they dropped sharply during outbreaks of [[38|plague]], when so many workers died that production collapsed."],
+            ["A", "Now let's turn to some of the practical challenges. Drilling is slow and very expensive, and the cores have to be kept frozen at every stage, from the drill site to the laboratory freezers. But there's a particular problem at certain depths. You might expect the deepest, oldest ice to be the most difficult to handle, but in fact the trouble lies somewhere in the middle. At these depths the ice is so [[39|brittle]] that when a core is brought to the surface and the pressure on it is released, the gas inside expands, and the core can crack or even shatter. The usual solution is to leave these sections to rest in storage, sometimes for a whole year, before they're cut and analysed."],
+            ["A", "Finally, where is the research going? The oldest continuous record we have at present comes from Antarctica and covers about 800,000 years. Over that period, the ice ages came and went roughly every 100,000 years. But we know from ocean sediments that before about a million years ago, they came every 41,000 years. Why the rhythm of these [[40|cycles]] changed is one of the great puzzles of climate science, and the hope is that a new core, which may contain ice well over a million years old, will help to solve it."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Ice cores and past climates",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# How the ice forms",
+            "- snow builds up year after year and is gradually pressed into ice",
+            "- where snowfall is heavy, annual layers can be counted like a tree's {31}",
+            "# What the ice reveals",
+            "- samples of ancient air are trapped in small {32}",
+            "-- changes in levels of carbon dioxide and {33} can be traced",
+            "-- this air is always younger than the surrounding ice",
+            "- the ratio of heavy to light oxygen shows the {34} when the snow fell",
+            "- ice from glacial periods holds up to twenty times more {35}, blown from dry land",
+            "- volcanic eruptions leave acid and fine {36} particles",
+            "-- these act as time markers for matching different cores",
+            "# Evidence of human activity",
+            "- {37} pollution from Roman mining reached Greenland",
+            "- levels fell sharply at times of {38}",
+            "# Practical problems",
+            "- ice from middle depths is so {39} that cores may break apart",
+            "-- these sections are stored for up to a year before analysis",
+            "# Future research",
+            "- aim: to explain why the length of ice-age {40} changed about a million years ago"
+          ],
+          "answers": {
+            "31": ["rings"],
+            "32": ["bubbles"],
+            "33": ["methane"],
+            "34": ["temperature"],
+            "35": ["dust"],
+            "36": ["ash"],
+            "37": ["lead"],
+            "38": ["plague"],
+            "39": ["brittle"],
+            "40": ["cycles"]
+          }
+        }
+      ]
+    }
+  ]
+}

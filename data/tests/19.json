@@ -1,0 +1,401 @@
+{
+  "id": 19,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Applying for a part-time café job",
+      "context": "a student phoning a café about a part-time job",
+      "speakers": { "A": { "name": "Rachel", "g": "f", "accent": "gb" }, "B": { "name": "Luke", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon, Fernhill Café. Rachel speaking."],
+            ["B", "Oh, hello. I'm calling about the notice in your window, the one about part-time work. Is the job still going?"],
+            ["A", "It is, yes. We've had a couple of people ask about it, but nothing's been decided yet. I'm the manager, so I can take a few details from you now, and if it all sounds suitable, we'll arrange for you to come in. Have you got a few minutes?"],
+            ["B", "Yes, that's fine. I'm not in a hurry."],
+            ["A", "Good. So, could I start with your name?"],
+            ["B", "It's Luke [[1|Pellow]]."],
+            ["A", "And could you spell the surname for me?"],
+            ["B", "Sure. P-E-L-L-O-W."],
+            ["A", "Thanks, Luke. Is the number you're ringing from the best one to get hold of you?"],
+            ["B", "Actually, no. This is my flatmate's phone, because mine's in for repair. My own number is 07946 218 530."],
+            ["A", "07946 218 530. Lovely. Now, the notice says the hours would suit a student. Are you studying at the moment?"],
+            ["B", "Yes, I'm in my second year at the university."],
+            ["A", "Oh, right. And what are you doing there?"],
+            ["B", "Well, I started out on a chemistry degree, but I found it a bit too theoretical, so I changed courses at the end of the first year. I'm doing [[2|pharmacy]] now, and I'm enjoying it much more. It's more about real people."],
+            ["A", "That sounds interesting. Now, the most important thing for us is when you can work. We definitely need someone every Saturday, from eight until three, and then one day during the week as well."],
+            ["B", "Saturdays are no problem at all. For the weekday, I would have said Thursday, because I'm usually free in the afternoon, but we've just been told that our lab classes are moving to Thursdays after Christmas. So it would have to be [[3|Mondays]], if that's all right. I've only got one lecture then, and it finishes at ten."],
+            ["A", "Mondays would actually suit us very well, because that's when the big delivery arrives and we always need an extra pair of hands. So, have you done this kind of work before?"],
+            ["B", "Not in a café as such. I've helped out at my uncle's restaurant a few times, waiting on tables, but that was just the odd evening when they were short of staff, so I wouldn't really call it a job. The only proper job I've had was in a [[4|cinema]], on the snack counter. I was there for about eighteen months, until I started at university."],
+            ["A", "Well, that's very relevant. You'll be used to long queues and handling money."],
+            ["B", "Yes, especially on Friday nights when the big films came out."],
+            ["A", "And do you have any qualifications that might be useful? We don't insist on anything, but it helps."],
+            ["B", "Let me think. I did a first aid course at school, but that was a while ago, so it's probably run out by now. The one that's still valid is my certificate in food [[5|hygiene]]. The cinema sent all the staff on the course, because we served hot food as well as popcorn."],
+            ["A", "Oh, that's excellent. It means we wouldn't have to send you on it ourselves."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Right, Luke, I think it would be a good idea for you to come in and meet us properly. Could you manage an interview next week?"],
+            ["B", "Yes, definitely. Which day were you thinking of?"],
+            ["A", "Let me just look at the diary. I was going to suggest Tuesday the 15th, but our area manager is visiting that day, and it'll be chaos. So how about the Wednesday instead? That would be the [[6|16th]]."],
+            ["B", "Wednesday's fine. I've got nothing on that afternoon."],
+            ["A", "Good. We're usually quiet in the middle of the afternoon, so I'd normally say half past three. Oh, but hang on, there's a school group booked in for hot chocolate at that time. Better make it [[7|4.15]], once they've gone."],
+            ["B", "OK. And should I bring anything along with me?"],
+            ["A", "Yes, a couple of things. Because of the regulations about the right to work, I'll need to see your passport. People sometimes bring their driving licence instead, but that isn't enough on its own, and anyway we don't do deliveries. I'll also need something that proves your [[8|address]], so a recent bank statement or a gas bill, that kind of thing."],
+            ["B", "I can bring a bank statement. Is there anything special I should wear? I wasn't sure whether to come in a suit."],
+            ["A", "Oh, please don't. Part of the interview is a short trial behind the counter, about twenty minutes, so you can see what the job involves and we can see how you get on with customers. You don't need to bring an apron or a hat, because we'll lend you those. But do come in [[9|trainers]], because the floor behind the counter gets quite wet and ordinary shoes can be dangerous."],
+            ["B", "That's easy. Can I ask about the pay as well?"],
+            ["A", "Of course. The notice in the window says £11.90 an hour, but that's actually last year's rate. I should have changed it. Everybody had an increase in the summer, so you'd be starting on [[10|£12.40]]. And then we review it after three months."],
+            ["B", "That sounds fine. Thank you very much."],
+            ["A", "You're welcome. We'll see you on Wednesday then, Luke. Just ask for me at the counter."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "FERNHILL CAFÉ: PART-TIME STAFF ENQUIRY",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Applicant",
+            "Name: Luke {1}",
+            "Phone: 07946 218 530",
+            "Subject studied at university: {2}",
+            "Days available: Saturdays and {3}",
+            "Previous job: served snacks in a {4}",
+            "Qualification: food {5} certificate",
+            "# Interview",
+            "Date: Wednesday {6}",
+            "Time: {7} pm",
+            "Bring: passport and a document showing his {8}",
+            "Wear: {9} (floor may be slippery)",
+            "Starting pay: £{10} per hour"
+          ],
+          "answers": {
+            "1": ["Pellow"],
+            "2": ["pharmacy"],
+            "3": ["Mondays", "Monday"],
+            "4": ["cinema"],
+            "5": ["hygiene"],
+            "6": ["16th", "16", "sixteenth"],
+            "7": ["4.15", "4.15pm"],
+            "8": ["address"],
+            "9": ["trainers"],
+            "10": ["12.40"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Visiting a heritage railway",
+      "context": "a volunteer talking to visitors at a heritage railway station",
+      "speakers": { "V": { "name": "Martin", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["V", "Good morning, everyone, and welcome to Brackenmoor Station, the home of the Brackenmoor Valley Railway. My name's Martin, and I'm one of the volunteers here. Before you set off to explore, I'd like to tell you a little about the railway and then explain where everything is, so that you don't miss anything. The first train leaves in about forty minutes, so there's plenty of time."],
+            ["V", "The line was opened in 1879, and it was built to carry stone from the quarry at Hadley Fell down to the main line. The quarry closed in the 1930s, but by then the trains were carrying plenty of passengers, so the line survived. People often assume that it was the buses that killed it off. There was a bus service along the valley by the 1950s, it's true, but the trains were still pretty full. What actually finished the line, in 1961, was the viaduct over the river. [[11|Engineers said it needed major work, and nobody was prepared to pay for it]]. The last train ran that autumn, and the track was lifted soon afterwards."],
+            ["V", "A group of enthusiasts bought the station in 1974 and began relaying the track, a few hundred metres at a time. These days we run trains along six miles of line, and the whole thing is run by about three hundred volunteers. Visitors often imagine that we're all retired railwaymen, but in fact only a handful of us ever worked on the railways for a living. I was a dentist, for example."],
+            ["V", "If you're thinking of joining us so that you can drive a steam engine, I'm afraid it isn't a quick process. You start off cleaning engines, then you work as a fireman, and most people take around ten years before they're allowed to drive. What's really encouraging, though, is that [[12|we have twice as many members under twenty-five as we did five years ago]], mainly students from the college in town."],
+            ["V", "Now, some of you have asked about today's engine. Our own locomotive, Hesketh, is in the workshop at the moment having a new boiler fitted, which is a long job, so she won't be running again until next spring. The engine you'll be travelling behind today [[13|actually belongs to a railway in Somerset, and they've kindly let us have her for the summer]]. Someone asked me earlier whether she was built round here. She wasn't. She came from a works in Leeds, and in fact no locomotives were ever built in this valley at all."],
+            ["V", "Finally, a word about tickets. As always, your ticket is valid all day, so you can get on and off at any station as often as you like. A lot of people have asked us for a cheaper price if they book online, and we'd love to offer that, but our website can't handle it yet. What we have introduced this season is [[14|a single ticket that covers two adults and up to three children]], which works out much cheaper than paying for everyone separately."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["V", "Right, if you look at the map in your leaflet, I'll show you where things are. We're standing just inside the entrance, off Station Road. The first thing a lot of people want is a cup of tea, and you won't have to go far, because the café is [[15|immediately on your right as you come through the entrance]], before you get as far as the ticket office. You'll notice a wooden hut on the other side of the path, beside the car park. That's the volunteers' mess room, so please don't wander in there looking for scones."],
+            ["V", "If you carry on up the path, you'll come to the ticket office. The shop used to be inside it, but we ran out of space, so last year it moved into the old parcels office, which is [[16|right next to the ticket office, on its eastern side]]. That's where you'll find the books, the models and the postcards."],
+            ["V", "Beyond the ticket office is the platform. Families tend to make straight for the model railway. A lot of people head for the eastern end of the platform, where the old water tower is, but the model railway is at the other end. [[17|Walk all the way to the western end of the platform, and just past where it finishes]], you'll see the old lamp room, which is where it's laid out."],
+            ["V", "Now, to get to the other side of the line, you must use the footbridge. Please never walk across the track, even if there's no train in sight. When you come down the steps at the far end of the bridge, you'll see the signal box [[18|straight away, on your right]]. The signalman is happy to show small groups inside between trains."],
+            ["V", "If you turn left at the bottom of the steps instead, the path takes you towards the duck pond. The picnic area is [[19|between the pond and the footbridge]], so it's very handy for watching the trains go past while you eat."],
+            ["V", "And finally, the engine shed. For safety reasons you can't go inside, but we've built a viewing gallery so that you can watch the engineers at work. Some people go looking for it on the far eastern side of the shed, where the coal is stored, but that area is closed to the public. The gallery is [[20|on the western side of the shed, facing the signal box]]. Right, enjoy your day, and I'll see some of you on the first train."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 14,
+          "items": [
+            {
+              "q": 11,
+              "stem": "Why did the railway line close in 1961?",
+              "options": [
+                "The quarry it had been built for shut down.",
+                "A bridge on the line needed expensive repairs.",
+                "Passenger numbers fell after a bus service started."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 12,
+              "stem": "What does Martin say about the railway's volunteers?",
+              "options": [
+                "Most of them used to work for the railways.",
+                "They can train as drivers in about a year.",
+                "The number of young volunteers is increasing."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "The engine pulling today's train",
+              "options": ["is on loan from another railway.", "was built in a local factory.", "has just been given a new boiler."],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "What is new about tickets this season?",
+              "options": ["There is a discount for booking online.", "There is a ticket for families.", "Tickets can now be used all day."],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "map",
+          "from": 15,
+          "to": 20,
+          "kind": "map",
+          "title": "Brackenmoor Station",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              {
+                "k": "path",
+                "pts": [[0, 382], [340, 382], [600, 382]],
+                "w": 28,
+                "fill": "road",
+                "label": "Station Road"
+              },
+              { "k": "zone", "x": 20, "y": 270, "w": 150, "h": 80, "fill": "parking", "label": "Car park" },
+              {
+                "k": "path",
+                "pts": [[300, 368], [300, 250]],
+                "w": 12,
+                "fill": "path"
+              },
+              { "k": "zone", "x": 240, "y": 205, "w": 120, "h": 45, "fill": "building", "label": "Ticket office" },
+              { "k": "zone", "x": 120, "y": 172, "w": 360, "h": 26, "fill": "paving", "label": "Platform" },
+              {
+                "k": "path",
+                "pts": [[0, 150], [200, 150], [600, 150]],
+                "w": 14,
+                "fill": "rail",
+                "label": "Railway line"
+              },
+              {
+                "k": "path",
+                "pts": [[260, 172], [260, 95]],
+                "w": 10,
+                "fill": "path",
+                "label": "Footbridge"
+              },
+              { "k": "round", "x": 90, "y": 75, "rx": 60, "ry": 35, "fill": "water", "label": "Duck pond" },
+              { "k": "zone", "x": 390, "y": 45, "w": 140, "h": 75, "fill": "building", "label": "Engine shed" },
+              { "k": "gate", "x": 300, "y": 364, "text": "Entrance" },
+              { "k": "spot", "x": 85, "y": 186, "letter": "A" },
+              { "k": "spot", "x": 405, "y": 226, "letter": "B" },
+              { "k": "spot", "x": 515, "y": 186, "letter": "C" },
+              { "k": "spot", "x": 210, "y": 300, "letter": "D" },
+              { "k": "spot", "x": 390, "y": 320, "letter": "E" },
+              { "k": "spot", "x": 305, "y": 105, "letter": "F" },
+              { "k": "spot", "x": 190, "y": 82, "letter": "G" },
+              { "k": "spot", "x": 360, "y": 70, "letter": "H" },
+              { "k": "spot", "x": 565, "y": 95, "letter": "I" }
+            ]
+          },
+          "items": [
+            { "q": 15, "text": "Café", "answer": "E" },
+            { "q": 16, "text": "Shop", "answer": "B" },
+            { "q": 17, "text": "Model railway", "answer": "A" },
+            { "q": 18, "text": "Signal box", "answer": "F" },
+            { "q": 19, "text": "Picnic area", "answer": "G" },
+            { "q": 20, "text": "Viewing gallery", "answer": "H" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A geography project on river flooding",
+      "context": "two students discussing a geography project on river flooding",
+      "speakers": { "H": { "name": "Hannah", "g": "f", "accent": "us" }, "O": { "name": "Owen", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["O", "So, Hannah, we said we'd go through what happened on the fieldwork before we start rewriting the report. Shall we list the problems first, for the evaluation section?"],
+            ["H", "Sure. I think the obvious one is the sites we couldn't get to. We'd planned eight sampling points along the river, and we only managed six, because [[21|the farmer who owns the land around the last two wouldn't let us onto his fields]]."],
+            ["O", "Yes, that was annoying. What about the people in town? I was expecting more of them to turn us down for the interviews."],
+            ["H", "So was I, but actually they were really keen to talk. If anything, the problem was getting them to stop."],
+            ["O", "True. And the equipment survived, more or less. I know I dropped the flow meter in the water at the bridge, but it dried out, and the readings I took afterwards matched the earlier ones, so I don't think it affected anything."],
+            ["H", "No, it was fine. And we can't complain about the weather. It stayed dry the whole week, which is kind of ironic for a flooding project."],
+            ["O", "The other thing that held us up was the historical data, wasn't it? The river level records."],
+            ["H", "Oh, yes. We'd assumed the council would have a complete set but [[22|there's a gap of about twelve years in the 1980s where nobody seems to have kept the readings]]. So our long-term trend has a big hole in the middle."],
+            ["O", "We'll have to explain that in the limitations. Right, the next thing is the recommendations. We need to pick two measures for the town and justify them. My first thought was to raise the flood walls along the high street, because that's what most of the residents asked for."],
+            ["H", "I know they did, but the trouble with higher walls is that the water just goes somewhere else. The village downstream would get it even worse. And our tutor made a point of saying she wanted us to think about the whole catchment, not just the town."],
+            ["O", "Fair enough. Then what about a storage reservoir upstream? That would hold back the water in a big storm."],
+            ["H", "In theory, yes, but the cost estimate we found was something like forty million pounds, for a town of eight thousand people. I can't see anyone paying for that."],
+            ["O", "No, I suppose not. What about the tree-planting idea? You were keen on that."],
+            ["H", "I still am. If you plant woodland on the hills above the town, the soil soaks up more of the rain, and it reaches the river much more slowly. And the landowners up there are actually being paid to do it now, so it's realistic."],
+            ["O", "OK, I'm convinced. [[23|Let's put the woodland in.]] And what about the old water meadows by the bridge? Couldn't they be allowed to flood again?"],
+            ["H", "That was my favourite idea at first, but have you seen the plans? There are going to be houses built on most of that land next year, so it's a bit late for that."],
+            ["O", "Ah. Then the other one has to be the warnings. Lots of residents told us the sirens went off after the water was already in their kitchens."],
+            ["H", "Exactly. [[24|A system that sends people a text as soon as the river starts rising would be cheap, and it would give them time to move things upstairs.]] Let's go with that."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["O", "Now, the draft. We got the feedback on it last week, so let's go through it section by section and decide what to do with each part."],
+            ["H", "OK. The introduction first. I was quite pleased with it, to be honest. I thought we could probably leave it."],
+            ["O", "I like what it says, but did you check the word count? It's nearly nine hundred words, and the guidelines say around three hundred for an introduction."],
+            ["H", "Really? Wow, that's way over. OK, [[25|we'll have to cut it down to about a third of what it is now]]."],
+            ["O", "Then there's the section describing the catchment area, the geology and the land use and so on."],
+            ["H", "I don't think the figures in that section need updating, because rocks don't change much. But it's really hard to follow as just text. Readers need to be able to see where the smaller streams join the main river."],
+            ["O", "So [[26|a map, and maybe a cross-section of the valley]]?"],
+            ["H", "Yes, let's do that. I can draw them up on the computer."],
+            ["O", "The methodology is next. It's very long, because I described every piece of equipment in detail."],
+            ["H", "I wouldn't cut any of it, though, because the examiners like to see that you understand how the equipment works. It's just that it interrupts the report. Why don't we [[27|move the whole section to the back, after the conclusion, as an appendix]], and leave a sentence telling readers where to find it?"],
+            ["O", "Good idea. And the rainfall analysis? I think the graphs are fine, and the length is about right."],
+            ["H", "Agreed. The problem the tutor pointed out is that our data stops in 2018, because that was the last year in the report we used. She said it makes the whole thing look out of date."],
+            ["O", "And there have been two really wet winters since then. OK, [[28|I'll find the readings for the last five years and add them in]]."],
+            ["H", "Great. Then there's the interviews section."],
+            ["O", "Honestly, I wondered if we should shorten that. It's a lot of quotations."],
+            ["H", "Oh, I'd argue against that. The tutor said it was the strongest part of the whole report. It's what makes it more than just a textbook exercise."],
+            ["O", "Did she? I must have missed that comment. OK, then [[29|we won't touch it]]."],
+            ["H", "And the last one is the comparison with Ellerby, the town on the other river. I've never been sure it really belongs."],
+            ["O", "We could merge it with the conclusion, maybe?"],
+            ["H", "Possibly, but then the conclusion would end up being all about Ellerby. Or we could just drop it altogether."],
+            ["O", "I'd hate to lose it after all that work. Look, neither of us knows whether it's what they want. [[30|Why don't we raise it with Dr Mason at the tutorial on Thursday]] and see what she thinks?"],
+            ["H", "Good plan."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 21,
+          "to": 22,
+          "stem": "Which TWO problems did the students have when collecting their data?",
+          "options": [
+            "They were refused access to some land.",
+            "Local people were unwilling to be interviewed.",
+            "Some equipment stopped working properly.",
+            "Some historical records were missing.",
+            "Bad weather reduced their time on site."
+          ],
+          "answer": ["A", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 23,
+          "to": 24,
+          "stem": "Which TWO measures will the students recommend for the town?",
+          "options": ["higher flood walls", "a storage reservoir", "planting trees on the hills", "restoring the water meadows", "a better flood warning system"],
+          "answer": ["C", "E"]
+        },
+        {
+          "type": "match",
+          "from": 25,
+          "to": 30,
+          "lead": "What do the students decide to do with each section of their report?",
+          "boxTitle": "Decisions",
+          "options": [
+            "add visual material",
+            "make it shorter",
+            "update the figures",
+            "move it to the end",
+            "leave it as it is",
+            "get advice from the tutor",
+            "combine it with another section"
+          ],
+          "items": [
+            { "q": 25, "text": "Introduction", "answer": "B" },
+            { "q": 26, "text": "Description of the catchment", "answer": "A" },
+            { "q": 27, "text": "Methodology", "answer": "D" },
+            { "q": 28, "text": "Rainfall analysis", "answer": "C" },
+            { "q": 29, "text": "Interviews", "answer": "E" },
+            { "q": 30, "text": "Comparison with another town", "answer": "F" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Volcanic soils and farming",
+      "context": "part of a lecture on volcanic soils and farming",
+      "speakers": { "L": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good morning. Today I'm going to talk about volcanic soils, and why farmers in many parts of the world have chosen to live and work on the slopes of active volcanoes, despite the obvious risks. Soils formed from volcanic material cover less than one per cent of the earth's land surface, and yet they support something like ten per cent of the world's population. So it's worth asking what makes them so attractive. I'll start with the physical properties of these soils, then look at their chemistry, and finish with two regions where they're farmed very intensively."],
+            ["L", "These soils are usually called andosols, from two Japanese words meaning dark soil, and colour is the first thing you notice about them. They're very dark, almost black, because they accumulate a great deal of organic material, which the volcanic minerals protect from breaking down. This has a practical consequence. Dark surfaces absorb more heat from the sun, so these soils warm up quickly at the end of winter. Some textbooks claim that this allows farmers to harvest later in the autumn, but there's little evidence for that. What it does mean is that, in cooler regions, seed can go into the ground [[31|earlier]] than it could on paler soils nearby."],
+            ["L", "The second feature is the structure. As volcanic ash weathers, it forms grains that are full of microscopic holes. In other words, the grains are [[32|porous]], which is why a bucket of this soil weighs so much less than a bucket of clay. For the farmer, that's mostly good news. The soil is easy to dig and plough, even with simple hand tools, and roots can spread through it without much resistance."],
+            ["L", "There is a drawback, though. You might expect heavy rain to be the main threat on a steep volcanic slope, and of course it can be. But because the soil is so light, once the surface dries out, it's the [[33|wind]] that does most of the damage. In some places, farmers lose several centimetres of topsoil in a single dry season."],
+            ["L", "Next, water. Volcanic soils contain some rather unusual minerals, the best known being allophane, which can hold more than their own weight in water. They behave rather like a [[34|sponge]], soaking up moisture during wet periods and then releasing it slowly to the roots. The result is that crops can get through a [[35|drought]] that would ruin them on most other soils. In parts of New Zealand, for instance, pasture on these soils stays green well into the summer, long after neighbouring farms have turned brown. I should add that this does nothing to protect crops from frost, which remains a serious problem at high altitudes."],
+            ["L", "Let's turn to nutrients. As the ash breaks down, it releases large amounts of potassium and calcium, and nitrogen tends to be plentiful too, thanks to all that organic material. But there's one major weakness, and that's [[36|phosphorus]]. The same minerals that hold water so effectively also bind this element very tightly, so although it's present in the soil, plants can only get at a small part of it."],
+            ["L", "For a long time, the standard response was simply to apply more chemical fertiliser, but much of that gets locked up as well, so it's an expensive solution. Studies in Japan and Chile have found that working [[37|compost]] into the soil gives far better results, apparently because it prevents some of the phosphorus from being captured in the first place."],
+            ["L", "Of course, a volcano doesn't only provide soil. Fresh ash can be dangerous in itself. It sometimes contains sulphur, which can damage the leaves of crops, but the far greater threat to animals comes from [[38|fluorine]]. Grazing animals swallow the ash along with the grass, and the fluorine builds up in their bones and teeth. After the Laki eruption in Iceland in 1783, a large proportion of the island's sheep and cattle died, mainly for this reason."],
+            ["L", "I'd like to finish with two examples. The first is Mount Etna, in Sicily, whose lower slopes have been farmed for thousands of years. Vineyards and groves of lemons and oranges are found all around the mountain, but the crop that the area is best known for is its [[39|pistachios]], which grow on old lava flows where very little else will survive. Local growers insist that the volcanic soil is what gives the nuts their unusually strong flavour."],
+            ["L", "The second example is the Indonesian island of Java, which has more than forty active volcanoes and is one of the most densely populated places on earth. There, rice can be harvested as often as three times a year. Because the slopes are so steep, farmers have cut them into [[40|terraces]], which hold water for the rice and also stop the soil from being washed down the hillside. Remarkably, farmers there often go back to their fields within weeks of an eruption, because a light fall of ash can actually improve the land. And that brings me to the question of risk, which we'll look at next week."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "table",
+          "title": "Volcanic soils and agriculture",
+          "limit": "ONE WORD ONLY",
+          "table": [
+            ["Topic", "Details", "Effect on farming"],
+            ["Colour", "very dark, because of organic material", "soil warms quickly, so seeds can be sown {31} than on lighter soils"],
+            ["Structure", "very light, because the grains are {32}", "easy to cultivate, but dry topsoil is easily lost, mainly because of the {33}"],
+            ["Water", "minerals such as allophane act like a {34}", "crops can survive {35}, but not frost"],
+            [
+              "Nutrients",
+              "rich in potassium and calcium; {36} is held tightly by minerals",
+              "adding {37} is more effective than extra chemical fertiliser"
+            ],
+            ["Fresh ash", "may contain {38}, which is harmful to livestock", "large numbers of animals died in Iceland in 1783"],
+            ["Example: Mount Etna", "lower slopes farmed for thousands of years", "vines and citrus fruit, but most famous for {39}"],
+            ["Example: Java", "rice harvested up to three times a year", "steep slopes cut into {40} to reduce soil loss"]
+          ],
+          "answers": {
+            "31": ["earlier"],
+            "32": ["porous"],
+            "33": ["wind"],
+            "34": ["sponge"],
+            "35": ["drought", "droughts"],
+            "36": ["phosphorus"],
+            "37": ["compost"],
+            "38": ["fluorine"],
+            "39": ["pistachios", "pistachio"],
+            "40": ["terraces"]
+          }
+        }
+      ]
+    }
+  ]
+}

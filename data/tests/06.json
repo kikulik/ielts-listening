@@ -1,0 +1,356 @@
+{
+  "id": 6,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Hiring a venue for a birthday party",
+      "context": "a woman phoning a venue to book a room for a birthday party",
+      "speakers": { "A": { "name": "Manager", "g": "m", "accent": "gb" }, "B": { "name": "Rachel", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Pelham Farm Events, Adam speaking."],
+            ["B", "Hello. I'm phoning because I'm organising a party, and a friend of mine recommended the Granary. I wondered if you had any availability in June."],
+            ["A", "We might well have. Let me just open up the diary. Could I start by taking your name?"],
+            ["B", "Yes, it's Rachel Ferrabee."],
+            ["A", "Could you spell the surname for me?"],
+            ["B", "Of course. It's [[1|Ferrabee]]. F-E-R-R-A-B-E-E. It's French originally, I believe, but my family has been in Gloucestershire for generations."],
+            ["A", "Thank you. And what's the occasion?"],
+            ["B", "It's my dad's seventieth birthday. He doesn't know anything about it, so it's going to be a surprise."],
+            ["A", "Oh, how exciting. We had a surprise party here last month, and the gentleman nearly fell over when he walked in and saw everyone. Did you have a particular date in mind?"],
+            ["B", "His actual birthday is Saturday the 14th of June, so that would be perfect."],
+            ["A", "Let me see. Oh, I'm sorry, we've got a wedding on the 14th, and that takes up the whole building. Would the following Saturday be any good?"],
+            ["B", "The [[2|21st]]? Hmm. Actually, I think that would work. Most of the family are free that weekend, and it means he definitely won't suspect anything. Let's go for that."],
+            ["A", "Great. I'll pencil you in. And roughly how many guests are you expecting?"],
+            ["B", "There are about eighty people on our list, but quite a few of his friends will be away on holiday, so we're expecting around [[3|65]] in the end."],
+            ["A", "In that case, I'd suggest the Orchard Room rather than the Garden Room. The Garden Room is lovely, but it only takes fifty people comfortably. The [[4|Orchard]] Room holds up to a hundred, and it has its own bar and a small dance floor."],
+            ["B", "That sounds ideal. And how late can we stay?"],
+            ["A", "Evening hire starts at seven. Under our licence, the music has to stop at eleven, and we ask everyone to have left the building by [[5|11.30]], so that our staff can lock up."],
+            ["B", "That's fine. Most of Dad's friends will be ready for bed by then anyway. Is there parking at the farm?"],
+            ["A", "Yes, there's a free car park right beside the barn, with room for about forty cars, so that shouldn't be a problem. The room hire is £450 for the evening, and that includes all the tables and chairs. To secure the date, we take a deposit of [[6|£200]], which is refundable up to a month before the party."],
+            ["B", "Right. I can pay that today, if that helps."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["A", "That would be great. Now, would you like us to provide the food, or would you rather bring in your own caterer?"],
+            ["B", "I'd much rather you did it, if possible. It's one less thing to organise. What do you offer?"],
+            ["A", "There are two buffet options. The cold buffet has sandwiches, salads and [[7|quiche]], with fresh fruit to finish, and that's £14 per person."],
+            ["B", "And the hot one?"],
+            ["A", "The hot buffet has a choice of two main dishes. We used to offer a chilli, but a lot of guests found it too spicy, so now it's a chicken [[8|curry]], which is quite mild, or a vegetable lasagne. Both come with rice and salad."],
+            ["B", "That sounds more like a proper meal. How much is that one?"],
+            ["A", "The standard price is £19 a head. But for parties of more than sixty, we reduce it to [[9|£17.50]], so that's what you'd pay."],
+            ["B", "I think Dad would definitely prefer hot food, so let's say the hot buffet. Oh, and one more thing. We'd like to show a slideshow of old family photos during the evening. Is that possible?"],
+            ["A", "Yes, of course. The room already has a sound system, and that's included in the hire, so you can play your own music through it. For the photos, you'd need to hire our [[10|projector]]. There's a screen built into the wall, so you don't need to bring one. The projector is £25, and that includes a microphone, if anyone wants to make a speech."],
+            ["B", "Perfect. My uncle will definitely want to make a speech. Oh, and could we come in earlier in the day to decorate the room?"],
+            ["A", "Yes, you can have the room from four o'clock to set up. Balloons and banners are fine, but we don't allow candles or confetti, I'm afraid, because of the old wooden floors."],
+            ["B", "That's no problem at all. We'll keep it simple."],
+            ["A", "Lovely. I'll put all of that in an email for you. Could I have a phone number too, in case I need to check anything?"],
+            ["B", "Yes, it's 01632 960 017."],
+            ["A", "Thank you, Rachel. I'll send everything over this afternoon."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "notes",
+          "title": "Party booking",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "- name: Rachel {1}",
+            "- occasion: father's 70th birthday",
+            "- date: Saturday {2} June",
+            "- expected number of guests: {3}",
+            "- room: the {4} Room",
+            "- everyone must have left by {5}",
+            "- deposit: £{6}"
+          ],
+          "answers": {
+            "1": ["Ferrabee"],
+            "2": ["21st", "21", "twenty-first"],
+            "3": ["65", "sixty-five"],
+            "4": ["Orchard"],
+            "5": ["11.30", "11.30pm"],
+            "6": ["200"]
+          }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Food and equipment",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Item", "Details", "Price"],
+            ["Cold buffet", "sandwiches, salads, {7} and fruit", "£14 per person"],
+            ["Hot buffet", "chicken {8} or vegetable lasagne, with rice and salad", "£{9} per person"],
+            ["Equipment", "{10} and microphone", "£25"]
+          ],
+          "answers": { "7": ["quiche"], "8": ["curry"], "9": ["17.50"], "10": ["projector"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A staff induction talk at a hotel",
+      "context": "a human resources manager welcoming new staff at a hotel",
+      "speakers": { "H": { "name": "HR manager", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["H", "Good morning, everyone, and welcome to the Rowanmere Hotel. My name's Helen Moffat, and I'm the human resources manager. I know some of you will be working in the restaurant, some in housekeeping and a few on reception, and you'll each get a proper introduction from your own head of department this afternoon. But first, there are some things that everyone needs to know, whatever their role, so I'll go through those now."],
+            ["H", "Just a little background first. The hotel was built in 1894 as a private house for a mill owner, and it became a hotel in the 1930s. We have sixty-two bedrooms, a spa and two restaurants, and we're busy all year round, not just in the summer, so you'll find there's always plenty to do. A lot of our guests come back year after year, so you'll soon get to know some familiar faces."],
+            ["H", "Let's start with the staff canteen. If you came for an interview earlier in the year, you may remember it was on the ground floor, next to the kitchens. That area has now become part of our new restaurant, so the canteen has moved down to the [[11|basement]]. You'll find it at the bottom of the back stairs. There's a staff noticeboard just outside, and that's where we put up the weekly rotas every Thursday, along with news about training courses."],
+            ["H", "Meals are free for all staff while you're on shift. Breakfast is served from six. The canteen used to close at nine in the evening, but that didn't suit people working late shifts, so it now stays open until [[12|10.30]]."],
+            ["H", "Next, the changing rooms. Everyone needs to change into uniform before starting work. You might expect the changing rooms to be next to the canteen, but in fact they're at the other end of the same corridor, next to the [[13|laundry]], which is handy when you need to collect a clean uniform. Each of you will have a locker. We don't hand out keys any more, because people kept losing them, so you'll need to bring your own [[14|padlock]]. Any hardware shop in Keswick sells them. And please remember that mobile phones must stay in your locker while you're on duty."],
+            ["H", "Now, parking. Many of you will be driving, because buses out here aren't very frequent. Please don't park in the main car park at the front of the hotel, as that's for guests only, and don't be tempted by the spaces next to the tennis courts either. The staff car park is down by the lake, behind the [[15|boathouse]]. Parking is free for your first two weeks while you're in training, and after that you'll need a permit, which costs [[16|£12]] a month, taken straight from your pay."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["H", "Now, there are a few things that you must do before the end of this first week. Your uniform should have been given to you on your interview day, so you don't need to worry about that. However, everyone must [[17|complete the online fire safety course]] by Friday. It takes about forty minutes, and you can do it on the computers in the staff room."],
+            ["H", "You also need to [[18|have your photo taken for your identity badge]], because after this week you won't be able to get through the staff entrance without one. The photographer will be in the staff room on Wednesday and Thursday. We'll need your bank details so that we can pay you, but you've got until the end of the month for that, so there's no rush. And there's a welcome lunch for new staff with the general manager, but that isn't until next month, and it's optional."],
+            ["H", "Finally, let me tell you about some of the benefits of working here. Some of them start straight away. For example, you can use the hotel gym and swimming pool free of charge from today, outside guest hours. Other benefits begin once you've completed your six-month probation period."],
+            ["H", "At that point, [[19|members of your family can stay at the hotel at half price]], which is very popular, especially at Christmas. You'll also [[20|receive a one-off payment of £200]] as a thank-you for your first six months. People often ask about extra holiday, and you do get an additional day a year, but only after you've been with us for two years. And I'm afraid we don't offer free meals for family members, although they're welcome to eat in the restaurant at a discount."],
+            ["H", "Right, I think that's everything for now. If you have any problems in your first few weeks, my office is on the first floor, opposite the lift, and you're always welcome to drop in. Does anyone have any questions?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 11,
+          "to": 16,
+          "layout": "table",
+          "title": "Staff facilities",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Facility", "Location", "Further information"],
+            ["Staff canteen", "{11}", "free meals during shifts\nopen until {12}"],
+            ["Changing rooms", "next to the {13}", "staff must provide their own {14} for lockers"],
+            ["Staff car park", "behind the {15}", "free for two weeks, then £{16} per month"]
+          ],
+          "answers": { "11": ["basement"], "12": ["10.30", "10.30pm"], "13": ["laundry"], "14": ["padlock"], "15": ["boathouse"], "16": ["12", "twelve"] }
+        },
+        {
+          "type": "multi",
+          "from": 17,
+          "to": 18,
+          "stem": "Which TWO things must new staff do this week?",
+          "options": [
+            "collect their uniform",
+            "complete a course on fire safety",
+            "provide their bank details",
+            "have a photograph taken",
+            "attend a lunch with the general manager"
+          ],
+          "answer": ["B", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 19,
+          "to": 20,
+          "stem": "Which TWO benefits do staff receive after six months?",
+          "options": [
+            "an extra day of holiday",
+            "free use of the gym and pool",
+            "a bonus payment",
+            "free meals for family members",
+            "cheaper rooms for relatives"
+          ],
+          "answer": ["C", "E"]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Feedback on a marketing assignment",
+      "context": "a tutor giving a student feedback on her marketing assignment about a chain of cafés",
+      "speakers": { "T": { "name": "Dr Harlan", "g": "m", "accent": "us" }, "Z": { "name": "Zoe", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["T", "Come in, Zoe, and have a seat. So, I've read through the draft of your marketing assignment on Bramble and Bean, and I've made some notes. Shall we go through them?"],
+            ["Z", "Yes, please. I'm a bit nervous, to be honest. I wasn't sure whether I'd gone into enough depth."],
+            ["T", "Well, overall it's a solid piece of work, so there's no need to worry. Let me start with what's working well. I imagine you think your recommendations are the strongest part."],
+            ["Z", "I suppose I did. I spent ages on them."],
+            ["T", "They're not bad, but they do need some work, and we'll come to that later. Your competitor analysis is perfectly competent, but it's fairly standard. What really stands out is [[21|the research you did with customers]]. Interviewing people in three different branches took a lot of effort, and it shows. The quotes you include give the whole assignment a sense of reality that most students don't manage."],
+            ["Z", "Oh, that's good to hear. Some of those interviews were quite awkward."],
+            ["T", "Remind me why you chose Bramble and Bean in the first place. You mentioned that you'd worked there?"],
+            ["Z", "I did, at the branch in Lancaster, for one summer, but that's not really why. And I did write to the owner asking for an interview, but I never got a reply. The main reason was that [[22|they'd just relaunched with a completely new look]], with a new logo, new menus and new colours in all the cafés, and I wanted to find out whether it had actually worked."],
+            ["T", "That's a good reason, and you should say so clearly in your introduction, because at the moment it isn't obvious."],
+            ["T", "Now, one thing I do need to raise is the sales figures you use in the second section."],
+            ["Z", "Are they too old? They're from the year before last."],
+            ["T", "No, that's fine for this kind of analysis. And they do support your argument about the relaunch. The problem is that [[23|you never say where they come from]]. Are they from the company's annual report? A newspaper article? A reader has no way of checking them."],
+            ["Z", "They were from a trade magazine. I'll add the reference."],
+            ["T", "Good. Let's look at the competitor analysis in more detail. You compare Bramble and Bean with three of the big national chains, which is a sensible number. You don't need any more than that."],
+            ["Z", "Oh, I was worried it wasn't enough."],
+            ["T", "No, three is fine. But think about who their customers really are. When someone in a small market town decides not to go to Bramble and Bean, where do they go instead?"],
+            ["Z", "Probably to a little independent café. Oh, I see. [[24|I didn't include any of those at all]]."],
+            ["T", "Exactly. And the other issue is that [[25|the whole comparison is based on price]]. There's nothing on location, atmosphere, opening hours or loyalty schemes. Your prices are up to date, which is good, and I like the positioning map you've drawn. But price is only one part of the picture."],
+            ["Z", "That's fair. I'll widen it out."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["T", "So, the recommendations. You've got five of them, and some are more realistic than others. Take the loyalty app, for example."],
+            ["Z", "I thought that was my best idea."],
+            ["T", "It's an attractive idea, but think about the size of the business. They have twenty-four cafés. Developing and maintaining an app would probably cost more than their whole marketing budget. I have similar doubts about the evening events, the music and quiz nights, because of the extra staff costs and the licences they'd need."],
+            ["Z", "What about the coffee subscription?"],
+            ["T", "A couple of the big chains tried monthly subscriptions and dropped them within a year, so I'd be cautious there. But [[26|the student discount makes a lot of sense]]. Several of their branches are near universities, it costs very little to set up, and it would bring people in at quiet times of the day. And I really like [[27|the idea of working with local bakeries]]. It fits their image as a regional business, and it would cost them almost nothing."],
+            ["Z", "Great. So should I drop the others?"],
+            ["T", "You can keep them, but present them as longer-term possibilities rather than immediate actions."],
+            ["T", "Now, there are three things I'd like you to do before you hand in the final version. At the moment, the recommendations section doesn't explain how any of it would actually happen. You don't need a detailed budget at this level, although you can include rough costs if you want to. What it really needs is a [[28|timeline]], showing which changes would come first and how long each one would take."],
+            ["Z", "OK. That shouldn't take long."],
+            ["T", "Good. Second, the list of questions you used in your interviews. It's useful, but it takes up nearly two pages in the middle of your methods section. Some students put that kind of thing in the introduction, but it really belongs in an [[29|appendix]]."],
+            ["Z", "That will help with the word count, too."],
+            ["T", "It will. And finally, your introduction is fine, apart from the point I mentioned earlier, but your [[30|conclusion]] is far too long. It repeats almost everything you said in the analysis. Try to keep it to a couple of short paragraphs that focus on your main findings."],
+            ["Z", "I'll do that. Thank you, this has been really helpful."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 23,
+          "items": [
+            {
+              "q": 21,
+              "stem": "What does the tutor think is the best part of Zoe's assignment?",
+              "options": ["her study of customer opinion", "the analysis of competitors", "the recommendations"],
+              "answer": "A"
+            },
+            {
+              "q": 22,
+              "stem": "Why did Zoe choose Bramble and Bean for her assignment?",
+              "options": ["She had worked for the company.", "It had recently changed its image.", "The owner had offered to help her."],
+              "answer": "B"
+            },
+            {
+              "q": 23,
+              "stem": "What does the tutor say about the sales figures Zoe uses?",
+              "options": ["They are out of date.", "They do not support her argument.", "Their source is not given."],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 24,
+          "to": 25,
+          "stem": "Which TWO problems does the tutor identify in Zoe's competitor analysis?",
+          "options": [
+            "It leaves out independent cafés.",
+            "It includes too many competitors.",
+            "It uses out-of-date prices.",
+            "It only compares prices.",
+            "It does not include a positioning map."
+          ],
+          "answer": ["A", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 26,
+          "to": 27,
+          "stem": "Which TWO recommendations does the tutor think are most suitable for the company now?",
+          "options": ["a loyalty app", "evening events", "a discount for students", "a coffee subscription", "partnerships with local bakeries"],
+          "answer": ["C", "E"]
+        },
+        {
+          "type": "gap",
+          "from": 28,
+          "to": 30,
+          "layout": "sentences",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "Zoe needs to add a {28} showing when each change would happen.",
+            "Zoe should move the interview questions to the {29}.",
+            "Zoe's {30} needs to be made much shorter."
+          ],
+          "answers": { "28": ["timeline"], "29": ["appendix"], "30": ["conclusion"] }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The economics of fast fashion",
+      "context": "part of an economics lecture on the fast fashion industry",
+      "speakers": { "L": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good morning. Today's lecture is about an industry that most of us support every time we go shopping, whether we think about it or not: fast fashion. I'd like to look at the economics behind it, that is, how the business model works, why prices are so low, and which costs are not included in those prices. Then I'll finish by looking at some of the ways governments are starting to respond."],
+            ["L", "Let's begin with the business model. For most of the twentieth century, clothing companies worked to a fairly slow calendar. Designers produced new collections only a few times a year, and these were tied to the [[31|seasons]], so there was a spring and summer range, followed by an autumn and winter range, each planned many months in advance. Fast fashion turned this model upside down. The leading companies now introduce new designs every week, and a style seen on a celebrity or on social media can be copied, manufactured and in the shops within a few weeks."],
+            ["L", "How can these clothes be so cheap? People often assume that fast fashion relies mainly on cheap materials, and it's true that synthetic fabrics are inexpensive. But the more important factor is the enormous [[32|volumes]] in which items are produced. Ordering hundreds of thousands of identical garments brings the cost of each one down dramatically. The other part of the answer is where the clothes are made. Production has moved to countries where [[33|labour]] costs are low, such as Bangladesh, Vietnam and Cambodia."],
+            ["L", "So what effect has this had on consumers? Over the last twenty years, the number of garments bought per person in Europe and North America has risen sharply, while the number of times each item is worn has fallen. When a T-shirt costs less than a sandwich, buying it doesn't require much thought. Economists point out that very low prices encourage [[34|impulse]] purchases, where people buy things they hadn't planned to buy and often don't need."],
+            ["L", "Marketing reinforces this by creating a sense of urgency. If you don't buy it now, the item may be gone next week. The result is that many people have come to regard clothing as almost [[35|disposable]], something to wear a few times and then replace, rather than something to look after and repair."],
+            ["L", "Now let's turn to the hidden costs. In economics, an externality is a cost that's paid by someone other than the buyer or the seller, and the fashion industry has several. It's one of the largest industrial users of water, particularly for growing cotton, and it's been estimated that a single cotton T-shirt can take more than two thousand litres of water to produce. In many manufacturing regions, rivers are contaminated by the chemical [[36|dyes]] that are used to colour fabric, which are often released without any treatment. These costs fall on local communities, not on the companies or their customers."],
+            ["L", "Another hidden cost is far less visible. Every time clothes made from polyester and other synthetic fabrics go through a washing machine, they shed [[37|microfibres]], tiny strands of plastic too small to see. Many of these pass straight through water treatment plants and end up in rivers and the sea."],
+            ["L", "What about the clothes we no longer want? Many people feel that donating old clothes to a charity shop solves the problem. In reality, charity shops in Britain can sell only a small proportion of what they receive. Some of the rest is recycled into insulation or cleaning cloths, but the majority is [[38|exported]], in large bales, to countries in East and West Africa and elsewhere. There, traders buy the bales without knowing exactly what's inside, and a growing share is of such poor quality that it can't be sold at all. In some markets, it's said that around forty percent of each bale ends up being thrown away."],
+            ["L", "Finally, how are governments responding? One approach that's spreading is known as extended producer responsibility. The idea is that companies that put clothes on the market should pay for what happens to them at the end of their lives. Under these schemes, brands are charged a small [[39|fee]] for every item they sell, and the money is used to fund collection, sorting and recycling. France has run a scheme like this for many years, and the European Union is now requiring one in all member states."],
+            ["L", "Some politicians have suggested going further and taxing fast fashion directly, but that's controversial, because it would hit poorer consumers hardest. A different idea, which has been put forward in France, is to restrict [[40|advertising]] by the cheapest online fashion brands, in the same way that many countries restrict it for tobacco or gambling. Supporters argue that this tackles the demand for constant novelty without raising prices. Whether any of these measures will actually change our shopping habits remains to be seen, and that's something we'll return to next week."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "The economics of fast fashion",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# The business model",
+            "- traditional brands: a few collections a year, linked to the {31}",
+            "- fast fashion: new designs every week",
+            "- low prices mainly result from the huge {32} produced",
+            "- factories located where {33} is cheap",
+            "# Effects on consumers",
+            "- very cheap clothes lead to more {34} buying",
+            "- clothing increasingly regarded as {35}",
+            "# Hidden costs",
+            "- local rivers contaminated by {36}",
+            "- synthetic fabrics release {37} in the wash",
+            "# Unwanted clothes",
+            "- most of what charity shops cannot sell is {38}",
+            "# Policy responses",
+            "- producer responsibility: companies pay a {39} on every item sold",
+            "- proposal in France: restrictions on {40} by very low-cost online brands"
+          ],
+          "answers": {
+            "31": ["seasons"],
+            "32": ["volumes"],
+            "33": ["labour", "labor"],
+            "34": ["impulse"],
+            "35": ["disposable"],
+            "36": ["dyes"],
+            "37": ["microfibres", "microfibers"],
+            "38": ["exported"],
+            "39": ["fee"],
+            "40": ["advertising"]
+          }
+        }
+      ]
+    }
+  ]
+}

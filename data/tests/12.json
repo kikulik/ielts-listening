@@ -1,0 +1,392 @@
+{
+  "id": 12,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Registering at a doctor's surgery",
+      "context": "a woman phoning a doctor's surgery to register as a new patient",
+      "speakers": { "A": { "name": "Gavin", "g": "m", "accent": "gb" }, "B": { "name": "Joanna", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Fernhill Medical Practice. Gavin speaking."],
+            ["B", "Oh, hello. I've just moved to Exeter, and I'd like to register with the practice, please. I tried to do it online, but the form kept freezing."],
+            ["A", "I'm sorry about that; the website's being updated at the moment. I can take your details over the phone instead, if you have a few minutes."],
+            ["B", "Yes, that's fine."],
+            ["A", "Before we start, can I just check that you live in our practice area? We only cover the north-east of the city."],
+            ["B", "I think so. I'm about ten minutes' walk from the hospital."],
+            ["A", "That's fine, then. Can I start with your full name?"],
+            ["B", "It's Joanna Lindqvist."],
+            ["A", "Could you spell the surname for me?"],
+            ["B", "Of course. It's Swedish, from my father's side. [[1|Lindqvist]]. L-I-N-D-Q-V-I-S-T. People always want to put a W in it, but it's Q, V."],
+            ["A", "Thank you. And your date of birth?"],
+            ["B", "The 21st of March, 1990."],
+            ["A", "Sorry, was that the 1st?"],
+            ["B", "No, the [[2|21st]]. Twenty-one."],
+            ["A", "Got it. And your new address?"],
+            ["B", "It's 14 Pinhoe Road. Oh, no, sorry, that was the number of my old flat. I keep doing that. It's [[3|140]] Pinhoe Road. It's a very long road."],
+            ["A", "It certainly is. And the postcode?"],
+            ["B", "EX4 7HS."],
+            ["A", "And a contact number?"],
+            ["B", "It's 07783 412 960."],
+            ["A", "Thanks. And who was your doctor before you moved here?"],
+            ["B", "I was with the Riverside Health Centre in Bristol. Do you need their address?"],
+            ["A", "No, that's fine. We'll ask them to send your records over. It usually takes about four weeks."],
+            ["A", "Thank you. We send out reminders before appointments. We can do that by letter, by email or by text message. Which would you prefer?"],
+            ["B", "Email's probably best. Actually, no, I hardly ever check my personal email. A [[4|text]] would be better. I always have my phone with me."],
+            ["A", "Fine. And what's your occupation?"],
+            ["B", "Well, when I registered at my last surgery I'd have said student, because I was doing a master's degree. But I've finished that now, and I've just started work as a [[5|surveyor]] with a housing association. I check the condition of their older properties, so I'm out and about most of the day, which is another reason a text is easier."],
+            ["A", "That sounds interesting. Right, that's the personal details done."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, a few questions about your health. Do you have any allergies?"],
+            ["B", "Nothing with food. When I was a child, I used to react badly to sticking plasters, but I seem to have grown out of that. The important one is [[6|penicillin]]. I came out in a terrible rash the last time I was given it."],
+            ["A", "I'll make sure that's clearly marked on your record. Do you smoke?"],
+            ["B", "No, never. And I only drink at weekends, if that's your next question."],
+            ["A", "It was, actually. Thank you. And are you taking any regular medication?"],
+            ["B", "No, nothing at the moment."],
+            ["A", "And do you do any regular exercise?"],
+            ["B", "I used to play a lot of tennis, but I hurt my knee a couple of years ago, so I had to give it up. These days I go swimming now and then, and I play [[7|badminton]] with some people from work, usually two evenings a week."],
+            ["A", "Good for you. Now, all new patients are offered a health check with one of our nurses. It takes about twenty minutes. She'll measure your height, weight and blood pressure, and go through your medical history with you."],
+            ["B", "Is there any charge for that?"],
+            ["A", "No, it's completely free."],
+            ["B", "OK. When could I do it?"],
+            ["A", "The nurse does new patient checks on Mondays and Tuesdays. Let me have a look. Monday's completely full this week, I'm afraid, but there's space on [[8|Tuesday]]."],
+            ["B", "That's fine. What times do you have?"],
+            ["A", "I can offer you 11.30, or there's an earlier one, before most people start work."],
+            ["B", "What time's that?"],
+            ["A", "[[9|8.50]]."],
+            ["B", "Perfect. I'd rather not take time off in the middle of the day."],
+            ["A", "I'll put you down for that, then, with Nurse Patel."],
+            ["B", "Do I need to bring anything with me?"],
+            ["A", "If you're on any regular medication, bring it along so that she can see exactly what you take. And as she'll be taking your blood pressure, it's best not to wear a thick jumper. Something with short [[10|sleeves]] is ideal."],
+            ["B", "OK, I'll remember that. Oh, and is there any parking at the surgery?"],
+            ["A", "There are only six spaces, and they're mainly for patients with mobility problems, so I'd suggest walking if you can. The number 4 bus stops just outside."],
+            ["B", "That's handy. Thank you very much for your help."],
+            ["A", "You're welcome. Once your registration's complete, you'll also be able to book appointments through our app. I'll text you a code to set it up. Goodbye."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "FERNHILL MEDICAL PRACTICE: NEW PATIENT REGISTRATION",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "First name: Joanna",
+            "Surname: {1}",
+            "Date of birth: {2} March 1990",
+            "Address: {3} Pinhoe Road, Exeter",
+            "Appointment reminders by: {4}",
+            "Occupation: {5}",
+            "# Health and lifestyle",
+            "Allergic to: {6}",
+            "Smoker: no",
+            "Exercise: {7}, twice a week",
+            "# New patient health check",
+            "Day: {8}",
+            "Time: {9} am",
+            "Clothing: a top with short {10}"
+          ],
+          "answers": {
+            "1": ["Lindqvist"],
+            "2": ["21st", "21"],
+            "3": ["140"],
+            "4": ["text"],
+            "5": ["surveyor"],
+            "6": ["penicillin"],
+            "7": ["badminton"],
+            "8": ["Tuesday"],
+            "9": ["8.50", "8.50am"],
+            "10": ["sleeves"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Preparing for a half marathon",
+      "context": "a running-club coach talking to members who are training for a half marathon",
+      "speakers": { "A": { "name": "Curtis", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 15,
+          "lines": [
+            ["A", "Hi, everyone, and thanks for staying behind after the run. For those who don't know me, I'm Curtis, one of the coaches here at Northgate Running Club, and I'll be looking after the half marathon group for the next twelve weeks, right up to the city race on the 15th of March. Tonight I want to take you through the weekly programme, and then give you some advice about the race itself."],
+            ["A", "Let's start with the Sunday long run, which is the backbone of the whole plan. We meet at the clubhouse at eight. A few of you asked whether we could move it to nine, so we had a vote, but the early risers won, so eight it stays. Now, I'll be honest: if you're short of time one week and something has to go, don't let it be this one. [[11|More than any other session, this is the one that decides how you'll cope in those last few miles in March]]."],
+            ["A", "On Tuesdays we're down at the athletics track doing intervals, so that's fast laps with short rests in between. In the past, some people have told me that going round and round a track is boring, but in this year's club survey it actually came out as the most popular session. [[12|However, if you've only been running for a few months, I'd much rather you left it out for the first four weeks]] and built up your general fitness first. The speed work can come later."],
+            ["A", "Thursday is hills. We use the long slope up Lime Hill, behind the hospital. People always tell me this is the session they dread. But the main problem I see isn't motivation. [[13|It's that most of you charge up the first few repetitions as hard as you possibly can]], and then you've got nothing left for the last ones. Hold back at the start, and finish strong."],
+            ["A", "Monday is what we call the recovery jog. It's just thirty minutes, and its whole purpose is to loosen up your legs after Sunday, [[14|so it should feel almost ridiculously gentle, as if you could carry on all day]]. A few of you have asked if you can do it on a treadmill at the gym instead. That's fine if the weather's really terrible, but on the whole, I'd rather you got outside."],
+            ["A", "And finally, on Wednesday evenings in the clubhouse, there's the strength and stretching class with Priya. Some of you asked whether it could move to the mornings, but the hall isn't available then, so it's staying at seven in the evening. I know it's tempting to skip it, because it doesn't feel like real running. [[15|But this is the class that keeps you away from the physiotherapist]]. Strong hips and ankles are what prevent most of the common running injuries."]
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "lines": [
+            ["A", "OK, let's talk about race day, starting with shoes. Every year, somebody turns up on race morning in brand-new shoes, because they look great in the photos, and every year they finish with terrible blisters. The club has a discount at the running shop in town, and they'll analyse the way you run if you want them to, but honestly, that's not the most important thing. [[16|Whatever you wear on the day should already have plenty of training miles in it]]. So if your current pair is falling apart, buy new ones now, not the week before."],
+            ["A", "Next, food. You'll hear a lot about carbo-loading, which means eating huge plates of pasta for days beforehand. That's really for the full marathon. For a half, there's no need to stuff yourself. Some people also insist that you mustn't eat anything after six o'clock the night before, but I've never seen any evidence that it makes a difference. [[17|The golden rule is to eat something your stomach already knows]]: nothing new, and nothing too spicy."],
+            ["A", "On the day itself, in previous years we hired a coach to take everyone to the start. This year the organisers are running a park-and-ride service, so we haven't booked one. There'll be water and energy gels every three miles along the course, provided by the organisers, so you don't need to carry your own. [[18|What the club will have is our own tent, just beyond the finish line, where you can leave a bag with some warm clothes]], and there'll be plenty of cake."],
+            ["A", "Finally, a few tips for the last week before the race. [[19|Cut your running right down, to about half of what you've been doing]]. You can't get any fitter in the final week, but you can certainly get tired. And please don't try anything new. Every year a sports drink company hands out free samples at the event village, and every year someone drinks one and regrets it halfway round."],
+            ["A", "People also get very anxious about sleep the night before. The truth is, most of us sleep badly before a big race, and it really doesn't matter; what counts is how well you sleep two nights before. You don't need to worry about learning the route, either. It's well signposted, and there are marshals at every corner. But one practical thing: [[20|please collect your race number from the event village on the Friday or the Saturday]], because the queues on race morning are horrendous. Right, any questions?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 11,
+          "to": 15,
+          "lead": "What does the coach say about each of the following training sessions?",
+          "boxTitle": "Comments",
+          "options": [
+            "Newer runners should not do it at first.",
+            "It should feel very easy.",
+            "It matters most for race day.",
+            "It has recently moved to a different time.",
+            "People tend to do it too fast.",
+            "It reduces the chance of injury.",
+            "Members often find it dull."
+          ],
+          "items": [
+            { "q": 11, "text": "the Sunday long run", "answer": "C" },
+            { "q": 12, "text": "the Tuesday track session", "answer": "A" },
+            { "q": 13, "text": "the Thursday hill session", "answer": "E" },
+            { "q": 14, "text": "the Monday recovery jog", "answer": "B" },
+            { "q": 15, "text": "the Wednesday strength class", "answer": "F" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 16,
+          "to": 18,
+          "items": [
+            {
+              "q": 16,
+              "stem": "What does the coach advise about running shoes for the race?",
+              "options": ["Buy a new pair shortly before the race.", "Have them fitted at a specialist shop.", "Wear a pair that has been used in training."],
+              "answer": "C"
+            },
+            {
+              "q": 17,
+              "stem": "What is the coach's main advice about eating before the race?",
+              "options": ["choose familiar food", "eat plenty of pasta", "have an early evening meal"],
+              "answer": "A"
+            },
+            {
+              "q": 18,
+              "stem": "What will the club provide on race day?",
+              "options": ["transport to the start", "a place to leave belongings at the finish", "drinks along the route"],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 19,
+          "to": 20,
+          "stem": "Which TWO things does the coach advise runners to do in the final week?",
+          "options": [
+            "reduce the amount of training",
+            "try out a new sports drink",
+            "study the route of the race",
+            "get extra sleep on the night before the race",
+            "pick up their race number early"
+          ],
+          "answer": ["A", "E"]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "An essay on traditional fairy tales",
+      "context": "a student and her tutor discussing an essay on traditional fairy tales",
+      "speakers": { "T": { "name": "Dr Ashworth", "g": "m", "accent": "gb" }, "L": { "name": "Leila", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["T", "Come in, Leila, have a seat. So, you've sent me your plan for the essay on fairy tales. Before we look at it in detail, tell me what made you choose this topic."],
+            ["L", "Well, everyone seems to assume it's because of that new film of Snow White."],
+            ["T", "I did wonder."],
+            ["L", "I haven't even seen it, actually. And it isn't really because of the folklore module last year, either; that was mostly about myths rather than tales. [[21|It goes back to my grandmother. She used to tell us versions of these stories that were quite different from the ones in our picture books]], and I've always wanted to know where her versions came from."],
+            ["T", "Did she grow up in Europe herself?"],
+            ["L", "In Morocco, mostly, but her own mother came from the south of France, so her stories were a real mixture."],
+            ["T", "That's a lovely starting point. Now, your title. At the moment it's Fairy Tales in Europe."],
+            ["L", "Is it too informal? I wasn't sure."],
+            ["T", "No, the tone's fine. And you needn't worry about overlapping with anyone else; nobody else in the group has chosen anything like this. [[22|The difficulty is that it's a subject for several books, not a three-thousand-word essay]]. You'll need to narrow it down a great deal."],
+            ["L", "OK. I've been thinking about focusing on the Brothers Grimm, since most of the tales I'm interested in are in their collection. I've been reading some modern retellings, too."],
+            ["T", "They're interesting, but they're not really your subject. And you studied German at school, didn't you? Then don't rely only on English translations; check them against the German wherever you can. [[23|But what I'd really encourage you to do is compare the very first edition, from 1812, with the final one the Grimms published in 1857]]. There are good translations of both now, and the differences are fascinating."],
+            ["L", "I read that the later editions were changed a lot. Why was that, exactly? Was it because of criticism?"],
+            ["T", "There were certainly critics. Some reviewers complained that the first edition wasn't suitable for children. But in my view, the real driver was commercial. The first edition didn't sell particularly well, and Wilhelm Grimm realised that [[24|the people buying books like these were middle-class parents, so he gradually reshaped the tales to appeal to them]]."],
+            ["L", "And did he make the language more like the local dialects? I thought that was the whole point of collecting them."],
+            ["T", "A few tales were recorded in dialect, but in general he did the opposite. He made the style smoother and more literary."],
+            ["L", "So how should I organise the essay? I'd thought of going through it chronologically, starting with the first edition and working forwards."],
+            ["T", "You could, but you'd find yourself repeating the same points for each edition."],
+            ["L", "Or I could do it by country, with the French versions first and then the German ones."],
+            ["T", "That would suit a different essay, but you're mostly looking at the Grimms."],
+            ["L", "Then what about by theme? Changes to parents, changes to punishments, that kind of thing?"],
+            ["T", "[[25|Yes, I think that's by far the strongest structure]]. It'll let you build an argument rather than just describe."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["T", "Now, let's go through the tales you're planning to use. Which one comes first?"],
+            ["L", "Hansel and Gretel. The obvious point to make is that their mother becomes a stepmother in the later editions."],
+            ["T", "That's true, but it's been written about a great deal."],
+            ["L", "Exactly, so I don't want to lead with that. [[26|What interests me more is the famine at the start of the story]], the fact that the family literally has nothing to eat. Some historians link it to real periods in European history when parents couldn't feed their children."],
+            ["T", "Good. That's a fresher angle. What's next?"],
+            ["L", "Snow White. I think the change there is even more striking. [[27|In the 1812 version, the queen who tries to kill her is her own mother, not her stepmother]]."],
+            ["T", "And what about the punishment at the end, when the queen is made to dance in red-hot iron shoes?"],
+            ["L", "That was already there in the first edition, so it doesn't really fit my argument about the revisions."],
+            ["T", "Fair enough. And Cinderella?"],
+            ["L", "The birds that help her are fascinating. But someone in my seminar group is writing about animals in folk tales, so I'll leave that to her. [[28|I'm going to focus on the ending, where the doves peck out the stepsisters' eyes]]. That wasn't in the first edition at all. It was added in 1819."],
+            ["T", "Yes, that surprises a lot of people. And Little Red Riding Hood?"],
+            ["L", "Most people know either the Grimm version, where a huntsman rescues her, or the French one by Perrault, where the wolf simply eats her. [[29|But I found a version told by country people in France, where the girl tricks the wolf and escapes by herself]]."],
+            ["T", "The Story of Grandmother. It was written down in the late nineteenth century, but it probably reflects a much older tradition. That's an excellent choice. And your last one?"],
+            ["L", "Rapunzel. In the 1812 version, she innocently asks why her clothes are getting so tight, which tells the witch that she's expecting a baby. [[30|By the second edition, that line had disappeared, because Wilhelm didn't think it was appropriate for young readers]]."],
+            ["T", "Good. Well, that gives you five tales and a clear focus. Send me a revised plan by next Friday."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 25,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did Leila choose to write about fairy tales?",
+              "options": ["because of a recent film", "because of stories a relative told her", "because of a module she had studied"],
+              "answer": "B"
+            },
+            {
+              "q": 22,
+              "stem": "What does the tutor think of Leila's original title?",
+              "options": ["It sounds too informal.", "It is too similar to another student's.", "It covers too much."],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "The tutor suggests that Leila should",
+              "options": [
+                "compare early and late editions of the Grimms' tales.",
+                "use only translations into English.",
+                "concentrate on modern versions of the tales."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 24,
+              "stem": "According to the tutor, why did the Grimms make changes to later editions?",
+              "options": [
+                "to answer criticism from reviewers",
+                "to make the books more attractive to families",
+                "to bring the language closer to local dialects"
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 25,
+              "stem": "How does Leila decide to organise her essay?",
+              "options": ["by country", "in chronological order", "by theme"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 26,
+          "to": 30,
+          "lead": "What does Leila plan to discuss for each of the following tales?",
+          "boxTitle": "Focus of discussion",
+          "options": [
+            "a parent figure who was changed",
+            "an ending that became more violent",
+            "a heroine who saves herself through cleverness",
+            "animals that help the main character",
+            "a background of real hunger",
+            "details removed as unsuitable for children"
+          ],
+          "items": [
+            { "q": 26, "text": "Hansel and Gretel", "answer": "E" },
+            { "q": 27, "text": "Snow White", "answer": "A" },
+            { "q": 28, "text": "Cinderella", "answer": "B" },
+            { "q": 29, "text": "Little Red Riding Hood", "answer": "C" },
+            { "q": 30, "text": "Rapunzel", "answer": "F" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Vertical farming",
+      "context": "part of a lecture on vertical farming",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today's topic is vertical farming: the practice of growing crops indoors, in stacked layers, under artificial light. Supporters claim it could help to feed growing cities without using more land, while critics argue that it's simply an expensive way of growing salad. The idea isn't new; an American ecologist proposed growing crops in tall city buildings in the late 1990s. But it's only in the last fifteen years or so that commercial farms have appeared in any numbers, largely because lighting has become so much cheaper. I'll try to give you a balanced view. I'll start with the main growing methods, then look at lighting and the choice of crops, and finish with where vertical farming seems to have a genuine future."],
+            ["A", "Almost all vertical farms grow plants without soil. The most widespread method is hydroponics, in which the roots sit in water, or in one common version, in a thin film of water flowing continuously along shallow channels. Of course, water on its own isn't enough. Growers add a carefully measured solution of [[31|nutrients]], adjusted for each crop, and the plants take up exactly what they need. It's efficient, but it has one serious weakness. Pests are much less of a problem indoors than in a field, but because every plant shares the same water, any [[32|disease]] that gets into the system can reach the entire crop within days. For that reason, the best farms have very strict hygiene rules, rather like a hospital."],
+            ["A", "A second method is aeroponics. Here the roots aren't in water at all. They hang in a dark chamber and are sprayed at regular intervals with a fine [[33|mist]] containing nutrients. Because the roots are exposed to plenty of oxygen, plants often grow faster, and the system uses even less water than hydroponics. Interestingly, much of the early research into aeroponics was funded by the American space agency, which wanted to find ways of growing fresh food in [[34|space]], on long missions where every litre of water counts."],
+            ["A", "The third approach, aquaponics, combines plant growing with fish farming. Waste from the [[35|fish]] is broken down by bacteria into compounds that the plants can use as fertiliser, and the plants in turn clean the water before it returns to the tanks. It's an elegant idea, but in practice it's demanding, because you're managing two living systems at once. If the fish are overfed, or the bacteria die off, it's very difficult to keep everything in [[36|balance]], and many commercial aquaponics farms have struggled for exactly that reason."],
+            ["A", "Now, lighting. Early indoor farms used the same kind of lamps as greenhouses, which produced a great deal of heat. Modern farms use LEDs, which can be tuned to the wavelengths that plants actually use for photosynthesis. These are mainly red and [[37|blue]], which is why so many vertical farms glow a strange pinkish purple. Green light, by contrast, is mostly reflected rather than absorbed, which is of course why leaves look green to us. Because the lights can be left on for up to twenty hours a day, a crop of lettuce can be ready in around four weeks, roughly half the time it takes outdoors. Even with LEDs, though, electricity is by far the largest running cost, and in some farms it accounts for around a third of all their expenses."],
+            ["A", "That cost has a direct effect on which crops are grown. At the moment, vertical farms grow mostly lettuce and other leafy greens, along with herbs such as basil. These crops grow quickly, almost the whole plant can be eaten, and they can be sold for a high [[38|price]], especially when they're delivered fresh to restaurants on the day they're picked. Some farms are experimenting with strawberries and tomatoes, though these need much more light. But what about the staple crops that provide most of the world's calories? One research team calculated the cost of growing [[39|wheat]] in a vertical farm. The yields per square metre were spectacular, but the electricity alone would make each loaf of bread many times more expensive than an ordinary one."],
+            ["A", "So where does vertical farming have a real future? It's often assumed that the main benefit is saving water, and it's true that these farms use far less of it. But water can be recycled efficiently in conventional greenhouses as well. The strongest case is in places that simply don't have enough [[40|farmland]]. Singapore, for example, imports over ninety per cent of its food and has almost nowhere to grow it, so the government there has actively encouraged vertical farms on rooftops and in old warehouses. In places like that, the higher cost may be a price worth paying for a more secure food supply. One final point: the environmental case depends on where the electricity comes from. If it's generated from fossil fuels, a lettuce from a vertical farm can have a larger carbon footprint than one grown in a field and driven across the country. So in the long run, the industry's future is closely tied to the spread of renewable energy."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "table",
+          "title": "Vertical farming",
+          "limit": "ONE WORD ONLY",
+          "table": [
+            ["Topic", "Key points", "Further details"],
+            ["Hydroponics", "roots grow in water with added {31}", "most common method\n{32} can spread quickly through the shared water"],
+            [
+              "Aeroponics",
+              "roots hang in the air and receive nutrients in the form of a {33}",
+              "uses the least water\nearly research aimed to grow food in {34}"
+            ],
+            ["Aquaponics", "waste from {35} provides nutrients for plants", "difficult to keep the two systems in {36}"],
+            ["Lighting", "LEDs tuned to the red and {37} parts of the spectrum", "electricity: the biggest expense"],
+            ["Crops", "leafy greens and herbs grow fast and fetch a good {38}", "staple crops such as {39} would be far too expensive"],
+            ["Future", "most promising where there is very little {40}", "e.g. small countries that import most of their food"]
+          ],
+          "answers": {
+            "31": ["nutrients"],
+            "32": ["disease"],
+            "33": ["mist"],
+            "34": ["space"],
+            "35": ["fish"],
+            "36": ["balance"],
+            "37": ["blue"],
+            "38": ["price"],
+            "39": ["wheat"],
+            "40": ["farmland"]
+          }
+        }
+      ]
+    }
+  ]
+}

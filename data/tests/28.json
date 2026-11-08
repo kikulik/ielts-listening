@@ -1,0 +1,403 @@
+{
+  "id": 28,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Booking a walking holiday",
+      "context": "a woman phoning a travel agent to book a walking holiday",
+      "speakers": { "A": { "name": "Martin", "g": "m", "accent": "gb" }, "B": { "name": "Mrs Thirlwell", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon, Fellside Journeys. Martin speaking. How can I help?"],
+            ["B", "Oh, hello. I'm thinking about a walking holiday in September, for me and my sister, and a friend told me you organise self-guided trips. I'm not really sure where to start."],
+            ["A", "Well, self-guided holidays are most of what we do. We book all the accommodation, we move your luggage from one place to the next each day, and we give you route notes and maps. But you walk on your own, at whatever pace suits you. Did you have an area in mind?"],
+            ["B", "Not really. Somewhere in England or Wales, ideally. We're both reasonably fit, but we don't want anything extreme. Neither of us enjoys long, steep climbs."],
+            ["A", "Right. Then there are three I'd suggest. The first is called Coast and Castles, in Northumberland. That's six nights, and you'd be doing about 15 kilometres a day, mostly along the coastline, so it's fairly flat."],
+            ["B", "That sounds nice. Is there anything special about it?"],
+            ["A", "Well, there are the castles, of course. There are several along the way. But what people tend to remember is the boat trip out to the islands, which is included in the price. In early summer everyone goes out to look at the puffins, but they've all left by the end of July. So in September it's really the [[1|seals]] you'd be going out there for. There are hundreds of them lying on the rocks at that time of year."],
+            ["B", "Oh, my sister would love that. And what does it cost?"],
+            ["A", "It's [[2|£615]] each, and that's based on two people sharing a room. If you wanted separate rooms, there'd be a supplement of £120 per person on top of that."],
+            ["B", "No, we're used to sharing, so that's fine. What's the second one?"],
+            ["A", "The second is Dales Villages, in the Yorkshire Dales. We used to run it over seven nights, but most people told us that was a bit too long, so now it's [[3|five]] nights. You'd walk 12 to 14 kilometres a day, through some very pretty villages."],
+            ["B", "That length would suit us, actually. We can only get one week off work."],
+            ["A", "And the accommodation's a real mixture. It's mostly small family-run inns, but there's one night somewhere a bit different. For years that night was in a converted barn, but the owners retired and sold it, so these days it's in an old [[4|chapel]] instead."],
+            ["B", "How lovely. And the price?"],
+            ["A", "That one's £560 each, again with two sharing."],
+            ["B", "Right. And the third?"],
+            ["A", "The third is Ridges and Rivers, which is further south, in the Wye Valley, along the border with Wales. That's six nights as well, and it includes half a day's canoeing on the river. Our printed brochure says you walk 20 kilometres a day, but we changed the route last year to avoid a stretch beside a busy road, so the average now is about [[5|18]]."],
+            ["B", "Hmm. That's quite a bit more than the other two."],
+            ["A", "It is. It costs £680, and it's a beautiful walk, but from what you've told me, I'm not sure it's the right one for you."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["B", "No, I think you're right. To be honest, the Dales one appeals most, mainly because of the length. Could I go ahead and book it?"],
+            ["A", "Of course. I'll just open a booking form. Can I take your name, please?"],
+            ["B", "Yes, it's Joanna Thirlwell."],
+            ["A", "And could you spell your surname for me?"],
+            ["B", "Sure. It's T-H-I-R-L-W-E-L-L."],
+            ["A", "Thank you, Mrs [[6|Thirlwell]]. So that's two of you, you and your sister. Now, the holiday can start on either a Wednesday or a Saturday. Did you have a date in mind?"],
+            ["B", "Well, I was hoping for Saturday the 5th of September, but my sister's just reminded me she's got a wedding to go to that weekend. So would the following Wednesday work?"],
+            ["A", "Let me check. That would be the [[7|9th]]. Yes, there's room at all the inns that week, so that's fine."],
+            ["B", "Great."],
+            ["A", "And how will you be getting there? The walk starts in Skipton."],
+            ["B", "By train, I imagine. We'll be coming up from Bristol."],
+            ["A", "That's quite a long journey. A lot of our customers prefer to arrive the evening before, so they're not in a rush on the first morning. We could book you a hotel in Skipton for that night."],
+            ["B", "Actually, that's a good idea. What would it cost?"],
+            ["A", "The hotel we normally use is about five minutes' walk from the station. Their usual rate for a twin room is £95, but they give our customers a discount, so for you it would be [[8|£82]] for the room, and that includes breakfast."],
+            ["B", "Lovely. Let's add that, then."],
+            ["A", "Now, luggage. As I said, we transfer your bags every day, but it's one bag per person. Some companies let you bring up to 20 kilos, but in these old inns the drivers often have to carry bags up narrow staircases, so we ask that each bag weighs no more than [[9|15]] kilos."],
+            ["B", "That's fine. We'll pack light."],
+            ["A", "Breakfast and dinner are included every day, so do either of you have any special dietary needs?"],
+            ["B", "Yes, my sister does. She was a vegetarian for years, but she eats meat again now, so that's not an issue. The problem is that she can't eat anything with gluten in it. She gets quite ill if she does."],
+            ["A", "OK, so [[10|gluten]]-free meals for her. I'll let all the inns know. I'll send you the booking confirmation today, and we'll need a deposit of £100 each within seven days."],
+            ["B", "That's perfect. Thank you so much for your help."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 5,
+          "layout": "table",
+          "title": "SELF-GUIDED WALKING HOLIDAYS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Holiday", "Nights", "Walking per day", "Highlights", "Price per person"],
+            ["Coast and Castles\n(Northumberland)", "6", "about 15 km", "boat trip to see {1}", "£{2}"],
+            ["Dales Villages\n(Yorkshire)", "{3}", "12–14 km", "one night in what used to be a {4}", "£560"],
+            ["Ridges and Rivers\n(Wye Valley)", "6", "about {5} km", "half a day's canoeing", "£680"]
+          ],
+          "answers": { "1": ["seals"], "2": ["615"], "3": ["five", "5"], "4": ["chapel"], "5": ["18", "eighteen"] }
+        },
+        {
+          "type": "gap",
+          "from": 6,
+          "to": 10,
+          "layout": "table",
+          "title": "BOOKING DETAILS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Item", "Details", "Cost"],
+            ["Name", "Mrs Joanna {6} (with her sister)", ""],
+            ["Start date", "{7} September", "£560 per person"],
+            ["Night before the walk", "hotel in Skipton, near the station", "£{8} for the room"],
+            ["Luggage", "one bag each\nmaximum weight per bag: {9} kg", "included"],
+            ["Meals", "breakfast and dinner\n{10}-free food for sister", "included"]
+          ],
+          "answers": { "6": ["Thirlwell"], "7": ["9th", "9", "ninth"], "8": ["82"], "9": ["15", "fifteen"], "10": ["gluten"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A castle and its grounds",
+      "context": "a guide talking to visitors at a castle",
+      "speakers": { "A": { "name": "Guide", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "Good morning, everyone, and welcome to Wrexley Castle. My name's Alison, and I'm one of the volunteer guides here. Before you set off to explore on your own, I'd like to tell you a little about the castle's history, and then I'll show you on the map in your leaflet where things are in the grounds."],
+            ["A", "So, why is there a castle here at all? Because you can see the sea from the top of the keep, many visitors assume it was built to defend the coast against raiders. But when the first castle went up here, in the eleventh century, the coastline was nearly three kilometres further away, and the sea wasn't visible at all. What mattered then was the river. It was the main route inland, and the Normans chose this spot because whoever held it [[11|could take a payment from every boat carrying goods up to the market town]]."],
+            ["A", "The hunting came much later. In Tudor times, the royal court used the castle as a base for hunting deer in the surrounding forest, but by then it was already four hundred years old."],
+            ["A", "By the eighteenth century, the castle had been empty for many years and was in a very poor state. The county authorities considered turning it into a prison, but the repairs would have been far too expensive, so the idea was dropped. Instead, in 1742, [[12|it was bought by the Ferris family, who had made a fortune in the wool trade]], and they built the elegant house that you'll see inside the walls. You may notice, by the way, that the outer wall is much lower on the western side. That wasn't the Ferrises' doing. Local people helped themselves to the stone to build their cottages, but that was much earlier, in the sixteenth century."],
+            ["A", "The Ferris family lived here until 1951, when the last of them left the castle to a heritage trust, which still looks after it today. Now, a few practical points. Normally you can visit every room in the house, but I'm afraid the Great Hall is closed this afternoon. Some of you may have read in the local paper that a television company has been filming here, but in fact they left last month. And the roof repairs mentioned on the signs outside were finished in the spring. No, the reason is a much happier one. [[13|Two of our volunteers are getting married in there at two o'clock]], so the hall will be closed until about six."],
+            ["A", "If you've brought children with you, there's plenty to keep them busy. The falconry display is always popular, although some of the younger ones find it a bit frightening when the birds swoop low over the crowd. There's also a dressing-up room in the house, but that only opens at weekends, so it's closed today. [[14|What I'd particularly recommend for families is the treasure trail]]. You can pick up a sheet from the ticket desk, and it takes children all around the grounds looking for clues."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "Right, if you'd like to look at the map in your leaflet, you'll see that we're standing at the main entrance, at the bottom of the map, and the main drive leads straight up from here to the castle. Let's start with the café. Many people expect to find it in the visitor centre, here on your right, because that's where it used to be. But last year it moved to a new building [[15|on the opposite side of the drive, on your left as you come in]], just a short walk from the entrance."],
+            ["A", "If you walk up the drive towards the castle, just before you reach the walls you'll see a path going off to the left, towards the river. That's the river walk. About halfway along it, [[16|on the left-hand side of the path, is the herb garden]]. It was replanted ten years ago using a list of the plants grown by the castle's cooks in the seventeenth century."],
+            ["A", "When you get to the end of the river walk, turn right and follow the riverbank northwards, and you'll soon come to the maze. [[17|It's on your right, in the space between the river and the west wall of the castle]]."],
+            ["A", "One place a lot of visitors miss is the ice house, where blocks of ice were stored in the days before refrigerators. The ice was cut from the lake in winter, so people often go looking for the ice house down by the water. But in fact it was built well away from the lake, [[18|in the woods directly behind the castle, to the north]], because the shade of the trees kept it cool all year round."],
+            ["A", "Now, the falconry display takes place twice a day, at 11.30 and at three. It used to be held on the lawn just to the east of the castle, but the birds kept flying up onto the castle roof and refusing to come down, so it was moved further away. You'll now find it [[19|on the open grass on the north side of the lake]]."],
+            ["A", "And finally, the adventure playground. When it was being planned, the trust wanted to put it between the drive and the lake, just behind the visitor centre. But that area tends to flood after heavy rain, so in the end it was built [[20|on the far side of the lake, along its eastern shore]]."],
+            ["A", "That's all from me. The castle closes at 5.30, and the last entry to the house is at half past four. Enjoy your visit."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 14,
+          "items": [
+            {
+              "q": 11,
+              "stem": "According to the guide, the castle was first built in order to",
+              "options": ["control trade along the river.", "protect the coast from attack.", "provide a base for royal hunting trips."],
+              "answer": "A"
+            },
+            {
+              "q": 12,
+              "stem": "What happened to the castle in the eighteenth century?",
+              "options": ["It was used as a prison.", "Stone was taken from its walls.", "It was sold to a wealthy family."],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "Why is the Great Hall closed this afternoon?",
+              "options": ["Building work is being carried out.", "A private celebration is taking place.", "A television programme is being made."],
+              "answer": "B"
+            },
+            {
+              "q": 14,
+              "stem": "What does the guide suggest for families with children?",
+              "options": ["the treasure trail", "the falconry display", "the dressing-up room"],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "map",
+          "from": 15,
+          "to": 20,
+          "kind": "map",
+          "title": "Wrexley Castle grounds",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              { "k": "zone", "x": 200, "y": 0, "w": 330, "h": 75, "fill": "wood", "label": "Woodland" },
+              {
+                "k": "path",
+                "pts": [[48, 0], [62, 400]],
+                "w": 34,
+                "fill": "water",
+                "label": "River Hale"
+              },
+              { "k": "round", "x": 470, "y": 290, "rx": 55, "ry": 40, "fill": "water", "label": "Lake" },
+              {
+                "k": "path",
+                "pts": [[300, 400], [300, 220]],
+                "w": 24,
+                "fill": "road",
+                "label": "Main drive"
+              },
+              {
+                "k": "path",
+                "pts": [[288, 250], [78, 250]],
+                "w": 10,
+                "fill": "path",
+                "label": "River walk"
+              },
+              { "k": "zone", "x": 230, "y": 110, "w": 140, "h": 110, "fill": "building", "label": "Castle" },
+              { "k": "zone", "x": 320, "y": 340, "w": 90, "h": 40, "fill": "building", "label": "Visitor centre" },
+              { "k": "gate", "x": 300, "y": 388, "text": "Entrance" },
+              { "k": "spot", "x": 200, "y": 355, "letter": "A" },
+              { "k": "spot", "x": 175, "y": 295, "letter": "B" },
+              { "k": "spot", "x": 140, "y": 150, "letter": "C" },
+              { "k": "spot", "x": 300, "y": 45, "letter": "D" },
+              { "k": "spot", "x": 430, "y": 110, "letter": "E" },
+              { "k": "spot", "x": 470, "y": 210, "letter": "F" },
+              { "k": "spot", "x": 565, "y": 290, "letter": "G" },
+              { "k": "spot", "x": 365, "y": 295, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 15, "text": "Café", "answer": "A" },
+            { "q": 16, "text": "Herb garden", "answer": "B" },
+            { "q": 17, "text": "Maze", "answer": "C" },
+            { "q": 18, "text": "Ice house", "answer": "D" },
+            { "q": 19, "text": "Falconry display", "answer": "F" },
+            { "q": 20, "text": "Adventure playground", "answer": "G" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Planning an outdoor theatre production",
+      "context": "two drama students planning an outdoor theatre production",
+      "speakers": { "A": { "name": "Freya", "g": "f", "accent": "gb" }, "B": { "name": "Marcus", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["A", "So, Marcus, the production plan has to go to Dr Okonjo by Friday. Shall we go through it section by section?"],
+            ["B", "Sure. Let's start with the venue, because that's what she'll ask about first. I've written that we're using the bandstand in Calder Park, but I haven't really explained why."],
+            ["A", "Well, it certainly wasn't about money. The council charges us a fee for the bandstand, even if it's a reduced one for students, and the riverside meadow would have been completely free."],
+            ["B", "And the meadow would have given us far more room for scenery. On the bandstand we'll be pretty limited."],
+            ["A", "True. But remember when we did that test with Leo reading from the script? [[21|From the back row you could make out every single word on the bandstand]], because the roof sort of throws the sound out towards the audience. On the meadow, his voice just disappeared."],
+            ["B", "OK, so I'll give that as the main reason. Next, timing. We'd said the performances would start at 7.30, but I checked, and at the end of June it doesn't get properly dark until after half past nine. So all the lighting effects we've planned for the second half would be wasted."],
+            ["A", "We could start later. Say 8.30?"],
+            ["B", "I thought about that, but a lot of the audience will be families, and some of them will be relying on the last bus, which leaves at 10.15. And starting any earlier would obviously make the lighting problem worse."],
+            ["A", "So what if we keep the start time and [[22|stretch the interval to forty minutes instead of fifteen]]? People could have a picnic on the grass. Then the second half would begin just as it's getting dark, and we'd still finish before ten."],
+            ["B", "I like that. It's only ninety minutes long without a break anyway. Let's do that."],
+            ["A", "Now, sound. Dr Okonjo asked whether we'd considered radio microphones for the actors."],
+            ["B", "I know, and it's not a question of cost. The department has a set we can borrow for nothing. But I really don't want to use them. [[23|Once you amplify actors outdoors, it stops feeling like live theatre]]. It sounds as if someone's playing a recording."],
+            ["A", "Maybe just for the two songs, then? The music's quite loud."],
+            ["B", "Honestly, I'd rather we turned the music down. The test showed the actors can be heard perfectly well."],
+            ["A", "Fine, no microphones. Then there's the weather, which is probably where she'll be most critical. I asked about using the community hall in the park as a back-up, but it's booked every evening that week."],
+            ["B", "And a marquee over the seats is out of the question. I got a quote, and it was more than our entire budget."],
+            ["A", "So what can we actually do? Well, whatever happens, the sound desk and the speakers have to be protected. [[24|I think we should buy proper waterproof covers for all the sound equipment]]. They're not that expensive."],
+            ["B", "Agreed. And for the audience, I'd like to [[25|hand out plastic rain capes at the gate]] if the forecast looks bad. You can buy them in bulk for very little."],
+            ["A", "Good idea. What about giving people their money back if we have to stop halfway through?"],
+            ["B", "We really can't afford that. And under the festival rules, once a show's been running for half an hour, it counts as performed. So no, I don't think we should."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["B", "Right, the next section is about who does what. I'd assumed you'd write the programme, since you did it last year."],
+            ["A", "I'd rather not, to be honest. Jake's offered to do it, and he's a much better designer than me. But [[26|I'm happy to take charge of the ushers]]. I've already got six first-year students who want to help out on the nights."],
+            ["B", "Great. And what about tickets? I was going to run the box office myself, but I'll be operating the lighting every night, so I can't really be in two places at once."],
+            ["A", "Then [[27|I'll look after the ticket sales]] as well. Most people will book in advance anyway."],
+            ["B", "Thanks. In that case, I'll contact the local papers and the radio station, since I've still got the contacts from my internship. And first aid is provided by the park's own staff, so we don't need to arrange anything there."],
+            ["A", "OK. She also wants a note on costumes. Where are we with those?"],
+            ["B", "Well, Hannah originally wanted wool for the villagers' costumes, so they'd look authentic, but in June the actors would be far too hot. And someone suggested velvet for the palace scenes, but that's way beyond our budget. So almost everything will now be [[28|cotton]]. It's cheap, it's cool, and it's easy to wash if the actors get grass stains on it."],
+            ["A", "Sensible. And rehearsals. I think we need at least three in the park itself, not just in the studio."],
+            ["B", "Definitely. I was worried about the road on the north side, but it's actually pretty quiet in the evening. The real issue is the [[29|playground]] right behind the bandstand. It's full of kids shrieking until about eight o'clock, and the actors need to practise being heard over that."],
+            ["A", "Good point. Last thing: what we tell the audience to bring. Most outdoor theatres advise people to bring a blanket."],
+            ["B", "But it'll be June, and we're putting out benches, so a blanket isn't really necessary. What they'll want is a [[30|cushion]], because those benches are really hard. An evening sitting on bare wood is no fun."],
+            ["A", "That's true. Let's put that on the tickets, then. I think we're nearly there."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 23,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why have the students chosen the bandstand as their venue?",
+              "options": ["The actors can be heard clearly there.", "It costs less than the alternatives.", "There is plenty of space for scenery."],
+              "answer": "A"
+            },
+            {
+              "q": 22,
+              "stem": "What do they decide to do about the timing of the performance?",
+              "options": ["start the performance later", "make the interval longer", "start the performance earlier"],
+              "answer": "B"
+            },
+            {
+              "q": 23,
+              "stem": "What is Marcus's view of using microphones?",
+              "options": [
+                "The department could not afford them.",
+                "They should be used only for the songs.",
+                "They would spoil the feeling of a live performance."
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 24,
+          "to": 25,
+          "stem": "Which TWO steps will the students take in case of rain?",
+          "options": [
+            "arrange an indoor venue as a back-up",
+            "buy covers for the sound equipment",
+            "provide rain capes for the audience",
+            "hire a marquee for the seating area",
+            "offer refunds if a performance is stopped"
+          ],
+          "answer": ["B", "C"]
+        },
+        {
+          "type": "multi",
+          "from": 26,
+          "to": 27,
+          "stem": "Which TWO tasks will Freya be responsible for?",
+          "options": ["writing the programme", "organising the ushers", "selling the tickets", "contacting the local media", "arranging first aid"],
+          "answer": ["B", "C"]
+        },
+        {
+          "type": "gap",
+          "from": 28,
+          "to": 30,
+          "layout": "sentences",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "Most of the costumes will be made of {28}.",
+            "Rehearsing in the park will prepare the actors for noise from a nearby {29}.",
+            "The audience will be advised to bring a {30}."
+          ],
+          "answers": { "28": ["cotton"], "29": ["playground"], "30": ["cushion"] }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The history of salt",
+      "context": "part of a lecture on the history of salt",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today I'm going to look at a substance that most of us take completely for granted: ordinary salt. But for most of human history, salt was one of the most valuable commodities there was, and the search for it shaped trade routes, government finances and even political movements. I'll start with why early societies needed it, then look at how it was produced, and finish with its place in economics and politics."],
+            ["A", "Let's begin with a puzzle. The human body needs sodium to function, and yet for most of prehistory people don't seem to have gone to any great trouble to obtain salt. The explanation lies in diet. Hunter-gatherers ate a great deal of [[31|meat]], and that supplied all the sodium they required. Wild plants, by contrast, contain very little. Once people began farming, and their diet came to be based on cereal crops, they suddenly needed an additional source, and so did their cattle and sheep."],
+            ["A", "But the real reason salt became so precious was its ability to preserve food. Salt draws water out of meat and fish, and the bacteria that cause decay can't survive without water. Before refrigeration, salting was the most reliable way to stop food from spoiling. It meant that a large catch of fish, or an animal slaughtered in the autumn, could feed a family right through the [[32|winter]], when fresh food was scarce. Salted food could also be carried over long distances, which made it possible to supply armies and the crews of ships."],
+            ["A", "So how was salt produced? There are essentially three methods, and all three are still in use. On coasts with a warm, dry climate, seawater was let into a series of shallow ponds and simply left. It's often said that the sun does all the work, but in fact the [[33|wind]] is equally important, because it carries the moisture away as it evaporates. Where neither could be relied on, as in much of northern Europe, people had to burn fuel instead."],
+            ["A", "That brings us to the second method, which is boiling. In Iron Age Britain, for instance, brine, taken either from the sea or from natural salt springs inland, was heated over fires in small containers made of [[34|clay]]. When the water had boiled away, the containers had to be broken to get the salt out. Archaeologists find enormous quantities of these broken fragments, and in parts of eastern England they've turned the soil so red that the sites are known locally as red hills. It was only in the medieval period that metal pans, first of lead and later of iron, came into general use."],
+            ["A", "The third method is mining rock salt, which was left behind by ancient seas that dried out millions of years ago. One of the most remarkable sites is Hallstatt, in the Austrian Alps, where salt has been mined for at least three thousand years. Because salt is such an effective preservative, the mines have kept objects that would normally have rotted away completely. Researchers have recovered leather bags, scraps of woollen cloth and even a fur hat. But the best-known discovery is a wooden [[35|staircase]], dated to around 1100 BC, which is thought to be the oldest of its kind in Europe."],
+            ["A", "Let's turn now to economics. You may have heard that the English word salary comes from the Latin salarium, and that Roman soldiers were paid in salt. It's an appealing story, and the word may well be connected with salt in some way. However, historians point out that there's very little [[36|evidence]] that soldiers ever received salt instead of money. It's more likely that the term referred to an allowance for buying salt, or possibly to something else altogether."],
+            ["A", "What is certain is that salt was traded over enormous distances. One of the best-documented examples is the trade across the Sahara. For centuries, camel caravans carried large slabs of rock salt, cut from deposits in the middle of the desert, southwards to cities such as Timbuktu. There it was exchanged for cloth and ivory, but above all for [[37|gold]] from the mines of West Africa. In some regions, salt was so highly valued that pieces of it were even used as a form of currency."],
+            ["A", "Because everybody needed it, salt was also an ideal thing to tax. Governments could count on a steady income, since people couldn't simply stop buying it. In China, the state took control of salt production in the second century BC. The emperor at the time needed money for military [[38|campaigns]] against peoples on the northern frontier, and the profits from salt helped to pay for them."],
+            ["A", "In France, the salt tax, known as the gabelle, was so unpopular that it came to symbolise everything people hated about the old system of government, and it was abolished during the Revolution, in 1790. In India, under British rule, it was illegal to make or sell salt without paying a tax to the colonial authorities. In 1930, Gandhi turned this into a powerful act of protest. He and his followers set out from his base near the city of Ahmedabad and walked almost four hundred kilometres to the [[39|coast]], where he collected natural salt from the shore, deliberately breaking the law."],
+            ["A", "Finally, a word about salt today. Most people assume that the bulk of the salt produced ends up in our food. In fact, food accounts for only a small fraction. In some countries with harsh winters, a large share is spread on the roads to stop ice from forming. But globally, the biggest single user is the [[40|chemical]] industry, which uses salt to manufacture chlorine and other basic substances found in everything from plastics to medicines. So a material that once paid for armies and provoked revolutions has become one of the quiet foundations of modern industry."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "The history of salt",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Why early societies needed salt",
+            "- hunter-gatherers got enough sodium from {31}",
+            "- farming and a diet of cereals created a need for extra salt (also for animals)",
+            "- most important use: preserving food, so it could be stored for the {32}",
+            "# Methods of production",
+            "- coastal ponds: evaporation depends on the {33} as well as the sun",
+            "- boiling: in Iron Age Britain, salt water was boiled in {34} pots that had to be broken afterwards",
+            "- mining: at Hallstatt, Austria, the most famous find is Europe's oldest wooden {35}",
+            "# Salt and the economy",
+            "- few historians accept the claim that Roman soldiers were paid in salt: there is little {36}",
+            "- Sahara: salt carried south by camel and exchanged mainly for {37}",
+            "- China: state control from the 2nd century BC; income used to fund military {38}",
+            "# Salt and politics",
+            "- France: the gabelle (salt tax) abolished in 1790",
+            "- India, 1930: Gandhi walked almost 400 km to the {39} to make salt illegally",
+            "# Salt today",
+            "- largest user worldwide: the {40} industry"
+          ],
+          "answers": {
+            "31": ["meat"],
+            "32": ["winter"],
+            "33": ["wind"],
+            "34": ["clay"],
+            "35": ["staircase"],
+            "36": ["evidence"],
+            "37": ["gold"],
+            "38": ["campaigns"],
+            "39": ["coast"],
+            "40": ["chemical"]
+          }
+        }
+      ]
+    }
+  ]
+}

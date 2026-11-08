@@ -1,0 +1,399 @@
+{
+  "id": 29,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Arranging a bulky-waste collection",
+      "context": "a man phoning his local council to arrange a collection of large household items",
+      "speakers": { "A": { "name": "Sunita", "g": "f", "accent": "gb" }, "B": { "name": "Mr Pengelly", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Waste and Recycling Services. You're speaking to Sunita. How can I help?"],
+            ["B", "Hello. I'd like to arrange a collection of some large items, please. I'm clearing out my mother's house before it's sold, and there's some furniture that's far too big to fit in my car."],
+            ["A", "Of course. That would be our bulky waste service. Can I start by taking your name?"],
+            ["B", "Yes, it's Alan Pengelly."],
+            ["A", "Could you spell the surname for me, please?"],
+            ["B", "Sure. P-E-N-G-E-L-L-Y."],
+            ["A", "Thank you, Mr [[1|Pengelly]]. And is the collection from your own address?"],
+            ["B", "No, it's from my mother's house. She moved into a care home last month."],
+            ["A", "I see. What's the address there?"],
+            ["B", "It's number 74, Larkspur Road. Oh, sorry, I'm getting muddled. 74 is my own house. My mother's is [[2|47]]. Same street name, though, which doesn't help."],
+            ["A", "So that's 47 Larkspur Road. And could I have a contact number for you?"],
+            ["B", "Yes, my mobile is 07962 358 114."],
+            ["A", "Thank you. Now, what items would you like us to take away?"],
+            ["B", "Well, there's a sofa, first of all. Then there's a [[3|wardrobe]], a big old wooden one. One of the doors has come off, so it's really no use to anyone."],
+            ["A", "OK."],
+            ["B", "There's also a fridge in the garage."],
+            ["A", "Ah, I'm afraid fridges and freezers can't go in a bulky waste collection, because of the gases inside them. They have to be booked separately with a specialist team, and there's a different charge for that."],
+            ["B", "Oh, right. Well, my neighbour's got a van, so maybe he could take it to the recycling centre for me. Let's leave that out, then. And the last thing is a [[4|treadmill]]. My mother bought it about ten years ago and hardly ever used it, and now the motor's gone."],
+            ["A", "That's fine, we can take that. So that's three items in total: the sofa, the wardrobe and the treadmill."],
+            ["B", "And how much will that cost?"],
+            ["A", "The charge for up to three items is [[5|£32]]. It used to be £28, but it went up in April. Each item after that would be an extra £8, but that doesn't apply to you."],
+            ["B", "That's fine. It's a lot cheaper than hiring a skip, anyway."],
+            ["A", "It certainly is. Oh, and one thing I should mention. The crew aren't allowed to go inside the property to fetch anything, so every item has to be outside when they arrive."],
+            ["B", "That's fine. My son's coming over at the weekend to help me carry the heavy things downstairs."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now let's find you a date. Collections in that part of town are on Thursdays. I'm afraid the 9th of October is already full. How about the 16th?"],
+            ["B", "The 16th? Hmm, I'm away on a work trip that whole week. Is there anything after that?"],
+            ["A", "Let me look. Yes, the following Thursday, the [[6|23rd]], still has space."],
+            ["B", "That's perfect. I'll be back by then."],
+            ["A", "On the day, the crew can arrive at any time between 7 am and 3 pm, so everything needs to be outside before they start. You're welcome to put the items out the evening before, but please not until after [[7|8]] pm. We've had complaints from residents about furniture being left out all day."],
+            ["B", "That's no problem. Where exactly should I leave things?"],
+            ["A", "Somewhere the crew can get to easily, but not on the pavement, because that's dangerous for people walking past. Is there a front garden, or a drive?"],
+            ["B", "There's a small front garden, but it's got a hedge all the way round it, so getting a sofa in and out of there would be a struggle. There's a drive leading up to the garage, though."],
+            ["A", "Then just leave everything in front of the [[8|garage]]. That's ideal."],
+            ["B", "Fine."],
+            ["A", "And is there anything about access that the crew ought to know? Sometimes parked cars are a problem, for example."],
+            ["B", "Well, Larkspur Road itself is quite wide, and parking's never really an issue. But my mother's house is at the end of a little [[9|lane]] that runs off the main road, and it's very narrow. I don't think a big lorry would get down it."],
+            ["A", "OK, I'll put a note on the booking so they send the small van instead."],
+            ["B", "Thank you. Do I pay now?"],
+            ["A", "Yes, I can take a card payment over the phone, and then I'll give you a booking reference."],
+            ["B", "Right, I've got my card here."],
+            ["A", "Lovely. That's gone through now. Your booking reference is [[10|WB5836]]."],
+            ["B", "Sorry, was that WB5386?"],
+            ["A", "No, it's 5836 at the end. So, WB5836. Keep that safe, because you'll need it if you want to change or cancel the collection. You can cancel free of charge up to two days before."],
+            ["B", "Got it. Thanks very much for your help."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "BULKY WASTE COLLECTION",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Customer details",
+            "Name: Alan {1}",
+            "Collection address: {2} Larkspur Road",
+            "# Items",
+            "- sofa",
+            "- {3} with a broken door",
+            "- {4} (not working)",
+            "- (fridge: needs a separate collection)",
+            "Total cost: £{5}",
+            "# Collection",
+            "Date: Thursday {6} October",
+            "Items may be put out from {7} pm on the previous evening",
+            "Location: outside the {8} (not on the pavement)",
+            "Access: small van needed because of a narrow {9}",
+            "Booking reference: {10}"
+          ],
+          "answers": {
+            "1": ["Pengelly"],
+            "2": ["47"],
+            "3": ["wardrobe"],
+            "4": ["treadmill"],
+            "5": ["32"],
+            "6": ["23rd", "23", "twenty-third"],
+            "7": ["8", "eight"],
+            "8": ["garage"],
+            "9": ["lane"],
+            "10": ["WB5836"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "interview",
+      "topic": "A new river ferry service",
+      "context": "a local radio interview about a new river ferry service",
+      "speakers": { "A": { "name": "Presenter", "g": "f", "accent": "gb" }, "B": { "name": "Ryan", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "And now some local news. From next Monday there'll be a new way to get around Nottingham, because the Trent Link river ferry starts carrying passengers. I'm joined in the studio by Ryan Delgado, the service's operations manager. Ryan, welcome."],
+            ["B", "Thanks for having me."],
+            ["A", "So first of all, why a ferry, and why now?"],
+            ["B", "Well, the idea's been around for years, but two things finally made it happen. The first is the bridges. At rush hour, the main bridges into the city centre are completely jammed, and [[11|if we can get even a few hundred people out of their cars and onto the river, it'll make a real difference to those queues]]."],
+            ["A", "And the second?"],
+            ["B", "The second is Meadow Wharf, the big new housing development on the south bank. When it's finished there'll be about two thousand homes there, and [[12|the people moving in need a direct way into town]]. At the moment, they have to go a very long way round."],
+            ["A", "A lot of listeners have been in touch to say they think the ferry is replacing the number 34 bus, which runs along the river."],
+            ["B", "No, that's a misunderstanding. The 34 is staying exactly as it is. We see ourselves as working alongside the buses, not instead of them."],
+            ["A", "And tourists? I imagine the boats will be popular with visitors."],
+            ["B", "I'm sure they will, and that's great. But to be honest, tourism wasn't really part of the thinking. This is a service for people who live and work here. People ask about the universities, too, but neither campus is actually on the river, so students won't benefit as much as you might expect."],
+            ["A", "Tell us about the boats themselves."],
+            ["B", "We have three, and they were built specially for this service. The thing I'm proudest of is that [[13|they run entirely on batteries]]. There's no diesel engine at all, so they're very quiet, and there are no fumes on the river. They're charged overnight at our depot."],
+            ["A", "And what's it like on board?"],
+            ["B", "There are forty seats in a covered cabin. Lots of people have asked whether there'll be a café on board, but the longest journey is only twenty-five minutes, so it didn't really make sense. There's a coffee machine at the main pier, though. We also tried free wifi during the trial runs, but the signal on the river was so poor that we decided to drop it. What we have done is [[14|leave room at the back of each boat for up to six bicycles]], because we know a lot of commuters cycle part of the way to work."],
+            ["A", "Can people reserve a seat in advance?"],
+            ["B", "No, it's first come, first served, just like a bus."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "Let's talk about tickets. How much will it cost?"],
+            ["B", "We've kept it simple. A single trip costs the same as a single bus ticket. You can't pay with cash on board, but you can tap a bank card or use your phone. Students will get a discount if they show their student card, but they'll still have to pay. And anyone with a [[15|bus pass]] for older or disabled people travels free, exactly as they would on the bus."],
+            ["A", "And what about regular commuters?"],
+            ["B", "For them, there's a new weekly ticket called River and Road, which covers the ferry and the [[16|trams]]. We'd hoped to include the city buses as well, but they're run by a different company, and we couldn't reach an agreement in time. Maybe next year."],
+            ["A", "Where will the boats stop?"],
+            ["B", "There are five stops: the city centre, the railway station, the hospital, Meadow Wharf and the country park. Four of them will open on Monday. The hospital stop was originally supposed to be the last one ready, but the builders finished the pier there early. So in fact it's the [[17|country park]] stop that won't be open until the autumn, because the riverbank there needs strengthening first."],
+            ["A", "Can people bring their dogs?"],
+            ["B", "Yes, dogs are welcome. They need to be on a lead, of course, but we also ask owners to keep them outside on the [[18|open deck]] rather than in the cabin, because some passengers have allergies."],
+            ["A", "And will the boats run in all weathers?"],
+            ["B", "Almost. Wind and rain aren't a problem for boats like these, and the river very rarely freezes over. The two things that will stop us are very high water after heavy rain, when it isn't safe to go under the bridges, and [[19|thick fog]], when the skipper can't see far enough ahead."],
+            ["A", "Finally, I gather you'd like some help from our listeners."],
+            ["B", "That's right. At the moment, the three boats are just called Ferry One, Ferry Two and Ferry Three, which isn't very inspiring. So we're asking people to suggest [[20|names]] for them. We did think about asking for designs for the paintwork, but the colour scheme has already been decided. The three best suggestions will be painted on the boats in time for the summer."],
+            ["A", "Ryan Delgado, thank you very much."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 11,
+          "to": 12,
+          "stem": "Which TWO reasons does Ryan give for introducing the ferry service?",
+          "options": [
+            "to reduce traffic on the city's bridges",
+            "to attract more tourists to the river",
+            "to serve people living in a new housing area",
+            "to replace a bus route",
+            "to link the two university campuses"
+          ],
+          "answer": ["A", "C"]
+        },
+        {
+          "type": "multi",
+          "from": 13,
+          "to": 14,
+          "stem": "Which TWO features of the boats does Ryan mention?",
+          "options": [
+            "They are powered by electricity.",
+            "They have a café on board.",
+            "They offer free wifi.",
+            "They can carry bicycles.",
+            "Seats can be booked in advance."
+          ],
+          "answer": ["A", "D"]
+        },
+        {
+          "type": "gap",
+          "from": 15,
+          "to": 20,
+          "layout": "notes",
+          "title": "Trent Link ferry",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# Tickets",
+            "- single fare: same as a bus ticket; no cash on board",
+            "- free travel for holders of a {15}",
+            "- students: discount only",
+            "- weekly River and Road ticket: also valid on {16}",
+            "# Stops",
+            "- five stops; the {17} stop will open in the autumn",
+            "# Rules and conditions",
+            "- dogs: must be on a lead and stay on the {18}",
+            "- service stops during floods or {19}",
+            "# Listeners' help",
+            "- send in {20} for the three boats"
+          ],
+          "answers": { "15": ["bus pass"], "16": ["trams"], "17": ["country park"], "18": ["open deck"], "19": ["thick fog", "fog"], "20": ["names"] }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A tourism project on cruise ships",
+      "context": "two tourism students discussing their project on cruise ships",
+      "speakers": { "A": { "name": "Nadia", "g": "f", "accent": "gb" }, "B": { "name": "Owen", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["A", "OK, Owen, we've each read about six articles now. Shall we go through the main impacts of cruise tourism and see where we agree, before we meet Dr Harrow on Thursday?"],
+            ["B", "Good idea. Let's start with money, I mean what passengers spend when they come ashore, since that's the main argument the cruise industry uses."],
+            ["A", "I'd expected it to be really hard to find figures on that, but actually the port authorities publish quite detailed surveys. The point that kept coming up was that [[21|the money doesn't travel very far: most of it goes to the tour operators and the souvenir shops right next to the terminal]]. Cafés and restaurants a few streets away hardly see any of it."],
+            ["B", "Which makes sense, because the passengers eat on the ship. They've already paid for their meals."],
+            ["A", "Exactly. What about air pollution? That was your area."],
+            ["B", "I'll be honest, I started off thinking the pollution issue was a bit exaggerated, the way the newspapers report it."],
+            ["A", "And?"],
+            ["B", "Well, the figures for older ships are pretty shocking, so I've changed my mind about that. But the encouraging thing is that [[22|the situation's a lot better than it was ten years ago]]. Many ports now let ships plug into electricity from the shore, so they don't have to keep their engines running while they're docked."],
+            ["A", "And the rules on fuel are much stricter now, too."],
+            ["B", "Right. Then there's crowding in historic town centres."],
+            ["A", "I'd assumed that would differ enormously from one port to another, depending on the size of the place."],
+            ["B", "But it didn't, did it?"],
+            ["A", "No. Whether it was a tiny harbour town or a major city, [[23|crowding came top whenever local people were asked what bothered them most]]. Thousands of passengers all arriving at nine in the morning and heading for the same three streets."],
+            ["B", "And finally, jobs for local people. This is where I got really frustrated. The cruise lines claim they create thousands of jobs on shore, but [[24|nobody seems to have checked those numbers independently]]. Some of the jobs only last a few months a year, and I suspect some get counted twice."],
+            ["A", "So it's not that the jobs don't exist. It's that we can't say with any confidence how many there are."],
+            ["B", "Exactly."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["B", "Now, the case study. I still think we should pick one port in the UK and look at it in real depth. We could actually go there and do some fieldwork. I was even wondering about somewhere in the Mediterranean, but we could never afford the travel."],
+            ["A", "I know, but Dr Harrow said one port on its own would be a bit thin for a project of this size. And think about what we found on crowding. It's the same story everywhere. It'd be much more interesting to [[25|put a big port alongside a small one and see whether the other impacts differ]]."],
+            ["B", "Fair enough. And if we choose two in this country, we can still do the fieldwork."],
+            ["A", "Exactly. Next, the questionnaire for residents. Did you manage to try it out?"],
+            ["B", "I gave the draft to my flatmate. He finished it in about four minutes, so the length isn't a problem."],
+            ["A", "Good. Did he say anything about it?"],
+            ["B", "He said question six, the one asking whether cruise ships are ruining the town centre, [[26|more or less tells people what we want to hear]]. And he's right. We need to word it much more neutrally."],
+            ["A", "OK. And we agreed not to ask about income at all, didn't we?"],
+            ["B", "Yes. People often refuse to answer, and it's not really relevant anyway."],
+            ["A", "What about the cruise companies' side of things? Did any of them reply?"],
+            ["B", "I wrote to four of them asking for a short interview. Two never answered, and the other two said nobody was available. There's an industry conference in Southampton in March, but tickets are £350, so that's out."],
+            ["A", "Well, they all put out annual sustainability reports, and some of those are quite detailed. [[27|I think we'll just have to work from what the companies themselves have published]]."],
+            ["B", "I suppose so, as long as we point out that they're hardly neutral sources. Then there's the passenger survey. Where are we going to do that? We obviously can't get on board a ship."],
+            ["A", "I asked the port whether we could stand inside the terminal building, but they said no, for security reasons."],
+            ["B", "So [[28|we'll have to catch them in the streets once they've walked into town]]. They're easy to spot, because they all wear a card on a ribbon round their necks."],
+            ["A", "True. And what about the conclusion? Any thoughts?"],
+            ["B", "I was thinking we could compare cruises with other kinds of holiday, like package tours."],
+            ["A", "That's a whole other project. And I don't think we should just sit on the fence and list the good and bad points, either. Dr Harrow always says she wants students to take a position."],
+            ["B", "Then [[29|let's end with some practical suggestions for councils in port towns]], like limiting the number of ships per day, or spreading out their arrival times."],
+            ["A", "Yes, that would give the whole thing a clear purpose. So what's the first job?"],
+            ["B", "I was going to say we should write to the two ports and ask for their passenger figures."],
+            ["A", "That can wait until next week. Any questionnaire has to be approved by the ethics committee before we can use it, and they only meet once a month. So [[30|tonight we fix that question and get the whole thing sent off to them]]. We don't need to book a meeting with Dr Harrow, because we've already got one."],
+            ["B", "Right. I'll make a start on the wording now."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 21,
+          "to": 24,
+          "lead": "What do the students say about each of the following impacts of cruise tourism?",
+          "boxTitle": "Comments",
+          "options": [
+            "It is often exaggerated in the media.",
+            "There is no reliable data on it.",
+            "It benefits only a few businesses.",
+            "It has improved in recent years.",
+            "It is residents' biggest concern.",
+            "It varies greatly from port to port."
+          ],
+          "items": [
+            { "q": 21, "text": "spending by passengers", "answer": "C" },
+            { "q": 22, "text": "air pollution", "answer": "D" },
+            { "q": 23, "text": "crowding", "answer": "E" },
+            { "q": 24, "text": "local employment", "answer": "B" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 25,
+          "to": 30,
+          "items": [
+            {
+              "q": 25,
+              "stem": "What do the students decide about the case study?",
+              "options": ["They will study one port in depth.", "They will choose a port outside the UK.", "They will compare ports of different sizes."],
+              "answer": "C"
+            },
+            {
+              "q": 26,
+              "stem": "What problem do they identify with the residents' questionnaire?",
+              "options": ["One question may influence people's answers.", "It takes too long to complete.", "It does not ask about people's income."],
+              "answer": "A"
+            },
+            {
+              "q": 27,
+              "stem": "How will they find out the cruise companies' point of view?",
+              "options": ["by attending an industry event", "by interviewing company staff", "by reading the companies' own reports"],
+              "answer": "C"
+            },
+            {
+              "q": 28,
+              "stem": "Where will they carry out the passenger survey?",
+              "options": ["in the cruise terminal", "in the town", "on board a ship"],
+              "answer": "B"
+            },
+            {
+              "q": 29,
+              "stem": "What do they agree to include in their conclusion?",
+              "options": ["advice for local authorities", "a comparison with other types of holiday", "a balanced list of advantages and disadvantages"],
+              "answer": "A"
+            },
+            {
+              "q": 30,
+              "stem": "What will the students do first?",
+              "options": ["contact the two ports", "revise the questionnaire", "arrange a meeting with their tutor"],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The science of laughter",
+      "context": "part of a lecture on the science of laughter",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good afternoon. Today we're going to look at something that all of us do, often many times a day, without giving it a second thought: laughing. Philosophers have written about laughter since ancient times, but mostly as a question about humour, in other words, what makes something funny. Over the last few decades, though, psychologists, neuroscientists and biologists have begun to ask a rather different question: what is laughter actually for? And the answers suggest that it has surprisingly little to do with jokes."],
+            ["A", "Let's begin with where laughter comes from. One clue is that babies start to laugh at around three or four months old, long before they can speak. Another is that we're not the only species that does it. If you watch young chimpanzees or gorillas, you'll hear a breathy, panting sound that researchers now regard as an early form of laughter. It isn't produced while the animals are feeding or grooming each other, but during [[31|play]], especially rough games like chasing and wrestling, and when one animal tickles another."],
+            ["A", "Remarkably, something similar has been found in rats. Simply picking them up has no particular effect, but when they're [[32|tickled]] by researchers, rats produce high-pitched chirping calls. We can't hear these without special equipment, because they're far above the range of human hearing, but the rats clearly enjoy the experience, and they keep coming back to the researcher's hand for more. So laughter seems to be very old, older than language, and it probably began as a signal meaning, in effect, this is just a game, I'm not really attacking you."],
+            ["A", "That idea fits well with what we know about laughter in humans today. In one well-known series of studies, researchers noted down hundreds of examples of people laughing in everyday settings such as cafés, shopping centres and offices, and recorded what had been said just before. You might expect that people were mostly laughing at [[33|jokes]], or at least at remarks that were meant to be funny. In fact, those made up only a small minority. Most laughter followed perfectly ordinary comments, such as I'll see you later, or have you finished with that?"],
+            ["A", "What this suggests is that laughter is mainly social, and that's supported by another finding. People are around thirty times more likely to laugh when they're with other people than when they're [[34|alone]]. Even when they're watching a very funny film by themselves, people tend to smile rather than laugh out loud. The same research found that in a conversation, it's the person speaking who laughs the most, more than the [[35|listeners]]. That's the reverse of what happens with a professional comedian, who keeps a straight face while the audience laughs."],
+            ["A", "Laughter is also highly contagious. Most of us have found ourselves laughing just because someone else is laughing, without having any idea what the joke was. Brain-imaging studies help to explain this. When people listen to recordings of laughter, there's activity not only in the areas that process sound, but also in a region that gets the muscles of the [[36|face]] ready to move, as if the brain is preparing to join in. And this response is stronger for positive sounds like laughter than for negative ones like screams of fear."],
+            ["A", "So if laughter is a social signal, what does it actually do for us? One answer is that it helps to build and maintain relationships, partly by making us feel good. And here, an experiment on pain has been particularly revealing. I'll go through the procedure in some detail, because it's a good example of careful experimental design."],
+            ["A", "First, each participant's tolerance of pain was measured. In many earlier studies, this was done by asking people to hold a hand in icy water for as long as they could bear it. In this case, the researchers wrapped a frozen [[37|sleeve]] around the participant's arm and recorded how long it was before they asked for it to be taken off. The participants were then divided into two groups. One group watched clips from comedy programmes. The other watched something designed to be neither funny nor upsetting. The researchers decided against a sad film, because that might have affected pain tolerance in the opposite direction, and chose a [[38|documentary]] about a rather dull subject instead."],
+            ["A", "After about fifteen minutes of viewing, everyone's pain tolerance was measured again. The results were striking. The people who'd watched the documentary showed no real change, but those who'd watched comedy could now put up with the pain for significantly longer. There was an important detail, though. The effect only appeared when people had genuinely laughed, with the kind of relaxed, uncontrolled laughter that shakes the whole body. Smiling, or giving the sort of [[39|polite]] laugh we produce to be friendly, made no difference at all."],
+            ["A", "Why should this be? The researchers' explanation is that real laughter involves repeated, forceful contractions of the muscles around the chest, which push the air out of the lungs. It's actually quite tiring, as anyone who's had a fit of the giggles will know. And this physical effort triggers the release of [[40|endorphins]], chemicals in the brain that reduce pain and create a sense of wellbeing. People often assume that adrenaline is involved, but adrenaline is linked to stress rather than relaxation. Endorphins are also thought to play a part in social bonding, which brings us back to where we started: laughter may have evolved, at least partly, as a way of bringing people closer together."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 36,
+          "layout": "notes",
+          "title": "The science of laughter",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Origins",
+            "- babies laugh long before they can talk",
+            "- young apes make a panting sound mainly during {31}",
+            "- rats give high-pitched calls when they are {32}",
+            "- laughter probably began as a sign that an action was not serious",
+            "# Laughter in everyday life",
+            "- most laughter follows ordinary remarks, not {33}",
+            "- people laugh far more in company than when {34}",
+            "- in conversation, speakers laugh more than {35}",
+            "- listening to laughter triggers brain activity linked to movement of the {36}"
+          ],
+          "answers": { "31": ["play"], "32": ["tickled"], "33": ["jokes"], "34": ["alone"], "35": ["listeners"], "36": ["face"] }
+        },
+        {
+          "type": "gap",
+          "from": 37,
+          "to": 40,
+          "layout": "flow",
+          "title": "An experiment on laughter and pain",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "Pain tolerance tested by fitting a very cold {37} on the arm",
+            "Group 1 watched comedy clips; group 2 watched a {38}",
+            "Pain tolerance measured again",
+            "Result: tolerance higher only in group 1, but no effect from smiling or {39} laughter",
+            "Explanation: the muscle effort of laughing causes the brain to release {40}"
+          ],
+          "answers": { "37": ["sleeve"], "38": ["documentary"], "39": ["polite"], "40": ["endorphins"] }
+        }
+      ]
+    }
+  ]
+}

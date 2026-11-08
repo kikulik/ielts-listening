@@ -1,0 +1,366 @@
+{
+  "id": 26,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Enquiring about a wedding photographer",
+      "context": "a man phoning a photographer to ask about wedding photography",
+      "speakers": { "A": { "name": "Photographer", "g": "f", "accent": "gb" }, "B": { "name": "Owen", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Hello, Lantern Lane Photography, Tamsin speaking."],
+            ["B", "Oh, hi. My name's Owen. My partner and I are getting married next year, and we're looking for a photographer. I wondered if you might be free, and whether I could ask a few questions about your packages."],
+            ["A", "Of course, and congratulations! Let me just open the diary. What date is the wedding?"],
+            ["B", "It's a Saturday in September. We'd originally planned it for the 13th, but the venue already had a booking that day, so we've ended up with the [[1|20th]]."],
+            ["A", "The 20th of September. Let me see. Yes, I'm free that day, though I've had a couple of other enquiries for it, so I wouldn't leave it too long. And where's the wedding going to be?"],
+            ["B", "It's at a country house near Malton, called [[2|Hollinsworth]] Hall."],
+            ["A", "I don't think I know that one. How do you spell it?"],
+            ["B", "It's H-O-L-L-I-N-S-W-O-R-T-H. It's only just started doing weddings, so you probably wouldn't have come across it."],
+            ["A", "Lovely. And roughly how many guests are you expecting?"],
+            ["B", "The ceremony itself is quite small, just close family, so about forty-five. But a lot more people are coming later on. At the moment it looks like we'll have around [[3|110]] in the evening."],
+            ["A", "That's a nice size. Now, have you thought about where you'd like the photos of the two of you to be taken? Most venues have a favourite spot."],
+            ["B", "Well, the house has a beautiful walled garden, and that's actually one of the reasons we chose it. But the owners have told us it's being completely replanted next year, so it'll be mostly bare earth. They suggested the [[4|orchard]] instead, which is just behind the house, and by September the apple trees should look lovely."],
+            ["A", "That sounds perfect. The light under trees is very flattering. Is there anything else you'd particularly like me to capture? Some couples have a list of special shots."],
+            ["B", "Yes, a couple of things. My partner's parents keep horses, and she'd love a picture with them, but their farm's twenty miles away, so that's not really practical. We'll definitely have our [[5|dog]] there, though. My sister's going to look after him for the day, and we'd like at least one photo of the three of us."],
+            ["A", "Oh, I love it when dogs come along. I'll make a note. And can I ask how you heard about us? It helps me to know which advertising works."],
+            ["B", "Well, a friend at work mentioned your website a while ago, but we didn't actually look at it until later. What made up our minds was meeting you at the wedding [[6|fair]] at the racecourse in March. We picked up one of your leaflets there."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["A", "Oh yes, that was a busy day. Right, shall I talk you through the packages?"],
+            ["B", "Yes, please. I had a quick look online, but I wasn't sure which one would suit us best."],
+            ["A", "There are three. The Essential package covers four hours, which is usually enough for the ceremony, the group photos and the drinks afterwards. The website still says it's £720, but I'm afraid that's last year's price. It's now [[7|£760]]. That includes an online gallery of all the edited photos, which you can share with your guests."],
+            ["B", "Okay. And the next one up?"],
+            ["A", "That's the Classic package. Most photographers offer either six or eight hours, but I've found [[8|7]] hours suits most weddings, so that's what I do. That one's £1,350."],
+            ["B", "And what do we get for that, apart from the extra time?"],
+            ["A", "You still get the online gallery, of course. People often expect a printed album at that level, but that's an extra, I'm afraid. What I do include is an [[9|engagement]] shoot a few months before the wedding. Lots of couples find that really helpful, because they get used to being in front of the camera, and it means we know each other a bit by the time the day comes."],
+            ["B", "That's a good idea. And the most expensive one?"],
+            ["A", "That's the Complete package, which covers the whole day, from getting ready in the morning right through to the first dance. It's £1,780."],
+            ["B", "Does that include a second photographer? I've seen that some companies do that."],
+            ["A", "Not automatically. A second photographer can be added to any package for £250. But what the Complete package does include, on top of everything in the Classic, is aerial photography. I bring a [[10|drone]], so you get shots of the whole wedding party from above, and of the house and gardens too."],
+            ["B", "That sounds amazing. I'll talk it over with Megan tonight. Could you hold the date for us for a few days?"],
+            ["A", "Of course. I can hold it for a week without a deposit. Can I take a phone number?"],
+            ["B", "Sure, it's 07946 213 880."],
+            ["A", "Thanks, Owen. I'll send you a brochure as well, and you can call me any time if you have more questions."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "notes",
+          "title": "WEDDING PHOTOGRAPHY ENQUIRY",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# The wedding",
+            "- Date: Saturday {1} September",
+            "- Venue: {2} Hall, near Malton",
+            "- Number of evening guests: approximately {3}",
+            "# Photographs",
+            "- photos of the couple to be taken in the {4}",
+            "- must include a picture with their {5}",
+            "# Other",
+            "- got in touch after talking to photographer at a wedding {6}"
+          ],
+          "answers": { "1": ["20th", "20"], "2": ["Hollinsworth"], "3": ["110"], "4": ["orchard"], "5": ["dog"], "6": ["fair"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Packages",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Package", "Length of cover", "Price", "Includes"],
+            ["Essential", "4 hours", "£{7}", "online gallery"],
+            ["Classic", "{8} hours", "£1,350", "online gallery\n{9} shoot before the wedding"],
+            ["Complete", "whole day", "£1,780", "everything in Classic\naerial photos taken with a {10}"]
+          ],
+          "answers": { "7": ["760"], "8": ["7", "seven"], "9": ["engagement"], "10": ["drone"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A local history society's events",
+      "context": "a local radio item about the events planned by a history society",
+      "speakers": { "A": { "name": "Presenter", "g": "f", "accent": "gb" }, "B": { "name": "Clive", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "And now it's time for our weekly look at what's going on around the area. With me in the studio is Clive Ashdown, secretary of the Kentdale History Society, which has just published its programme for the coming year. Welcome, Clive."],
+            ["B", "Thanks very much for having me."],
+            ["A", "Now, the society's been going for a long time, hasn't it?"],
+            ["B", "It has, since 1968, in fact. People often assume we started out as a lecture club, and talks are certainly a big part of what we do now. Recording older people's memories of the town came later too, in the 1990s. But the society was actually founded by a group of residents who were horrified to hear that the old wool warehouse by the river was going to be knocked down. They campaigned for nearly two years and [[11|managed to get the demolition stopped]], and the building's still standing today. It's flats now, but from the outside it looks just as it did."],
+            ["A", "And how many members do you have these days?"],
+            ["B", "About 240, which is much the same as ten years ago, so the numbers haven't really moved. We set up a website a few years back, hoping it would bring people in, but to be honest it's made very little difference. What has changed is who our members are. Ten years ago, almost nobody was under fifty. Now [[12|nearly a third of our members are in their twenties or thirties]], and most of them got interested through tracing their family history."],
+            ["A", "That's encouraging. So, tell us about this year's programme."],
+            ["B", "Well, we start, as always, with the spring walk, on Sunday the 16th of March. It's the same route as usual, along the river and up to the castle ruins. That's about five miles, so it's not a short one. There's no need to book, you just turn up. The only difference this year is that, because of the roadworks on Highgate, [[13|we'll be meeting outside the parish church rather than at the town hall]]. We set off at ten."],
+            ["A", "And then there are the monthly talks."],
+            ["B", "Yes, in the library. In April we'd planned a talk on the history of the railway, but unfortunately that speaker's had to postpone until the autumn. Instead we've got Dr Fiona Marsh, an archaeologist from Lancaster. Some of your listeners may remember her talk on the Wakefield family a couple of years ago, which was very popular. This time she'll be describing [[14|a stretch of Roman road that was uncovered last summer]], when the new houses were being built on the edge of town."],
+            ["A", "Fascinating. And I believe there's an exhibition coming up?"],
+            ["B", "There is, in the library foyer throughout May. We'd originally planned to display some of the old maps of the town from our collection, but the library can't keep the temperature steady enough for them, so they're staying in the archive. We also asked people to bring in objects they'd dug up in their gardens, but we didn't get enough for a proper display. So what visitors will see is [[15|photographs lent to us by members from their own family albums]]. Some of them go back to the 1880s."],
+            ["A", "And is there anything listeners could help you with?"],
+            ["B", "There certainly is. We're very lucky with refreshments at the talks. There's a rota, and it's full until Christmas. And the website is looked after by a member who's a designer, so that's fine too. What we're really short of is people who can spend an hour or two a week [[16|typing up handwritten parish records]], so that they can be searched online. You can do it from home, at any time that suits you."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "Let's look further ahead, to the summer and autumn."],
+            ["B", "Right. In June we've got the canal boat trip, which is always on the last Saturday of the month, so no change there. We travel up the canal with a guide who explains the history of the locks and the goods that were carried along it. [[17|The boat only takes thirty passengers]], and last year we had to turn people away, so do get your name down early."],
+            ["B", "Then there's our Victorian evening at Fellside Hall. People dress up in Victorian costume if they want to, and there's music and readings from the period. It's normally in September, but the hall's having its wiring replaced, so [[18|this year it'll be on the 18th of October instead]]. We used to serve a Victorian supper as well, but it was a huge amount of work for the volunteers, so these days there's just a bar, and people have their dinner before they come."],
+            ["B", "After that comes the open day at Thornbeck Mill, which is a restored corn mill a few miles north of town. There's a small charge of £3 for everyone, I'm afraid, members included, because it goes towards repairs to the water wheel. But it's a great day out for families. [[19|There's a treasure trail for younger visitors]], and they can have a go at grinding flour by hand."],
+            ["B", "And finally, in November, we're holding a family history workshop in the library. We've booked the large meeting room this time, so there'll be plenty of space for everyone. Our volunteers will show you how to use the online census records, and [[20|it would help if you could bring along any old certificates or letters you have]], so we can show you how to work from them."],
+            ["A", "Well, there's certainly plenty going on. Clive Ashdown, thank you very much. And if you'd like a copy of the programme, they're available at the library and the tourist information centre."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 16,
+          "items": [
+            {
+              "q": 11,
+              "stem": "The society was first set up in order to",
+              "options": ["prevent the loss of a historic building.", "collect older residents' memories.", "organise talks on local history."],
+              "answer": "A"
+            },
+            {
+              "q": 12,
+              "stem": "What does Clive say about the society's membership?",
+              "options": [
+                "It has grown since the society created a website.",
+                "It now includes a higher proportion of younger people.",
+                "It has fallen over the past ten years."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 13,
+              "stem": "What is different about this year's spring walk?",
+              "options": ["It is shorter than in previous years.", "It has to be booked in advance.", "It starts from a new meeting point."],
+              "answer": "C"
+            },
+            {
+              "q": 14,
+              "stem": "What will the talk in April be about?",
+              "options": ["a recent archaeological discovery", "the history of the town's railway", "an important local family"],
+              "answer": "A"
+            },
+            {
+              "q": 15,
+              "stem": "What will the exhibition in May consist of?",
+              "options": ["early maps of the town", "objects found in local gardens", "family photographs owned by members"],
+              "answer": "C"
+            },
+            {
+              "q": 16,
+              "stem": "The society would like volunteers to",
+              "options": ["serve refreshments at talks.", "produce typed versions of old documents.", "help to manage the website."],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 17,
+          "to": 20,
+          "lead": "What does Clive say about each of the following events?",
+          "boxTitle": "Comments",
+          "options": [
+            "It is especially good for children.",
+            "Places are limited.",
+            "Members can attend free of charge.",
+            "People should bring something with them.",
+            "The date has changed this year.",
+            "Food is included in the price."
+          ],
+          "items": [
+            { "q": 17, "text": "the canal boat trip", "answer": "B" },
+            { "q": 18, "text": "the Victorian evening", "answer": "E" },
+            { "q": 19, "text": "the open day at Thornbeck Mill", "answer": "A" },
+            { "q": 20, "text": "the family history workshop", "answer": "D" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Building a model bridge",
+      "context": "two engineering students discussing the model bridge they are building for a competition",
+      "speakers": { "A": { "name": "Hannah", "g": "f", "accent": "us" }, "B": { "name": "Kofi", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["A", "Okay, Kofi, we've got to write the report on our first prototype before we start building the second one. It only needs to be about two pages. Shall we go through what went wrong?"],
+            ["B", "Sure. Well, the first thing to say is that the weight was fine. The rules say the bridge can't be more than 200 grams, and ours was 184, so we had a bit of room to spare."],
+            ["A", "Right. And we actually finished building it a day ahead of schedule, which I definitely didn't expect. So the problems were really all in the testing."],
+            ["B", "The load test, yes. It held nine kilos before it collapsed, which isn't terrible, but the winners last year got to over twenty."],
+            ["A", "And it was pretty clear what happened. When we watched the video back, you could see that [[21|two of the joints on the left side pulled apart]] before anything else gave way."],
+            ["B", "That was the glue, I think. We used that quick-drying one because we were in a hurry, and it goes quite brittle once it's set."],
+            ["A", "Probably. And the other thing was [[22|the deck sagging in the middle]]. Even with only three kilos on it, you could see it bending."],
+            ["B", "Mm. I don't think the width was a problem, though. The loading block sat on the deck with plenty of room on either side."],
+            ["A", "No, the width was fine. So, changes for version two. My first thought was to use thicker strips of balsa for the deck."],
+            ["B", "That would make it stiffer, but it would add a lot of weight, and our score is the load divided by the mass. I think a better way of stopping the sagging is to [[23|add a truss underneath, a row of triangles]]. Triangles don't change shape under load, so the deck can't bend nearly as much."],
+            ["A", "Okay, I'm convinced. And we could make the deck wider at the same time, to spread the load a bit?"],
+            ["B", "I don't think that would help. It's more wood, and as we said, the width wasn't the problem."],
+            ["A", "Fair enough. What about adding strings, like on a suspension bridge? Wouldn't that stop it sagging too?"],
+            ["B", "I checked the rules, and nothing apart from balsa and glue is allowed. So no string, I'm afraid."],
+            ["A", "Pity. The glue, though. We should definitely [[24|switch to ordinary wood glue]]. It takes hours to dry, but it's much stronger, and it bends a little instead of cracking."],
+            ["B", "Agreed. We'll just have to plan for the drying time, so maybe we build it in stages over three or four days."],
+            ["A", "That should be fine. The competition isn't until the twelfth of March, so we've got nearly five weeks."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["A", "Then the last section of the report is about the resources we used. Dr Sandhu wants us to reflect on what helped and what didn't. Let's start with the textbook chapter on trusses."],
+            ["B", "I found that really hard going, to be honest. [[25|The maths was way beyond anything we've covered so far]], and I had to read some pages three or four times before they made any sense."],
+            ["A", "Me too. I gave up on the second half. It would probably make more sense next year, after the structures module. What about the video of last year's winning bridge? I thought that was great."],
+            ["B", "Was that one Dr Sandhu recommended? I can't remember."],
+            ["A", "No, I found it online myself. But that's where [[26|we got the idea of putting the truss under the deck]] rather than along the sides. Their bridge was really light, but it barely moved under the load."],
+            ["B", "True. Then there's Mike, the workshop technician."],
+            ["A", "Oh, he was brilliant. He showed us how to make a jig, so we could cut all the diagonal pieces to exactly the same length in one go. [[27|That must have saved us about two days]] of measuring and cutting by hand."],
+            ["B", "Definitely. And the pieces fitted together so much better than before. Okay, what about the online load calculator?"],
+            ["A", "Well, it was really easy to use, which almost made it more dangerous. I'm so glad we checked it. [[28|The formula it used for bending was wrong]], so it gave us a figure that was ten times too high. We only spotted it because your hand calculation came out so different."],
+            ["B", "I've written to the people who run the site about it. And then there was the trip to the new footbridge over the river."],
+            ["A", "I enjoyed it, but I'm not sure it taught us much. I was hoping it might give us some ideas, but it's a steel bridge held up by cables, and it's forty metres long. [[29|It had nothing to do with what we're building]]."],
+            ["B", "I suppose not. Although it was interesting to see how they'd protected the steel from the weather. Anyway, lastly, Grace from the third year."],
+            ["A", "Yes, she gave us really good advice. She said the teams that did best last year tested each section as soon as it was built, instead of waiting until the whole thing was finished. [[30|So we've decided to test after every stage]] from now on, even if it's just with a few small weights."],
+            ["B", "Good. I think that's everything for the report, then. Shall we start cutting the new pieces tomorrow?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 21,
+          "to": 22,
+          "stem": "Which TWO problems did the students have with their first model?",
+          "options": [
+            "It was over the weight limit.",
+            "Some joints came apart.",
+            "The centre of the deck bent.",
+            "The deck was too narrow for the load.",
+            "It took too long to build."
+          ],
+          "answer": ["B", "C"]
+        },
+        {
+          "type": "multi",
+          "from": 23,
+          "to": 24,
+          "stem": "Which TWO changes will the students make to their design?",
+          "options": [
+            "add a framework of triangles beneath the deck",
+            "use thicker strips of wood",
+            "make the deck wider",
+            "support the deck with string",
+            "change the type of adhesive"
+          ],
+          "answer": ["A", "E"]
+        },
+        {
+          "type": "match",
+          "from": 25,
+          "to": 30,
+          "lead": "What do the students say about each of the following sources of help?",
+          "boxTitle": "Comments",
+          "options": [
+            "It gave them an idea for their design.",
+            "It contained a mistake.",
+            "It was recommended by their lecturer.",
+            "It saved them time.",
+            "It was difficult to understand.",
+            "It persuaded them to test more often.",
+            "It was not relevant to their project."
+          ],
+          "items": [
+            { "q": 25, "text": "the textbook chapter", "answer": "E" },
+            { "q": 26, "text": "the video of last year's winner", "answer": "A" },
+            { "q": 27, "text": "the workshop technician", "answer": "D" },
+            { "q": 28, "text": "the online calculator", "answer": "B" },
+            { "q": 29, "text": "the visit to the footbridge", "answer": "G" },
+            { "q": 30, "text": "the third-year student", "answer": "F" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The history of paper-making",
+      "context": "part of a lecture on the history of paper-making",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good afternoon. In today's lecture I'm going to trace the history of paper, from its origins in China to the industrial mills of the nineteenth century. It's easy to take paper for granted, but for most of human history people wrote on materials that were either very expensive, like parchment made from animal skin, or difficult to produce in large quantities, like the papyrus of ancient Egypt. Paper changed all that."],
+            ["A", "Traditionally, the invention of paper is credited to a court official in China in the year 105, who presented a new method to the emperor. But archaeologists have since found fragments of paper that are at least two hundred years older, so it's more accurate to say that he improved and standardised a process that already existed. These early papers were made from plant fibres, mainly hemp and the inner bark of the mulberry tree, and also from recycled materials such as old rope and worn-out fishing [[31|nets]]. These were soaked, beaten into a pulp, and spread out on a screen to dry."],
+            ["A", "Interestingly, the earliest paper doesn't seem to have been intended for writing at all. Most of the fragments that have been found were used for [[32|wrapping]] delicate objects, such as bronze mirrors and medicines. It was only gradually that paper took over from bamboo and silk as a writing surface."],
+            ["A", "For several centuries, paper-making remained largely a Chinese skill, although it spread to Korea and Japan. It reached the Islamic world in the eighth century. According to a popular story, Chinese paper-makers were taken prisoner after a battle in Central Asia in 751 and passed on their knowledge in Samarkand. Historians now doubt this, but what is certain is that by the end of that century there was a paper mill in Baghdad. Mulberry trees didn't grow well in the region, so paper-makers there relied mostly on linen [[33|rags]], old clothing and other cloth that could be beaten back into fibres."],
+            ["A", "Paper spread rapidly through government offices. Officials had used parchment for their records, but they came to prefer paper for an interesting reason. On parchment, ink can be scraped off and the text rewritten without leaving much trace. On paper, any attempt to alter a document damages the surface, so a forgery is far easier to [[34|detect]]. For tax records and contracts, that was a considerable advantage."],
+            ["A", "From the Islamic world, paper reached Europe through Spain and Sicily in the twelfth century. But the most important European centre was in Italy, in the town of Fabriano, where by the late thirteenth century paper-makers had introduced three innovations. First, instead of beating the fibres by hand, they used [[35|hammers]] driven by water wheels, which made production much faster. Second, they began to twist a design into the wire screen used to form each sheet. This left a faint pattern in the paper, which you can see if you hold it up to the light. These [[36|watermarks]] identified the mill a sheet came from, and they're extremely useful to historians today for dating documents."],
+            ["A", "And third, they changed the way the surface was treated. Arab paper-makers had coated their paper with starch, so that ink wouldn't spread, but starch attracted insects, which ate the paper. The Italians replaced it with [[37|gelatine]], made by boiling animal skins and bones, and this produced a much tougher surface."],
+            ["A", "For the next four hundred years, European paper was made from rags. But as literacy grew and printing spread, demand began to outstrip supply, and by the eighteenth century there was a serious shortage. Mills even sent collectors from door to door, asking for old linen. In the early seventeen hundreds, a French naturalist suggested a possible solution. He'd been watching [[38|wasps]], which build their nests by chewing wood into a paste that dries into a thin, papery material. Bees, of course, build with wax, which wasn't any help. If insects could make paper from wood, he asked, why couldn't people? It was a good question, but it took more than a century for anyone to answer it successfully."],
+            ["A", "The real breakthroughs came in the nineteenth century. The first was mechanisation. A machine developed in France and improved in England produced paper not as separate sheets but as one continuous strip, which was wound onto enormous [[39|rolls]]. The second, in the 1840s, was a practical method of grinding wood into pulp. Together, these made paper so cheap that newspapers and books became affordable for ordinary people for the first time."],
+            ["A", "But there was a hidden cost. Wood pulp contains acids, and the chemicals used to process it added more. Over time, these acids break down the fibres. That's why a book printed in 1880 often has pages that have turned yellow and become so [[40|brittle]] that they crumble when you turn them, while a book printed in 1480 on rag paper can look almost new. Libraries now spend large sums treating their nineteenth-century collections, and since the 1980s most book paper has been made acid-free."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "table",
+          "title": "The history of paper-making",
+          "limit": "ONE WORD ONLY",
+          "table": [
+            ["Period and place", "Materials", "Developments"],
+            ["China, before and after 105 CE", "hemp, mulberry bark, old rope and fishing {31}", "at first used mainly for {32} fragile items"],
+            ["Islamic world, from 8th century", "mostly linen {33}", "officials preferred it because changes to records were easier to {34}"],
+            [
+              "Italy, 13th century",
+              "linen",
+              "fibres beaten by water-powered {35}\n{36} showed which mill produced each sheet\nsurface coated with {37} instead of starch"
+            ],
+            ["Europe, 18th century", "shortage of rags", "a naturalist noticed how {38} made nests from wood"],
+            ["19th century", "wood pulp", "machines produced paper on huge {39}\nacids make pages turn yellow and {40}"]
+          ],
+          "answers": {
+            "31": ["nets"],
+            "32": ["wrapping"],
+            "33": ["rags"],
+            "34": ["detect"],
+            "35": ["hammers"],
+            "36": ["watermarks"],
+            "37": ["gelatine", "gelatin"],
+            "38": ["wasps"],
+            "39": ["rolls"],
+            "40": ["brittle"]
+          }
+        }
+      ]
+    }
+  ]
+}

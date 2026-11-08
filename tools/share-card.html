@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Share card</title>
+<!-- Source of img/share.png (1200 x 630), the picture shown when the link is shared.
+     Render: google-chrome --headless=new --hide-scrollbars --window-size=1200,630 --virtual-time-budget=8000 \
+               --screenshot="$PWD/img/share.png" "file://$PWD/tools/share-card.html" -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,700&display=swap">
+<style>
+  html,body{margin:0; width:1200px; height:630px; overflow:hidden}
+  body{background:#EFEADF; font-family:"Atkinson Hyperlegible",sans-serif; color:#1B1F2A; display:grid; grid-template-columns:600px 1fr; align-items:center; padding:0 70px; box-sizing:border-box; gap:40px}
+  h1{font:700 76px/1.02 "Source Serif 4",Georgia,serif; margin:0 0 22px; letter-spacing:-1px}
+  p{font-size:28px; margin:0 0 12px; color:#4a5060}
+  .tag{display:inline-block; background:#23408E; color:#fff; font-weight:700; font-size:22px; padding:8px 16px; border-radius:999px; margin-bottom:26px; letter-spacing:.06em}
+  .sheet{background:#FFFDF8; border:1px solid #d9d1bd; border-radius:14px; box-shadow:0 20px 50px -20px rgba(0,0,0,.35); padding:26px 30px; transform:rotate(2.5deg); width:390px; justify-self:center}
+  .row{display:flex; align-items:center; gap:0; margin:12px 0; font-size:22px}
+  .n{display:inline-grid; place-items:center; width:42px; height:42px; background:#1B1F2A; color:#fff; font-weight:700; border-radius:8px 0 0 8px}
+  .a{border:2px solid #1B1F2A; border-left:0; border-radius:0 8px 8px 0; height:38px; width:200px; display:flex; align-items:center; padding:0 12px; font-size:22px}
+  .hl{background:#FFE58A}
+  .lab{width:130px; font-weight:700}
+  .head{display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #1B1F2A; padding-bottom:10px; margin-bottom:6px; font:700 26px "Source Serif 4",serif}
+</style>
+</head>
+<body>
+  <div>
+    <span class="tag">30 FULL TESTS</span>
+    <h1>IELTS Listening Practice</h1>
+    <p>4 parts · 40 questions · about 30 minutes</p>
+    <p>Played once, like the real exam. Band score, answers and transcripts.</p>
+  </div>
+  <div class="sheet">
+    <div class="head"><span>Part 1</span>
+      <svg width="54" height="46" viewBox="0 0 32 28"><path d="M5 17v-3a11 11 0 0 1 22 0v3" fill="none" stroke="#23408E" stroke-width="2.6" stroke-linecap="round"/><rect x="2.5" y="15" width="6" height="11" rx="2.2" fill="#23408E"/><rect x="23.5" y="15" width="6" height="11" rx="2.2" fill="#23408E"/></svg>
+    </div>
+    <div class="row"><span class="lab">Surname</span><span class="n">1</span><span class="a hl">Okafor</span></div>
+    <div class="row"><span class="lab">Guests</span><span class="n">2</span><span class="a">5</span></div>
+    <div class="row"><span class="lab">Per night</span><span class="n">3</span><span class="a hl">£38</span></div>
+    <div class="row"><span class="lab">Arrival</span><span class="n">4</span><span class="a">Thursday</span></div>
+    <div class="row"><span class="lab">Postcode</span><span class="n">5</span><span class="a"></span></div>
+  </div>
+</body>
+</html>

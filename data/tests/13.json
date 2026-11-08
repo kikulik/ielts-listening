@@ -1,0 +1,421 @@
+{
+  "id": 13,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Booking a cookery course",
+      "context": "a woman phoning a cookery school to book a course",
+      "speakers": { "A": { "name": "Gareth", "g": "m", "accent": "gb" }, "B": { "name": "Joanna", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Brindle Lane Cookery School, Gareth speaking. How can I help?"],
+            ["B", "Oh, hello. I'm calling about your weekend courses. A friend of mine did one last year and loved it, and I've finally decided to treat myself. Could you tell me what's on at the moment?"],
+            ["A", "Of course. We've got three regular weekend courses running this spring. Are you after anything in particular?"],
+            ["B", "Not really. I'm a reasonably confident cook, but I've got into a bit of a rut. I make the same five or six dinners every week."],
+            ["A", "Well, our most popular course is fresh pasta, which runs on Saturdays. You learn to make the dough by hand, then three or four different shapes, and a couple of sauces to go with them."],
+            ["B", "That sounds lovely. How long does it last?"],
+            ["A", "It starts at ten in the morning. It used to finish at two, but people told us they felt rushed at the end, so now it carries on until [[1|3]]. Everyone sits down together at the end and eats what they've made."],
+            ["B", "Perfect. And what does it cost? I picked up a leaflet in the library, and I think it said £80."],
+            ["A", "Ah, that must be one of our old leaflets, I'm afraid. The price went up in March, because our ingredients cost us a lot more than they used to. It's [[2|£85]] now, but that does include lunch and a drink."],
+            ["B", "That still seems fair. Are the groups very big?"],
+            ["A", "No, we keep them small. When we first opened we took twelve people on every course, but it got far too crowded round the cookers, so we've cut the numbers. There are never more than [[3|8]] in a class now, which means the chef can spend time with each person."],
+            ["B", "Good. And what's on Sundays?"],
+            ["A", "On Sundays there's a street food course. Until last month it was Thai food, but the chef who ran it has moved to London. Our new chef learnt to cook in her grandmother's restaurant in Hanoi, so it's now [[4|Vietnamese]] street food instead. Lots of fresh herbs, noodle soups, that sort of thing."],
+            ["B", "Oh, I've never cooked anything like that. Do you spend the whole day in the kitchen?"],
+            ["A", "Not the whole day. The chef did think about taking people out to a big Asian supermarket for the ingredients, but it's out on the ring road, much too far to walk. So instead the day begins with a stroll down to the [[5|market]] in the square, where everyone helps to choose the vegetables and herbs. Then you come back here and start cooking."],
+            ["B", "That sounds fun. And that one's £95, isn't it? I'm sure that was on the leaflet as well."],
+            ["A", "Yes, that price hasn't changed. Then the third course is on Friday evenings, from six until nine, and that's sourdough bread. It's a bit cheaper, at £60, because it's a shorter session."],
+            ["B", "Do you get to take your loaves home?"],
+            ["A", "Well, you eat them here, actually, with a bowl of soup at the end of the evening, because they're at their best while they're still warm. But everyone goes home with a jar of our [[6|starter]]. That's what makes the dough rise, so with that you can carry on baking in your own kitchen."],
+            ["B", "What a nice idea. I think it's the pasta that appeals to me most, though."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["A", "Shall I book you a place on that, then?"],
+            ["B", "Yes, please."],
+            ["A", "Lovely. Can I take your name?"],
+            ["B", "It's Joanna [[7|Thorlby]]."],
+            ["A", "And how do you spell your surname?"],
+            ["B", "T-H-O-R-L-B-Y."],
+            ["A", "Thank you. And is there a phone number we can reach you on?"],
+            ["B", "Yes, my mobile is 0771 362 0948."],
+            ["A", "Great. Now, which Saturday were you thinking of?"],
+            ["B", "I was hoping for the 12th of April, if possible."],
+            ["A", "Let me have a look. Oh dear, no, the 12th has been full for a few weeks now. There are still a couple of places on the 26th."],
+            ["B", "Hmm, that's the weekend we're visiting my sister in Durham. Is there nothing in between?"],
+            ["A", "Actually, yes. Someone cancelled this morning, so there's one place left on the [[8|19th]]."],
+            ["B", "Oh, brilliant. I'll take that."],
+            ["A", "Now, I need to ask about dietary requirements. Are there any foods you can't eat?"],
+            ["B", "Well, I used to avoid dairy products, but I've been fine with them for a couple of years now. And eggs are no problem, which I suppose is lucky on a pasta course. The only thing is [[9|mushrooms]]. They make me quite unwell, so I really can't have them at all."],
+            ["A", "That's no problem. One of the sauces is usually made with wild mushrooms, so I'll let the chef know, and he'll make you something different."],
+            ["B", "Thank you. What time should I get there? The class starts at ten, doesn't it?"],
+            ["A", "It does, but we ask everyone to come a little earlier, so they can fill in a short safety form and find themselves an apron."],
+            ["B", "So, half past nine?"],
+            ["A", "That's a bit too early, really. The front door isn't unlocked until twenty to ten. If you can be here for [[10|9.45]], that's ideal."],
+            ["B", "Fine. And is there anywhere to park nearby?"],
+            ["A", "We haven't got our own car park, but there's a multi-storey on Marsh Street, about five minutes' walk away. Most people use that, or they come by bus."],
+            ["B", "OK. Should I pay now?"],
+            ["A", "If you could, please. It's £85, and I can take a card over the phone."],
+            ["B", "Yes, just let me find my purse."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "table",
+          "title": "BRINDLE LANE COOKERY SCHOOL: WEEKEND COURSES",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Course", "Day and time", "Price", "Notes"],
+            ["Fresh pasta", "Saturday\n10 am to {1} pm", "£{2}", "- lunch included\n- no more than {3} students"],
+            ["{4} street food", "Sunday", "£95", "- begins with a visit to a {5}"],
+            ["Sourdough bread", "Friday\n6 pm to 9 pm", "£60", "- participants take home some {6} for future baking"]
+          ],
+          "answers": { "1": ["3", "three", "3.00"], "2": ["85"], "3": ["8", "eight"], "4": ["Vietnamese"], "5": ["market"], "6": ["starter"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "BOOKING DETAILS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Item", "Details"],
+            ["Name", "Joanna {7}"],
+            ["Course date", "Saturday {8} April"],
+            ["Food she cannot eat", "{9}"],
+            ["Time to arrive", "{10} am"]
+          ],
+          "answers": { "7": ["Thorlby"], "8": ["19th", "19", "nineteenth"], "9": ["mushrooms"], "10": ["9.45"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Welcome talk at a student residence",
+      "context": "the manager of a student residence welcoming new residents",
+      "speakers": { "A": { "name": "Ruth", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "Good evening, everyone, and welcome to Halyard House. My name's Ruth Mortimer, and I'm the residence manager, so I'm the person to come to if anything goes wrong, or better still, before it goes wrong. I know most of you only arrived this afternoon, so I'll try not to keep you too long. I'll start with a quick guide to the ground floor. There's a plan of it in your welcome pack, so you might like to have that in front of you."],
+            ["A", "Let's imagine you're coming in through the main entrance from the car park. The reception desk is immediately on your left, and there's someone there from eight in the morning until ten at night. Directly across from reception, [[11|on your right as you come in, is the post room]]. Letters go into your pigeonhole, and when a parcel arrives for you, you'll get a text message telling you to collect it. Please do pick parcels up within a week, because we really don't have much space."],
+            ["A", "If you carry straight on along that short corridor, you'll come to the lifts and the stairs, which take you up to the bedrooms. At that point the main corridor runs off to the left and to the right. Let's go left first. If you walk right to the end, [[12|the last room on your right, in the corner of the building, is the laundry]]. There are eight washing machines and four dryers, and you pay for them through the residence app. A lot of students expect the laundry to be in the basement, as it is in most of the older halls, but we haven't got a basement here. The room facing the laundry, in the other corner, is where the cleaners keep their equipment, so that one's always locked."],
+            ["A", "Next to the cleaners' room, [[13|between it and reception, you'll find the study room]]. It's open all night and it's for silent work, so no phone calls in there, please. You may notice a bigger room on the other side of the corridor, between the laundry and the lifts. That was originally going to be the study room, but it turned out to be too noisy, being so close to the lifts, so this year we're using it to store spare furniture."],
+            ["A", "Now, if you go back to the lifts and turn the other way, to the right, [[14|the first room on your left, right next to the lifts, is the gym]]. It's free for residents and open from six in the morning until eleven at night, but you'll need to watch a short safety video before you use it for the first time. Beyond the gym, at the very end of the corridor, is the common room, with the television and the pool table."],
+            ["A", "On the opposite side of that part of the corridor there are three rooms. The first is the post room, which I've already mentioned. [[15|The one at the far end, in the corner, is the bike store]]. It has its own door to the outside, so please don't wheel bikes through the building. You'll need to register your bike at reception to get a key card for that door. And [[16|the room between the bike store and the post room is for music practice]]. It's been soundproofed, and there's an upright piano in there. You can book it for up to two hours at a time."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "Right, a few practical matters. First, repairs. If something in your room breaks or stops working, please don't just put up with it. In the past, residents filled in a paper form at the reception desk, and some of you may have been told that's still how it works. But we stopped using forms last year, because they kept getting lost. In a real emergency, like a burst pipe, phone reception straight away, day or night. For everything else, though, [[17|report it through the app]], because that goes directly to the maintenance team, and you can see when someone's going to come."],
+            ["A", "Second, fire safety. Some halls test their alarms once a month, but we test ours every week, on Thursday mornings at around eleven. The test only lasts thirty seconds or so, and [[18|there's no need to leave the building. You can carry on with whatever you're doing]]. That's different from a fire drill, which we hold once a term. In a drill the alarm rings for much longer, and everyone has to go out to the car park, which takes about ten minutes. If you ever hear the alarm at any other time, assume it's real and get out."],
+            ["A", "Third, guests. You're welcome to have friends to stay, and that's on weeknights as well as at weekends. You don't need to let us know in advance, just sign them in at reception when they arrive. The one rule we're strict about is that [[19|nobody can stay for more than two nights in a row]]. That's partly for fire safety, because we need to know who's in the building, and partly out of fairness to the people you share a kitchen with."],
+            ["A", "And finally, the welcome party on Saturday evening. We'd planned a barbecue in the garden, but the forecast is for heavy rain all weekend, so we've had to think again. We tried to book the café on the high street instead, but they couldn't fit in sixty people. So [[20|we'll be staying put and holding it in the common room]], with pizzas delivered at seven. I hope to see you all there. Now, does anyone have any questions?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "map",
+          "from": 11,
+          "to": 16,
+          "kind": "plan",
+          "title": "Halyard House: ground floor",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              { "k": "zone", "x": 180, "y": 352, "w": 420, "h": 48, "fill": "parking", "label": "Car park" },
+              { "k": "zone", "x": 20, "y": 60, "w": 560, "h": 280, "fill": "building" },
+              {
+                "k": "path",
+                "pts": [[30, 190], [570, 190]],
+                "w": 24,
+                "fill": "corridor",
+                "label": "Main corridor"
+              },
+              {
+                "k": "path",
+                "pts": [[300, 340], [300, 190]],
+                "w": 24,
+                "fill": "corridor"
+              },
+              { "k": "zone", "x": 30, "y": 70, "w": 100, "h": 107, "fill": "room" },
+              { "k": "zone", "x": 130, "y": 70, "w": 110, "h": 107, "fill": "room" },
+              { "k": "zone", "x": 240, "y": 70, "w": 120, "h": 107, "fill": "room", "label": "Lifts and stairs" },
+              { "k": "zone", "x": 360, "y": 70, "w": 105, "h": 107, "fill": "room" },
+              { "k": "zone", "x": 465, "y": 70, "w": 105, "h": 107, "fill": "room", "label": "Common room" },
+              { "k": "zone", "x": 30, "y": 203, "w": 80, "h": 127, "fill": "room" },
+              { "k": "zone", "x": 110, "y": 203, "w": 90, "h": 127, "fill": "room" },
+              { "k": "zone", "x": 200, "y": 203, "w": 87, "h": 127, "fill": "room", "label": "Reception" },
+              { "k": "zone", "x": 313, "y": 203, "w": 87, "h": 127, "fill": "room" },
+              { "k": "zone", "x": 400, "y": 203, "w": 85, "h": 127, "fill": "room" },
+              { "k": "zone", "x": 485, "y": 203, "w": 85, "h": 127, "fill": "room" },
+              { "k": "gate", "x": 300, "y": 345, "text": "Main entrance" },
+              { "k": "gate", "x": 527, "y": 345, "text": "Side door" },
+              { "k": "spot", "x": 412, "y": 123, "letter": "A" },
+              { "k": "spot", "x": 356, "y": 266, "letter": "B" },
+              { "k": "spot", "x": 80, "y": 123, "letter": "C" },
+              { "k": "spot", "x": 155, "y": 266, "letter": "D" },
+              { "k": "spot", "x": 527, "y": 266, "letter": "E" },
+              { "k": "spot", "x": 185, "y": 123, "letter": "F" },
+              { "k": "spot", "x": 442, "y": 266, "letter": "G" },
+              { "k": "spot", "x": 70, "y": 266, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 11, "text": "Post room", "answer": "B" },
+            { "q": 12, "text": "Laundry", "answer": "C" },
+            { "q": 13, "text": "Study room", "answer": "D" },
+            { "q": 14, "text": "Gym", "answer": "A" },
+            { "q": 15, "text": "Bike store", "answer": "E" },
+            { "q": 16, "text": "Music practice room", "answer": "G" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 17,
+          "to": 20,
+          "items": [
+            {
+              "q": 17,
+              "stem": "According to the manager, how should residents report most repairs?",
+              "options": ["by phoning the reception desk", "by using the residence app", "by completing a form at reception"],
+              "answer": "B"
+            },
+            {
+              "q": 18,
+              "stem": "What does the manager say about the test of the fire alarm?",
+              "options": ["It happens once a month.", "Residents may stay where they are.", "It lasts around ten minutes."],
+              "answer": "B"
+            },
+            {
+              "q": 19,
+              "stem": "What is the rule about overnight guests?",
+              "options": ["They are only allowed at weekends.", "They must be booked in advance.", "A visit is limited to two consecutive nights."],
+              "answer": "C"
+            },
+            {
+              "q": 20,
+              "stem": "Where will the welcome party take place?",
+              "options": ["in the common room", "in the garden", "in a café nearby"],
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Analysing a survey on commuting",
+      "context": "two students discussing the results of a survey on commuting",
+      "speakers": { "A": { "name": "Dylan", "g": "m", "accent": "us" }, "B": { "name": "Freya", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["B", "So, Dylan, the survey closed last night. Have you had a chance to look at the numbers?"],
+            ["A", "I have. We got 340 responses in the end, which is more than twice what we were hoping for. I'm still a bit surprised, to be honest."],
+            ["B", "Me too. I suppose the prize draw helped. Who doesn't want a month of free coffee?"],
+            ["A", "I thought that at first, but only about thirty people actually entered the draw, so I doubt it made much difference. And it can't have been because the survey was quick to do, either. Twenty questions is quite a lot."],
+            ["B", "True. So what was it, then?"],
+            ["A", "Well, I checked when the responses came in, and almost half of them arrived on the same afternoon, [[21|right after Dr Haines put the link on the page for her first-year economics course]]. That's four hundred students in one go."],
+            ["B", "Of course. OK, let's look at the different ways of travelling. I started with the cyclists, because I thought I understood them best."],
+            ["A", "And did they turn out the way you expected?"],
+            ["B", "Not really. I assumed most of them would live very close to the campus, but their average journey was just over six kilometres, which is about the same as the people who come by bus. And I thought they'd mostly be students, but there were nearly as many staff."],
+            ["A", "The thing that jumped out at me was [[22|how they rated their journeys. They were happier with the way they travel than any other group]], even the people who walk."],
+            ["B", "That's a strong result. Now, what about the comments box at the end? Lots of people wrote quite a bit."],
+            ["A", "They did. Some of it's really vivid. I was going to suggest picking out the best five or six comments and quoting them in full."],
+            ["B", "Hmm, I'm not sure. If we only choose the ones we like, it looks as if we're just selecting evidence to support our own argument. I'd almost rather leave the comments out altogether."],
+            ["A", "But that would be a waste. There are over a hundred of them. What if we [[23|sorted them into themes, like cost or safety, and counted how many fall under each one]]?"],
+            ["B", "Yes, that's much more objective. Let's do that."],
+            ["A", "Right. Then there's the limitations section."],
+            ["B", "Well, one thing that worries me is part-time students. They're on campus less often, so I wondered if they'd be under-represented."],
+            ["A", "I wondered that too, so I checked. They made up twelve per cent of our responses, and that's almost exactly their share of the whole student population. So I don't think we can call that a weakness."],
+            ["B", "Good. What about the question on how much people spend on travel?"],
+            ["A", "That one's definitely a problem. [[24|We didn't say whether we meant per week or per month, so the answers are all over the place]]. Some people put ten pounds, some put a hundred and twenty, and we can't tell which is which."],
+            ["B", "Yes, we'll have to admit that. And should we say something about language? We only produced it in English."],
+            ["A", "I don't think that's an issue. Everyone here studies and works in English, so nobody would've had trouble understanding it."],
+            ["B", "Fair enough. What about timing, though? We ran it in May, [[25|when it was dry and sunny for three weeks]]. I bet far more people were cycling and walking than would be in November."],
+            ["A", "That's a good point. We should definitely mention that. And people who work from home some days were covered, weren't they?"],
+            ["B", "Yes, we gave them a separate option, so that's fine."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "OK, recommendations for the university. I've listed some ideas from the comments."],
+            ["B", "Go on."],
+            ["A", "Well, the most common complaint from bus users was how crowded the buses are first thing. Almost all of them arrive between half past eight and nine, because so many lectures start at nine."],
+            ["B", "Could we suggest a discount on bus passes? That might at least make people feel better about it."],
+            ["A", "The bus company already gives everyone at the university thirty per cent off, though. Hardly anyone seems to know about it, but we can't really recommend something that already exists."],
+            ["B", "No, you're right. What about [[26|spreading out the start times, so some lectures begin at half past nine or ten]]? That would ease the crush on the buses."],
+            ["A", "That's the one I'd go for. And it wouldn't cost the university anything."],
+            ["B", "OK. And for cyclists?"],
+            ["A", "I was thinking more showers. A few people said they arrive hot and sweaty."],
+            ["B", "Only three people mentioned that, though, and the new sports hall has plenty of showers that anyone can use. What came up again and again was bikes being stolen. Twenty-two people said they'd had a bike, or part of a bike, taken on campus."],
+            ["A", "Wow. So, [[27|covered racks with proper locks, or even a bike room with key-card entry]]?"],
+            ["B", "Exactly. That goes in."],
+            ["A", "And there was a car-sharing idea from a couple of members of staff."],
+            ["B", "The university tried that a few years ago, and hardly anyone signed up, so I'd leave it out."],
+            ["A", "Agreed. So, two recommendations. Now, how are we going to present it all? I was going to do a bar chart showing how many people use each type of transport."],
+            ["B", "That's fine for that part, but for the distances I think we need something more visual than a table. Since people gave us their postcodes, we could put everyone on a [[28|map]] of the city, with a different colour for each kind of transport."],
+            ["A", "Oh, I like that. But that reminds me, the transport office has asked for a copy of our raw data."],
+            ["B", "That's fine, but we'll need to be careful. We didn't ask for names, so there's no problem there. But a full postcode can sometimes identify a single house, so we'll have to take the [[29|postcodes]] out before we send it."],
+            ["A", "Good point. And one more thing. It'd be good to have official figures on bike theft, to back up the comments. I tried the estates office yesterday, but they don't keep records like that."],
+            ["B", "Who does, then?"],
+            ["A", "Apparently it's the campus [[30|security]] team. I'll email them this afternoon."],
+            ["B", "Great. Then I think we're in good shape."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 23,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why do the students think they received so many responses?",
+              "options": ["One of their lecturers shared it with a large group.", "The survey could be completed quickly.", "Many people wanted to win a prize."],
+              "answer": "A"
+            },
+            {
+              "q": 22,
+              "stem": "What does Dylan find most striking about the cyclists in the survey?",
+              "options": ["Most of them live near the campus.", "The majority of them are students.", "They are the most satisfied travellers."],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "What do the students decide to do with the written comments?",
+              "options": ["quote a small selection in full", "leave them out of the report", "analyse them by topic"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 24,
+          "to": 25,
+          "stem": "Which TWO weaknesses of their survey will the students mention in their report?",
+          "options": [
+            "Part-time students were under-represented.",
+            "A question about travel costs was unclear.",
+            "It was only available in English.",
+            "People who work from home were excluded.",
+            "The weather may have affected the results."
+          ],
+          "answer": ["B", "E"]
+        },
+        {
+          "type": "multi",
+          "from": 26,
+          "to": 27,
+          "stem": "Which TWO recommendations will the students make to the university?",
+          "options": ["cheaper bus travel", "later start times for some lectures", "extra showers for cyclists", "secure bike storage", "a car-sharing scheme"],
+          "answer": ["B", "D"]
+        },
+        {
+          "type": "gap",
+          "from": 28,
+          "to": 30,
+          "layout": "sentences",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "The students will show how far people travel by using a {28}.",
+            "Before the raw data is passed on, they must delete all the {29}.",
+            "Dylan will ask the university's {30} staff for figures on stolen bikes."
+          ],
+          "answers": { "28": ["map"], "29": ["postcodes"], "30": ["security"] }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The history of the tea trade",
+      "context": "part of a lecture on the history of the tea trade",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. In today's lecture in our series on global commodities, I'm going to look at tea. Most of you probably drank a cup of it this morning without giving it a second thought, but for several centuries tea was one of the most valuable goods traded anywhere in the world, and the trade in it shaped economies, politics and even landscapes across Asia and Europe. I'll go through the story roughly in order, starting in China and ending with the great sailing ships of the nineteenth century."],
+            ["A", "The tea plant is native to the hills where present-day China, Myanmar and India meet, and people in that region have used its leaves for thousands of years. It's sometimes claimed that tea was first eaten as a vegetable, and there is some evidence of leaves being chewed, but most historians agree that its early importance was as a [[31|medicine]]. Ancient texts recommend it for tiredness, headaches and poor digestion. It was only much later, by around the eighth century, that drinking tea became part of everyday life across China."],
+            ["A", "As demand grew, tea had to be carried over long distances, and loose leaves are bulky and break easily. The solution was to steam the leaves and press them into hard bricks, which were far easier to transport. In fact, these bricks became so standard that in parts of Central Asia, including Tibet and Mongolia, they were used as [[32|currency]]. People paid wages and even taxes with them, and the value of a brick was understood across a huge area."],
+            ["A", "One of the most important routes for these bricks ran from south-western China up into Tibet. The Tibetans had a good deal to offer in return, including wool, salt and medicinal herbs, but what the Chinese state really wanted was [[33|horses]]. China's armies were constantly short of good cavalry animals, and for several hundred years the government controlled this exchange very closely."],
+            ["A", "Now let's move to Europe. The first Europeans to write about tea were Portuguese missionaries and traders in the sixteenth century, who came across it in China and Japan. However, the Portuguese never shipped it in any quantity. The first commercial cargo to reach Europe arrived around 1610, and it was brought by [[34|Dutch]] merchants, who sold it in Amsterdam at extremely high prices. From there, it gradually spread to France, Germany and Britain."],
+            ["A", "In Britain, tea first appeared in the 1650s in London's coffee houses, which were popular meeting places for merchants. In 1660 the government introduced a tax on it, and the way this tax worked had a rather strange result. It wasn't charged on the dry leaves, but on the liquid itself, by the gallon. So coffee houses would brew a large amount of tea early in the morning, so that the tax officer could measure it once, and then keep it, not in pots, but in [[35|barrels]] all day, warming it up whenever a customer asked for a cup. As you can imagine, it can't have tasted very good."],
+            ["A", "During the eighteenth century tea became much cheaper and spread to every class of society, but the tax on it rose sharply. At one point the total duty was well over 100 per cent of the value of the tea. People complained, of course, and there were occasional protests, but the main response was [[36|smuggling]]. By some estimates, more tea was coming into the country illegally than legally, landed at night on quiet beaches along the south coast. Smuggled tea was often mixed with the leaves of other plants, such as ash or hawthorn, to make it go further."],
+            ["A", "This problem was solved quite suddenly in 1784, when the Prime Minister cut the tax on tea to just over 12 per cent. Earlier governments had tried employing more customs officers, without much success. What actually worked was simply that at the new rate smuggling was no longer [[37|profitable]], and within a few years it had almost disappeared."],
+            ["A", "Let's turn now to the economics of the trade between Britain and China. By the late eighteenth century the British were buying enormous quantities of tea, but the Chinese had very little interest in British goods. Merchants tried selling woollen cloth and other manufactured products, without success, so tea had to be paid for in [[38|silver]], which steadily drained Britain's reserves. One notorious solution was to grow opium in India and sell it illegally in China in exchange for silver, which eventually led to two wars between the countries."],
+            ["A", "The other solution was to grow tea somewhere Britain controlled. The East India Company began planting tea in India, and in 1848 it sent a Scottish botanist, Robert Fortune, into the tea-growing regions of China, where foreigners were not normally allowed to travel. He collected thousands of seedlings. But transporting living plants by sea for months was very difficult, and most of them usually died from salt spray or lack of light. Fortune used sealed glass cases, which kept the plants moist and protected, so that each case worked as a kind of miniature [[39|greenhouse]]. Many of the tea gardens of northern India were started from these plants."],
+            ["A", "Finally, transport. Tea loses its flavour over time, so the first tea of each new season was highly valued in London. In the mid-nineteenth century merchants used fast sailing ships known as clippers, which raced each other from China to London, a voyage of around a hundred days. There was enormous public excitement about these races, and people even placed bets on them. But the real point was commercial: the first ship to arrive could sell its cargo for the highest [[40|price]]. The clippers' days were numbered, however. When the Suez Canal opened in 1869, steamships could take a much shorter route, and within a few years the sailing ships had lost the trade altogether."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "The history of the tea trade",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Origins in China",
+            "- plant native to the area where China, Myanmar and India meet",
+            "- at first, valued mainly as a {31}",
+            "- by the 8th century, an everyday drink",
+            "- leaves pressed into bricks, which in some regions served as {32}",
+            "- the Chinese state traded tea with Tibet in return for {33}",
+            "# Arrival in Europe",
+            "- first described by Portuguese writers in the 16th century",
+            "- first shipment for sale, around 1610, brought by {34} traders",
+            "# Britain",
+            "- 1660: tax based on the quantity of liquid, so tea was prepared in advance and kept in {35}",
+            "- 18th century: very high duties led to large-scale {36}",
+            "- 1784: duty reduced to just over 12%, so illegal imports stopped being {37}",
+            "# Trade with China",
+            "- China showed little interest in British goods, so tea was bought with {38}",
+            "- 1848: Robert Fortune collected tea plants in China for the East India Company",
+            "-- young plants were protected at sea by glass cases that acted like a {39}",
+            "# Transport",
+            "- clippers raced to bring the new season's tea to London",
+            "- whoever arrived first could demand the best {40}"
+          ],
+          "answers": {
+            "31": ["medicine"],
+            "32": ["currency"],
+            "33": ["horses"],
+            "34": ["Dutch"],
+            "35": ["barrels"],
+            "36": ["smuggling"],
+            "37": ["profitable"],
+            "38": ["silver"],
+            "39": ["greenhouse"],
+            "40": ["price"]
+          }
+        }
+      ]
+    }
+  ]
+}

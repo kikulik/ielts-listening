@@ -1,0 +1,420 @@
+{
+  "id": 1,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Booking a holiday cottage",
+      "context": "a man phoning a holiday cottage company to make a booking",
+      "speakers": { "A": { "name": "Helen", "g": "f", "accent": "gb" }, "B": { "name": "Greg", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon, Coquet Valley Cottages, Helen speaking. How can I help?"],
+            ["B", "Hi there. I'm hoping to rent one of your cottages for a week this summer. I've been looking at your website, and there are a couple near Rothbury that we really like the look of."],
+            ["A", "Lovely. Have you stayed with us before?"],
+            ["B", "No, this would be our first time. We only moved here from Ohio last year, so we're still finding our way around the country. A friend at work recommended you."],
+            ["A", "Well, that's nice to hear. Northumberland's a good place to start exploring. Let me open a new booking for you. Can I take your name?"],
+            ["B", "Sure. My first name's Greg, and my last name is [[1|Whitcombe]]."],
+            ["A", "Could you spell that for me, please?"],
+            ["B", "Yes, it's W-H-I-T-C-O-M-B-E. People usually miss out the B, or forget the E on the end."],
+            ["A", "W-H-I-T-C-O-M-B-E. Thank you. And how many people will be staying?"],
+            ["B", "Well, there's my wife and me, and our two kids, who are seven and nine. And my mother's flying over from the States to join us. My brother was talking about coming too, but he can't get the time off work, so it'll just be the five of us."],
+            ["A", "So that's [[2|three]] adults and two children."],
+            ["B", "That's right."],
+            ["A", "And which cottage were you interested in?"],
+            ["B", "The one we liked best was Heron Cottage, the one right down by the river."],
+            ["A", "Ah, I'm sorry, Heron's fully booked for the whole of the summer. It's always the first to go. But there's another property on the same farm with the same number of bedrooms, and it's actually a little more spacious inside. That's [[3|Kestrel]] Barn."],
+            ["B", "Kestrel, like the bird? I think I saw that one. It's the old stone barn with the big windows, right?"],
+            ["A", "That's the one. It was converted about five years ago, so everything inside is quite modern. Now, what dates were you thinking of?"],
+            ["B", "We were hoping to come at the start of August, so arriving on Saturday the 2nd."],
+            ["A", "Let me check. No, I'm afraid Kestrel's taken that week. But the next two Saturdays are both free."],
+            ["B", "OK. The kids go back to school early in September, and I don't want to leave it too late, so let's go for the first of those, the [[4|9th]]."],
+            ["A", "Fine. So that's seven nights, from Saturday the 9th of August."],
+            ["B", "Great. And can you tell me the price? The website says £760 for a week."],
+            ["A", "That's our spring and autumn rate, I'm afraid. During the school holidays it goes up to [[5|£895]]."],
+            ["B", "Oh. That's a little more than I'd planned, but I guess it's still cheaper than a hotel for five people."],
+            ["A", "It is, and bed linen and towels are included, so you won't need to bring any. We take a deposit of a quarter now, and the rest is due six weeks before you arrive."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Before I take the deposit, is there anything you'd like to know about the barn itself?"],
+            ["B", "Yes, my wife gave me a list of questions. First of all, the bedrooms. Is there a separate room for the kids?"],
+            ["A", "There is. On the ground floor there's a double bedroom with its own bathroom, which might suit your mother, as she won't need to climb any stairs. Then upstairs there's a second double, and a smaller room with [[6|bunk]] beds, which children usually love."],
+            ["B", "Oh, they'll argue about who gets the top one. Now, Heron Cottage was right on the riverbank. Is Kestrel Barn close to the water too? We'd need to watch the kids if it is."],
+            ["A", "The river's on the other side of the lane, behind a high stone wall, so that's not really a worry. But I should mention that there's a [[7|pond]] at the bottom of the garden, and it isn't fenced off, so you'll need to keep an eye on them out there."],
+            ["B", "Thanks. They're pretty sensible, but I'll make sure they know. What about the internet? I'm going to need to do a little work while we're there."],
+            ["A", "There's Wi-Fi, but to be honest, it's not very reliable out in the valley. Most guests try to use it in the living room and give up. You'll find it works much better in the [[8|kitchen]], at the big table by the back door."],
+            ["B", "Well, that's where the coffee is, so that suits me fine. And what time can we get in on the Saturday?"],
+            ["A", "Normally you can check in from 3 o'clock. But Saturday is our busiest day, because the cleaners have several cottages to get ready, so on Saturdays we ask guests not to arrive before [[9|4]] pm."],
+            ["B", "That's no problem. We'll be driving up from Leicester, so it'll take us most of the day anyway."],
+            ["A", "And you'll need to pick up the key in the village. We used to leave keys at the post office, but that closed last spring, so they're now kept at the [[10|bakery]] on the main street, opposite the church."],
+            ["B", "A bakery. Perfect, we can pick up some bread at the same time. What if we get held up and it's closed?"],
+            ["A", "It's open until 6, but if you're running late, just give me a ring and I'll sort something out. Right, shall I take that deposit now?"],
+            ["B", "Sure, let me just find my card."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "HOLIDAY COTTAGE BOOKING",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Customer details",
+            "Name: Greg {1}",
+            "Group: {2} adults and 2 children",
+            "# Booking",
+            "Property: {3} Barn",
+            "Arrival: Saturday {4} August (7 nights)",
+            "Price for the week: £{5}",
+            "# About the property",
+            "Children's room: has {6} beds",
+            "Garden: contains a {7} with no fence around it",
+            "Wi-Fi: strongest signal in the {8}",
+            "Earliest arrival time on Saturdays: {9} pm",
+            "Key: collect from the {10} in the village"
+          ],
+          "answers": {
+            "1": ["Whitcombe"],
+            "2": ["three", "3"],
+            "3": ["Kestrel"],
+            "4": ["9th", "9", "ninth"],
+            "5": ["895"],
+            "6": ["bunk"],
+            "7": ["pond"],
+            "8": ["kitchen"],
+            "9": ["4", "four", "4pm"],
+            "10": ["bakery"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A tour of a restored watermill",
+      "context": "a volunteer guide welcoming visitors to a restored watermill",
+      "speakers": { "G": { "name": "Ruth", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["G", "Good morning, everyone, and welcome to Wenlow Mill. My name's Ruth, and I'm one of the volunteers who help to run the mill. Before we go inside, I'm going to tell you a little about its history, and then I'll explain where everything is on the site, so that you can explore on your own after the tour."],
+            ["G", "Now, most people assume that a building like this was always used for grinding corn into flour, and for most of its life, that's exactly what it did. But when it was built in 1792, [[11|its owners used the power of the river to make paper]], which was a far more profitable business at the time. You may have noticed the old saw pit beside the lane as you arrived, where timber was once cut by hand. That has nothing to do with the mill, by the way. It belonged to a carpenter who lived next door."],
+            ["G", "Anyway, the paper trade gradually moved to the big towns, and in the 1840s the machinery was taken out and replaced with millstones. From then on, the mill produced flour for just over a hundred years. By the 1960s it had closed, and the building was slowly falling down."],
+            ["G", "When a small group of us started trying to restore it in 2009, we assumed that most of the money would come from a heritage grant. We applied twice and were turned down both times, which was very discouraging. A building firm from the next town very kindly repaired the roof without charging us, but that was only a small part of what was needed. In the end, [[12|the vast majority of the money was raised by people living in the village]], through sponsored walks, quiz nights and an enormous number of cake sales. It took eleven years, but we finally reopened in 2020."],
+            ["G", "The waterwheel, which you'll see on the side of the building, is the original one, although every one of its wooden paddles has had to be replaced. Visitors often ask whether it only turns on special occasions. In fact, it turns every day that we're open. We only grind flour on Sundays these days, but the rest of the time [[13|it drives a small generator, which provides about half of the electricity the building uses]]."],
+            ["G", "Just a couple of things before we start. You're very welcome to take photographs anywhere you like, and flash is no problem at all. On the ground floor, you can also touch most of the machinery, because nothing's moving today. The top floor, though, which is where the sacks of grain used to be stored, has very low beams and a steep ladder, so [[14|we ask you not to go up there unless one of the volunteers is with you]]. There's usually someone waiting at the bottom of the ladder."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["G", "Right, if you'd like to look at the map in your leaflet, I'll show you where everything is. We're standing just inside the main entrance, with Mill Lane behind us. The little hut to your right is where you bought your tickets. And [[15|immediately on your left, you'll find the toilets]]."],
+            ["G", "From here, the main path goes straight up through the middle of the site. The mill itself is on your left as you walk up, between the path and the river. Before you reach it, you'll see [[16|a small brick building standing just in front of the mill, on its southern side, and that's our bakehouse]]. We bake bread there every morning, using our own flour, and if you're here at eleven, you can watch the loaves come out of the oven."],
+            ["G", "Opposite the mill, on the right-hand side of the path, is the Miller's House, where the miller and his family used to live. It's not open to the public, I'm afraid, because some of our volunteers use it as an office. However, [[17|our gift shop is in the little wooden building between the path and the house]], and that's where you can buy bags of flour to take home."],
+            ["G", "People often expect to find the café inside the Miller's House, but it's actually in the old cart shed. To find it, go past the gift shop and follow the side of the house, and [[18|you'll come to the café at the far end, on the eastern side of the house]]. It has a lovely terrace where you can sit outside if the weather's good."],
+            ["G", "If you've brought your own lunch, you're welcome to use our picnic area in the orchard. The tables used to be in the far corner of the orchard, down towards the lane, but visitors complained about the noise from the traffic. So this year [[19|we've moved them to the opposite corner, the one nearest the Miller's House]]."],
+            ["G", "Finally, for those of you who are interested in birds, if you carry on to the top of the main path, you'll come to the mill pond, which supplies the water for the wheel. There's a bench where the path ends, which is a pleasant place to sit. But if you're hoping to see kingfishers, go round to the west side of the pond. [[20|The bird hide is there, tucked between the pond and the river]]. Do keep your voices down, though, as the birds are easily frightened. Right, let's go inside and see the mill."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 14,
+          "items": [
+            {
+              "q": 11,
+              "stem": "What was the mill used for when it was first built?",
+              "options": ["grinding corn", "making paper", "cutting wood"],
+              "answer": "B"
+            },
+            {
+              "q": 12,
+              "stem": "Most of the money for the restoration came from",
+              "options": ["a heritage organisation.", "a local business.", "local residents."],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "What does Ruth say about the waterwheel?",
+              "options": ["It produces some of the mill's electricity.", "It is a modern copy of the original.", "It only turns on Sundays."],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "Visitors are asked not to",
+              "options": ["use flash photography.", "go to the top floor on their own.", "touch the machinery."],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "map",
+          "from": 15,
+          "to": 20,
+          "kind": "map",
+          "title": "Wenlow Mill",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              {
+                "k": "path",
+                "pts": [[50, 0], [50, 400]],
+                "w": 30,
+                "fill": "water",
+                "label": "River Tern"
+              },
+              {
+                "k": "path",
+                "pts": [[0, 375], [600, 375]],
+                "w": 26,
+                "fill": "road",
+                "label": "Mill Lane"
+              },
+              { "k": "zone", "x": 400, "y": 190, "w": 160, "h": 100, "fill": "wood", "label": "Orchard" },
+              { "k": "round", "x": 190, "y": 55, "rx": 65, "ry": 30, "fill": "water", "label": "Mill pond" },
+              {
+                "k": "path",
+                "pts": [[190, 85], [190, 120]],
+                "w": 10,
+                "fill": "water"
+              },
+              {
+                "k": "path",
+                "pts": [[140, 170], [65, 170]],
+                "w": 10,
+                "fill": "water"
+              },
+              {
+                "k": "path",
+                "pts": [[300, 362], [300, 60]],
+                "w": 12,
+                "fill": "path"
+              },
+              { "k": "zone", "x": 140, "y": 120, "w": 110, "h": 90, "fill": "building", "label": "Mill" },
+              { "k": "zone", "x": 380, "y": 90, "w": 110, "h": 70, "fill": "building", "label": "Miller's House" },
+              { "k": "gate", "x": 300, "y": 358, "text": "Entrance" },
+              { "k": "spot", "x": 340, "y": 320, "letter": "A" },
+              { "k": "spot", "x": 255, "y": 320, "letter": "B" },
+              { "k": "spot", "x": 195, "y": 245, "letter": "C" },
+              { "k": "spot", "x": 95, "y": 50, "letter": "D" },
+              { "k": "spot", "x": 345, "y": 125, "letter": "E" },
+              { "k": "spot", "x": 530, "y": 125, "letter": "F" },
+              { "k": "spot", "x": 535, "y": 272, "letter": "G" },
+              { "k": "spot", "x": 330, "y": 40, "letter": "H" },
+              { "k": "spot", "x": 425, "y": 210, "letter": "I" }
+            ]
+          },
+          "items": [
+            { "q": 15, "text": "Toilets", "answer": "B" },
+            { "q": 16, "text": "Bakehouse", "answer": "C" },
+            { "q": 17, "text": "Gift shop", "answer": "E" },
+            { "q": 18, "text": "Café", "answer": "F" },
+            { "q": 19, "text": "Picnic area", "answer": "I" },
+            { "q": 20, "text": "Bird hide", "answer": "D" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Planning a presentation on urban beekeeping",
+      "context": "two students planning a presentation on urban beekeeping",
+      "speakers": { "I": { "name": "Isla", "g": "f", "accent": "gb" }, "M": { "name": "Marcus", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["I", "OK, Marcus, Dr Rowe wants an outline of our presentation by Friday, so I think we need to make some decisions today."],
+            ["M", "Agreed. It's funny, when I told my flatmate our topic, he just assumed I'd chosen it because of my uncle. He's kept bees for about twenty years."],
+            ["I", "Well, I did wonder about that myself. But your uncle's hives are out in the countryside, aren't they?"],
+            ["M", "Yes, on a farm in Devon, so they're not much use for a talk about cities. And it wasn't on Dr Rowe's list of suggested topics either. No, for me, [[21|it was that article in the local paper about the hives on the roof of the central library]]. I'd never have thought of it otherwise."],
+            ["I", "Me neither. I had no idea that people kept bees in the middle of a city until I read that."],
+            ["M", "So, I've been doing some reading on London, because there's far more research on it than anywhere else. The number of hives there roughly doubled in about ten years."],
+            ["I", "I'd expected something like that, to be honest, because it's become such a fashionable hobby. And I knew that lots of companies had put hives on their office roofs, to make themselves look environmentally friendly, although it seems most hives still belong to private individuals."],
+            ["M", "That's right, they do."],
+            ["I", "What I really hadn't expected was [[22|the idea that some parts of the city might not have enough flowers to feed all those bees]]. You'd think more bees would automatically be a good thing."],
+            ["M", "Yes, that was news to me as well. Then I found a survey of beekeepers in Manchester, which I thought would be useful for comparison."],
+            ["I", "I had a look at it. I was a bit worried that it only covered one city, and that they hadn't asked very many people."],
+            ["M", "Well, one city is all we need for a comparison, really, and they had over 400 replies, which is quite a lot for a survey like that. The trouble is, [[23|it was carried out in 2011, before the big increase in hives, so the figures can't tell us anything about the situation now]]."],
+            ["I", "Oh, I hadn't noticed the date. You're right, we can't really use it, then."],
+            ["M", "Now, how should we start? Have you had any ideas?"],
+            ["I", "I thought we could open with that two-minute video of the library hives."],
+            ["M", "Hmm. Videos never seem to work properly in that seminar room. And two minutes is a big part of a fifteen-minute presentation."],
+            ["I", "True. What about a photograph of the library roof, then? It's quite a striking picture."],
+            ["M", "That would be good later on, when we talk about the library project itself. But to start with, [[24|why don't we get everyone to guess how many hives there are in the city]], and then tell them the real number?"],
+            ["I", "Oh, I like that. It gets the audience involved straight away."],
+            ["M", "So who's doing what before we meet again? Shall I start putting the slides together?"],
+            ["I", "I'd rather wait until we know exactly what's going in. I'll look for some figures on how much honey city hives produce, though."],
+            ["M", "OK. In that case, [[25|I'll get in touch with the city beekeepers' association tonight and ask whether anyone would be willing to talk to us]]."],
+            ["I", "Great. Someone with real experience would make it much more interesting."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["I", "Right, shall we go through the main topics we want to cover? First, I thought we'd need to explain how a colony is organised, you know, the queen, the workers and the drones. I was going to draw a diagram of the inside of a hive."],
+            ["M", "Hmm, I'm not sure. A diagram like that would take ages to explain properly, and most people know the basics anyway. Our topic is bees in cities, not bees in general. [[26|A couple of sentences at the beginning should be enough]]."],
+            ["I", "Fair enough. Then there's safety. People are always worried about being stung, especially with hives near offices and schools."],
+            ["M", "Maybe we shouldn't mention that at all?"],
+            ["I", "Well, someone's bound to ask about it, so we need to say something. And from what I've read, [[27|the danger is much smaller than most people think]]. Honeybees don't usually sting unless you go near the hive, and most city hives are up on rooftops."],
+            ["M", "OK, so we make the point that people's fears don't really match the facts. But we'll need to say it tactfully."],
+            ["I", "Then there's the honey. I'd always imagined that honey from city hives would be full of pollution from the traffic."],
+            ["M", "So had I. But the tests I found show it's often cleaner than honey from farmland, because fewer pesticides are used in towns. [[28|I think our audience will find that really unexpected]]."],
+            ["I", "Definitely. Let's put the test results on a slide."],
+            ["M", "Next, the effect on wild bees. I'd thought of that as just one of several issues."],
+            ["I", "But it's the reason the topic is controversial, isn't it? If there are too many hives competing for the same flowers, wild bees lose out, and some of those species are already in decline."],
+            ["M", "That's true. So really, [[29|everything else in the presentation should lead up to that]]. It's the central question."],
+            ["I", "Exactly. And finally, the regulations, like whether you need permission, and how far hives have to be from your neighbours."],
+            ["M", "I spent ages on that, and every council seems to have its own rules. Could we just give a quick summary?"],
+            ["I", "Even a summary would be confusing, and we've only got fifteen minutes. [[30|I'd say we leave it out completely]]."],
+            ["M", "OK, you're right. If anyone asks about it, we can deal with it at the end."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 25,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did the students choose urban beekeeping as their topic?",
+              "options": ["Marcus has a relative who keeps bees.", "It was suggested by their tutor.", "They read about a local beekeeping project."],
+              "answer": "C"
+            },
+            {
+              "q": 22,
+              "stem": "What did Isla find surprising about the research on London?",
+              "options": ["the rise in the number of hives", "the possible shortage of food for bees", "the number of hives owned by businesses"],
+              "answer": "B"
+            },
+            {
+              "q": 23,
+              "stem": "What problem do the students find with the Manchester survey?",
+              "options": ["It is out of date.", "It only covers one city.", "It had too few responses."],
+              "answer": "A"
+            },
+            {
+              "q": 24,
+              "stem": "How will the students begin their presentation?",
+              "options": ["with a short video", "with a photograph", "with a question for the audience"],
+              "answer": "C"
+            },
+            {
+              "q": 25,
+              "stem": "What will Marcus do before their next meeting?",
+              "options": ["prepare some slides", "contact an organisation", "find data on honey production"],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 26,
+          "to": 30,
+          "lead": "What do the students decide about each of the following topics?",
+          "boxTitle": "Decisions",
+          "options": [
+            "It will be the main focus.",
+            "It is less of a problem than people believe.",
+            "It needs only a brief mention.",
+            "It is likely to surprise the audience.",
+            "It will not be included.",
+            "It needs a diagram."
+          ],
+          "items": [
+            { "q": 26, "text": "how a bee colony is organised", "answer": "C" },
+            { "q": 27, "text": "the risk of being stung", "answer": "B" },
+            { "q": 28, "text": "the quality of city honey", "answer": "D" },
+            { "q": 29, "text": "competition with wild bees", "answer": "A" },
+            { "q": 30, "text": "rules on keeping bees", "answer": "E" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The history of glass-making",
+      "context": "part of a lecture on the history of glass-making",
+      "speakers": { "L": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good morning. Today I want to look at the history of glass, a material we tend to take for granted, but which has a surprisingly long and complicated past. I'll trace its development from the earliest times up to the method that's used to make almost all the window glass in the world today."],
+            ["L", "Let's begin with glass that nobody made at all. When lava from a volcano cools very quickly, it can form a natural black glass called obsidian. Because it breaks into pieces with extremely sharp edges, early people used it for knives and arrowheads. You'll sometimes read that it was widely used for jewellery as well, but in fact there's very little evidence of that. What archaeologists have found, at sites in what is now Turkey, are pieces of obsidian that had been carefully ground and polished on one side to make [[31|mirrors]], some of them around 8,000 years old."],
+            ["L", "The first glass made by people appeared in Mesopotamia, roughly four and a half thousand years ago. Exactly how it was discovered is still debated. One theory was that it came from metalworking, as a by-product of smelting copper. However, most historians now believe it developed from the shiny coating that potters were already putting on their pots, and that glass was probably used as a [[32|glaze]] long before anyone thought of making whole objects out of it."],
+            ["L", "By about 1500 BC, craftsmen in Egypt were producing small glass vessels. They didn't blow them, as we would today. Instead, they shaped a core on the end of a metal rod and wound threads of hot glass around it. Older textbooks often say that the core was made of sand, but analysis of the material left inside these vessels shows that it was actually a mixture of animal dung and [[33|clay]]. Once the glass had cooled, the core was scraped out. The process was slow, so the results were expensive luxury items. The vessels were small, and they were mainly used to hold [[34|perfume]] and scented oils for wealthy households. Drinking cups made of glass came much later."],
+            ["L", "The great turning point came in the first century BC, somewhere on the eastern coast of the Mediterranean, when someone discovered that glass could be blown. A glassmaker could gather molten glass on the end of a hollow tube and blow it into a bubble, which could then be shaped. Suddenly, a vessel that had taken hours could be made in minutes. The Romans spread the technique across their empire, and glass became cheap enough for ordinary people to use. Craftsmen also began blowing glass into a [[35|mould]], which meant they could turn out large numbers of identical bottles and cups, often with patterns or even the maker's name on them."],
+            ["L", "Coloured glass had already been used for decoration for centuries, in mosaics, for example. But the Romans found a completely new use for it. They were the first to put glass in [[36|windows]]. It was thick and greenish, and you couldn't see much through it, but it let light into bath houses and the homes of the rich while keeping out the cold."],
+            ["L", "After the fall of Rome, the centre of European glassmaking gradually shifted to Venice. In 1291, the city's authorities ordered all glassmakers to move their furnaces to the nearby island of Murano. It's often claimed that this was done to protect the industry's secrets. Secrecy certainly became important later on: glassmakers weren't allowed to leave the republic, and those who did could face severe punishment. But the original decision was about safety. Venice was a crowded city full of wooden buildings, and the furnaces created a constant risk of [[37|fire]]."],
+            ["L", "Venetian glassmakers became famous for one product in particular, a glass called cristallo, which was almost completely clear. Making colourless glass is difficult, because the raw materials usually contain impurities that tint it. The breakthrough didn't come from finding purer sand, as you might expect. Instead, the Venetians took the [[38|ash]] of certain plants that grew along the coast, which was added to help the sand melt, and purified it by boiling and filtering it again and again."],
+            ["L", "For centuries Venice dominated the market, but in the 1670s, a glassmaker in London began experimenting with a new recipe. The early results had a serious fault. Small bubbles were common in all glass at that time, and nobody worried much about them, but this was different. After a few months, the surface slowly became covered in a network of tiny [[39|cracks]], which made the glass look cloudy. The solution was to add lead oxide to the mixture. The result was lead crystal, a heavy glass with a brilliant sparkle, which was ideal for cutting into decorative patterns."],
+            ["L", "Which brings me to window glass. For most of history, making a large, flat, clear sheet of glass was extremely difficult. Glass was blown into a large disc or cylinder and then flattened, which left it uneven. Later, it was squeezed between metal rollers and then ground and polished on both sides, which was slow and wasteful. Then, in the 1950s, a British company developed what's known as the float process. Molten glass is poured onto a bath of liquid [[40|tin]]. Because the glass is lighter, it floats on the surface and spreads out to form a perfectly flat sheet, which needs no polishing at all. Today, around 90% of the world's flat glass is made in this way. Next week, we'll look at how glass is used in modern architecture."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "The history of glass-making",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Natural glass",
+            "- obsidian: formed when lava cools rapidly",
+            "- used for cutting tools; one side smoothed to create {31}",
+            "# The earliest manufactured glass",
+            "- Mesopotamia, about 4,500 years ago",
+            "- most likely began as a {32} for pottery",
+            "- Egypt, from about 1500 BC: small vessels",
+            "-- hot glass wound around a core of dung and {33}",
+            "-- mostly used as containers for {34} and oils",
+            "# The Roman period",
+            "- glassblowing made glass affordable for ordinary people",
+            "- a {35} was used to mass-produce containers of the same shape",
+            "- new use: glass in the {36} of bath houses and homes",
+            "# Venice",
+            "- 1291: furnaces moved to Murano to reduce the danger of {37}",
+            "- cristallo: clear glass made by purifying the {38} of coastal plants",
+            "# England",
+            "- 1670s: lead oxide added to stop the glass developing fine {39}",
+            "# Window glass",
+            "- float process (1950s): molten glass spreads over a bath of melted {40}"
+          ],
+          "answers": {
+            "31": ["mirrors"],
+            "32": ["glaze"],
+            "33": ["clay"],
+            "34": ["perfume", "perfumes"],
+            "35": ["mould", "mold"],
+            "36": ["windows"],
+            "37": ["fire"],
+            "38": ["ash"],
+            "39": ["cracks"],
+            "40": ["tin"]
+          }
+        }
+      ]
+    }
+  ]
+}

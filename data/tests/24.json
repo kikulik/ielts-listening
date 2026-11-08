@@ -1,0 +1,427 @@
+{
+  "id": 24,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Applying for an allotment",
+      "context": "a woman phoning an allotment society to apply for a plot",
+      "speakers": { "A": { "name": "Keith", "g": "m", "accent": "gb" }, "B": { "name": "Carol", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Hollowfield Allotment Society, Keith speaking."],
+            ["B", "Oh, hello. I'm ringing to ask about getting an allotment. A friend of mine has a plot at your site on Hollowfield Lane, and she said you keep a waiting list."],
+            ["A", "We do, I'm afraid, but it's moving more quickly than it used to. I can put your name down over the phone now, if you like, and then I'll post you the forms."],
+            ["B", "Yes, please. That would be great. I should say, though, I've never had an allotment before. I've only ever grown tomatoes and herbs in pots on my patio."],
+            ["A", "Oh, don't worry about that. Lots of our members started out that way, and there's nearly always someone around at weekends who's happy to give advice. Right, can I start with your name?"],
+            ["B", "It's Carol [[1|Whitlock]]."],
+            ["A", "And how do you spell your surname?"],
+            ["B", "W-H-I-T-L-O-C-K."],
+            ["A", "Thanks. And a contact number?"],
+            ["B", "My landline is probably best. It's 01603 774 219."],
+            ["A", "Lovely. Now, what size of plot are you after? We've got full plots, which are about two hundred and fifty square metres, and we also have half plots and quarter plots."],
+            ["B", "Oh, a full plot would be far too much for me. I work three days a week, and my back isn't what it was. Ideally, I'd like a quarter plot."],
+            ["A", "I'm sorry to say the list for quarter plots is very long. They're the most popular by far, so you'd probably be waiting three or four years."],
+            ["B", "Oh dear. Well, in that case, I'll go for a [[2|half]] plot. I'm sure I'll manage, and I'll have more room for vegetables."],
+            ["A", "Good. And is there anything you'd particularly want from a plot? Some people like a sunny spot, or somewhere close to the car park."],
+            ["B", "I won't need the car park, because I'll be cycling there, and I'm not fussy about the sun. But I'd really like to be near a [[3|tap]] if possible. I don't think I could carry full watering cans very far."],
+            ["A", "I'll make a note of that. Most of the half plots are near one anyway. Now, the waiting time. A few years ago, people were waiting up to three years for a half plot, but we've divided up some of the big plots since then, so at the moment it's about [[4|18]] months."],
+            ["B", "Eighteen months. Well, that's not too bad. It'll give me time to plan what I want to grow."],
+            ["A", "Exactly. Now, I'd better tell you about the costs. A full plot is £85 a year, and a half plot is [[5|£48]]. There's a discount for people over sixty-five, but you'd need to show proof of age for that."],
+            ["B", "I'm not quite there yet, I'm afraid."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Well, there's plenty of time. The rent is paid once a year. It used to be due in April, at the start of the growing season, but a lot of people found that difficult after their winter bills, so now it's due in [[6|October]], after the harvest."],
+            ["B", "That makes sense."],
+            ["A", "There are also a few rules I should mention. The main one is that the plot has to be properly looked after. We don't expect it to be perfect, but at least [[7|75]] per cent of it must be cultivated. Some sites only ask for half, but we've found that leads to weeds spreading onto the neighbouring plots."],
+            ["B", "That seems fair. What about putting up a shed? Is that allowed?"],
+            ["A", "Yes, as long as it's no bigger than two metres by two. You can even keep chickens on some plots, with permission from the committee. The one thing that's never allowed is [[8|bonfires]]. We've had complaints about the smoke from the houses next to the site, so all garden waste has to go in the compost bins."],
+            ["B", "Fine. I wouldn't want one anyway. So what happens when I get to the top of the list?"],
+            ["A", "We'll ring you, and then before you get your key, you'll need to come along to an [[9|induction]]. It takes about forty minutes, on a Saturday morning, and it covers things like using tools safely and the rules about water."],
+            ["B", "And do I need to bring anything to that?"],
+            ["A", "Just proof of address, because our plots are only for people who live in the city. A driving licence isn't enough, I'm afraid, because a lot of people never update theirs. So it'll need to be a recent [[10|bill]] from a gas, electricity or water company, dated within the last three months."],
+            ["B", "That's fine. I'll make sure I've got one ready."],
+            ["A", "Lovely. I'll put the forms in the post today, then. Just fill them in and send them back in the envelope provided, and I'll add you to the list as soon as they arrive."],
+            ["B", "Thank you very much, Keith. Bye."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "HOLLOWFIELD ALLOTMENT SOCIETY: APPLICATION",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "Name: Carol {1}",
+            "Phone: 01603 774219",
+            "Plot size requested: {2} plot",
+            "Would like to be close to a {3}",
+            "Likely waiting time: about {4} months",
+            "# Costs",
+            "Rent per year: £{5}",
+            "Rent due each year in: {6}",
+            "# Rules",
+            "At least {7}% of the plot must be cultivated",
+            "Not allowed: {8}",
+            "Before receiving a key: attend an {9}",
+            "Proof of address: a recent {10}"
+          ],
+          "answers": {
+            "1": ["Whitlock"],
+            "2": ["half"],
+            "3": ["tap"],
+            "4": ["18", "eighteen"],
+            "5": ["48"],
+            "6": ["October"],
+            "7": ["75"],
+            "8": ["bonfires", "bonfire"],
+            "9": ["induction"],
+            "10": ["bill"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Induction at an outdoor activity centre",
+      "context": "the manager of an outdoor activity centre giving an induction talk to new staff",
+      "speakers": { "A": { "name": "Rick", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "OK, good morning, everybody, and welcome to Brackenridge Outdoor Centre. I'm Rick, and I'm the centre manager. Some of you have worked at outdoor centres before, and for some of you this is your very first season, so I'm going to start with some general information about how things work here, and then I'll show you on the map where everything is."],
+            ["A", "First, who comes here. If you've looked at our website, you might think we mostly get primary schools, because most of the photos are of younger kids. And we do get some of those, mainly in June and July. We also run team-building days for companies, which bring in good money, but they're only a small part of what we do. [[11|The great majority of our groups, about two-thirds, are secondary schools]], usually staying for three to five nights."],
+            ["A", "Now, working hours. Some of you will have heard that we've made changes this year. We looked at shortening the working day, but with groups arriving and leaving at all hours, it just wasn't possible. And we're still very busy at weekends, so I'm afraid weekend work is still part of the job. What we have changed is that [[12|everyone now gets the same day off every week]], rather than it moving around from week to week. Staff told us that made it really hard to plan anything."],
+            ["A", "Training. You all need a valid first-aid certificate, which most of you already have. On top of that, everyone who works on or near the river has to complete our river safety course by the end of May. Some people assume that's because the river is at its most dangerous in spring, and it's true that the water can be high then. And it's nothing to do with the kayaking season either, because that starts in April. The real reason for the deadline is that [[13|our insurance company won't cover any water activities from June onwards unless every instructor has the certificate]]."],
+            ["A", "And finally, food. [[14|Staff meals are free, but only on the days you're working]]. On your day off, you're welcome to eat in the dining hall, but you'll pay the same as visitors. We used to insist that instructors sat with their groups at every meal, but we've dropped that rule, so you can use the staff room if you need a break. And our kitchen does excellent vegetarian and vegan food, so nobody needs to worry about that."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "Right, let's look at the map. We're in the Main Lodge, which is right in the middle of the site, at the top of the main drive. The drive comes up from the main gate on Station Road, at the bottom of the map. Most of the places you'll need are only a few minutes' walk from here."],
+            ["A", "Let's start with the river, since a lot of you will be working there. If you go out of the west door of the lodge, the river path takes you straight down to the River Derwent. About halfway along, you'll pass an old barn on your right. That used to be where we kept the kayaks, but it's now the bike store. The new kayak store is [[15|at the end of the path: you turn right and walk a short way north along the riverbank]]."],
+            ["A", "The archery range is in the south-west corner of the site. Go back to where the river path meets the river, and this time head south along the bank. [[16|The range is between the river and the playing field]]. It's well away from everything else, for obvious reasons, so please don't let anyone take a short cut across there when a session is running."],
+            ["A", "Our climbing tower is very easy to find. If you walk down the main drive from the lodge towards the gate, [[17|it's on your right, between the drive and the playing field]]. You really can't miss it, because it's about twelve metres high."],
+            ["A", "Next to the lodge, on the east side, there's a small building which is the boot room and drying room. Every group must take their wet gear there after an activity, and please don't let them bring it into the dormitories. [[18|It's just across the yard from the lodge's east door, with the woods directly to the north of it]]."],
+            ["A", "The high ropes course is in Bole Wood, in the north-east of the site. There's a track into the wood from behind the drying room, and [[19|the course itself is right in the middle of the wood]]. It's closed in high winds, and the duty manager will let you know if that's the case."],
+            ["A", "And finally, the first-aid room. It used to be inside the lodge, but it's been moved so that ambulances can reach it easily. It's now in a separate hut by the main drive. [[20|Coming up the drive from the main gate, you pass the car park on your right, and the first-aid hut is immediately after that, on the same side]]. OK, any questions before we go and have a look round?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 14,
+          "items": [
+            {
+              "q": 11,
+              "stem": "According to the manager, most groups visiting the centre are",
+              "options": ["primary school classes.", "secondary school pupils.", "groups of company employees."],
+              "answer": "B"
+            },
+            {
+              "q": 12,
+              "stem": "What change has been made to staff working hours this year?",
+              "options": ["The working day is shorter.", "Staff work fewer weekends.", "Each person has a fixed day off."],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "Why must instructors complete the river safety course by the end of May?",
+              "options": ["It is a condition of the centre's insurance.", "The river is most dangerous in spring.", "The kayaking season begins in June."],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "What does the manager say about staff meals?",
+              "options": ["They are only free on working days.", "Instructors must eat with their groups.", "There is little choice for vegetarians."],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "map",
+          "from": 15,
+          "to": 20,
+          "kind": "map",
+          "title": "Brackenridge Outdoor Centre",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              {
+                "k": "path",
+                "pts": [[60, 0], [80, 400]],
+                "w": 30,
+                "fill": "water",
+                "label": "River Derwent"
+              },
+              { "k": "zone", "x": 360, "y": 30, "w": 170, "h": 130, "fill": "wood", "label": "Bole Wood" },
+              {
+                "k": "path",
+                "pts": [[0, 375], [600, 375]],
+                "w": 24,
+                "fill": "road",
+                "label": "Station Road"
+              },
+              {
+                "k": "path",
+                "pts": [[320, 365], [320, 200]],
+                "w": 16,
+                "fill": "path",
+                "label": "Main drive"
+              },
+              {
+                "k": "path",
+                "pts": [[260, 170], [90, 170]],
+                "w": 12,
+                "fill": "path",
+                "label": "River path"
+              },
+              { "k": "zone", "x": 260, "y": 140, "w": 120, "h": 60, "fill": "building", "label": "Main Lodge" },
+              { "k": "zone", "x": 400, "y": 290, "w": 120, "h": 60, "fill": "parking", "label": "Car park" },
+              { "k": "zone", "x": 150, "y": 240, "w": 110, "h": 80, "fill": "field", "label": "Playing field" },
+              { "k": "gate", "x": 320, "y": 360, "text": "Main gate" },
+              { "k": "spot", "x": 200, "y": 120, "letter": "A" },
+              { "k": "spot", "x": 200, "y": 205, "letter": "B" },
+              { "k": "spot", "x": 360, "y": 255, "letter": "C" },
+              { "k": "spot", "x": 110, "y": 100, "letter": "D" },
+              { "k": "spot", "x": 450, "y": 95, "letter": "E" },
+              { "k": "spot", "x": 115, "y": 290, "letter": "F" },
+              { "k": "spot", "x": 420, "y": 210, "letter": "G" },
+              { "k": "spot", "x": 290, "y": 265, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 15, "text": "Kayak store", "answer": "D" },
+            { "q": 16, "text": "Archery range", "answer": "F" },
+            { "q": 17, "text": "Climbing tower", "answer": "H" },
+            { "q": 18, "text": "Drying room", "answer": "G" },
+            { "q": 19, "text": "High ropes course", "answer": "E" },
+            { "q": 20, "text": "First-aid room", "answer": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Reviewing a teaching practice placement",
+      "context": "a student teacher and her tutor discussing her first teaching practice placement",
+      "speakers": { "A": { "name": "Tutor", "g": "m", "accent": "gb" }, "B": { "name": "Lucy", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["A", "Come in, Lucy, have a seat. So, you've just finished your first placement at Fernhill Academy. How do you feel it went?"],
+            ["B", "Better than I expected, honestly. The first fortnight was hard, but by the end I felt as if I was actually teaching, rather than just surviving."],
+            ["A", "That's good to hear. Let's go through it, and we can fill in your review form as we go. You were teaching geography, mainly to Year 8?"],
+            ["B", "Yes, two Year 8 classes, and one Year 10 class for the last three weeks."],
+            ["A", "And what was the main difficulty at the start?"],
+            ["B", "Getting lessons going. The pupils came from all over the school, some of them five minutes late, and the first part of every lesson was chaos. I tried waiting for silence before I started, but that just wasted more time. Then my mentor suggested having something ready for them to do the moment they walked in. So I started handing out a [[21|quick quiz]] at the door, just five questions on the previous lesson, and they'd sit down and get on with it."],
+            ["A", "And did that work?"],
+            ["B", "Really well. They actually started competing to get full marks."],
+            ["A", "Excellent. What about group work? I remember from my visit that it got rather noisy."],
+            ["B", "That was the other big problem. At first I tried ringing a bell to get their attention, but they just found it funny, and some of them started bringing in their own. Clapping didn't work either. In the end, what made the difference was a [[22|countdown timer]] on the interactive whiteboard. When they could see exactly how many minutes they had left for each task, they stayed focused, and the noise level dropped."],
+            ["A", "Good. Now, assessment. How did you check what the pupils had understood during a lesson?"],
+            ["B", "I tried a few things. Exit tickets were useful in a way, but reading thirty of them after every lesson took far too long. Thumbs up or thumbs down was quick, but the pupils just copied whatever their friends did. The best thing by far was [[23|mini whiteboards]]. Everyone writes their answer and holds it up at the same moment, so I could see at a glance who'd got it and who hadn't."],
+            ["A", "And what did your mentor say in her final observation?"],
+            ["B", "Mostly positive. She said my instructions were clear, which I was pleased about, because I'd worked hard on that. But she said my [[24|explanations]] were far too long. She timed one at twelve minutes, and by the end, half the class had stopped listening."],
+            ["A", "That's very common at this stage. Now, we need to agree a target for your next placement. I'd been thinking it might be your marking, because I noticed some exercise books hadn't been marked for a while."],
+            ["B", "That was only one class, the week I was ill. I'm actually quite on top of marking. What I really struggled with was the pupils who finished early. They'd sit there with nothing to do, and then start distracting everyone else."],
+            ["A", "Right, so let's make the target planning [[25|extension tasks]] for the faster workers. I'll put that on the form."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "Now, let's talk about your planning. I've looked through your file of lesson plans. They're well organised, the aims are always clear, and your mentor says you always gave them to her on time. But honestly, Lucy, [[26|you don't need to write four pages for a fifty-minute lesson]]. You were scripting almost every word you were going to say."],
+            ["B", "I know. It was taking me hours every evening."],
+            ["A", "One page is plenty, with the key questions you want to ask. That'll free up a lot of your time."],
+            ["B", "That would be a relief. Oh, and I meant to tell you about the parents' evening. I was really nervous beforehand, but my mentor did most of the talking, so I didn't have to give anyone bad news myself. What really struck me was [[27|watching how she spoke to the parents]]. She was so positive, even in difficult conversations, and she always started with something good about the child. I learned a lot just from watching her."],
+            ["A", "Did you find out much about the pupils themselves?"],
+            ["B", "A little, but not really anything I didn't already know from the school records."],
+            ["A", "Right. Now, reading. I know you've read a lot about managing behaviour already, and you've clearly got the curriculum documents covered. [[28|What I'd like you to look at before your next placement is a summary of research on giving feedback to pupils]]. It's short, about thirty pages, and very practical. I'll email you the details."],
+            ["B", "Great, thanks."],
+            ["A", "And then there's your reflective journal. The length is fine, and writing it every day is ideal, so keep doing that. But you tend to say things like 'the lesson went well' without saying how you know. [[29|I'd like to see more evidence, such as samples of pupils' work or quiz scores, to back up what you're saying]]."],
+            ["B", "OK, that makes sense. I can take photos of some of their work."],
+            ["A", "Finally, your next placement is at Hartley Park School, starting in February. Have you been in touch with them yet?"],
+            ["B", "Not yet. I was going to email my new mentor, but I don't actually know who it'll be yet. And the school doesn't allow trainees to visit before the placement starts. So what I'd like to do is [[30|spend a couple of days at a school near my parents' house, watching some history and English lessons]], to see how teachers in other subjects handle things like class discussion."],
+            ["A", "That's an excellent idea. I can write to the head teacher for you, if that would help."],
+            ["B", "Thank you, that would be great."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 21,
+          "to": 25,
+          "layout": "notes",
+          "title": "Teaching placement review: Lucy",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# Placement",
+            "- Fernhill Academy: geography, mainly Year 8",
+            "# Early difficulties",
+            "- slow starts: pupils given a {21} as they arrived",
+            "- noisy group work: improved by showing a {22} on the board",
+            "# Checking understanding",
+            "- most effective method: {23}",
+            "# Mentor's final observation",
+            "- main criticism: she spent too long on {24}",
+            "# Target for next placement",
+            "- prepare {25} for pupils who complete work quickly"
+          ],
+          "answers": {
+            "21": ["quick quiz", "quiz"],
+            "22": ["countdown timer", "timer"],
+            "23": ["mini whiteboards", "whiteboards"],
+            "24": ["explanations"],
+            "25": ["extension tasks"]
+          }
+        },
+        {
+          "type": "mcq",
+          "from": 26,
+          "to": 30,
+          "items": [
+            {
+              "q": 26,
+              "stem": "What does the tutor say about Lucy's lesson plans?",
+              "options": ["They did not include clear aims.", "They contained more detail than necessary.", "They were sometimes handed in late."],
+              "answer": "B"
+            },
+            {
+              "q": 27,
+              "stem": "Why did Lucy find the parents' evening useful?",
+              "options": [
+                "She found out more about pupils' home lives.",
+                "She gained experience of giving bad news.",
+                "She saw how an experienced colleague spoke to parents."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 28,
+              "stem": "What does the tutor recommend Lucy should read?",
+              "options": ["a summary of research on feedback", "a guide to managing behaviour", "official curriculum documents"],
+              "answer": "A"
+            },
+            {
+              "q": 29,
+              "stem": "What does the tutor say about Lucy's reflective journal?",
+              "options": ["It should be written less frequently.", "It should be supported with more evidence.", "It would be better if it were shorter."],
+              "answer": "B"
+            },
+            {
+              "q": 30,
+              "stem": "What will Lucy do before her next placement?",
+              "options": ["visit her next school", "contact her new mentor", "observe teachers of other subjects"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The domestication of the horse",
+      "context": "part of a lecture on the domestication of the horse",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today we're going to look at one of the most important relationships between humans and animals: the domestication of the horse. Without horses, the history of farming, trade, warfare and even language would look completely different. Yet until very recently, we knew surprisingly little about where and when horses were first domesticated."],
+            ["A", "Humans hunted wild horses for tens of thousands of years, and many of the famous cave paintings in France show them. But domestication came much later than it did for dogs, sheep, goats or cattle, and pinning down exactly when it happened has been surprisingly difficult. It's not that horse bones don't survive. At some sites, archaeologists have found tens of thousands of them. Nor is it that horse herders left nothing behind. The problem is that cattle and sheep became noticeably smaller once they were domesticated, so their bones are easy to tell apart from those of wild animals, whereas [[31|early domestic horses had skeletons that were almost identical to those of wild horses]]. So for a long time, nobody could say whether a pile of horse bones came from hunting or from herding."],
+            ["A", "For many years, the leading candidate for the first horse domesticators was the Botai culture of what is now northern Kazakhstan, about five and a half thousand years ago. The Botai lived in villages and ate enormous quantities of horse meat. But of course, eating horses doesn't prove they were domesticated. The meat could simply have come from hunting. The breakthrough came in 2009, when researchers analysed residues left inside Botai pots. They found fat from cooked horse meat, as you'd expect, but that told us nothing new. What was significant was that [[32|they also found traces of fat from horse milk]], and you can't milk a wild mare. No pictures of people riding horses have ever been found at Botai, but the milk seemed to settle the question. The Botai were keeping horses."],
+            ["A", "Then, in 2018, came a surprise. A team sequenced the genomes of horses from Botai sites, expecting to find the ancestors of modern domestic horses. Instead, they found that the Botai horses were the ancestors of Przewalski's horse, the stocky animal from the Mongolian steppe that had long been described as the last truly wild horse in the world. In other words, [[33|Przewalski's horses are descended from animals that the Botai kept]], which later escaped or were released and went back to living in the wild. So they're feral, not wild. And modern domestic horses, it turned out, owe almost nothing to the Botai."],
+            ["A", "So where did our horses come from? A major study published in 2021 analysed the DNA of 273 ancient horses from across Europe and Asia. Several possible homelands had been proposed, including Anatolia, in modern Turkey, and the Iberian peninsula. Horses certainly lived in those places, but they left almost no trace in the DNA of modern horses. Instead, the study traced the modern domestic horse back to [[34|the western steppe, in the region of the lower Volga and Don rivers]], in what is now south-western Russia, about 4,200 years ago."],
+            ["A", "What happened next was remarkably fast. Earlier theories assumed that a spread like this would have taken thousands of years. But within just a few [[35|centuries]], horses of this new type had replaced almost every other horse population from the Atlantic coast to Mongolia. Their spread matches closely the appearance of [[36|chariots]], light two-wheeled vehicles with spoked wheels, which first appear in burials in the same broad region at around the same time."],
+            ["A", "The DNA also tells us what early breeders were selecting for. Two genes stand out. One seems to have given horses a stronger [[37|back]], which would have made them better at carrying riders and heavy loads. The other is associated with behaviour. In other species, it's connected with fear and anxiety, and in horses it seems to have produced a calmer [[38|temperament]]. In other words, breeders wanted animals that were strong enough to ride and wouldn't panic."],
+            ["A", "This new evidence also overturned an influential theory. About five thousand years ago, herders from the steppe, a people known as the Yamnaya, moved west into Europe in large numbers, and their genes are found in most Europeans today. Many scholars assumed they must have been riding horses. But the DNA shows that modern domestic horses didn't reach Europe until several centuries later. So how did the Yamnaya cover such distances? Most researchers now think they relied on heavy wooden wagons pulled by [[39|oxen]], which are much slower than horses, but strong and reliable."],
+            ["A", "Finally, the impact. Once domestic horses had spread, the speed at which people could travel changed dramatically. Messages, goods and armies could now cover in days distances that had once taken weeks. And with that came the possibility of controlling territory on a scale never seen before, which is why many historians link the horse to the rise of the first great [[40|empires]], from Persia to China. Next week, we'll look at how horses changed farming."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 31,
+          "to": 34,
+          "items": [
+            {
+              "q": 31,
+              "stem": "According to the lecturer, why has early horse domestication been difficult to identify?",
+              "options": [
+                "Horse bones rarely survive in the ground.",
+                "Early herding peoples left few remains.",
+                "Domestic and wild horses had very similar skeletons."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 32,
+              "stem": "Which finding from Botai pottery was seen as evidence of domestication?",
+              "options": ["residues of horse milk", "traces of cooked horse meat", "images of people on horseback"],
+              "answer": "A"
+            },
+            {
+              "q": 33,
+              "stem": "What did the 2018 study show about Przewalski's horses?",
+              "options": [
+                "They are the last surviving truly wild horses.",
+                "They descend from horses kept by the Botai.",
+                "They are the closest relatives of modern domestic horses."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 34,
+              "stem": "Where does the 2021 study suggest modern domestic horses first came from?",
+              "options": ["northern Kazakhstan", "Anatolia", "the area near the Volga and Don rivers"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 35,
+          "to": 40,
+          "layout": "notes",
+          "title": "The spread of the domestic horse",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Spread",
+            "- replaced other horse populations across Eurasia within a few {35}",
+            "- spread linked to the use of {36}, which had spoked wheels",
+            "# Traits selected by early breeders",
+            "- a stronger {37}, for carrying people and loads",
+            "- a calmer {38}",
+            "# An older theory rejected",
+            "- steppe herders who moved into Europe 5,000 years ago probably used wagons drawn by {39}",
+            "# Impact",
+            "- allowed rulers to control huge areas: helped create the earliest {40}"
+          ],
+          "answers": { "35": ["centuries"], "36": ["chariots", "chariot"], "37": ["back"], "38": ["temperament"], "39": ["oxen"], "40": ["empires"] }
+        }
+      ]
+    }
+  ]
+}

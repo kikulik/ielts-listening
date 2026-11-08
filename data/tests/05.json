@@ -1,0 +1,393 @@
+{
+  "id": 5,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Renting a flat through a letting agent",
+      "context": "a man phoning a letting agency about renting a flat",
+      "speakers": { "A": { "name": "Agent", "g": "f", "accent": "gb" }, "B": { "name": "Simon", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Kestrel Lettings, Jenny speaking. How can I help?"],
+            ["B", "Oh, hello. I'm ringing because I'm looking for a flat to rent. I've seen a couple of your properties online, and I wondered if I could register with you and perhaps arrange a viewing."],
+            ["A", "Of course. I'll take a few details first, so that I can match you with the right places. Could I have your name?"],
+            ["B", "Yes, it's Simon Brockley."],
+            ["A", "And how do you spell your surname?"],
+            ["B", "It's [[1|Brockley]]. B-R-O-C-K-L-E-Y."],
+            ["A", "Thank you. And are you working at the moment, Simon? Our landlords always ask."],
+            ["B", "Yes, I work for the ambulance service. I trained as a nurse originally, and I did that for a few years, but then I retrained, so I'm a [[2|paramedic]] now."],
+            ["A", "Great. Landlords tend to like tenants in steady jobs like that. And when are you hoping to move?"],
+            ["B", "Well, my current tenancy ends on the 1st of March, but my landlord says I can stay on for another two weeks if I need to. So ideally I'd like to be in somewhere new by the [[3|15th]] at the latest."],
+            ["A", "That gives us a bit of time, which is good. What sort of budget are you working with?"],
+            ["B", "I was hoping to stay under £900 a month, but having looked at what's available, I don't think that's realistic. I could go up to [[4|£950]], but not a penny more."],
+            ["A", "That's a sensible figure for a one-bedroom flat in Norwich these days. And will you be living on your own?"],
+            ["B", "Yes, just me. I've shared a house with friends for the last three years, and I think I'm ready for a place of my own now."],
+            ["A", "Fair enough. And is there a particular part of the city you'd like to be in?"],
+            ["B", "I'm not that bothered about being in the centre. I don't go out much in the evenings, because of my shifts. What matters most is being able to walk to work, because some of my shifts start at six in the morning, and the buses don't run that early. I'm based at the [[5|hospital]], on the west side of the city, so anywhere within walking distance of that would be ideal."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "In that case, there's one that's just come onto our books that might suit you very well. It's about fifteen minutes' walk from the hospital."],
+            ["B", "That sounds promising. What's it like?"],
+            ["A", "It's a one-bedroom flat on the second floor of a building that's been converted into apartments. Let me just check my notes. I was about to say it was an old school, but no, that's a different property, on Earlham Road. This one was originally a [[6|warehouse]], so it has high ceilings and really big windows."],
+            ["B", "Oh, I like the sound of that. Is there any outside space? It would be nice to have somewhere to sit in the summer."],
+            ["A", "There's a garden behind the building, but it's shared between all eight flats, and to be honest it's not much more than a patch of lawn. The nice thing is that the flat has its own [[7|balcony]], facing west, so you'd get the evening sun."],
+            ["B", "Perfect. And what about bills? Are any of them included in the rent?"],
+            ["A", "Electricity and gas you'd pay yourself, as with most of our properties. Water used to be included, but the landlord changed that this year, so you'd need to set that up too. What is included is [[8|the broadband, which is already installed]], and I'm told it's very fast."],
+            ["B", "That's good to know. When could I see it?"],
+            ["A", "I'd suggest as soon as you can. I should mention that another couple have asked about it, but they can't view it until next week, so that's not really the issue. And the landlord's living abroad at the moment, but that doesn't make any difference either, as we manage the property for him. The main thing is that [[9|he's told us the rent will go up for any agreement signed after the end of this month]]."],
+            ["B", "Ah, I see. Well, I'm on shifts most of this week, but I could come on Thursday afternoon."],
+            ["A", "I'm afraid I'm out at viewings on the other side of the city all Thursday afternoon. What about Friday evening?"],
+            ["B", "I'm working until eight on Friday. Do you do viewings at weekends?"],
+            ["A", "We're open on Saturday mornings. [[10|How about ten o'clock on Saturday]]?"],
+            ["B", "That would be ideal. Ten on Saturday, then."],
+            ["A", "Lovely. Can I just take a contact number?"],
+            ["B", "Yes, it's 07700 900 904."],
+            ["A", "Thank you. I'll email you the address and some photos this afternoon. And just so you know, if you decide to go ahead after the viewing, we'd ask for a holding deposit of one week's rent, to take the flat off the market."],
+            ["B", "That's fine. See you on Saturday, then."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 7,
+          "layout": "notes",
+          "title": "Flat rental enquiry",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Applicant",
+            "- name: Simon {1}",
+            "- occupation: {2}",
+            "- needs to move in by {3} March",
+            "- maximum rent: £{4} per month",
+            "- wants to be able to walk to the {5}",
+            "# Possible property",
+            "- in a building that used to be a {6}",
+            "- outside space: a private {7}"
+          ],
+          "answers": {
+            "1": ["Brockley"],
+            "2": ["paramedic"],
+            "3": ["15th", "15", "fifteenth"],
+            "4": ["950"],
+            "5": ["hospital"],
+            "6": ["warehouse"],
+            "7": ["balcony"]
+          }
+        },
+        {
+          "type": "mcq",
+          "from": 8,
+          "to": 10,
+          "items": [
+            { "q": 8, "stem": "Which of these is included in the rent?", "options": ["water", "broadband", "electricity"], "answer": "B" },
+            {
+              "q": 9,
+              "stem": "Why does the agent advise Simon to view the flat soon?",
+              "options": ["Other people want to see it.", "The landlord is currently out of the country.", "The cost is going to increase."],
+              "answer": "C"
+            },
+            {
+              "q": 10,
+              "stem": "When will Simon view the flat?",
+              "options": ["on Saturday morning", "on Thursday afternoon", "on Friday evening"],
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "The programme for a local food festival",
+      "context": "the director of a food festival presenting this year's programme",
+      "speakers": { "D": { "name": "Festival director", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 15,
+          "lines": [
+            ["D", "Good evening, everyone, and thank you for coming along to the launch of this year's Hexham Larder Festival. I'm Gareth Pryce, the festival director, and I'm going to run through the main events in the programme, then give you some practical information about getting here and getting around. As usual, the festival runs over the last weekend of September, from Friday evening through to Sunday afternoon."],
+            ["D", "I'll start with the cheese market, which many of you will know already, as it's our oldest event, going back to the very first festival eleven years ago. For the last few years it's been held in the Abbey grounds. But because of the repairs to the abbey roof, this year [[11|it'll be inside the Corn Exchange instead]]. There'll be thirty cheesemakers, mostly from Northumberland and the Borders, and there's a two-pound entry charge, the same as before."],
+            ["D", "The chef demonstrations are always popular. They'll be in the big marquee in the Sele, just as they were last year, and we have some wonderful local chefs lined up. In previous years you could simply turn up on the day, but people were queuing for an hour and many were turned away. So this time [[12|you'll need to reserve your seat online before the festival]]. Each demonstration costs five pounds."],
+            ["D", "Then on Friday night we're trying something completely different. The street food night has [[13|never been part of the festival before]], and we're very excited about it. About twenty food vans will be parked around the Market Place, and there'll be live music too. It's aimed mainly at adults, and it goes on until eleven, so it's probably not the best choice for young children. Entry is three pounds, and all of that goes to the town's food bank."],
+            ["D", "The bread trail is back again, with twelve bakeries taking part. We'd hoped to have more this year, but in the end it's the same number as last time. You buy a trail card for two pounds, visit each bakery to collect a stamp and a small sample, and when your card is full, you get a loaf to take home. [[14|It's designed with children in mind]], and parents tell us it's the best way to keep the kids happy all afternoon. It used to be organised by the local primary schools, but the bakers run it themselves now."],
+            ["D", "Finally, our food history talks will take place in the library on Saturday and Sunday mornings. Topics this year include the story of the stottie cake and the history of beekeeping in the county. [[15|There's no charge at all for these]]. You can't book, so it's first come, first served, and the room only holds about forty people, so do get there early."]
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "lines": [
+            ["D", "Now, some practical information, starting with getting here. The main car park at Wentworth will be open as normal, but on festival weekends it's usually full by ten in the morning. Several people have asked whether parking will be free on the Sunday, as it was a few years ago, but I'm afraid the council has said no this time. So our advice is to [[16|use the park-and-ride service from the racecourse]]. Buses will run every fifteen minutes from nine until seven, and they'll drop you right next to the Market Place."],
+            ["D", "Paying for food and drink should be much easier this year. Last year, the mobile signal in the Sele was so poor that some stallholders couldn't take card payments, and we ended up with long queues at the cash machines. We did consider introducing festival tokens, but the stallholders weren't keen. So instead we've installed our own wifi network across the whole site, which means that [[17|every stall will be able to take cards]]. Cash will still be accepted, of course."],
+            ["D", "We're also continuing our efforts to cut waste. Plastic cutlery was banned from the festival two years ago, and that's worked well. This year, we thought about charging a small fee for paper plates, but we decided that wasn't fair on families. Instead, [[18|we're setting up washing-up stations]] at three points around the site, so if you bring your own plate or bowl, you can rinse it and use it again."],
+            ["D", "Finally, a few suggestions about what to bring with you. It can get surprisingly warm in the marquees, so if you're planning to buy cheese, meat or fish to take home, [[19|a cool bag is a really good idea]]. And [[20|please bring your own cup]] if you can. You'll get twenty pence off every hot drink or glass of cider, and it saves thousands of paper cups."],
+            ["D", "You won't need cutlery, as all the stalls will be handing out wooden forks and spoons. And some people like to bring a picnic blanket, but the grass in the Sele is often wet in September, and there'll be plenty of tables and benches, so I wouldn't bother. We look forward to seeing you all there."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 11,
+          "to": 15,
+          "lead": "What does the speaker say about each of the following events?",
+          "boxTitle": "Comments",
+          "options": [
+            "It is taking place for the first time.",
+            "Places must be booked in advance.",
+            "It is particularly suitable for children.",
+            "It is in a different location this year.",
+            "It is free of charge.",
+            "It is bigger than last year.",
+            "It is run by local schools."
+          ],
+          "items": [
+            { "q": 11, "text": "The cheese market", "answer": "D" },
+            { "q": 12, "text": "The chef demonstrations", "answer": "B" },
+            { "q": 13, "text": "The street food night", "answer": "A" },
+            { "q": 14, "text": "The bread trail", "answer": "C" },
+            { "q": 15, "text": "The food history talks", "answer": "E" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 16,
+          "to": 18,
+          "items": [
+            {
+              "q": 16,
+              "stem": "What does the speaker recommend visitors do about parking?",
+              "options": ["use the main car park in the town", "come on Sunday, when parking is free", "use a bus service from outside the town"],
+              "answer": "C"
+            },
+            {
+              "q": 17,
+              "stem": "What change has been made to payments this year?",
+              "options": ["Card payments will be possible everywhere.", "Visitors will need to buy tokens.", "Cash will no longer be accepted."],
+              "answer": "A"
+            },
+            {
+              "q": 18,
+              "stem": "What is new this year to reduce waste?",
+              "options": ["a ban on plastic cutlery", "a charge for paper plates", "places where visitors can clean their own dishes"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 19,
+          "to": 20,
+          "stem": "Which TWO things does the speaker advise visitors to bring?",
+          "options": ["a cool bag", "a picnic blanket", "cash", "a reusable cup", "cutlery"],
+          "answer": ["A", "D"]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A project on children's reading habits",
+      "context": "two education students discussing their project on the reading habits of primary school children",
+      "speakers": { "M": { "name": "Megan", "g": "f", "accent": "us" }, "O": { "name": "Oliver", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["O", "Megan, have you got a few minutes to go over the project before we see Dr Ashworth on Thursday?"],
+            ["M", "Sure. I've just finished entering the last of the data, so it's good timing. Where do you want to start?"],
+            ["O", "Maybe with the method, because she's bound to ask about it. Remind me, we had Year 5 and Year 6 children from both schools, didn't we?"],
+            ["M", "That's right, about a hundred and forty kids altogether. And you remember we were originally going to use a questionnaire, but the head teacher at Millbrook was worried the children would just tick whatever they thought we wanted to hear. So instead, we asked each child to keep a [[21|reading log]] for two weeks, writing down what they read, when they read it and for how long."],
+            ["O", "And I think that worked much better, actually. Some of the comments they wrote were fascinating."],
+            ["O", "So, the findings. I'd assumed that most of their reading would happen in school, in those quiet reading sessions after lunch."],
+            ["M", "So did I, and some of it does, obviously. But when you add it all up, the biggest share by far happened at [[22|bedtime]]. A lot of the logs say things like, read in bed with a torch."],
+            ["O", "That's lovely. And the figures for weekends were surprisingly low, weren't they?"],
+            ["M", "Yes, much lower than I expected."],
+            ["O", "What about the kind of material they were reading? I know adventure stories came up a lot."],
+            ["M", "They did, and comics were popular with some of the boys. But the clear winner, for both boys and girls, was [[23|graphic novels]]. Almost two thirds of the children mentioned at least one."],
+            ["O", "I'm not surprised. The library at Millbrook has a whole shelf of them, and it's always empty."],
+            ["O", "Now, the part I found most interesting was what made the difference between children who read a lot and those who hardly read at all. I expected it to be whether they had a tablet or an e-reader at home."],
+            ["M", "But that made almost no difference, did it? What really stood out was having a [[24|library card]]. The children who had one of their own were reading nearly twice as often as those who didn't."],
+            ["O", "Which is something schools could actually do something about."],
+            ["M", "And finally, the reasons the children gave for not reading more. I thought most of them would just say reading's boring."],
+            ["O", "Some did, but not nearly as many as I expected. Quite a few blamed screens and games, too. But the most common answer was that they didn't have enough [[25|free time]], because of clubs and sport and homework."],
+            ["M", "That really surprised me. Some of these ten-year-olds seem to have busier weeks than I do."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["O", "There's one thing that worries me, though, and that's the data from Ashfield."],
+            ["M", "The Ashfield logs? I know a few of them were filled in by the teachers rather than the children, but that was only three or four, wasn't it?"],
+            ["O", "Yes, that's not a big deal. And nearly all of them came back, which is amazing. No, the real problem is that [[26|one of the two weeks turned out to be half-term]], so the children were at home for five days, and their routines were completely different."],
+            ["M", "Oh no, I'd forgotten about that. So their figures aren't really comparable with Millbrook's."],
+            ["M", "So what do we do? We could just leave Ashfield out altogether."],
+            ["O", "That would halve our sample, though. I suppose we could ask the children to do the logs again, for another fortnight."],
+            ["M", "There's no time for that, and the school's been generous enough already. What if we [[27|keep both schools, but discuss the half-term problem openly]] in the section on limitations? Dr Ashworth always says she'd rather see honesty about weaknesses than a study that looks perfect."],
+            ["O", "Yes, I think that's the best option. We could even say something about how holidays seem to change reading habits."],
+            ["O", "Should we compare boys and girls as well? Everyone seems to be interested in that."],
+            ["M", "I'm not sure. It's been studied so many times already."],
+            ["O", "That doesn't mean we can't look at it. And it's clearly relevant to our research question."],
+            ["M", "That's true. My real concern is that once you divide the children by gender, and by year group, and by school, [[28|some of the groups only have ten or twelve children in them]]. You can't draw any conclusions from numbers like that."],
+            ["O", "Fair point. Maybe just a sentence or two, then, rather than a whole section."],
+            ["O", "The schools asked for a short list of recommendations, didn't they? I thought we could suggest longer library sessions."],
+            ["M", "Both head teachers have already said they can't fit anything more into the timetable, so I don't think that would go down well. What about a reading buddy scheme, where older children read with younger ones?"],
+            ["O", "Millbrook already has one, and Ashfield tried it a couple of years ago and gave up. Given what we found about library cards, I think [[29|helping every child to join the public library]] is the obvious one. The library service even runs class visits to sign children up."],
+            ["M", "Yes, it's cheap, it's based on our own evidence, and it's easy to organise. Let's go with that."],
+            ["M", "So, what's next? Shall we start writing the discussion?"],
+            ["O", "I think we should finish the charts first. I've done the ones on reading time, but not the ones on types of material."],
+            ["M", "Actually, before either of those, I think we should [[30|send the head teachers a summary of what we found]]. We promised we'd do it by the end of the month, and that's next week."],
+            ["O", "You're right. Let's do that tonight, and leave the charts till the weekend."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 21,
+          "to": 25,
+          "layout": "notes",
+          "title": "Reading habits project",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# Method",
+            "- about 140 children in Years 5 and 6 at two schools",
+            "- each child kept a {21} for a fortnight",
+            "# Findings",
+            "- most reading was done at {22}",
+            "- most popular reading material: {23}",
+            "- frequent readers were more likely to own a {24}",
+            "- most common reason for not reading more: lack of {25}"
+          ],
+          "answers": {
+            "21": ["reading log", "log"],
+            "22": ["bedtime", "bed time"],
+            "23": ["graphic novels"],
+            "24": ["library card"],
+            "25": ["free time", "time"]
+          }
+        },
+        {
+          "type": "mcq",
+          "from": 26,
+          "to": 30,
+          "items": [
+            {
+              "q": 26,
+              "stem": "What is the problem with the data from Ashfield?",
+              "options": ["Many of the logs were not returned.", "Teachers completed most of the logs.", "The logs included a school holiday."],
+              "answer": "C"
+            },
+            {
+              "q": 27,
+              "stem": "What do the students decide to do about the Ashfield data?",
+              "options": ["include it and explain the problem", "leave it out of the analysis", "ask the children to repeat the logs"],
+              "answer": "A"
+            },
+            {
+              "q": 28,
+              "stem": "What is Megan's main concern about comparing boys and girls?",
+              "options": ["It has been researched too often.", "Some groups would be too small.", "It is not relevant to their research."],
+              "answer": "B"
+            },
+            {
+              "q": 29,
+              "stem": "What do the students agree to recommend to the schools?",
+              "options": ["longer library sessions in school", "a scheme in which children read in pairs", "getting all pupils membership of a library"],
+              "answer": "C"
+            },
+            {
+              "q": 30,
+              "stem": "What will the students do first?",
+              "options": ["start writing the discussion", "send a summary to the schools", "complete the charts"],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Coral reef restoration methods",
+      "context": "part of a marine biology lecture on methods of restoring coral reefs",
+      "speakers": { "L": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good afternoon. In the last session we looked at the main threats facing coral reefs, including rising sea temperatures, pollution and damage from storms. Today I want to turn to something more hopeful, and look at some of the methods that scientists and conservation groups are using to restore damaged reefs. I'll focus on four approaches, and for each one I'll say something about how it works and what its strengths and weaknesses are."],
+            ["L", "The first, and by far the most widely used, is known as coral gardening. The idea is quite simple. Divers collect small fragments of living coral, often pieces that have already been broken off by storms, and grow them in underwater nurseries until they're large enough to be planted back onto the reef. Early nurseries used tables or ropes on the seabed, but many projects now hang the fragments from frames made of plastic pipe that look rather like [[31|trees]], with the coral pieces dangling from the branches. Because the fragments are kept well off the seabed, they're protected from sediment and from many of the animals that feed on coral, so they grow surprisingly quickly."],
+            ["L", "One major advantage of coral gardening is that it's relatively low-tech. You don't need a [[32|laboratory]], and once divers have been trained, the work is fairly straightforward, so it can be run by small local organisations. The main problem, though, is diversity. Because nurseries often grow hundreds of fragments from the same few parent colonies, the corals that are planted out are frequently genetically [[33|identical]]. That means that if a disease or a heatwave strikes, they're all equally vulnerable."],
+            ["L", "The second method, micro-fragmentation, was discovered more or less by accident. A researcher in Florida who was working with slow-growing corals noticed that when a coral was cut into very small, [[34|coin]]-sized pieces, those tiny fragments grew far more quickly than larger ones. Some grew around twenty-five times faster than normal. Even more remarkably, when the small pieces were placed close together on a surface such as a dead coral head, their edges grew towards each other until they began to [[35|fuse]], forming one larger colony in a fraction of the usual time."],
+            ["L", "Now, you might expect the main drawback of this method to be cost, since it needs tanks and carefully controlled conditions at first. But costs have fallen a great deal, and several projects now run quite cheaply. The real limitation is that it doesn't work equally well for every coral. It's very effective for the slow-growing, rounded corals that form the main structure of a reef, but it's only of value for certain [[36|species]], and for many fast-growing branching corals there's little benefit."],
+            ["L", "The third approach takes advantage of one of the most extraordinary events in nature. On many reefs, corals reproduce by releasing their eggs and sperm into the water all at once, usually on just one or two nights a year, a few days after a full moon. Researchers collect them during this mass [[37|spawning]], fertilise them in floating enclosures or in tanks, and then release the young larvae over damaged areas of reef, where they settle and grow. Because each larva has two parents, this method produces corals with far greater genetic variety than gardening does."],
+            ["L", "The weakness of larval seeding is what happens after release. Most larvae are eaten by fish, carried away by currents, or settle somewhere unsuitable. Researchers are experimenting with small ceramic devices that give the larvae a safe place to settle, but even so, [[38|survival]] remains extremely poor, often well below one percent. So you need enormous numbers of larvae to make a real difference."],
+            ["L", "The last method I want to mention is designed for one particular problem. When reefs are destroyed by blast fishing or by severe storms, the seabed is often left covered in a thick layer of [[39|rubble]]. It shifts with every wave, so any young corals that settle on it are crushed or buried. In stabilisation projects, workers fix it in place, typically using hexagonal steel frames coated with sand and linked together across the seabed. The frames are light enough to be carried by hand, so a small team can put down hundreds in a single day. Young coral fragments are tied to them, and within a few years the frames can be completely hidden."],
+            ["L", "The method is fast and fairly cheap, and teams in Indonesia have covered several hectares in this way. However, I want to end with a word of caution that applies to all four methods. None of them addresses the greatest threat of all, which is the [[40|warming]] of the oceans. When the water becomes too hot, corals bleach, and restored reefs bleach just as easily as natural ones. Restoration can buy time, but in the end the future of coral reefs depends on cutting greenhouse gas emissions. Next time, we'll look at efforts to breed corals that can tolerate higher temperatures."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "table",
+          "title": "Methods of coral reef restoration",
+          "limit": "ONE WORD ONLY",
+          "table": [
+            ["Method", "How it works", "Advantages", "Limitations"],
+            [
+              "Coral gardening",
+              "fragments grown in nurseries on frames that resemble {31}",
+              "low-tech: no {32} is required",
+              "planted corals are often genetically {33}"
+            ],
+            [
+              "Micro-fragmentation",
+              "coral cut into tiny, {34}-sized pieces",
+              "fragments grow very fast\npieces placed side by side eventually {35}, forming one colony",
+              "only useful for some {36} of coral"
+            ],
+            [
+              "Larval seeding",
+              "eggs and sperm collected during {37}, then larvae released onto reef",
+              "high genetic variety",
+              "very low rate of {38}"
+            ],
+            [
+              "Seabed stabilisation",
+              "steel frames used to stop {39} from moving",
+              "quick and cheap to cover large areas",
+              "like all methods, does not solve the problem of ocean {40}"
+            ]
+          ],
+          "answers": {
+            "31": ["trees"],
+            "32": ["laboratory", "lab"],
+            "33": ["identical"],
+            "34": ["coin"],
+            "35": ["fuse"],
+            "36": ["species"],
+            "37": ["spawning"],
+            "38": ["survival"],
+            "39": ["rubble"],
+            "40": ["warming"]
+          }
+        }
+      ]
+    }
+  ]
+}

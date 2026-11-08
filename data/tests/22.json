@@ -1,0 +1,400 @@
+{
+  "id": 22,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Joining an amateur theatre group",
+      "context": "a man phoning an amateur theatre group about becoming a member",
+      "speakers": { "A": { "name": "Megan", "g": "f", "accent": "gb" }, "B": { "name": "Daniel", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good evening, Severnside Players, Megan speaking."],
+            ["B", "Oh, hello. I picked up one of your leaflets in the library last week, and it said new members were always welcome. I was wondering if I could find out a bit more."],
+            ["A", "Of course. I'm the membership secretary, so you've come to the right person. Are you thinking of acting, or of helping out in other ways?"],
+            ["B", "Possibly both. I've just moved to Shrewsbury for work, and I don't know many people here yet, so I thought a theatre group might be a good way to get involved in something."],
+            ["A", "That's exactly how a lot of our members started. Well, why don't I take a few details first, and then I can tell you how everything works. What's your name?"],
+            ["B", "It's Daniel [[1|Prothero]]."],
+            ["A", "Could you spell the surname for me, please?"],
+            ["B", "Yes, it's P-R-O-T-H-E-R-O."],
+            ["A", "Thank you. And what's the best number to get hold of you on?"],
+            ["B", "My mobile, really. It's 07856 230 114."],
+            ["A", "Lovely. We also ask new members what they do for a living. You don't have to tell me, but people's work skills often come in useful. We've had electricians who rewired the stage lighting, that sort of thing. You're not a teacher, by any chance? We're always looking for help with our youth group."],
+            ["B", "No, sorry. People often assume I'm an architect, actually, because that's what I studied at university. But I changed direction after I graduated, and I've been working as a [[2|surveyor]] for about four years now."],
+            ["A", "Well, I'm sure that'll be handy when we're measuring up the stage. So, have you done any acting before?"],
+            ["B", "A bit. I was in a few plays at school, nothing very memorable. Then at university I joined the drama society, and the biggest production I took part in was a [[3|musical]]. I should say, though, that I was only in the chorus, so please don't ask me to sing a solo."],
+            ["A", "Don't worry, we hardly ever do anything with songs. It's mostly straight plays, comedies and dramas. Now, every member is asked to help backstage at least once a season, whether or not they're also acting. Is there anything you'd be particularly interested in?"],
+            ["B", "Well, I'd better not go anywhere near the costumes. I can barely sew a button on. But I'm quite good with tools, so I could probably help with building the [[4|scenery]]."],
+            ["A", "Oh, that would be wonderful. Our designer is always saying she needs more people who can use a drill. Right, let me tell you about the fees. We do have a concession rate, which is £35 a year, but that's only for students and for people over sixty-five."],
+            ["B", "So I'm afraid neither of those applies to me."],
+            ["A", "No, so for you it would be the standard annual rate, and that's [[5|£55]]."],
+            ["B", "That seems very reasonable, actually. I was expecting it to be quite a lot more."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "We try to keep it as low as we can, because we don't want anyone to be put off joining. The fee covers your [[6|insurance]], which you need if you're going to be on stage or use any of the equipment in the workshop. A lot of people think it gets them free tickets for our shows as well, but I'm afraid it doesn't. Members pay the same as everyone else."],
+            ["B", "That's fair enough. And when do you rehearse?"],
+            ["A", "Well, for years we always met on Tuesday evenings, but the church hall where we rehearse is now used by a choir on Tuesdays, so since September we've been meeting every [[7|Thursday]] instead."],
+            ["B", "Thursdays are fine for me. What time do you start?"],
+            ["A", "At 7.30. The caretaker locks up the building at ten o'clock, and we need some time to put everything away at the end of the evening, so we always finish at [[8|9.45]]."],
+            ["B", "Great. And where exactly is the hall?"],
+            ["A", "It's behind the Methodist church on Wyle Cop. There's a side door down a little alley, and it's usually propped open. If it isn't, just knock loudly and someone will hear you."],
+            ["B", "OK. And what's the next show going to be? Is it something I'd have a chance of getting a part in?"],
+            ["A", "Oh, there are plenty of parts. We'd hoped to do a murder mystery this time, but we couldn't get permission from the writer's agent, so instead we're putting on a [[9|comedy]] written by one of our own members. It's set in a seaside hotel in the nineteen sixties, and there are about twelve characters, so there's lots of scope."],
+            ["B", "That sounds like fun. Do I need to audition?"],
+            ["A", "Yes, but it's very informal. Auditions are on the first Thursday of next month, at the usual rehearsal time. You don't need to prepare a speech or anything like that. The director will give you a page of the script to read when you arrive."],
+            ["B", "That's a relief. Is there anything I should bring with me?"],
+            ["A", "Just a [[10|photograph]] of yourself, passport size, so we can make your membership card. You won't need any money on the night, because once you've decided to join, you can pay the fee by bank transfer. I'll send you the details."],
+            ["B", "Perfect. Well, thanks very much, Megan. I'll see you on the first Thursday, then."],
+            ["A", "Lovely. We look forward to meeting you, Daniel."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "SEVERNSIDE PLAYERS: NEW MEMBER DETAILS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "Name: Daniel {1}",
+            "Mobile: 07856 230114",
+            "Occupation: {2}",
+            "# Experience and interests",
+            "Main acting experience: a {3} at university",
+            "Backstage interest: making the {4}",
+            "# Membership",
+            "Annual fee: £{5}",
+            "Fee includes: {6}",
+            "# Rehearsals",
+            "Day: every {7}",
+            "Finish time: {8} pm",
+            "Venue: hall behind the Methodist church, Wyle Cop",
+            "# Next production",
+            "Type of play: {9}",
+            "Bring to audition: a {10} for membership card"
+          ],
+          "answers": {
+            "1": ["Prothero"],
+            "2": ["surveyor"],
+            "3": ["musical"],
+            "4": ["scenery"],
+            "5": ["55"],
+            "6": ["insurance"],
+            "7": ["Thursday", "Thursdays"],
+            "8": ["9.45", "9.45pm"],
+            "9": ["comedy"],
+            "10": ["photograph", "photo"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "New animal enclosures at a zoo",
+      "context": "a head keeper telling visitors about the new enclosures at a zoo",
+      "speakers": { "A": { "name": "Dana", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "Good morning, everyone, and welcome to Brockhurst Zoo. My name's Dana, and I'm the head keeper here. I moved over from a zoo in Oregon about six years ago, which explains the accent. As many of you will know, we've spent the last two years rebuilding a large part of the zoo, and this spring we opened six new enclosures. I'm going to start by telling you where to find them, and then I'll say a little about why we did all this work and what's happening over the summer."],
+            ["A", "If you look at the map in your guide, you'll see that we're standing just inside the main entrance, at the bottom of Main Avenue, which runs right up through the middle of the zoo. The first of the new enclosures is very close to where we are now. As you start walking up Main Avenue, the new penguin beach is [[11|the first thing you'll come to on your left, directly opposite the Visitor Centre]]. You'll probably hear the penguins before you see them."],
+            ["A", "Keep going up Main Avenue and you'll reach the crossroads, where it meets Lakeside Walk. Go straight over, and [[12|immediately on your left, in the corner between Main Avenue and the lake]], is the lemur walk-through. As the name suggests, you actually walk through the enclosure among the animals, along a raised wooden path, so please stay on the path at all times and keep your bags closed."],
+            ["A", "For the otters, you'll need to turn left at the crossroads and follow Lakeside Walk west, with the lake on your right. Some people expect the otters to be beside the lake itself, but in fact their new home is [[13|at the very end of the walk, on the left-hand side]], where we've built them their own stream with a glass-sided pool, so you can watch them swimming underwater."],
+            ["A", "Back at the crossroads, if you carry on north up Main Avenue, you'll find the red pandas. We'd originally planned to put them behind the café, but the trees there weren't tall enough for them to climb, so in the end they've gone [[14|on the left of the avenue at the very top, near the north-east corner of the lake]], where there are some lovely old oak trees."],
+            ["A", "Our snow leopards are on the opposite side of the zoo. From the crossroads, turn right along Lakeside Walk and go past the café. [[15|Their enclosure is a little further on, on the left, on the north side of the walk]]. It's built on a rocky slope, so you'll often see them lying right at the top, keeping an eye on everyone."],
+            ["A", "And finally, the giraffes. Their new house is in the south-east corner of the zoo, [[16|directly behind the children's farm]]. If you're coming from Lakeside Walk, you'll pass the farm first, and the giraffe house is just beyond it, to the south. While we're talking about the southern half of the zoo, you may notice that the south-west corner, where the camels used to be, is fenced off at the moment. That's because we're building a new reptile house there, which should open next year."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "So why have we done all this? Well, people often assume it's about bringing in more visitors, and of course we're delighted that numbers are up this year. I should also say that the old enclosures weren't unsafe in any way. We passed our last welfare inspection without a single problem. But the main reason for the rebuilding is that [[17|the larger enclosures mean we can now take part in international breeding programmes]] for endangered species. Those programmes have strict rules about space, and in the past we simply didn't qualify. In fact, our snow leopards came to us from a zoo in Finland for exactly that reason."],
+            ["A", "Now, a few requests for when you're visiting the new enclosures. At the otter stream, you can get right up to the glass, and the otters really don't seem to mind noise. Children shouting doesn't bother them in the slightest. What they do react badly to is sudden bright light, so [[18|please make sure the flash on your camera or phone is switched off]]."],
+            ["A", "We're also starting a series of keeper talks at each of the new enclosures, where you can ask questions and sometimes watch the animals being fed. We'd have liked to hold them every afternoon, but with all the extra work involved in caring for the new animals, the keepers simply don't have time during the week. We did think about running them only in the school holidays, but in the end we decided to hold them [[19|on Saturdays and Sundays throughout the year]]. Times are shown on the board by the entrance."],
+            ["A", "Finally, some of you will have seen that we've launched a new zoo app. At the moment it doesn't let you book animal experiences, so you'll still need to do that through our website. And an audio guide in several languages is planned, but that won't be ready until next year. What the app does do right now is show [[20|live pictures from cameras inside some of the animal houses]], so if the red pandas are curled up asleep somewhere out of sight, you can still see them on your phone. Right, that's all from me. Enjoy your visit."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "map",
+          "from": 11,
+          "to": 16,
+          "kind": "map",
+          "title": "Brockhurst Zoo",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              { "k": "round", "x": 130, "y": 110, "rx": 85, "ry": 55, "fill": "water", "label": "Lake" },
+              {
+                "k": "path",
+                "pts": [[300, 400], [300, 30]],
+                "w": 22,
+                "fill": "path",
+                "label": "Main Avenue"
+              },
+              {
+                "k": "path",
+                "pts": [[30, 210], [570, 210]],
+                "w": 20,
+                "fill": "path",
+                "label": "Lakeside Walk"
+              },
+              { "k": "zone", "x": 320, "y": 315, "w": 120, "h": 60, "fill": "building", "label": "Visitor Centre" },
+              { "k": "zone", "x": 320, "y": 140, "w": 90, "h": 50, "fill": "building", "label": "Café" },
+              { "k": "zone", "x": 450, "y": 240, "w": 120, "h": 60, "fill": "field", "label": "Children's farm" },
+              { "k": "gate", "x": 300, "y": 388, "text": "Main entrance" },
+              { "k": "spot", "x": 235, "y": 345, "letter": "A" },
+              { "k": "spot", "x": 130, "y": 320, "letter": "B" },
+              { "k": "spot", "x": 250, "y": 150, "letter": "C" },
+              { "k": "spot", "x": 55, "y": 245, "letter": "D" },
+              { "k": "spot", "x": 360, "y": 95, "letter": "E" },
+              { "k": "spot", "x": 480, "y": 160, "letter": "F" },
+              { "k": "spot", "x": 510, "y": 345, "letter": "G" },
+              { "k": "spot", "x": 255, "y": 70, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 11, "text": "Penguin beach", "answer": "A" },
+            { "q": 12, "text": "Lemur walk-through", "answer": "C" },
+            { "q": 13, "text": "Otter stream", "answer": "D" },
+            { "q": 14, "text": "Red pandas", "answer": "H" },
+            { "q": 15, "text": "Snow leopards", "answer": "F" },
+            { "q": 16, "text": "Giraffe house", "answer": "G" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 17,
+          "to": 20,
+          "items": [
+            {
+              "q": 17,
+              "stem": "What was the main reason for building the new enclosures?",
+              "options": ["to attract more visitors to the zoo", "to meet current animal welfare standards", "to allow the zoo to join breeding schemes"],
+              "answer": "C"
+            },
+            {
+              "q": 18,
+              "stem": "What are visitors asked to do at the otter enclosure?",
+              "options": ["avoid using flash photography", "stay back from the glass", "keep noise to a minimum"],
+              "answer": "A"
+            },
+            {
+              "q": 19,
+              "stem": "When will the keeper talks take place?",
+              "options": ["every afternoon", "at weekends", "in the school holidays only"],
+              "answer": "B"
+            },
+            {
+              "q": 20,
+              "stem": "What can visitors use the new app for at present?",
+              "options": ["booking animal experiences", "listening to a guide in their own language", "watching animals that are hidden from view"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Work experience at a local newspaper",
+      "context": "two journalism students reviewing their work experience at a local newspaper",
+      "speakers": { "A": { "name": "Hannah", "g": "f", "accent": "gb" }, "B": { "name": "Marcus", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["A", "So, Marcus, shall we make a start on this report about our work experience? Dr Ellis wants it by the end of next week."],
+            ["B", "Sure. I made some notes on the train this morning. I guess we should begin with first impressions. What struck you most on your first day at the Courier?"],
+            ["A", "Well, I'd been warned that the deadlines would be tight, and they were, but I was prepared for that. [[21|What I really wasn't expecting was the size of the newsroom team]]. I'd imagined rows of reporters, like in a film, and there were just four of them covering the whole district."],
+            ["B", "Yeah, that was a shock for me too. Though for me, the bigger surprise was how much of the job happens on the phone. I thought reporters would be out and about all day."],
+            ["A", "That didn't surprise me so much, because I'd done plenty of phone work in my part-time job. But four reporters for a paper of that size. It really showed how much pressure local journalism is under."],
+            ["B", "Then there was the feedback on my first article. I'd been dreading it, to be honest. People had told me Fiona was really tough on students."],
+            ["A", "And was she?"],
+            ["B", "Not really. She wasn't harsh at all. It was more that she'd written two words across the top, 'too long', and nothing else, so [[22|I didn't know which parts to cut]]. She hadn't marked a single spelling or grammar mistake, which was nice, I guess, but I had no idea what she actually wanted."],
+            ["A", "Did you go and ask her?"],
+            ["B", "Eventually. And she was helpful once I did. But the written comment on its own didn't tell me much."],
+            ["A", "What about the day in court? I think that deserves a whole section."],
+            ["B", "Definitely. Although I'm not sure what to say about it, apart from that it was long."],
+            ["A", "Well, my shorthand improved enormously. I had to take down everything the magistrate said."],
+            ["B", "Sure, but we could practise shorthand anywhere. We do it in class every week. [[23|What we couldn't have learned in a classroom was all the rules about what you're actually allowed to print]]. The names you can't publish, the details that might affect a trial."],
+            ["A", "That's true. Seeing the reporting restrictions in practice is what made it worthwhile. And I suppose we did meet a police officer, but only the one who searched our bags at the door, so I wouldn't say we made any useful contacts."],
+            ["B", "OK, so next, the skills section. I was hoping to get much better at interviewing, but most of my interviews ended up being done by email, so that didn't really happen."],
+            ["A", "You wrote a lot of headlines, though, didn't you?"],
+            ["B", "Right. By the end of the second week, [[24|the sub-editor was using most of my headlines without changing them]], which I was pretty proud of. Writing something short and catchy that fits the space is a real skill. And [[25|I got much more careful about checking facts]]. After I nearly printed the wrong name for a local councillor, I started confirming every name and number with two separate sources."],
+            ["A", "And photography? You took pictures at the school sports day."],
+            ["B", "I did, but in the end the paper used the freelance photographer's shots, so I can't claim I improved there. And you looked after the social media posts, not me."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "Right, then there's the part where Dr Ellis wants us to recommend changes to the scheme for next year's students. I think the placement should be longer. Two weeks just isn't enough time to settle in."],
+            ["B", "I agree in principle, but Fiona told us they couldn't cope with students for more than a fortnight. There's no point recommending something the paper's going to refuse."],
+            ["A", "Fair enough. What about travel costs? I spent a fortune on trains."],
+            ["B", "But the university already refunds those, if you fill in the claim form. You just didn't know about it."],
+            ["A", "Oh, I completely missed that. Well, that's actually an argument for something else, then. [[26|If there'd been a written guide for students with that kind of practical information in it]], I'd have known."],
+            ["B", "Yes, let's recommend that. A short handbook. And I'd add that [[27|students should meet the editor before the placement starts]]. We both wasted the whole first morning just finding out who everyone was and what we were meant to be doing."],
+            ["A", "Good idea. A short meeting a week or so beforehand. What about the website? Should students get the chance to write for it?"],
+            ["B", "We already did, though. Half our stories went online before they were printed. So that's not something that needs changing."],
+            ["A", "True. Now, how should we write the whole thing up? Dr Ellis said last year's reports were far too descriptive. They read like diaries. On Monday I did this, on Tuesday I did that."],
+            ["B", "Right, she said she doesn't want a list of tasks. What she's looking for is [[28|reflection]]. What we learned from each experience, and what we'd do differently next time."],
+            ["A", "And should we include our actual articles? I'd really like her to see the ones that got published."],
+            ["B", "I think so, but not in the main body of the report, because they'd take up most of the word limit. Let's put them in an [[29|appendix]]."],
+            ["A", "OK. And when should we aim to have a draft finished? The deadline's next Friday."],
+            ["B", "I'd like to get it to Dr Ellis a few days before that, so she has time to comment. How about Monday?"],
+            ["A", "I'm away this weekend, so Monday's too soon for me. Let's say [[30|Wednesday]]. That still gives her a couple of days before we hand it in."],
+            ["B", "Wednesday it is. I'll start on the section about the court today."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 23,
+          "items": [
+            {
+              "q": 21,
+              "stem": "What surprised Hannah most at the start of her placement?",
+              "options": ["how small the reporting team was", "how tight the deadlines were", "how much work was done by phone"],
+              "answer": "A"
+            },
+            {
+              "q": 22,
+              "stem": "What does Marcus say about the editor's comments on his first article?",
+              "options": [
+                "They were more severe than he had expected.",
+                "They concentrated on his grammar and spelling.",
+                "They did not show him how to improve it."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "Why do the students feel the day in court was valuable?",
+              "options": [
+                "It taught them the legal limits on what can be reported.",
+                "It gave them a chance to improve their shorthand.",
+                "It allowed them to make useful contacts in the police."
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 24,
+          "to": 25,
+          "stem": "Which TWO skills does Marcus feel he improved during the placement?",
+          "options": ["interviewing people", "writing headlines", "taking photographs", "checking facts", "using social media"],
+          "answer": ["B", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 26,
+          "to": 27,
+          "stem": "Which TWO changes to the work experience scheme will the students recommend?",
+          "options": [
+            "making the placement longer",
+            "paying students' travel costs",
+            "providing a written guide for students",
+            "arranging a meeting with the editor in advance",
+            "giving students more work on the website"
+          ],
+          "answer": ["C", "D"]
+        },
+        {
+          "type": "gap",
+          "from": 28,
+          "to": 30,
+          "layout": "sentences",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "Their tutor has asked for less description and more {28}.",
+            "Examples of their published work will go in an {29}.",
+            "They intend to complete a first draft by {30}."
+          ],
+          "answers": { "28": ["reflection"], "29": ["appendix"], "30": ["Wednesday"] }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Wetlands as carbon stores",
+      "context": "part of a lecture on wetlands and the storage of carbon",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today I want to look at wetlands, and in particular at the part they play in storing carbon. When people think about natural ways of removing carbon from the atmosphere, they usually think of forests. Trees are visible, they're easy to count, and planting them makes a good photograph. But some of the most effective carbon stores on the planet are far less glamorous: bogs, fens, marshes and swamps."],
+            ["A", "Let's start with peatlands, which are by far the largest wetland carbon store. Peatlands cover only around three per cent of the Earth's land surface, yet they're estimated to hold roughly a third of all the carbon in the world's soils, about twice as much as all the world's forests. So why are they so good at it? The answer lies in the water. In a waterlogged soil, every space between the particles is filled with water, so there's very little [[31|oxygen]] available. The microbes that normally break down dead plants depend on it, so when a plant dies in a bog, it only partly decays. Year after year, this half-rotted material builds up, and that's what we call peat. It accumulates slowly, perhaps a millimetre a year, but over thousands of years it can reach depths of ten metres or more."],
+            ["A", "Now, I don't want to give the impression that wetlands are entirely good news for the climate. The same airless conditions that slow down decay also suit certain microbes that produce [[32|methane]], which is a far more powerful greenhouse gas than carbon dioxide, although it doesn't remain in the atmosphere for as long. So even a perfectly healthy wetland is constantly releasing some of this gas. However, studies that look at the overall balance over a century or more generally conclude that the carbon locked away outweighs it."],
+            ["A", "Let's move to the coast. Salt marshes, mangrove forests and seagrass meadows are often grouped together under the name '[[33|blue]] carbon' ecosystems, which distinguishes them from the green carbon stored in forests on land. Per hectare, they can bury carbon much faster than most forests, and part of the reason is that they don't rely only on their own plants. Every time the tide comes in, it brings in [[34|sediment]] from the sea and from nearby rivers, and the dense roots and stems slow the water down so that this material settles and is buried. Mangroves are particularly striking. You might assume most of their carbon is held in the trunks, or perhaps in the tangled roots, but in fact up to three quarters of it is in the [[35|soil]] beneath the trees, where it can stay for thousands of years. Coastal wetlands also produce much less methane than freshwater ones, because of the chemistry of seawater."],
+            ["A", "So what's the problem? Over the last few centuries, enormous areas of wetland have been drained. In Britain, peat was dug for fuel for hundreds of years, and more recently for garden compost, and both have done real damage. But the biggest losses by far have come from drainage for [[36|agriculture]], turning wet land into fields for crops and grazing. Once a peatland is drained, air gets into the peat, the microbes become active again, and carbon that was stored for thousands of years starts to escape as carbon dioxide. In other words, a drained peatland changes from a carbon store into a carbon source."],
+            ["A", "Which brings me to restoration. I'm going to describe the method used on many upland bogs in the north of England. The first step is to deal with the drainage ditches, many of which were dug in the twentieth century. These are blocked at regular intervals with small dams. You might expect the dams to be made of plastic or timber, and both have been tried, but the cheapest and most natural material is the [[37|peat]] itself, dug out from beside the ditch and packed down tightly. As the dams hold the water back, the water table gradually rises again."],
+            ["A", "Next, any bare ground has to be protected. On exposed hillsides, bare peat dries out and is blown or washed away. So these areas are covered with cut [[38|heather]], collected from nearby moorland and sometimes dropped by helicopter on the most remote sites. This acts as a kind of blanket. It shades the surface, keeps it damp, and holds the seeds of new plants in place."],
+            ["A", "The third stage is the most important in the long term, and that's bringing back the plant that actually builds peat. This is a moss called [[39|sphagnum]], that's S-P-H-A-G-N-U-M. It can hold many times its own weight in water, and it creates the wet, acidic conditions that a bog needs. It's planted by hand in small clumps, often by volunteers, sometimes tens of thousands of them on a single hillside."],
+            ["A", "Finally, the site has to be monitored, because restoration can take decades. In the past, that meant researchers walking across the bog with notebooks, which was slow and could only cover small areas. These days, most of the monitoring is carried out using [[40|drones]], which can photograph and map an entire site in a single day and show exactly where the water is rising and where the moss is spreading. And the early results are encouraging. On many restored sites, the peat has already stopped losing carbon, and on some it has begun to store it again."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 36,
+          "layout": "notes",
+          "title": "Wetlands as carbon stores",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Peatlands",
+            "- cover about 3% of land but hold around a third of soil carbon",
+            "- waterlogged soil contains little {31}, so dead plants decay slowly",
+            "- however, healthy wetlands also give off {32}, a strong greenhouse gas",
+            "# Coastal wetlands",
+            "- salt marshes, mangroves and seagrass: known as '{33}' carbon",
+            "- each tide carries in {34}, which is trapped by roots and stems",
+            "- mangroves: most of their carbon is found in the {35}, not the trees",
+            "# Loss of wetlands",
+            "- largest losses caused by draining land for {36}",
+            "- drained peat releases carbon dioxide"
+          ],
+          "answers": { "31": ["oxygen"], "32": ["methane"], "33": ["blue"], "34": ["sediment"], "35": ["soil"], "36": ["agriculture"] }
+        },
+        {
+          "type": "gap",
+          "from": 37,
+          "to": 40,
+          "layout": "flow",
+          "title": "Restoring a drained upland bog",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "Ditches blocked by small dams, usually made of {37}",
+            "Water table gradually rises",
+            "Bare ground protected with a layer of {38}",
+            "Peat-forming {39} moss planted by hand",
+            "Progress checked, mainly with the help of {40}"
+          ],
+          "answers": { "37": ["peat"], "38": ["heather"], "39": ["sphagnum"], "40": ["drones"] }
+        }
+      ]
+    }
+  ]
+}

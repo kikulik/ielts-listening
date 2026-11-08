@@ -1,0 +1,396 @@
+{
+  "id": 2,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Joining a sports centre",
+      "context": "a woman phoning a sports centre to ask about membership",
+      "speakers": { "A": { "name": "Receptionist", "g": "m", "accent": "gb" }, "B": { "name": "Joanna", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Hollins Park Sports Centre. How can I help you?"],
+            ["B", "Oh, hello. I've just moved to the area, and I'm thinking of joining the centre. I wondered if you could tell me about the different types of membership."],
+            ["A", "Of course. I can take your details at the same time, if you decide to go ahead. Could I have your name?"],
+            ["B", "Yes, it's Joanna [[1|Ferriday]]."],
+            ["A", "Could you spell the surname for me?"],
+            ["B", "Sure. F-E-R-R-I-D-A-Y."],
+            ["A", "Thanks. So, we have three main types of membership. The cheapest is Bronze, which lets you use the gym and the pool, but only on weekdays before 4 pm."],
+            ["B", "That's no good for me, I'm afraid. I work until half past five most days."],
+            ["A", "Then there's Gold, which includes everything: the gym, the pool, all our classes, the sauna and steam room, and the climbing wall."],
+            ["B", "And how much is that one?"],
+            ["A", "Gold is £48 a month, or a little less if you pay for the whole year in advance."],
+            ["B", "Hmm. That's more than I wanted to spend, and I can't see myself using the sauna much, to be honest."],
+            ["A", "In that case, [[2|Silver]] might suit you better. It covers the gym and the pool at any time, plus four of our weekly classes, but not the sauna."],
+            ["B", "That sounds about right. I think I'll go for that one. How much is it?"],
+            ["A", "Let me see. It says £32 a month here. Oh, no, sorry, that's the price for people over sixty. For you it would be [[3|£34.50]] a month."],
+            ["B", "That's fine. Is there a joining fee as well?"],
+            ["A", "There normally is. It's usually £25, but we've got a special offer on until the end of the month, so you won't need to pay one if you sign up today."],
+            ["B", "Oh, good."],
+            ["A", "All new members have to do an induction session before they can use the gym. It takes about an hour, and one of our instructors shows you how to use the equipment safely. They run on Tuesday evenings at 7, and on Thursdays at [[4|6.15]]."],
+            ["B", "I sing in a choir on Tuesdays, so I'd better do the Thursday one."],
+            ["A", "I'll put you down for this Thursday, then. You'll get your membership card when you come in. Oh, and you'll need to bring a [[5|padlock]] with you for the lockers. They used to take a pound coin, but the locks kept breaking, so we've changed the system."],
+            ["B", "Right. And is there anywhere to park at the centre?"],
+            ["A", "Yes, members can use our car park free of charge. You'll see a sign at the entrance saying there's a two-hour limit, but that only applies to visitors. As a member, you can stay for up to [[6|three]] hours, which is usually plenty. You just need to register your car at reception."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["B", "Could you tell me a bit about the classes that are included in Silver membership?"],
+            ["A", "Sure. On Mondays at 7 pm there's Pilates."],
+            ["B", "Oh, I hurt my knee running last year. Would that be suitable?"],
+            ["A", "Well, the instructor usually recommends aqua aerobics for knee injuries, because the water takes the weight off your joints. Pilates is really aimed at people who suffer from [[7|back]] problems, as it strengthens the muscles around the spine."],
+            ["B", "I see. What else is there?"],
+            ["A", "On Wednesdays there's a lunchtime class at 12.30. That used to be yoga, but the yoga class has moved to the evenings, so now it's [[8|circuits]]."],
+            ["B", "Circuits? What does that involve, exactly?"],
+            ["A", "You move round the room between different exercise stations, spending a minute at each one. It's quite hard work, but it's only forty-five minutes long, so people can fit it into their lunch break."],
+            ["B", "I might try that, if I can get away from the office. Do I need to book the classes in advance?"],
+            ["A", "Yes, you can book up to a week ahead, either online or here at reception. It's worth booking early for circuits, because it's very popular and there are only twenty places."],
+            ["B", "OK. And what about the aqua aerobics you mentioned?"],
+            ["A", "That's at 10 am. It's been on Fridays up to now, but from next month it's moving to [[9|Saturday]] mornings, because the pool's being used for school swimming lessons on Fridays."],
+            ["B", "Actually, that's better for me anyway."],
+            ["A", "And on Sundays at 4 there's an indoor climbing session for beginners. That's the only class where Silver members have to pay a bit extra. It's £8 for non-members, but for you it would be [[10|£6]] a session, and that includes hiring the harness and the shoes."],
+            ["B", "That sounds fun. I've always wanted to try climbing. Well, thank you, you've been really helpful."],
+            ["A", "You're welcome. We'll see you on Thursday, then."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "notes",
+          "title": "Hollins Park Sports Centre: new member",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Personal details",
+            "- Name: Joanna {1}",
+            "# Membership",
+            "- Type: {2}",
+            "- Cost: £{3} per month (no joining fee at present)",
+            "- Gym induction: Thursday at {4} pm",
+            "- Must bring a {5} to use the lockers",
+            "- Free parking: maximum stay of {6} hours"
+          ],
+          "answers": { "1": ["Ferriday"], "2": ["Silver"], "3": ["34.50"], "4": ["6.15", "6.15pm"], "5": ["padlock"], "6": ["three", "3"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Classes included in membership",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Class", "Day", "Time", "Notes"],
+            ["Pilates", "Monday", "7 pm", "especially helpful for {7} problems"],
+            ["{8}", "Wednesday", "12.30 pm", "lasts 45 minutes"],
+            ["Aqua aerobics", "{9}", "10 am", "recommended for knee injuries"],
+            ["Indoor climbing", "Sunday", "4 pm", "extra cost: £{10} per session"]
+          ],
+          "answers": { "7": ["back"], "8": ["circuits"], "9": ["Saturday", "Saturdays"], "10": ["6", "six"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "New cycle routes in the city",
+      "context": "part of a local radio programme about new cycle routes in the city",
+      "speakers": { "P": { "name": "Sophie", "g": "f", "accent": "gb" }, "K": { "name": "Kieran", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["P", "And now on Norwich Today, we're talking about cycling. Over the next few months, a network of new cycle routes will open across the city, and with me in the studio is Kieran Lowe, who manages the project. Kieran, welcome."],
+            ["K", "Thanks, Sophie, it's good to be here."],
+            ["P", "So, why has the city decided to invest in cycling now?"],
+            ["K", "Well, a lot of people assume it's all about air pollution, and cleaner air will certainly be a welcome result. Others think the aim is to cut traffic jams in the centre, and we hope it'll help with that too. But the project actually started with a survey of parents a few years ago. Most of them told us they'd be happy for their children to cycle to school, [[11|but only if the routes were made safer]]. That's really where the whole thing began."],
+            ["P", "And how is it all being paid for?"],
+            ["K", "We did receive a small grant from central government, but that only covered the design work. Some local businesses have kindly paid for new bike racks outside their premises. But [[12|the bulk of the money is coming from the parking charges]] that were introduced in the city centre last year."],
+            ["P", "There was a public consultation last year. Did that lead to any changes?"],
+            ["K", "Yes, a lot of people took part. Many asked for lower speed limits on the main roads, but that's a decision for the police and the highways authority, not for us. Others wanted more crossings, and in fact those were already part of the plan. The biggest change came after shopkeepers on Magdalen Street told us they were worried about losing space for their delivery vans. As a result, [[13|we moved that section of the route one street further east]]."],
+            ["P", "Now, the routes were supposed to open in the spring, weren't they? What happened?"],
+            ["K", "That's right. People assume it was the weather, but we actually had a fairly mild winter. We also had a short delay getting hold of the special red surface material, but that was sorted out within a fortnight. [[14|The main problem was that the water company needed to replace the pipes under several roads]], and we couldn't start work until they'd finished."],
+            ["P", "For people who haven't cycled for a long time, the idea of getting back on a bike can be a bit frightening."],
+            ["K", "Absolutely, and that's why we're offering free training sessions. Children already get cycle training through their schools, so these are [[15|aimed at adults who want to start riding again after many years]]. Quite a few people have asked whether we'll run sessions for electric bikes, and we may do that next year, but not at the moment."],
+            ["P", "And if listeners want to tell you what they think of the routes?"],
+            ["K", "We'd love to hear from them. We'd planned to put feedback forms in all the libraries, but we decided it would be too difficult to process so much paper. And our phone lines are already very busy. So [[16|the best way is to download our new app]], which lets you report a problem and mark the exact spot on a map."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["P", "Let's talk about the routes themselves. There are four of them, is that right?"],
+            ["K", "That's right. The first, and the one I'd recommend for anyone who's nervous about traffic, is the Riverside Route, which follows the Wensum right through the city centre. That one's already open. It's a beautiful ride, but remember that [[17|you'll be sharing it with people walking their dogs and families with pushchairs]], so please slow down and use your bell. Some people have asked why there are no lights along it. That's because of the bats that feed over the river. The wildlife groups told us lighting would disturb them."],
+            ["P", "And the second?"],
+            ["K", "The Station Link takes you from the railway station up to the cathedral. People expect it to be hilly, because the station's down by the river, but in fact it's almost completely flat. For the first few hundred metres, [[18|you'll be riding right alongside the buses on Prince of Wales Road]], in your own lane, with a low kerb separating you from them."],
+            ["K", "Then there's University Way, which heads west out to the campus. That one has a protected lane all the way, but I should warn you that [[19|it includes the only serious hill on the whole network]], the long climb up Earlham Road. You'll certainly feel it in your legs."],
+            ["K", "And finally, there's the Hospital Loop, which links the hospital with the villages to the south of the city. Most of it runs along quiet back streets, so there are no buses to worry about. However, [[20|the section nearest the hospital is still under construction]], and it won't be ready for another month, so until then you'll need to follow the diversion signs."],
+            ["P", "Kieran Lowe, thank you very much for coming in."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 16,
+          "items": [
+            {
+              "q": 11,
+              "stem": "According to Kieran, what was the original reason for the project?",
+              "options": ["to improve air quality", "to reduce congestion in the city centre", "to make cycling to school safer"],
+              "answer": "C"
+            },
+            {
+              "q": 12,
+              "stem": "Most of the funding for the routes comes from",
+              "options": ["fees for parking.", "central government.", "local companies."],
+              "answer": "A"
+            },
+            {
+              "q": 13,
+              "stem": "What change was made as a result of the public consultation?",
+              "options": ["Speed limits were lowered on main roads.", "Part of a route was moved away from a shopping street.", "Extra crossings were added."],
+              "answer": "B"
+            },
+            {
+              "q": 14,
+              "stem": "What was the main cause of the delay?",
+              "options": ["bad weather", "work on underground pipes", "a shortage of materials"],
+              "answer": "B"
+            },
+            {
+              "q": 15,
+              "stem": "Who are the free training sessions for?",
+              "options": ["adults returning to cycling", "schoolchildren", "people with electric bikes"],
+              "answer": "A"
+            },
+            {
+              "q": 16,
+              "stem": "What is the best way for listeners to give feedback?",
+              "options": ["by phone", "by completing a form at a library", "by using an app"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 17,
+          "to": 20,
+          "lead": "What does Kieran say about each of the following cycle routes?",
+          "boxTitle": "Features",
+          "options": [
+            "It includes a steep climb.",
+            "It will have lighting at night.",
+            "Cyclists share it with pedestrians.",
+            "It is not yet complete.",
+            "It has the largest number of bike racks.",
+            "Part of it runs beside a bus lane."
+          ],
+          "items": [
+            { "q": 17, "text": "the Riverside Route", "answer": "C" },
+            { "q": 18, "text": "the Station Link", "answer": "F" },
+            { "q": 19, "text": "University Way", "answer": "A" },
+            { "q": 20, "text": "the Hospital Loop", "answer": "D" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A dissertation on coastal erosion",
+      "context": "a student and her tutor discussing her dissertation on coastal erosion",
+      "speakers": { "H": { "name": "Dr Haynes", "g": "m", "accent": "gb" }, "C": { "name": "Carla", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 26,
+          "lines": [
+            ["H", "Come in, Carla. So, you wanted to talk about your dissertation. How's it going?"],
+            ["C", "Pretty well, I think. I've decided to focus on the Holderness coast in East Yorkshire, around the village of Mappleton."],
+            ["H", "Good. Why there, in the end? I remember you were thinking about Norfolk."],
+            ["C", "I was. And I'll admit it helps that my grandparents live in Hull, so I'll have somewhere to stay. But that's not really why I chose it. In 1991, rock defences were built to protect Mappleton, but the cliffs to the south weren't protected at all. So [[21|I can look at a stretch with sea defences and a stretch without them, side by side]]."],
+            ["H", "Yes, that makes it a much stronger project. And there's certainly no shortage of research on that coast."],
+            ["C", "No, there's a lot of recent work, which is really helpful."],
+            ["H", "Now, I've read the draft of your literature review."],
+            ["C", "Is it too long? I know I went on a bit."],
+            ["H", "No, the length is fine. In fact, you're a little under the word limit. And you've included most of the important recent studies. My main concern is the kind of sources you're using. [[22|Quite a few of them are websites belonging to local councils and campaign groups]], rather than articles in academic journals. They can be useful for background, but you need to be careful how much weight you give them."],
+            ["C", "OK, I'll try to replace some of those."],
+            ["H", "You mentioned you'd found some historical maps."],
+            ["C", "Yes, in the university library. They go back to the 1850s and they show the whole coastline, which is amazing. The library staff were really helpful, and they let me photograph them. The problem is that [[23|every edition was drawn at a different scale]], so it's been really hard to compare one with another."],
+            ["H", "That's quite normal with old maps, I'm afraid. There's software that can help you convert them, and I'll send you a link."],
+            ["H", "You're also planning to interview people who live in the area. What do you hope to get from that?"],
+            ["C", "Well, at first I thought it would make the dissertation more readable, you know, more human. But now I'm not so sure it's worth the time."],
+            ["H", "I think it is, though not for that reason. And of course, you can't measure anything from interviews. What they can tell you is [[24|how local people's attitudes towards the defences have shifted over the years]]. That's something the physical data can never show you."],
+            ["C", "That's a good point. Several people have already told me they were in favour at first, and then their neighbours' houses started falling into the sea."],
+            ["H", "And the drone survey? How did that go?"],
+            ["C", "Not as well as I'd hoped. The landowners were all happy for me to fly over their fields, and the camera's excellent, so the images are really sharp. But [[25|it was too windy to fly on three of the five days I was there]], so I only covered about half the coastline I'd planned to."],
+            ["H", "That's the east coast for you. You'll have to go back."],
+            ["C", "I was planning to go back at the end of the summer to do my second set of measurements anyway."],
+            ["H", "Hmm. Think about when most of the erosion actually happens on that coast."],
+            ["C", "In the winter, I guess, with the storms."],
+            ["H", "Exactly. If you measure in August and then again in September, you'll hardly see any change. [[26|You'd be much better off going back in March, once the winter storms are over]]. Some researchers time their visits around the spring tides, but that matters more for studies of beaches than of cliffs."]
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "lines": [
+            ["H", "Let's go through your method for measuring how far the cliffs have retreated. What are you going to use as your reference points?"],
+            ["C", "Well, the council put in some survey markers back in the 1990s, and I'd planned to use those. But when I went to look, about half of them had already fallen into the sea, along with the cliff."],
+            ["H", "That's rather the point of the study, I suppose."],
+            ["C", "Right. So instead, [[27|I'm using the fence posts along the edges of the farmers' fields]]. They're set well back from the cliff, and the farmers have promised not to move them."],
+            ["H", "Good. And how will you measure the distance from each post to the cliff edge?"],
+            ["C", "I'd assumed I'd use a GPS device, but over such short distances, they're only accurate to within a metre or so, which isn't good enough."],
+            ["H", "No, it isn't, for this kind of work."],
+            ["C", "So I'll do it the old-fashioned way, [[28|with a long tape measure]]. It's slower, but it's much more precise."],
+            ["H", "Then you'll need to compare your results with earlier data. The old maps will only give you a very general picture."],
+            ["C", "Yes, I'll use the maps for the long-term trend, over a century or more. For the last twenty years, I looked at satellite images, but they're not detailed enough to pick out individual fence posts. Fortunately, the council has a set of [[29|aerial photographs]] taken every two years since 2003, so I'll compare my measurements with those."],
+            ["H", "Excellent. And how are you going to present the results? You'll have an awful lot of numbers."],
+            ["C", "I was going to put them in a table, with a row for each fence post."],
+            ["H", "That's fine for an appendix, but in the main text, a page full of numbers is very hard to read. You'd do better to [[30|show the rate of retreat on a map, using a different colour for each section]], so the reader can see straight away where the erosion is worst."],
+            ["C", "That makes sense. I'll have a go at that this week."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 26,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why has Carla chosen to study the Holderness coast?",
+              "options": ["She has relatives living nearby.", "Little recent research has been done there.", "She can compare protected and unprotected cliffs."],
+              "answer": "C"
+            },
+            {
+              "q": 22,
+              "stem": "What is Dr Haynes's main criticism of Carla's literature review?",
+              "options": ["It is too long.", "It relies too heavily on non-academic sources.", "It leaves out important recent studies."],
+              "answer": "B"
+            },
+            {
+              "q": 23,
+              "stem": "What difficulty has Carla had with the historical maps?",
+              "options": ["They are not all drawn to the same scale.", "She was not allowed to copy them.", "They do not show the whole coastline."],
+              "answer": "A"
+            },
+            {
+              "q": 24,
+              "stem": "Why does Dr Haynes think the interviews will be valuable?",
+              "options": [
+                "They will make the dissertation more readable.",
+                "They will reveal changes in public opinion.",
+                "They will provide data that can be measured."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 25,
+              "stem": "What problem did Carla have with the drone survey?",
+              "options": ["The weather conditions were unsuitable.", "Landowners refused permission.", "The images were of poor quality."],
+              "answer": "A"
+            },
+            {
+              "q": 26,
+              "stem": "When does Dr Haynes suggest Carla should take her second set of measurements?",
+              "options": ["at the end of the summer", "at the time of the spring tides", "after the winter storms"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 27,
+          "to": 30,
+          "layout": "flow",
+          "title": "Carla's method for measuring cliff retreat",
+          "options": ["GPS device", "aerial photographs", "fence posts", "table", "tape measure", "satellite images", "survey markers", "colour-coded map"],
+          "rows": [
+            "Use {27} as fixed reference points",
+            "Measure the distance from each point to the cliff edge with a {28}",
+            "Compare the figures with recent {29}",
+            "In the main text, present the rate of retreat for each section as a {30}"
+          ],
+          "answers": { "27": "C", "28": "E", "29": "B", "30": "H" }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The behaviour of urban foxes",
+      "context": "part of a lecture on the behaviour of urban foxes",
+      "speakers": { "L": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "In today's lecture, I'll be looking at one of the most successful wild animals in our cities, the red fox. Most people in Britain have seen a fox in a town at some point, crossing a road at night, perhaps, or sunbathing on a garage roof. But foxes haven't always lived alongside us, and researchers have learned a great deal about how they've adapted to urban life."],
+            ["L", "Foxes began to appear in British cities in significant numbers in the 1930s. That was a period of rapid building, when suburbs spread outwards from cities like London and Bristol. The new houses were built at quite low densities, and many of them had large [[31|gardens]], often backing onto one another. For a fox, that provided exactly what it needed: plenty of cover, places to dig, and a steady supply of food. Interestingly, foxes have been much slower to move into the densely built centres of older cities, where there's far less green space."],
+            ["L", "So how much space does an urban fox need? In the countryside, a fox's territory can cover several square kilometres. You might imagine that city foxes would have to range even further, because they have to deal with roads and buildings. In fact, the reverse is true. Urban territories are usually much [[32|smaller]], sometimes just a few dozen gardens, because food is so concentrated. Tracking studies using GPS collars have also shown how foxes get around. They do make use of parks, rivers and canal towpaths, but the most important routes of all are [[33|railway]] lines, where the embankments give them cover and they're rarely disturbed by people."],
+            ["L", "Now, food. There's a popular image of the urban fox as a creature that survives by tipping over bins and eating takeaway leftovers. In fact, studies of what foxes eat show a much more varied diet. A large proportion does come from people, but much of it is food that's been put out deliberately, either for birds or for the foxes themselves. Foxes also hunt rats, mice and pigeons. And on mild, damp nights, you may see a fox standing very still on a lawn, before suddenly pulling something out of the grass. It's catching [[34|earthworms]], which come to the surface when the ground is wet, and which can make up a surprising part of the diet at certain times of year."],
+            ["L", "Foxes rarely eat everything they find at once. When there's more food than they need, they don't leave it lying around. Instead, they carry it off and [[35|bury]] it in a shallow hole, and a single fox may have dozens of these stores across its territory. It returns to them days or even weeks later, apparently remembering exactly where each one is. This is one reason gardeners sometimes find their flower beds dug up."],
+            ["L", "Let's turn to family life. Foxes were once thought to live in simple pairs, but we now know that urban fox groups are often larger. A group typically contains a breeding male and female, along with one or more adults that don't breed themselves. These helpers are usually female, and in most cases they're the pair's [[36|daughters]] from the previous year. They help to feed and guard the cubs."],
+            ["L", "The cubs are born in March, in an underground den. In the countryside, foxes often take over old rabbit burrows, but in towns, the most common place for a den is underneath garden [[37|sheds]], where the ground is dry and undisturbed. The cubs first come above ground in April, which is when people often notice them playing in gardens."],
+            ["L", "What kills urban foxes? Disease can have dramatic effects. In the mid-1990s, an outbreak of a skin disease called mange spread through the fox population of Bristol and reduced it by more than 90% in just a few years. But outbreaks like that are unusual. Year after year, the biggest single cause of death is road [[38|traffic]]. Most urban foxes live for only about two years, even though they can survive for ten or more in captivity."],
+            ["L", "Are city foxes actually changing as a result of urban life? There have been newspaper stories about enormous city foxes, but in fact urban foxes are no larger than their rural relatives. What researchers have found is a difference in shape. A study of fox skulls kept in a museum collection compared foxes from London with those from the surrounding countryside, and found that the urban foxes tended to have shorter, wider [[39|snouts]]. One possible explanation is that a long, narrow snout is ideal for catching fast-moving prey, whereas city foxes need more strength for crushing and chewing the food they scavenge."],
+            ["L", "Finally, what about relations between foxes and people? Surveys suggest that most city residents actually like having foxes around. When people do complain, you might expect it to be about foxes attacking pets, but that's extremely rare, and damage to bins and gardens comes surprisingly low on the list. The most common complaint, by far, is [[40|noise]]. During the breeding season in January, foxes make loud screaming calls at night, which can be very alarming if you don't know what's causing them. In the next lecture, we'll look at how some cities have tried to manage these conflicts."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Urban foxes",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Moving into cities",
+            "- common in British cities from the 1930s",
+            "- helped by new suburbs where homes had big {31}",
+            "# Territory and movement",
+            "- territories in towns are generally {32} than in the countryside",
+            "- main routes across the city are {33} lines",
+            "# Diet",
+            "- much food provided by people, often on purpose",
+            "- in wet weather, they pull {34} from the grass",
+            "- they {35} surplus food and return to it later",
+            "# Family groups",
+            "- breeding pair often helped by their {36} from the year before",
+            "- town dens are typically found under {37} in gardens",
+            "# Threats",
+            "- greatest single cause of death: road {38}",
+            "# Effects of city life",
+            "- London foxes: {39} tend to be shorter and broader",
+            "- residents complain most often about {40}"
+          ],
+          "answers": {
+            "31": ["gardens"],
+            "32": ["smaller"],
+            "33": ["railway"],
+            "34": ["earthworms"],
+            "35": ["bury"],
+            "36": ["daughters"],
+            "37": ["sheds"],
+            "38": ["traffic"],
+            "39": ["snouts"],
+            "40": ["noise"]
+          }
+        }
+      ]
+    }
+  ]
+}

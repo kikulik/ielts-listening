@@ -1,0 +1,361 @@
+{
+  "id": 23,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Registering a child for a summer activity camp",
+      "context": "a father phoning to book a place for his daughter at a summer activity camp",
+      "speakers": { "A": { "name": "Joanne", "g": "f", "accent": "gb" }, "B": { "name": "Greg", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Kingfisher Holiday Camps, Joanne speaking."],
+            ["B", "Hi, good morning. I'm calling about your summer camps. I'd like to sign my daughter up for one, but I'm not sure which would suit her best."],
+            ["A", "No problem at all. How old is she?"],
+            ["B", "She's nine. She'll be ten in September."],
+            ["A", "Great, so she can do any of our three programmes. They all run at Northcott School, on the east side of the city, from nine until half past three, Monday to Friday. Shall I go through them for you?"],
+            ["B", "Please. We only moved to Exeter in the spring, so this is all new to us."],
+            ["A", "Right. The first one is called Explorers, and that's all outdoors. The children do orienteering, and den-building in the woods behind the school. We used to offer rock climbing as well, but our insurance costs went up so much that we've replaced it with [[1|archery]], and the children seem to love it."],
+            ["B", "She'd like that. What does it cost?"],
+            ["A", "Explorers is £145 a week. That includes lunch, and we provide sun cream too. But we're outside in all weathers, so even if the forecast is sunny, please make sure they've always got a [[2|raincoat]] with them."],
+            ["B", "Got it. And the second one?"],
+            ["A", "That's Makers. It's our creative programme, so it's based in the art and technology rooms. They do pottery, and they make short films on tablets. There used to be painting too, but the teacher who ran that has moved away, so this year they're doing [[3|woodwork]] instead. They make a small box or a bird table to take home."],
+            ["B", "That sounds great. Is it the same price as Explorers?"],
+            ["A", "It's a bit less. Now, our leaflet says £118, but I'm afraid that's a printing mistake. The correct price is [[4|£128]] a week."],
+            ["B", "OK, thanks for letting me know."],
+            ["A", "And at the end of the week, the children's films are shown on a big screen. We used to do that in the school hall, but this year a cinema in the city centre has offered to host it, so families will get to watch them in a real [[5|cinema]]."],
+            ["B", "Oh, Ruby would love that. And the third programme?"],
+            ["A", "That's Splash, which is based at the watersports centre on the reservoir. They do swimming, sailing and kayaking. It's £160 a week, because of the extra staff we need on the water. Now, most swimming pools ask for children to manage 25 metres, but because the reservoir is open water, we need them to be able to swim at least [[6|50]] metres without stopping."],
+            ["B", "Hmm. She can do about 25 at the moment, so I think we'll leave that one until next year."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["A", "So which would you like to book?"],
+            ["B", "I think Makers. She's very artistic, and she'd be thrilled about seeing her film in a cinema. Could we do the week starting the 3rd of August?"],
+            ["A", "Let me check. Yes, there are still a few places that week. Is it just Ruby you're booking for?"],
+            ["B", "Yes, just her. Her brother's fourteen, so he's too old for your camps, and anyway, he's going to a football camp that week."],
+            ["A", "OK. Can I take her full name, then?"],
+            ["B", "Sure. It's Ruby, and the last name is [[7|Sandoval]]."],
+            ["A", "Could you spell that for me?"],
+            ["B", "S-A-N-D-O-V-A-L."],
+            ["A", "Thank you. And does Ruby have any allergies or medical conditions that we should know about?"],
+            ["B", "Yes, she has a food allergy. People always assume it's nuts, but she's fine with those, actually. It's [[8|sesame]]. It's in a lot of breads and snacks, so it can be quite hard to avoid."],
+            ["A", "That's no problem. Our kitchen staff are very careful, and I'll make a note on her record. Now, who'll be collecting her at the end of the day?"],
+            ["B", "Usually me or my wife, but on Tuesdays we both work late, so our neighbour, Mrs Hughes, will pick her up."],
+            ["A", "That's fine, but anyone who isn't a parent has to give a password when they collect a child. What would you like it to be?"],
+            ["B", "Let me think. Something Ruby will remember. We could use Pepper. No, wait, that's the password her brother uses at his after-school club, and I don't want them getting mixed up. Let's make it [[9|Biscuit]]. That's the name of our dog."],
+            ["A", "Biscuit, lovely. I'll add that to her record. Mrs Hughes will also need to show some photo identification the first time she comes. And finally, there's a deposit to secure the place. It used to be £50, but we've lowered it this year to [[10|£30]], and the rest is due two weeks before the camp starts. Would you like to pay the deposit now, by card?"],
+            ["B", "Yes, let's do that."],
+            ["A", "Perfect. I'll just take your card details, and then I'll email you a confirmation with everything Ruby needs to bring."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "table",
+          "title": "KINGFISHER HOLIDAY CAMPS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Programme", "Activities", "Cost per week", "Notes"],
+            ["Explorers", "orienteering, den-building, {1}", "£145", "lunch and sun cream provided\nmust have a {2} every day"],
+            ["Makers", "pottery, film-making, {3}", "£{4}", "final films screened at a local {5}"],
+            ["Splash", "swimming, sailing, kayaking", "£160", "minimum swimming distance: {6} metres"]
+          ],
+          "answers": { "1": ["archery"], "2": ["raincoat"], "3": ["woodwork"], "4": ["128"], "5": ["cinema"], "6": ["50", "fifty"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "REGISTRATION DETAILS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Child", "Programme and week", "Allergy", "Collection password", "Deposit"],
+            ["Ruby {7}, age 9", "Makers, from 3rd August", "{8}", "{9}", "£{10}"]
+          ],
+          "answers": { "7": ["Sandoval"], "8": ["sesame"], "9": ["Biscuit"], "10": ["30"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Volunteering for a beach clean-up",
+      "context": "a charity worker talking to a community group about volunteering for a beach clean-up",
+      "speakers": { "A": { "name": "Martin", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "Good evening, everyone, and thank you for coming along. My name's Martin, and I coordinate the volunteers for Tidewatch, a small charity that looks after the beaches here in Saltburn. We hold a big clean-up on the first Sunday of every month, and tonight I'd like to explain why we need more help, and what's involved if you decide to join us."],
+            ["A", "First, a little background. Over the past five years, the amount of rubbish we collect has nearly doubled. Most people assume that's down to tourists, and of course some litter is left by visitors in the summer. But actually, visitor numbers have stayed fairly steady over that period. And it isn't a shortage of bins, either. The council has put in about twenty new ones along the seafront, and it still sweeps the main beach every morning in summer, just as it always has."],
+            ["A", "So what has changed? Well, one thing is [[11|the weather. We're getting more frequent and more violent storms in winter]], and they stir up rubbish that's been floating out at sea for years and throw it up onto the sand. The other big factor is the river. Until a few years ago, there was a floating barrier upstream that caught a lot of rubbish before it reached the sea. [[12|It was taken away because it kept causing flooding on a nearby road]], and since then, far more litter has been washed down from inland."],
+            ["A", "So, what does a clean-up involve? We start at nine and work for about two hours. We provide gloves, litter pickers and rubbish bags, so you don't need to bring any of those. What we do ask is that you [[13|bring a refillable bottle of water]], because we're trying not to create more plastic waste ourselves, and there's a tap by the public toilets where you can top it up."],
+            ["A", "And please [[14|wear proper boots or wellingtons]]. The rocks at the north end of the beach are covered in seaweed and very slippery, and every year someone turns up in sandals. Oh, and some of you may have heard that we use an app. We did try one for recording what we found, but it caused more problems than it solved, so there's no need to download anything."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "Now, some practical details. In previous years we always met outside the café on the promenade, but that's closed for refurbishment at the moment, so from this month we'll be meeting by the [[15|lifeboat station]], just north of the pier. It's the big blue building with the slipway, so you can't miss it."],
+            ["A", "Young people are very welcome, and we have quite a few teenagers who come regularly. Anyone under sixteen must either come with a parent, or bring a [[16|consent form]] signed by a parent or carer. You can download that from our website, and I've also got some paper copies here tonight."],
+            ["A", "Safety is our top priority. You can pick up most things with the litter pickers, even broken glass, as long as it goes into the separate plastic bucket. But there are two things we never want you to touch. One is anything that looks like a syringe. The other is [[17|marine flares]]. These are the emergency flares that boats carry, and old ones sometimes wash up on the beach. They can still go off and cause serious burns, so if you find one, keep well away and tell one of the organisers in a yellow jacket. We'll call the coastguard."],
+            ["A", "We also record everything we find, because the information goes to researchers at the university who are trying to work out where the rubbish comes from. Each group is given a [[18|clipboard]] with a recording sheet on it, and one person keeps count while the others collect. We did try recording on our phones a couple of years ago, but the screens were impossible to read in bright sunlight, and they didn't cope very well with the rain either."],
+            ["A", "People are often surprised by what turns up. Last year we expected plastic drinks bottles to be the most common item, and we certainly found hundreds of them. But there were actually far more pieces of [[19|fishing line]], which is especially dangerous for seabirds, because they get tangled up in it."],
+            ["A", "And finally, what's in it for you? Apart from a cleaner beach, of course. Everyone gets a hot drink and a bacon roll afterwards, kindly provided by one of the cafés on the seafront, and there's a vegetarian option too. And if you come along regularly, say four or five times, we'll offer you free training to become a [[20|team leader]]. That involves a first aid course and a day learning about tides and beach safety, and it looks very good on a CV if you're a student. Right, does anyone have any questions?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 11,
+          "to": 12,
+          "stem": "Which TWO reasons does the speaker give for the increase in rubbish on the beach?",
+          "options": [
+            "more tourists visiting the town",
+            "fewer litter bins on the seafront",
+            "stormier weather in winter",
+            "the removal of a barrier on the river",
+            "less frequent cleaning by the council"
+          ],
+          "answer": ["C", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 13,
+          "to": 14,
+          "stem": "Which TWO things are volunteers asked to bring or wear?",
+          "options": ["gloves", "a water bottle", "suitable footwear", "rubbish bags", "a phone with the charity's app"],
+          "answer": ["B", "C"]
+        },
+        {
+          "type": "gap",
+          "from": 15,
+          "to": 20,
+          "layout": "notes",
+          "title": "Tidewatch beach clean-up: volunteer information",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# Before you start",
+            "- meeting place: the {15}, near the pier",
+            "- volunteers under 16 need a {16} unless they come with a parent",
+            "# Safety",
+            "- never touch syringes or {17}",
+            "# Recording what is found",
+            "- items recorded on a sheet attached to a {18}",
+            "- most frequent item found last year: {19}",
+            "# Benefits",
+            "- frequent volunteers may train as a {20}"
+          ],
+          "answers": {
+            "15": ["lifeboat station"],
+            "16": ["consent form"],
+            "17": ["marine flares", "flares"],
+            "18": ["clipboard"],
+            "19": ["fishing line"],
+            "20": ["team leader"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Research on microplastics in a river",
+      "context": "two environmental science students discussing their research on microplastics in a river",
+      "speakers": { "A": { "name": "Priya", "g": "f", "accent": "gb" }, "B": { "name": "Owen", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["A", "Owen, have you got a few minutes to go through our results before we see Dr Hayward on Thursday?"],
+            ["B", "Sure. I've put all the counts into the spreadsheet now. Shall we go site by site, starting upstream?"],
+            ["A", "Yes. So, the spring near the source. I honestly expected to find almost nothing there. It's in the middle of farmland, miles from the nearest town."],
+            ["B", "So did I. But we found nearly a hundred particles per cubic metre, which is more than at the park. I've checked the figures twice, and they're right. [[21|That one really caught us off guard]]."],
+            ["A", "I wonder if it's coming through the air. I've read that plastic fibres can be carried a long way on the wind. Anyway, at least getting access was easy. The farmer couldn't have been more helpful."],
+            ["B", "Then the footbridge in the park. That's the one I'm worried about."],
+            ["A", "Why? The numbers looked perfectly sensible."],
+            ["B", "They do. But think about what we were wearing that day. It was freezing, and we both had our fleece jackets on, and we were leaning right over the open jars. Fleeces shed fibres all the time. [[22|Some of what we counted could easily have come from us rather than the river]]."],
+            ["A", "Oh no, you're right. We'll have to mention that as a possible source of error. Next time we could leave an open jar of clean water beside us while we work, to see how many fibres land in it."],
+            ["B", "Good idea. But I don't think we should drop the site altogether. It's the only one right in the middle of town."],
+            ["A", "Agreed. Then site three, just downstream of the sewage works. That gave the highest count by far."],
+            ["B", "Which is what everyone predicted. Washing machines release huge numbers of tiny fibres from synthetic clothes, and the treatment works can't catch them all. And sure enough, under the microscope, [[23|the vast majority of particles there were fibres rather than fragments or beads]]."],
+            ["A", "People had warned us that the bank there gets dangerous after heavy rain, but there's a proper concrete platform, so it was fine."],
+            ["B", "And finally, the industrial estate."],
+            ["A", "That was the one that nearly didn't happen. The land beside the river belongs to a delivery company, and [[24|they took almost six weeks to reply to our emails and agree to let us on]]. I was starting to think we'd have to find somewhere else."],
+            ["B", "And after all that, the results were fairly ordinary. Mostly fragments, probably from packaging."],
+            ["A", "Should we talk about the equipment problems too? Dr Hayward's bound to ask."],
+            ["B", "Yes. Well, the pump was fine. It was actually more powerful than we needed. And the jars were all washed in the lab beforehand, so I'm confident they were clean."],
+            ["A", "The real problem was the filter. Whenever the water was cloudy, [[25|the fine mesh clogged up within a few minutes]], and we had to keep stopping to clean it."],
+            ["B", "Which meant we sampled less water than we'd planned at some of the sites."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "Then there's the analysis. Do you think we need to explain why we didn't use the spectrometer?"],
+            ["B", "We'll have to. Anyone reading it will assume it was too expensive, but actually the department lets students use it for free. And we both did the training course back in October. The problem was that [[26|the PhD students had it booked for the whole of November and December]], so it simply wasn't free when we needed it."],
+            ["A", "So we counted everything by eye instead. Which was so slow."],
+            ["B", "Actually, once we got used to it, it was quicker than I'd feared. And when we compared our counts for the same samples, they were very close, so I'm not worried about consistency. [[27|The real weakness is that anything smaller than about a tenth of a millimetre is almost impossible to see]], so we've definitely underestimated the tiniest particles. And those are the ones most likely to be swallowed by fish."],
+            ["A", "OK. Now, presentation. When we met Dr Hayward last time, she said she didn't want just a table of numbers. I'd been thinking of a bar chart for each site."],
+            ["B", "So had I. But didn't she say she'd prefer something that shows the pattern along the river?"],
+            ["A", "Yes, that's right. [[28|She suggested drawing the river and marking the concentration at each sampling point]], so readers can see how it changes as you go downstream. It's more work, but I think she's right."],
+            ["B", "Fine, I can do that with the mapping software. What about limitations? I think we need a whole section."],
+            ["A", "I'd say the biggest is that we only took two samples at each site."],
+            ["B", "Two isn't ideal, but it's quite normal for a project of this size. For me, the bigger issue is that [[29|all our sampling was done in winter]]. River flow is completely different in summer, so we can't say anything about the rest of the year."],
+            ["A", "That's true, but everyone else in the class sampled in winter too. Is it really a problem?"],
+            ["B", "It's still a limitation, even if everyone has it."],
+            ["A", "OK, you've convinced me. That's the main one. And we didn't compare our river with any others, but that was never the aim, so I don't think it counts."],
+            ["B", "Agreed. So, before Thursday, what's left?"],
+            ["A", "Should I count the samples from the source again, just to be sure?"],
+            ["B", "I've already checked them twice, they're fine. I think something more useful would be finding out whether those fibres at the source could have come through the air."],
+            ["A", "OK, [[30|I'll search the journals tonight for anything on airborne fibres]]. We could also email the water company about the sewage works, but they'll take ages to reply."],
+            ["B", "Let's leave that until after the meeting."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 21,
+          "to": 24,
+          "lead": "What do the students say about each of the following sampling sites?",
+          "boxTitle": "Comments",
+          "options": [
+            "The results were higher than they had predicted.",
+            "Getting permission to work there took a long time.",
+            "Their samples there may have been contaminated.",
+            "They have decided to drop it from the next stage.",
+            "It was unsafe to reach after heavy rain.",
+            "Most of the particles found there were fibres."
+          ],
+          "items": [
+            { "q": 21, "text": "the spring near the source", "answer": "A" },
+            { "q": 22, "text": "the footbridge in the park", "answer": "C" },
+            { "q": 23, "text": "below the sewage works", "answer": "F" },
+            { "q": 24, "text": "the industrial estate", "answer": "B" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 25,
+          "to": 30,
+          "items": [
+            {
+              "q": 25,
+              "stem": "What problem did the students have with their equipment?",
+              "options": ["The pump was not powerful enough.", "The filter kept getting blocked.", "Some of the jars were not clean."],
+              "answer": "B"
+            },
+            {
+              "q": 26,
+              "stem": "Why did the students not use the spectrometer?",
+              "options": ["It was not available when they needed it.", "It was too expensive for student projects.", "They had not been trained to operate it."],
+              "answer": "A"
+            },
+            {
+              "q": 27,
+              "stem": "What does Owen say about counting particles under the microscope?",
+              "options": ["It took longer than they had expected.", "Their counts did not agree with each other.", "It probably missed the smallest particles."],
+              "answer": "C"
+            },
+            {
+              "q": 28,
+              "stem": "How did their tutor suggest presenting the results?",
+              "options": ["as a map of the river", "as a table of figures", "as a bar chart for each site"],
+              "answer": "A"
+            },
+            {
+              "q": 29,
+              "stem": "What do the students agree is the main weakness of their study?",
+              "options": ["the small number of samples", "the season in which samples were taken", "the lack of comparison with other rivers"],
+              "answer": "B"
+            },
+            {
+              "q": 30,
+              "stem": "What will Priya do before the meeting with the tutor?",
+              "options": ["count the samples from the source again", "contact the water company", "look for studies on fibres carried in the air"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Early pioneers of flight",
+      "context": "part of a lecture on some early pioneers of flight",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good afternoon. If you ask most people who invented the aeroplane, they'll tell you it was the Wright brothers, and it's true that in December 1903 they made the first controlled, powered flight. But the Wrights didn't start from nothing. They built on more than a century of work by others, some of whom paid with their lives, and today I want to look at a few of these pioneers and what each of them contributed."],
+            ["A", "Let's begin in England with Sir George Cayley, who was born in 1773 and is often called the father of aviation. Before Cayley, most people who tried to fly copied birds and built machines with flapping wings. Cayley's great insight was that the wing should be fixed, and that the jobs of producing lift, pushing the machine forward and controlling it should be done by separate parts. As early as 1799, he engraved his idea for a fixed-wing flying machine on one side of a small silver [[31|disc]], which you can still see today in the Science Museum in London."],
+            ["A", "Cayley built a series of gliders over the following decades. In 1849, one of them carried a ten-year-old boy a few metres down a hillside. But the flight most people remember came four years later, in 1853, when a larger glider carried his [[32|coachman]] across a small valley on Cayley's estate in Yorkshire. According to the story, which may or may not be true, the man climbed out and immediately resigned, saying he'd been employed to drive, not to fly."],
+            ["A", "So why didn't Cayley go on to build a powered aircraft? He certainly understood what was needed. The problem was that the only practical source of power at the time was the steam [[33|engine]], and with its boiler, fuel and water, it was far too heavy for the amount of lift a wing could produce. He experimented with other designs, including one that ran on gunpowder, but none of them worked well enough."],
+            ["A", "The next major figure is the German engineer Otto Lilienthal. Lilienthal spent years watching birds in flight, gulls, crows and many others, but he was most interested in [[34|storks]], because they could soar for long periods with hardly a beat of their wings. In 1889 he published a book on bird flight, which became one of the most influential texts of early aviation."],
+            ["A", "Lilienthal then put his theories into practice. Between 1891 and 1896 he made around 2,000 glider flights. At first he jumped from natural slopes, but a slope only faces one way, and you need to launch into the wind. So he had an artificial [[35|hill]] built near Berlin, about fifteen metres high, which allowed him to take off whatever direction the wind was blowing from."],
+            ["A", "His gliders had no controls in the modern sense. He hung beneath the wings, supporting himself on his arms, and changed direction by swinging his [[36|legs]] from side to side, which altered the balance of the whole machine. It worked, but it meant the size of a glider was limited to what one person could balance."],
+            ["A", "Perhaps Lilienthal's greatest contribution, though, was publicity. He was one of the first people ever to be photographed in flight, and [[37|photographs]] of him in the air appeared in newspapers and magazines all over the world. They convinced a whole generation, including the Wright brothers, that human flight was possible. Sadly, in 1896, his glider stalled in a gust of wind and fell about fifteen metres. He broke his spine and died the following day."],
+            ["A", "Across the Atlantic, the American scientist Samuel Langley had far greater resources. He was head of the Smithsonian Institution, and in 1898 the United States government gave him $50,000 to develop a flying machine. His unpiloted, steam-powered models had already flown more than a kilometre, but his full-size machine with a pilot was a different story. Rather than taking off from a hill, Langley chose to fire it from a catapult on the roof of a [[38|houseboat]] on the Potomac River. On both attempts, in October and December 1903, it plunged straight into the water. The second failure came just nine days before the Wrights' success."],
+            ["A", "A rather different contribution came from Octave Chanute, a French-born American engineer. Chanute was in his sixties when he began experimenting with gliders, so he employed younger men to fly them. He also collected and published everything that was known about flight, and he shared information generously with anyone who wrote to him. He'd made his name as a railway engineer, but the experience that mattered most for flight was his work on [[39|bridges]]. When he designed a biplane glider in 1896, he braced the two wings together with a system of upright struts and diagonal wires taken directly from bridge construction. The result was light and very strong, and the Wrights adopted it."],
+            ["A", "Which brings us, finally, to Wilbur and Orville Wright. The brothers had started out running a printing business in Dayton, Ohio, but it was their next venture, designing and making [[40|bicycles]], that really shaped their thinking. A bicycle is unstable, and the rider controls it constantly through balance and small movements. The Wrights realised that an aircraft would be the same: the real challenge wasn't lift or power, but control. How they solved that problem is what we'll look at next week."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Early pioneers of flight",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Sir George Cayley",
+            "- 1799: design for a fixed-wing machine shown on a silver {31}",
+            "- 1853: one of his gliders carried his {32} across a valley",
+            "- powered flight impossible: no {33} that was light enough",
+            "# Otto Lilienthal",
+            "- observed many birds, in particular {34}",
+            "- had a {35} made so he could take off in any wind direction",
+            "- control: by shifting the position of his {36}",
+            "- {37} showing him flying were printed internationally",
+            "# Samuel Langley",
+            "- full-size machine launched from a {38}, but fell into the river",
+            "# Octave Chanute",
+            "- applied methods used in building {39} to his biplane glider",
+            "# The Wright brothers",
+            "- learned about balance and control through making {40}"
+          ],
+          "answers": {
+            "31": ["disc", "disk"],
+            "32": ["coachman"],
+            "33": ["engine"],
+            "34": ["storks"],
+            "35": ["hill"],
+            "36": ["legs"],
+            "37": ["photographs"],
+            "38": ["houseboat"],
+            "39": ["bridges"],
+            "40": ["bicycles"]
+          }
+        }
+      ]
+    }
+  ]
+}

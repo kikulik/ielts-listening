@@ -1,0 +1,439 @@
+{
+  "id": 4,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Reporting lost property on a train",
+      "context": "a woman phoning a train company's lost property office",
+      "speakers": { "A": { "name": "Officer", "g": "m", "accent": "gb" }, "B": { "name": "Laura", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon, Severn Coast Trains lost property office, Martin speaking. How can I help?"],
+            ["B", "Oh, hi. I really hope you can help me. I left something on one of your trains earlier this week, and the woman at the ticket office in Exeter gave me this number."],
+            ["A", "Well, you've come to the right place. What I'll do first is fill in a report form with you, and then I'll check the details against the items that have been handed in. Is that all right?"],
+            ["B", "Sure, that's great."],
+            ["A", "Can I start with your name, please?"],
+            ["B", "Yes, it's Laura Treharne."],
+            ["A", "And how do you spell your surname?"],
+            ["B", "It's [[1|Treharne]]. T-R-E-H-A-R-N-E. It's a Welsh name, even though I grew up in Ohio, so I'm very used to spelling it out for people."],
+            ["A", "Thank you. And which day were you travelling?"],
+            ["B", "It was Tuesday, the 13th. No, wait, that's not right. On Tuesday I drove up to see a friend in Taunton. It was the day after that, so Wednesday, the [[2|14th]]."],
+            ["A", "Wednesday the 14th of October. And where were you travelling from?"],
+            ["B", "From Exeter St Davids, going up to Bristol. I meant to catch the 8.15, but the queue for the ticket machine was so long that I actually watched it leave without me. So in the end I got the next one, which was the [[3|8.47]]."],
+            ["A", "That's fine. I can look up exactly which train that was and where it went afterwards. Now, what was the item you lost?"],
+            ["B", "It's a musical instrument, I'm afraid, in its case. I play in an amateur orchestra, and I was on my way to a rehearsal."],
+            ["A", "Oh dear. Let me guess, a violin?"],
+            ["B", "Everybody assumes that, but it's actually a [[4|viola]]. It's just a little larger than a violin, and the case is longer too, so if you have a few instrument cases there, that might help you tell them apart."],
+            ["A", "We do get them, believe it or not. People are thinking about where they're going, and they forget about the luggage rack. What does the case look like?"],
+            ["B", "It's a hard case, a kind of long rectangle shape. It's a very dark colour. Most people would say it's black, but if you see it in daylight, it's actually [[5|navy]]."],
+            ["A", "Right, I'll make a note of that."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Is there anything on the outside that would make it easy to recognise? Some people put a luggage label on with their name."],
+            ["B", "I know, I should have done that. There used to be a sticker from my orchestra on the lid, but it peeled off last year and I never replaced it. The one thing that stands out is a yellow [[6|ribbon]] that I tied around the handle. I did that so I could spot it quickly at airports."],
+            ["A", "That's helpful. And can you remember whereabouts on the train you were sitting?"],
+            ["B", "Well, I'd reserved a seat in carriage 2, but when I got on, there was a family with two small children spread across those seats, and I didn't have the heart to ask them to move. So I walked down the train to carriage [[7|6]], which was almost empty, and I put the case on the rack above my seat. Then, just as we were pulling into Bristol, I got a call from work, and I picked up my coat and walked straight off the train."],
+            ["A", "That happens more often than you'd think. Did you tell anyone at Bristol?"],
+            ["B", "Yes. I realised about ten minutes later and ran back to the platform, but the train had already left for Cardiff. The man at the information desk took some details and gave me a reference number."],
+            ["A", "Oh, good. Do you have it with you?"],
+            ["B", "I do. He wrote it on the back of my ticket. It's KT4891. Oh, sorry, no, I've read the last two numbers the wrong way round. It's [[8|KT4819]]."],
+            ["A", "KT4819. That means I can see what he's already logged. Now, I also need an idea of the value of the item, for our records."],
+            ["B", "Hmm. I paid £900 for it when I bought it second-hand, but that was ten years ago. When I had it valued for my insurance last spring, they told me it was worth about [[9|£1,200]]."],
+            ["A", "I'll put down the more recent figure, then. And if we do find it, how would you like us to contact you? Most people choose email."],
+            ["B", "I'm working away from home for the next two weeks, and I hardly ever check my email when I'm travelling, so could you send me a [[10|text]] instead? My mobile number is 07700 900 362."],
+            ["A", "Of course. Now, just so you know, if it turns up at our depot in Bristol, you can collect it from there, or we can send it on to another station for you."],
+            ["B", "Is there a charge for that?"],
+            ["A", "It's £5 to forward it to any station on our network, and you pay when you collect it."],
+            ["B", "That sounds fine. I'd be so grateful just to get it back."],
+            ["A", "I'll start the search straight away, and you should hear from us within two working days."],
+            ["B", "Thank you so much, Martin."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "LOST PROPERTY REPORT",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "Name: Laura {1}",
+            "Date of travel: {2} October",
+            "Departure time from Exeter: {3}",
+            "# The item",
+            "Instrument: {4}",
+            "Colour of case: {5}",
+            "Distinguishing feature: {6} on the handle",
+            "Left on luggage rack in carriage: {7}",
+            "# Other details",
+            "Reference number given at Bristol: {8}",
+            "Estimated value: £{9}",
+            "Preferred method of contact: {10}"
+          ],
+          "answers": {
+            "1": ["Treharne"],
+            "2": ["14th", "14", "fourteenth"],
+            "3": ["8.47", "8.47am"],
+            "4": ["viola"],
+            "5": ["navy"],
+            "6": ["ribbon"],
+            "7": ["6", "six"],
+            "8": ["KT4819"],
+            "9": ["1,200", "1200"],
+            "10": ["text"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A warden's talk at a wetland nature reserve",
+      "context": "a warden talking to visitors at a wetland nature reserve",
+      "speakers": { "W": { "name": "Warden", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["W", "Good morning, everyone, and welcome to Larkmoor Wetland Reserve. My name's Ruth Calloway, and I'm one of the three wardens here. Before you set off, I'd like to show you where things are, using the big map behind me, and then tell you a little about the reserve."],
+            ["W", "We're in the Visitor Centre now, which is at the southern edge of the reserve, just off Mill Road. The café, the shop and the toilets are all in this building, so you won't find those on the map."],
+            ["W", "Let's start with food. You're very welcome to eat in the café, of course, but if you've brought your own lunch, please use the picnic area rather than sitting on the banks of the lake. To find it, leave the building and walk west towards the car park. The tables aren't actually in the car park, though. [[11|They're on the grassy area immediately to the north of it]], between the car park and the edge of Oak Wood."],
+            ["W", "If you have children with you, the first thing they'll want to do is probably pond dipping. A path runs straight from the back of the Visitor Centre up to the lake, and when you reach the water, the path divides. The shore to your left is fenced off at the moment, because birds are nesting there. So please turn right instead, and [[12|you'll find the dipping platform a short distance along the southern shore]]."],
+            ["W", "Older children often prefer the den-building area, where they can make shelters out of fallen branches. That's in Oak Wood, which takes up the north-western corner of the reserve. As you go into the wood from the south, you'll pass a wooden shelter, but that's used by school groups, and the den-building area isn't there. Keep going and [[13|you'll find it in a clearing right in the centre of the wood]]."],
+            ["W", "Now, for the birdwatchers among you. The Lakeside Trail goes all the way round the Main Lake, and if you follow it round to the northern shore, you'll come to Heron Hide. [[14|It's directly opposite this building, on the other side of the water]], so you can actually see it from the café windows."],
+            ["W", "On the east side of the reserve are the reed beds. To reach them, take the boardwalk, which leaves the Lakeside Trail on the eastern side of the lake and heads straight across the reeds. About halfway along, a narrower path branches off to the left, and [[15|that takes you to the viewing tower, at the northern end of the reed beds]]. You may also notice a small brick building over to your right, at the southern end, but that's just the pump house that controls the water levels, and it's kept locked."],
+            ["W", "And finally, if you carry on along the boardwalk to the very end, [[16|you'll reach the otter screen]]. It's a wooden wall with narrow viewing slots, looking out over the deepest pool in the reed beds."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["W", "Let me tell you a little about the history of the place, because people are often surprised by it. A lot of visitors assume the lakes are natural, and it's true that the river floods the meadows to the south every winter, but that isn't how the lakes were formed. There's also a local story that farmers built a dam here to make a mill pond. There was a small dam once, but it was on the stream, and it's long gone."],
+            ["W", "In fact, the lakes are old pits. From the 1950s until 1988, [[17|a company dug sand and gravel out of the ground here, and when it left, the holes filled with water]]. The Larkmoor Trust bought the site in 1991, and we've been shaping it for wildlife ever since."],
+            ["W", "A few words about dogs. We do welcome them, on a short lead. Some reserves ban dogs completely during the nesting season, but we've decided not to do that. We also used to have a fenced field next to the car park where dogs could run freely, but that's now been planted with young trees, so it's no longer available. The one rule we ask everyone to follow is that [[18|dogs stay out of the reed beds]], and that includes the boardwalk, because birds such as bitterns nest on the ground there and are very easily disturbed."],
+            ["W", "Now, otters. Everybody wants to see one, and I'm often asked when the best time is. Many people assume it's the evening, as otters are mainly active at night, but our gates close at sunset, so I'm afraid dusk isn't really an option. Others swear that they come out more after heavy rain, but our wildlife cameras haven't shown any difference at all. If you really want to see one, [[19|come as soon as we open at seven in the morning]], when they're returning to their dens after a night's hunting."],
+            ["W", "Finally, I'd like to say something about volunteering, because we rely on volunteers for a huge amount of what we do. At the moment we have plenty of people helping with our monthly bird count, so we're not looking for more there. And the repairs to the boardwalk are being done by a contractor this winter. What we really need is people willing to come along on Saturday mornings between November and February to [[20|cut back the reeds]]. If we don't, they gradually spread into the open water and the lake starts to shrink."],
+            ["W", "It's hard work, but it's great fun, and we provide tools, gloves and plenty of hot soup. If you're interested, there's a sign-up sheet on the café counter."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "map",
+          "from": 11,
+          "to": 16,
+          "kind": "map",
+          "title": "Larkmoor Wetland Reserve",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              {
+                "k": "path",
+                "pts": [[0, 385], [150, 385], [600, 385]],
+                "w": 24,
+                "fill": "road",
+                "label": "Mill Road"
+              },
+              { "k": "zone", "x": 20, "y": 300, "w": 120, "h": 55, "fill": "parking", "label": "Car park" },
+              { "k": "zone", "x": 200, "y": 295, "w": 120, "h": 55, "fill": "building", "label": "Visitor Centre" },
+              { "k": "gate", "x": 240, "y": 360, "text": "Entrance" },
+              { "k": "zone", "x": 15, "y": 20, "w": 130, "h": 180, "fill": "wood" },
+              { "k": "label", "x": 80, "y": 38, "text": "Oak Wood" },
+              { "k": "zone", "x": 450, "y": 120, "w": 135, "h": 160, "fill": "field" },
+              { "k": "label", "x": 540, "y": 262, "text": "Reed beds" },
+              { "k": "round", "x": 290, "y": 175, "rx": 110, "ry": 60, "fill": "water", "label": "Main Lake" },
+              {
+                "k": "path",
+                "pts": [[260, 295], [260, 255], [170, 235], [160, 150], [200, 80], [290, 75], [380, 82], [425, 150], [425, 225], [340, 255], [260, 255]],
+                "w": 8,
+                "fill": "path"
+              },
+              { "k": "label", "x": 160, "y": 272, "text": "Lakeside Trail" },
+              {
+                "k": "path",
+                "pts": [[495, 190], [495, 150]],
+                "w": 6,
+                "fill": "path"
+              },
+              {
+                "k": "path",
+                "pts": [[425, 190], [560, 190]],
+                "w": 8,
+                "fill": "path",
+                "label": "Boardwalk"
+              },
+              { "k": "spot", "x": 80, "y": 110, "letter": "A" },
+              { "k": "spot", "x": 495, "y": 138, "letter": "B" },
+              { "k": "spot", "x": 330, "y": 243, "letter": "C" },
+              { "k": "spot", "x": 100, "y": 180, "letter": "D" },
+              { "k": "spot", "x": 215, "y": 250, "letter": "E" },
+              { "k": "spot", "x": 480, "y": 250, "letter": "F" },
+              { "k": "spot", "x": 80, "y": 255, "letter": "G" },
+              { "k": "spot", "x": 265, "y": 100, "letter": "H" },
+              { "k": "spot", "x": 572, "y": 190, "letter": "I" }
+            ]
+          },
+          "items": [
+            { "q": 11, "text": "Picnic area", "answer": "G" },
+            { "q": 12, "text": "Dipping platform", "answer": "C" },
+            { "q": 13, "text": "Den-building area", "answer": "A" },
+            { "q": 14, "text": "Heron Hide", "answer": "H" },
+            { "q": 15, "text": "Viewing tower", "answer": "B" },
+            { "q": 16, "text": "Otter screen", "answer": "I" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 17,
+          "to": 20,
+          "items": [
+            {
+              "q": 17,
+              "stem": "How were the lakes on the reserve created?",
+              "options": ["by seasonal flooding from the river", "by the removal of material from the ground", "by a dam that farmers built"],
+              "answer": "B"
+            },
+            {
+              "q": 18,
+              "stem": "What does the warden ask dog owners to do?",
+              "options": [
+                "leave their dogs at home during the nesting season",
+                "let their dogs run in the field beside the car park",
+                "keep their dogs away from one part of the reserve"
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 19,
+              "stem": "According to the warden, visitors have the best chance of seeing otters",
+              "options": ["early in the day.", "in the evening.", "after a period of heavy rain."],
+              "answer": "A"
+            },
+            {
+              "q": 20,
+              "stem": "What does the warden most want volunteers to help with this winter?",
+              "options": ["controlling the growth of plants", "counting the birds on the reserve", "repairing the boardwalk"],
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A case study on supermarket packaging",
+      "context": "two business students discussing a case study about a supermarket's efforts to reduce plastic packaging",
+      "speakers": { "C": { "name": "Chloe", "g": "f", "accent": "gb" }, "R": { "name": "Ryan", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["C", "So, Ryan, have you managed to finish the Fernley's case study?"],
+            ["R", "Finally, yes. It's a lot longer than it looks. I think we need to go through each of the changes they made and decide what we're going to say about them, because that's going to be the core of the presentation."],
+            ["C", "Agreed. Shall we take them in the order they come in the study? The first one was the refill stations, where customers fill their own containers with pasta, rice and cereal."],
+            ["R", "Right. When I started reading that section, I assumed the problem was going to be money, because those dispensers sound really expensive to install. But actually they'd budgeted for it properly, and the final bill came in more or less where they'd predicted."],
+            ["C", "Yes, the real trouble was on the shop floor. [[21|Customers had no idea what they were supposed to do]]. You had to weigh the empty container first, then fill it, then print a label, and the staff said they spent half their time showing people how."],
+            ["R", "And a lot of shoppers just gave up and walked away."],
+            ["C", "The cucumbers came next. They took the plastic film off every cucumber in every store. I thought that was the most obvious success in the whole study."],
+            ["R", "Well, it certainly cut the amount of plastic they used. Nobody's arguing about that. But without the wrapping, the cucumbers went soft much more quickly, and [[22|the stores ended up throwing away almost twice as many as before]]."],
+            ["C", "That's true. I'd forgotten that figure. So the film was actually doing a useful job all along."],
+            ["R", "Then there were the cardboard punnets for soft fruit."],
+            ["C", "I was sure that would be the one that went over budget, because card is usually more expensive than plastic."],
+            ["R", "Me too, but they found a supplier who could make them for roughly the same price. What I found interesting was what happened next. [[23|Within about a year, two of the big national chains were using almost identical punnets]]."],
+            ["C", "So other companies saw it working and followed their lead. That's definitely worth mentioning."],
+            ["R", "And the last change was the deli counter, where you can bring your own box for cheese and cold meat."],
+            ["C", "I'd have guessed that students and young professionals would be the ones using that."],
+            ["R", "That's what the managers expected too. But according to the customer survey, [[24|it was mostly shoppers over sixty]]. They said it reminded them of how they used to shop when they were young."],
+            ["C", "That's rather nice, actually."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["C", "Before we work out the structure of the presentation, I think we need to be clear about why Fernley's started all this in the first place."],
+            ["R", "Isn't it because of the plastic packaging tax?"],
+            ["C", "That's what I thought at first, but if you check the dates, the tax came in after the programme had already started. And it can't have been about saving money, because they admit the whole thing cost them more than it saved."],
+            ["R", "So it was the customers, then. There's that section about all the letters and messages they got after the television documentary about plastic in the sea."],
+            ["C", "Exactly. [[25|Thousands of their own shoppers wrote in demanding change]], and that's what pushed the board into acting."],
+            ["R", "OK. Now, I've been thinking about the weaknesses of the case study, because the tutor said we should evaluate it, not just describe it. My main worry is that it only covers two years, which isn't very long."],
+            ["C", "Hmm, I'm not sure that's a big problem. Two years is long enough to see the trends. And it does compare Fernley's with the national averages for the whole industry. What bothers me much more is that [[26|every single figure comes from the company's own reports]]. Nobody outside the business has checked any of them."],
+            ["R", "That's a fair point. They're hardly going to publish anything that makes them look bad."],
+            ["R", "So what's going to be our main angle? I thought we could focus on how customers reacted to each change."],
+            ["C", "I think every other group will do that, though. It's the obvious option."],
+            ["R", "Then what about explaining the reasons behind each change?"],
+            ["C", "But the case study already does that for us. We'd just be repeating it. To me, the really interesting thing is the tension it reveals, [[27|where using less plastic sometimes meant wasting more food]]. That's a genuine dilemma, and the cucumber example shows it so clearly."],
+            ["R", "Yes, all right, I'm convinced. That gives us an argument, rather than just a list."],
+            ["R", "I was also wondering whether we could add something of our own. Maybe a short video of the refill station at the Fernley's branch in town?"],
+            ["C", "We'd need written permission to film inside a store, and I doubt we'd get it in time. I'd love to include a chart comparing Fernley's with the other supermarkets, too, but they don't publish the same figures, so we'd be comparing completely different things."],
+            ["R", "What about just talking to people? We could stand outside the branch in town on Saturday and [[28|ask some of the shoppers what they think of the changes]]."],
+            ["C", "That could work. Even ten or fifteen short conversations would give us some real voices."],
+            ["C", "There's one more thing. I'd really like us to have the slides finished by Friday."],
+            ["R", "That's quite tight. Are you going away this weekend or something?"],
+            ["C", "I was supposed to be, but my plans have changed. And it isn't because of the tutor, either. She did offer to look at drafts, but only until last Wednesday, so we've missed that. It's really that [[29|I want us to run through the whole thing together at least twice]] before we present it on Tuesday."],
+            ["R", "Fair enough. Our timing was terrible last time."],
+            ["R", "So what should I do first? I could email the tutor and check that interviewing shoppers is acceptable."],
+            ["C", "She told us in the very first seminar that a bit of extra research is always welcome, so I don't think we need to ask her."],
+            ["R", "True. Then the person I really ought to speak to is the store manager, just to make sure they're happy with us standing near the entrance. [[30|I'll phone the manager this afternoon]]."],
+            ["C", "Great. And I'll go back to the section on the cucumbers and pull out the key figures."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 21,
+          "to": 24,
+          "lead": "What do the students say about each of the following changes made by the supermarket?",
+          "boxTitle": "Comments",
+          "options": [
+            "It led to more food being thrown away.",
+            "Shoppers did not understand how to use it.",
+            "It was later adopted by other supermarkets.",
+            "It cost more than had been expected.",
+            "It was popular with older customers.",
+            "It made little difference to the amount of plastic used."
+          ],
+          "items": [
+            { "q": 21, "text": "refill stations", "answer": "B" },
+            { "q": 22, "text": "unwrapped cucumbers", "answer": "A" },
+            { "q": 23, "text": "cardboard fruit containers", "answer": "C" },
+            { "q": 24, "text": "bring-your-own-box deli counter", "answer": "E" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 25,
+          "to": 30,
+          "items": [
+            {
+              "q": 25,
+              "stem": "Why did Fernley's begin its packaging programme?",
+              "options": ["to prepare for a new tax", "in response to pressure from customers", "to reduce its operating costs"],
+              "answer": "B"
+            },
+            {
+              "q": 26,
+              "stem": "What does Chloe consider to be the main weakness of the case study?",
+              "options": [
+                "Its data was supplied by the company itself.",
+                "It covers too short a period.",
+                "It does not compare Fernley's with the rest of the industry."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 27,
+              "stem": "What do the students decide to focus on in their presentation?",
+              "options": [
+                "how customers responded to the changes",
+                "the reasons why each change was made",
+                "the conflict between reducing plastic and reducing waste"
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 28,
+              "stem": "What extra material do they agree to include?",
+              "options": ["a video recorded inside a store", "opinions collected from shoppers", "a chart comparing several supermarkets"],
+              "answer": "B"
+            },
+            {
+              "q": 29,
+              "stem": "Why does Chloe want the slides to be ready by Friday?",
+              "options": ["She will be away at the weekend.", "The tutor has agreed to check them.", "She wants time for them to rehearse."],
+              "answer": "C"
+            },
+            {
+              "q": 30,
+              "stem": "What will Ryan do next?",
+              "options": ["contact the manager of a store", "send a message to the tutor", "read part of the case study again"],
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The psychology of habit formation",
+      "context": "part of a psychology lecture on how habits are formed",
+      "speakers": { "L": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good morning. Today I want to look at something that shapes all of our lives every day, usually without our noticing: habits. We'll consider what psychologists actually mean by a habit, how habits are formed, and what the research tells us about changing them."],
+            ["L", "Let's begin with a definition. In everyday speech we use the word habit quite loosely, but in psychology it has a more precise meaning. A habit is a behaviour that is triggered automatically by cues in the [[31|environment]], rather than by a conscious decision. Many people think habits are driven by our goals or intentions, and goals certainly matter when we first start doing something. But once a habit is established, the goal becomes much less important, and the action simply happens whenever the cue appears."],
+            ["L", "So how much of our behaviour is habitual? Researchers have tried to measure this in several ways. Questionnaires were used in early work, but it turned out that people are poor at remembering what they did and why. The more reliable studies asked participants to keep [[32|diaries]], noting down what they were doing and thinking at regular intervals throughout the day. These studies suggest that over forty percent of our daily actions are repeated in the same place almost every day, and usually while we're thinking about something else entirely."],
+            ["L", "A useful way to understand how habits develop is the idea of a loop with three parts: a cue, a routine and a reward. The cue triggers the routine, and the reward strengthens the link between them, so the next time the cue appears, the routine is a little more likely to follow. One finding that surprises people is that the size of the reward matters far less than its timing. A large reward that arrives weeks later does very little to build a habit. To be effective, the reward needs to be [[33|immediate]]. This is one reason why exercise habits are so hard to establish. The benefits are real, but they're slow to arrive, whereas the discomfort comes straight away."],
+            ["L", "What kinds of cues are most powerful? Location and time of day are the obvious ones. But one of the most reliable cues of all is something we've just done. If you always make coffee after brushing your teeth, the brushing becomes the cue for the coffee. This is why advice on forming new habits often recommends attaching the new behaviour to an existing [[34|routine]], rather than trying to remember it on its own."],
+            ["L", "Emotional states can act as cues, too. Stress is the one that people usually mention, and it's certainly a factor in habits such as snacking. However, when researchers analysed what people were feeling just before they checked their phones or ate between meals, the most common state wasn't stress at all. It was [[35|boredom]]."],
+            ["L", "Now, how long does it take to form a habit? You may have heard that it takes twenty-one days, but there's no real evidence for that figure. In one well-known study, volunteers chose a new daily behaviour and reported each day how automatic it felt. On average, it took sixty-six days to reach the highest level of automaticity, but the range was enormous, from under three weeks to more than eight months."],
+            ["L", "It depended a great deal on the behaviour. Simple actions, such as drinking a glass of water with breakfast, became automatic much faster than those involving [[36|exercise]], such as doing fifty sit-ups before dinner. Another encouraging result was that missing a single day had very little effect on people's overall [[37|progress]]. So if you forget your new habit one day, there's no need to give up and start again."],
+            ["L", "Let's turn now to breaking unwanted habits. Because habits depend on cues, one of the best opportunities to change them comes when our surroundings change. Researchers call this the habit discontinuity hypothesis. Moving house, starting a new job or going to university all disrupt the cues that keep our old behaviour going. In one study, people who had recently moved home were far more likely to respond to a campaign encouraging them to stop driving to work and to switch to public [[38|transport]]. People who had lived at the same address for years were largely unaffected by exactly the same campaign."],
+            ["L", "Another approach is to make unwanted behaviours slightly more difficult. Psychologists sometimes describe this as adding [[39|friction]]. For example, people eat noticeably less from a bowl of sweets placed a few metres away than from one within arm's reach. Removing a social media app from the home screen of your phone works in a similar way. These changes seem trivial, but they interrupt the automatic chain between cue and action."],
+            ["L", "Finally, a word about willpower. We tend to assume that people with high self-control succeed because they're better at resisting urges. But studies that track people's experiences through the day have found something rather different. People with high self-control actually report resisting fewer urges, not more. The reason seems to be that they've arranged their lives so that they come across less [[40|temptation]] in the first place, and they rely on good habits instead. In other words, they're not winning more battles. They're simply avoiding them. Next week, we'll look at how these ideas are being used in public health campaigns."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Habit formation",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# What is a habit?",
+            "- an action prompted by features of the {31}, not by a deliberate choice",
+            "- the most dependable studies of daily behaviour relied on participants' {32}",
+            "- over 40% of daily actions are repeated in the same context",
+            "# The habit loop",
+            "- cue, routine, reward",
+            "- rewards work best when they are {33}",
+            "# Cues",
+            "- powerful cues include place, time of day and a previous action",
+            "- new behaviours are easier to establish if linked to an existing {34}",
+            "- the emotional state found most often before habits was {35}",
+            "# How long does it take?",
+            "- average of 66 days, but very wide variation",
+            "- habits involving {36} took longer than simple ones such as drinking water",
+            "- an occasional missed day did not seriously affect {37}",
+            "# Breaking habits",
+            "- life changes, e.g. moving house, disrupt cues",
+            "- recent movers were more likely to start using public {38}",
+            "- unwanted behaviour can be reduced by introducing {39}",
+            "# Self-control",
+            "- people with strong self-control encounter less {40}"
+          ],
+          "answers": {
+            "31": ["environment"],
+            "32": ["diaries"],
+            "33": ["immediate"],
+            "34": ["routine"],
+            "35": ["boredom"],
+            "36": ["exercise"],
+            "37": ["progress"],
+            "38": ["transport"],
+            "39": ["friction"],
+            "40": ["temptation"]
+          }
+        }
+      ]
+    }
+  ]
+}

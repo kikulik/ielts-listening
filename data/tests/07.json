@@ -1,0 +1,424 @@
+{
+  "id": 7,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Volunteering at a community festival",
+      "context": "a man phoning a community festival to register as a volunteer",
+      "speakers": { "A": { "name": "Harriet", "g": "f", "accent": "gb" }, "B": { "name": "Daniel", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon, Kentside Community Festival, Harriet speaking."],
+            ["B", "Oh, hi there. I'm calling about volunteering at the festival this summer. A friend told me you're still looking for people."],
+            ["A", "We certainly are, so thank you for ringing. Have you helped out with us before?"],
+            ["B", "No, this would be my first time. I only moved to Kendal last autumn."],
+            ["A", "I can take your details over the phone now, if you've got ten minutes."],
+            ["B", "Sure, that would be great."],
+            ["A", "Right. Could I start with your name?"],
+            ["B", "It's Daniel, and my last name is [[1|Garroway]]. That's G-A-R-R-O-W-A-Y."],
+            ["A", "G-A-R-R-O-W-A-Y. Thank you, Daniel. And what's the best number to contact you on?"],
+            ["B", "My cell phone. Sorry, my mobile, I keep forgetting. It's 07812 559 340."],
+            ["A", "07812 559 340. And your postcode, please? We post the volunteer passes out in June."],
+            ["B", "It's LA9 6BX."],
+            ["A", "Lovely. Now, we're trying to find out which of our publicity actually works, so can I ask what made you get in touch?"],
+            ["B", "Well, my neighbour mentioned the festival a couple of weeks ago, and I'd seen a few things about it online, but I didn't really take much notice. What actually got me to pick up the phone was a [[2|poster]] in the window of the bakery on the high street."],
+            ["A", "Oh, that's good to hear. Now, it helps us to know a little about what people do for a living, in case any skills come in handy."],
+            ["B", "Sure. Back in the States I worked as a lab technician in a hospital for about eight years. But I retrained a while ago, and now I'm a [[3|physiotherapist]]. I'm at a clinic just outside town."],
+            ["A", "Oh, brilliant. We always have a first aid team from the ambulance service, so you wouldn't be asked to do anything medical, but it's useful to know. And have you done any voluntary work before, either in America or here?"],
+            ["B", "Hmm, not at a festival, no. I've never done anything quite like this. But I helped out at a [[4|marathon]] back home a couple of times, handing out water to the runners and that kind of thing."],
+            ["A", "That's very useful experience. Right, last thing on this page: T-shirt size. All our volunteers wear a bright green T-shirt so the public can spot them easily."],
+            ["B", "Okay. I'm normally a large, I guess."],
+            ["A", "I should warn you that they come up rather big. Most people who usually take a large find the next size down fits them better."],
+            ["B", "In that case, could you put me down for a [[5|medium]]?"],
+            ["A", "Of course. Done."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, let's look at when you're available. The festival runs over the weekend of the 11th to the 13th of July, so that's Friday to Sunday. On the Friday evening we need people to help set up the stalls and the marquees, and then over the weekend itself there are day shifts."],
+            ["B", "Friday evening's fine. I finish work at four on Fridays. Saturday's going to be a problem, though. I promised a friend I'd help him move house that day, and I really can't let him down."],
+            ["A", "That's no problem at all. Lots of people can only do one of the days. Would the other day suit you instead?"],
+            ["B", "Yes, [[6|Sunday]] is completely free. I haven't got anything planned."],
+            ["A", "Wonderful. I should warn you that our Sunday shifts start early. The gates open to the public at ten, but the first team arrives at 7.45 to get everything ready."],
+            ["B", "Hmm. The thing is, I don't have a car yet, and on Sundays the first bus doesn't get into the centre until 8.15. How far is the park from the bus station?"],
+            ["A", "It's about a ten-minute walk."],
+            ["B", "So realistically I could be there by [[7|8.30]]. Is that too late?"],
+            ["A", "Not at all. I'll put you with the second team, who start then anyway. Now, roles. The ones everyone asks for are the information tent and the stage crew, but I'm afraid both of those are full already."],
+            ["B", "What about the parking? I'm sure the poster said you needed people for the car parks."],
+            ["A", "It did, but a lot of people have signed up for that in the last week, so we're fine there now. Where we're really short is the recycling. The council has set us a target this year, so we need people at each of the bin stations, helping visitors put things in the right place."],
+            ["B", "Sure, I'm happy to do that."],
+            ["A", "Great. That's you on [[8|recycling]], then. You'll be based near the main stage."],
+            ["B", "Sounds good. And is there anything to eat? A whole day's a long time."],
+            ["A", "Yes, every volunteer gets a meal voucher for each shift, and you can spend it at any of the food stalls. Last year they were only worth £5, and people told us that didn't go very far, so this year we've raised them to [[9|£7]]."],
+            ["B", "That's very generous."],
+            ["A", "There's also a short training session for new volunteers on Thursday the 3rd of July at 7 pm, in the Town Hall. It only lasts about an hour, but it's important that you come along."],
+            ["B", "Okay, I'll make a note of that."],
+            ["A", "And finally, for the Friday evening you'll need to bring something with you. We provide gloves and all the tools, so don't worry about those. But it gets dark before we finish, and there's no lighting at all on the field, so please remember to bring a [[10|torch]]."],
+            ["B", "Good thinking."],
+            ["A", "Lovely. I'll send you a text to confirm all of this, and we'll see you at the training session."],
+            ["B", "Great. Thanks so much, Harriet. Bye."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "KENTSIDE COMMUNITY FESTIVAL: VOLUNTEER REGISTRATION",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Personal details",
+            "Name: Daniel {1}",
+            "Mobile: 07812 559 340",
+            "Postcode: LA9 6BX",
+            "Contacted festival after seeing a {2}",
+            "Occupation: {3}",
+            "Previous experience: helped at a {4}",
+            "T-shirt size: {5}",
+            "# Availability",
+            "Friday 11th July: evening (setting up)",
+            "Also available on: {6}",
+            "Can arrive by: {7} am",
+            "# Other details",
+            "Team: {8}",
+            "Meal voucher: £{9} per shift",
+            "Training: Thursday 3rd July, 7 pm, Town Hall",
+            "Bring on Friday: a {10}"
+          ],
+          "answers": {
+            "1": ["Garroway"],
+            "2": ["poster"],
+            "3": ["physiotherapist"],
+            "4": ["marathon"],
+            "5": ["medium"],
+            "6": ["Sunday"],
+            "7": ["8.30"],
+            "8": ["recycling"],
+            "9": ["7", "seven"],
+            "10": ["torch"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Audio guide to a maritime museum",
+      "context": "part of an audio guide for visitors to a maritime museum",
+      "speakers": { "G": { "name": "Audio guide", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["G", "Hello, and welcome to the Saltgate Maritime Museum. This audio guide will take you around the ground floor, where most of our permanent collection is displayed, and the tour lasts about forty minutes. You can pause it whenever you like by pressing the round button on the side of your handset, and press it again to carry on."],
+            ["G", "Before we set off, a few words about the building you're standing in. Because of the enormous double doors at the front, a lot of visitors assume it began life as a warehouse, and it's true that for about twenty years in the early nineteen-hundreds it was used for storing grain. After that, the harbour board took it over as offices, which explains the rather ugly modern windows at the back. But when it was first put up, in 1814, [[11|it was a sail loft]]. The long open floor upstairs was where the canvas for the town's ships was cut out, stitched and mended."],
+            ["G", "The museum itself opened in 1966. You may read in older guidebooks that it grew out of the private collection of Captain Josiah Reddaway, whose wonderful ship models now fill most of the first floor. In fact, those models didn't come to us until several years later, after the captain's death. And although the Hebden family, who ran the shipyard here for three generations, gave us many of the tools and plans you'll see today, that gift came later too. When the doors first opened, [[12|everything on display had been brought up from the bottom of the harbour]] when it was dredged a few years earlier: bottles, clay pipes, coins, and even a small cannon."],
+            ["G", "If you go upstairs after the tour, you'll come to the Navigation Room, and you'll notice it's very dimly lit. Visitors often think we've done that to give the feeling of being below deck on an old sailing ship, and there is a film of a storm at sea projected onto the end wall, which certainly looks dramatic in the dark. But the real reason is that [[13|the charts and logbooks in there are over two hundred years old, and bright light would make the ink fade]]."],
+            ["G", "Finally, a word about photography. You're very welcome to take pictures, and unlike some museums, we don't ask you to buy a permit. We'd just ask you to switch off your flash. [[14|The one exception is the Treasure Room on the first floor, where cameras can't be used at all]], because several of the pieces there are on loan from private collectors who have asked us not to allow it."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["G", "Now, if you look at the plan of the ground floor on the back of your leaflet, you'll see that you're at the information desk in the entrance hall. With your back to the main doors, the main corridor runs from left to right in front of you, and straight across it is the Harbour Gallery, which is where we'll finish the tour."],
+            ["G", "If you've got a heavy bag or coat, you might want to leave it in the cloakroom before we start. It's free, and the lockers take any coin. Some people walk into the shop by mistake, which is the room in the corner of the building, over on your left. [[15|The cloakroom is the room between the shop and the entrance hall]], so it's right next to where you're standing."],
+            ["G", "Our first stop is the Lifeboat Gallery. Turn left into the main corridor and walk all the way along until you reach the stairs at the far end. [[16|The gallery is the last room on your right, just beside the stairs]], in the north-west corner of the building. Inside you'll find the Mary Ellen, a rowing lifeboat that saved more than a hundred lives between 1880 and 1912. Press number two on your handset to hear the story of her most famous rescue."],
+            ["G", "When you're ready, walk back along the corridor towards the entrance. [[17|The next room on your left is the Herring Gallery]], between the lifeboats and the Harbour Gallery. Herring fishing employed nearly half the town in the eighteen-hundreds, and in this gallery you can try your hand at mending a real fishing net."],
+            ["G", "From there, carry on along the corridor, past the Harbour Gallery. [[18|The first door you come to on the left after that is our cinema]], which shows a twelve-minute film about the great storm of 1953 every half hour. Please don't go as far as the room right at the end of the corridor, as that's the staff office."],
+            ["G", "If you have young children with you, you'll want to know about the Discovery Room, where they can dress up as sailors and practise tying knots. It used to be on the north side of the corridor, but it has recently moved. To reach it, go into the picnic room, which is at the east end of the corridor on the south side. [[19|The Discovery Room is behind the picnic room, in the south-east corner of the building]]."],
+            ["G", "And before you head upstairs, do have a look at our temporary exhibition, which this season is a collection of photographs of the harbour taken by local schoolchildren. You'll find it in [[20|the room immediately to the right of the entrance hall]] as you face the corridor, between the entrance hall and the picnic room."],
+            ["G", "Right, let's begin. Make your way to the Lifeboat Gallery, and press number two when you arrive."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 14,
+          "items": [
+            {
+              "q": 11,
+              "stem": "What was the museum building first used for?",
+              "options": ["storing grain", "offices for the harbour board", "making and repairing sails"],
+              "answer": "C"
+            },
+            {
+              "q": 12,
+              "stem": "When the museum opened, its display consisted of",
+              "options": ["objects recovered from under the water.", "a sea captain's ship models.", "items given by a shipbuilding family."],
+              "answer": "A"
+            },
+            {
+              "q": 13,
+              "stem": "Why is the Navigation Room kept dark?",
+              "options": ["to prevent damage to some of the exhibits", "to make visitors feel they are on a ship", "so that a film can be seen more clearly"],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "What does the guide say about photography?",
+              "options": ["Visitors must pay for a permit.", "It is forbidden in one part of the museum.", "Flash may be used on the ground floor."],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "map",
+          "from": 15,
+          "to": 20,
+          "kind": "plan",
+          "title": "Saltgate Maritime Museum: ground floor",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "plain" },
+              { "k": "zone", "x": 20, "y": 60, "w": 104, "h": 126, "fill": "room" },
+              { "k": "zone", "x": 134, "y": 60, "w": 104, "h": 126, "fill": "room" },
+              { "k": "zone", "x": 248, "y": 60, "w": 104, "h": 126, "fill": "room", "label": "Harbour Gallery" },
+              { "k": "zone", "x": 362, "y": 60, "w": 104, "h": 126, "fill": "room" },
+              { "k": "zone", "x": 476, "y": 60, "w": 104, "h": 126, "fill": "room" },
+              {
+                "k": "path",
+                "pts": [[20, 200], [580, 200]],
+                "w": 28,
+                "fill": "corridor",
+                "label": "Main corridor"
+              },
+              { "k": "label", "x": 48, "y": 200, "text": "Stairs" },
+              { "k": "zone", "x": 20, "y": 214, "w": 100, "h": 176, "fill": "room", "label": "Shop" },
+              { "k": "zone", "x": 130, "y": 214, "w": 100, "h": 176, "fill": "room" },
+              { "k": "zone", "x": 240, "y": 214, "w": 120, "h": 176, "fill": "paving", "label": "Entrance hall" },
+              { "k": "zone", "x": 370, "y": 214, "w": 100, "h": 176, "fill": "room" },
+              { "k": "zone", "x": 480, "y": 214, "w": 100, "h": 86, "fill": "room" },
+              { "k": "zone", "x": 480, "y": 304, "w": 100, "h": 86, "fill": "room" },
+              { "k": "you", "x": 300, "y": 320 },
+              { "k": "label", "x": 300, "y": 290, "text": "Information desk" },
+              { "k": "gate", "x": 300, "y": 390, "text": "Main doors" },
+              { "k": "spot", "x": 528, "y": 123, "letter": "A" },
+              { "k": "spot", "x": 186, "y": 123, "letter": "B" },
+              { "k": "spot", "x": 420, "y": 300, "letter": "C" },
+              { "k": "spot", "x": 530, "y": 347, "letter": "D" },
+              { "k": "spot", "x": 72, "y": 123, "letter": "E" },
+              { "k": "spot", "x": 530, "y": 257, "letter": "F" },
+              { "k": "spot", "x": 414, "y": 123, "letter": "G" },
+              { "k": "spot", "x": 180, "y": 300, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 15, "text": "Cloakroom", "answer": "H" },
+            { "q": 16, "text": "Lifeboat Gallery", "answer": "E" },
+            { "q": 17, "text": "Herring Gallery", "answer": "B" },
+            { "q": 18, "text": "Cinema", "answer": "G" },
+            { "q": 19, "text": "Discovery Room", "answer": "D" },
+            { "q": 20, "text": "Temporary exhibition", "answer": "C" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A psychology experiment on music and memory",
+      "context": "two psychology students discussing an experiment they carried out on music and memory",
+      "speakers": { "A": { "name": "Priya", "g": "f", "accent": "gb" }, "B": { "name": "Tom", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["B", "Right, Priya, shall we go through the experiment bit by bit before we start writing the report?"],
+            ["A", "Yes, good idea. Let's start with the materials, because Dr Okoye said our reasons for choosing them were a bit thin in the proposal."],
+            ["B", "Okay. So we used lists of thirty everyday nouns, a different list for each condition."],
+            ["A", "And we need to explain why. The study we based ours on, the Marchetti paper, used strings of numbers rather than words, so we can't just say we were following them."],
+            ["B", "No. And remember we did think about reading people a short story and then asking them questions about it."],
+            ["A", "Which half the people in the pilot said was really dull."],
+            ["B", "They did, but honestly, that wasn't what decided it for me. With a story, we'd have had to keep judging whether someone had really remembered a detail. [[21|With a list, the word's either written down or it isn't]], so two different markers will always agree."],
+            ["A", "Exactly. That's the point to make, then. Now, the section on participants. I have to say, I was really worried we wouldn't get enough."],
+            ["B", "So was I, but forty-eight people signed up in the first two days."],
+            ["A", "Well, I'm not sure that should have surprised us. Anything that offers free cake gets a big response."],
+            ["B", "True. And quite a lot of them turned out to be music students."],
+            ["A", "That was hardly a shock either. We put half the posters up in the music building. But what I really didn't see coming was how many people just didn't turn up for the second session."],
+            ["B", "Oh, I know. [[22|Eleven out of forty-eight never came back]]. That's nearly a quarter. I'd assumed we'd lose one or two at most."],
+            ["A", "Then the conditions: silence, instrumental music, and the song with lyrics. I think we have to admit there was a problem with the song."],
+            ["B", "You mean the volume? I thought that was all right. We checked it with the sound meter before every session."],
+            ["A", "No, the volume was fine. And the track was long enough that it never had to restart in the middle of a list, so that wasn't an issue either. It's that we chose something really obscure on purpose, and then [[23|five people told us afterwards they'd heard it before]], because it had been used in a television advert."],
+            ["B", "Oh, yes, the phone advert. So for them the song might have been less distracting."],
+            ["A", "Okay, we'll mention it. Now, results. The song clearly made recall worse. People remembered about four words fewer than in silence."],
+            ["B", "Yes, that's the main finding. And the instrumental music actually helped a bit, didn't it? The average was higher than for silence."],
+            ["A", "By less than half a word, Tom. And the scores were all over the place. When I ran the statistics, the difference wasn't anywhere near significant."],
+            ["B", "Hmm. I did wonder whether the music students did better with it than everyone else, but when I looked at them separately, there was nothing there either."],
+            ["A", "So we just say that, as far as we could tell, [[24|it made no real difference to how much people remembered]]."],
+            ["B", "Agreed. And then there's participant 31, the woman who got all thirty words in every single condition."],
+            ["A", "I still think we should just take her out. She was obviously using some kind of memory technique."],
+            ["B", "We could, but Dr Okoye told us that removing results just because they don't fit looks suspicious, unless you've decided on a rule for it before you start. And we didn't."],
+            ["A", "And we can't exactly ask her to come back and do it all again. The experiment's finished."],
+            ["B", "So I think we keep her in, but we point her out and explain how much she changes the averages."],
+            ["A", "Okay, [[25|her scores stay in, and we discuss them]]. That's the honest thing to do."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["B", "The last section is suggestions for further research. Dr Okoye wants at least five, with a comment on each one."],
+            ["A", "Okay. Well, an obvious one is age. All our participants were undergraduates, so we could try it with older adults."],
+            ["B", "I don't think there's much research on that, actually. It would be quite original."],
+            ["A", "Maybe, but think about how we'd actually do it. We'd need at least forty people over sixty who'd be willing to come into the lab twice. We found that hard enough with students, and they live on campus."],
+            ["B", "Fair point. So the comment is that [[26|we'd struggle to get the numbers]]."],
+            ["A", "What about comparing different kinds of music? Classical, rock, jazz, that sort of thing."],
+            ["B", "It would be quick to set up, and we've got all the equipment. But I was reading around the topic last week, and there are dozens of papers comparing different styles. [[27|I don't think there's much left to discover]]."],
+            ["A", "Okay, so we'll mention it, but say it's already been well covered. Then I'd really like to include testing people somewhere noisy, like a café."],
+            ["B", "My worry is that the background noise would be different in every session, so you'd never really know what you were measuring."],
+            ["A", "That's true, but we could record the noise level with the meter each time, so it's not impossible. And think how many students revise in cafés. If we found it hurt their memory, [[28|that's advice people could actually act on]]."],
+            ["B", "Yes, that's a good argument. Let's put that. Another idea I had was heart rate. Whether the song made people more stressed, and whether that's linked to the lower scores."],
+            ["A", "That's interesting, and taking someone's heart rate is easy enough. But where would the monitors come from?"],
+            ["B", "Well, the sports science department has them, but they only lend them to their own postgraduates. [[29|There's no way we'd get hold of them]]."],
+            ["A", "So that's the problem to mention. And the last one: testing people again after a week, to see whether the music affects longer-term memory."],
+            ["B", "I think people would come back for that, especially if we offered them more cake."],
+            ["A", "Maybe, but a proper study would need several sessions for each group, spread over a month or more. [[30|We'd never finish it before the end of term]]."],
+            ["B", "True. Perhaps that's one to suggest for a master's project."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 25,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did the students decide to use lists of words?",
+              "options": [
+                "They could be scored reliably.",
+                "They were used in the study the students based theirs on.",
+                "Participants in the pilot found stories boring."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 22,
+              "stem": "What surprised the students most about the participants?",
+              "options": ["how quickly people volunteered", "how many were studying music", "how many failed to complete the experiment"],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "What problem was there with the song used in the experiment?",
+              "options": ["Its volume was not consistent.", "Some participants were familiar with it.", "It was too short for the task."],
+              "answer": "B"
+            },
+            {
+              "q": 24,
+              "stem": "What do the students conclude about the instrumental music?",
+              "options": [
+                "It had no significant effect on recall.",
+                "It led to a small improvement in recall.",
+                "It helped the music students more than others."
+              ],
+              "answer": "A"
+            },
+            {
+              "q": 25,
+              "stem": "What do they decide to do about participant 31?",
+              "options": ["remove her results from the analysis", "ask her to repeat the test", "keep her results but comment on them"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 26,
+          "to": 30,
+          "lead": "What comment do the students make about each of the following ideas for further research?",
+          "boxTitle": "Comments",
+          "options": [
+            "The necessary equipment would be unavailable.",
+            "It would be hard to recruit enough participants.",
+            "It has already been researched extensively.",
+            "It could not be completed in the time available.",
+            "Its findings could be useful in everyday life.",
+            "Its results would be difficult to measure."
+          ],
+          "items": [
+            { "q": 26, "text": "repeating the experiment with older adults", "answer": "B" },
+            { "q": 27, "text": "comparing different styles of music", "answer": "C" },
+            { "q": 28, "text": "testing participants in a noisy public place", "answer": "E" },
+            { "q": 29, "text": "recording participants' heart rate", "answer": "A" },
+            { "q": 30, "text": "testing recall again after a week", "answer": "D" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Regional dialects in bird song",
+      "context": "part of a lecture on regional dialects in bird song",
+      "speakers": { "L": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good morning. Today I want to look at something that surprises many people when they first hear about it: the fact that birds of the same species can sing in noticeably different ways depending on where they live. Biologists call these regional variations dialects, and although the term was borrowed from the study of human language, the comparison turns out to be surprisingly apt."],
+            ["L", "Dialects are found mainly in songbirds, a group that includes sparrows, finches and thrushes, because these are birds that have to learn their songs. A pigeon produces the same calls whether or not it has ever heard another pigeon, but a young songbird has to listen and copy. It was once assumed that its main tutor was its father. However, long-term studies of individually marked birds have shown that in many species, young males actually model their songs mostly on their [[31|neighbours]], that is, on the adults holding territories close to where the young bird settles in its first spring."],
+            ["L", "We know how important this listening is from experiments carried out as long ago as the nineteen-fifties. Being kept in captivity is not a problem in itself: young birds raised in an aviary alongside adult tutors develop perfectly normal songs. But a young bird raised in [[32|isolation]], unable to hear any adults of its own species, produces a song that is simple and rather strange, lacking most of the detail of the normal song. And there is usually only a short window, in the first months of life, when this learning can take place."],
+            ["L", "So how does a dialect arise? The answer is that copying is never perfect. A young bird may drop a note, add one, or change its length slightly, and if its song is later copied by the next generation, that change is passed on. Over many generations, these small [[33|errors]] accumulate, rather like the way a story changes as it is passed from person to person. Because birds learn from those living nearby, the changes tend to stay local, and neighbouring populations gradually drift apart. I should stress that this is not genetic change. A chick moved to another region as an egg will grow up singing the dialect of its new home."],
+            ["L", "Dialects are not fixed, and one of the most striking examples of change comes from Canada. The white-throated sparrow has a simple whistled song which, in the west of the country, traditionally finished with a series of three-note phrases. Around the turn of the century, researchers noticed that some birds in British Columbia were using two-note phrases instead. The opening of the song stayed exactly as it had always been, but over the following twenty years, this new [[34|ending]] spread eastwards across most of Canada, almost completely replacing the old one. Nobody is quite sure why it was so successful, although one suggestion is that birds from different regions mix during the winter, when young males may pick up the new form."],
+            ["L", "Another kind of change is happening much closer to home, in our towns and cities. Traffic produces a great deal of low-frequency noise, which can drown out a bird's song. Some urban birds respond by simply singing more loudly, but that takes extra energy, and the more consistent finding, in species from great tits to blackbirds, is that city birds sing at a higher [[35|pitch]] than their relatives in the countryside, lifting their songs above the rumble of the traffic. In effect, an urban dialect is developing."],
+            ["L", "Why should any of this matter outside the study of animal behaviour? One reason is that in many species, females prefer males that sing the local dialect, so a male arriving from elsewhere may struggle to find a mate. That has serious consequences for conservation. In Australia, for example, the regent honeyeater has become so rare that some young males grow up without ever hearing an adult of their own species, and a number have been heard singing the songs of other birds instead. Birds bred in captivity for release faced the same problem. At first, conservationists tried housing the young birds with wild-caught adults, but there were never enough adults to go round, so now the young birds are played [[36|recordings]] of wild males, so that they learn the right song before they are released."],
+            ["L", "Finally, let me describe briefly how researchers actually study a dialect. The first stage is fieldwork: recording as many singing males as possible at sites across the area of interest. Birds do sing in the evening as well, but there tends to be more background noise at that time, so most recording is done at [[37|dawn]], when singing is at its most intense."],
+            ["L", "Back in the laboratory, each recording is turned into what's called a [[38|spectrogram]]. This shows the sound as an image, with time running from left to right and pitch from bottom to top, so that every note appears as a mark that can actually be seen and measured."],
+            ["L", "Software is then used to measure features of each song. The number of notes is the obvious one, but just as important is the length of the [[39|pauses]] between the notes, which often differs from one dialect to another even when the notes themselves are identical. The highest and lowest pitch are recorded as well."],
+            ["L", "Lastly, songs with similar measurements are grouped into types, and each type is plotted on a [[40|map]] of the study area. Where one song type gives way to another, researchers can see the edge of a dialect, and it's often remarkably sharp, sometimes following a river or a line of hills. Next week, we'll consider whether anything similar exists in the calls of whales and bats."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 36,
+          "layout": "notes",
+          "title": "Regional dialects in bird song",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# How songbirds learn",
+            "- young males mainly imitate the songs of their {31}, not their fathers",
+            "- a bird brought up in {32} sings only a simple, abnormal song",
+            "- small {33} in copying build up over generations and create local dialects",
+            "# Examples of dialect change",
+            "- white-throated sparrow (Canada): a new form of the song's {34} replaced the old one in about 20 years",
+            "- birds in cities: songs have a higher {35} than in rural areas",
+            "# Conservation",
+            "- females often reject males without the local dialect",
+            "- captive-bred young birds are now taught the song using {36} of wild birds"
+          ],
+          "answers": { "31": ["neighbours", "neighbors"], "32": ["isolation"], "33": ["errors"], "34": ["ending"], "35": ["pitch"], "36": ["recordings"] }
+        },
+        {
+          "type": "gap",
+          "from": 37,
+          "to": 40,
+          "layout": "flow",
+          "title": "How a dialect is studied",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "Males are recorded singing at {37}, the time of most intense song",
+            "Each recording becomes a {38}: a visual image of the sound",
+            "Software measures how many notes there are and the length of the {39} separating them",
+            "Groups of similar songs are marked on a {40}, revealing the boundaries between dialects"
+          ],
+          "answers": { "37": ["dawn"], "38": ["spectrogram"], "39": ["pauses"], "40": ["map"] }
+        }
+      ]
+    }
+  ]
+}

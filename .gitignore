@@ -1,0 +1,7 @@
+# Python environment and the speech model (about 350 MB, downloaded by the setup steps in README.md)
+.venv/
+tools/audio/models/
+__pycache__/
+# Speech plans: rebuilt from the tests by tools/speech.cjs
+build/
+*.part

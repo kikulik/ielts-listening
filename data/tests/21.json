@@ -1,0 +1,396 @@
+{
+  "id": 21,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Getting a quote from a removals company",
+      "context": "a woman phoning a removals company to get a quote for her move",
+      "speakers": { "A": { "name": "Ian", "g": "m", "accent": "gb" }, "B": { "name": "Catherine", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Hartwell Removals. Ian speaking."],
+            ["B", "Oh, hello. I'm moving house in September, and I'd like to get a quote for the move, please."],
+            ["A", "Certainly. I can take the details over the phone and give you a rough idea of the cost now, and then one of our surveyors would normally come round to confirm it. Can I start with your name?"],
+            ["B", "Yes, it's Catherine [[1|Fairbairn]]."],
+            ["A", "Could you spell the surname for me?"],
+            ["B", "Of course. F-A-I-R-B-A-I-R-N."],
+            ["A", "Thank you. And where will you be moving from?"],
+            ["B", "From Cheltenham. The address is 14 [[2|Larch]] Close. That's L-A-R-C-H, like the tree."],
+            ["A", "Lovely. And what sort of property is it?"],
+            ["B", "It's a four-bedroom house, although one of the bedrooms is really just a box room that I use as a study."],
+            ["A", "I see. And a phone number?"],
+            ["B", "My mobile's best. It's 07812 330 954."],
+            ["A", "07812 330 954. And when are you hoping to move?"],
+            ["B", "Well, it was supposed to be Friday the 12th of September, but the people buying my house have had a problem with their mortgage, so it's been put back a week. It'll be Friday the [[3|19th]] now."],
+            ["A", "The 19th. That's fine, we've still got a team free that day. And where are you moving to?"],
+            ["B", "To Exeter. I'm retiring, and my daughter lives there. She thought I should get a flat, so I wouldn't have any stairs to worry about, but I fell in love with a little [[4|cottage]] in the old part of the city."],
+            ["A", "That sounds nice. Now, is there anything about the access at the new place that we should know about? The older parts of town can be tricky."],
+            ["B", "Yes, it's up on a hill, and there are quite a few steps up to the front door. The estate agent's details said eighteen, but I counted them myself when I went to look round, and there are [[5|22]]."],
+            ["A", "That's useful to know, because it affects how many people we send. And what about parking? Will we be able to get the lorry close to the house?"],
+            ["B", "The road outside is quite wide, but there are double yellow lines all along it."],
+            ["A", "In that case we'll need a [[6|permit]] from the council, so that we're allowed to stop there for the day. Don't worry, we apply for that ourselves. It usually takes about two weeks to come through."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["A", "Right. So the basic move, with a lorry and three staff, from a four-bedroom house, would come to about £1,150. That includes all the loading and unloading. Were you thinking of having any of our extra services?"],
+            ["B", "Possibly. What about packing? Do you do that?"],
+            ["A", "We do. We can pack the whole house for you, or just part of it."],
+            ["B", "I'd rather do most of it myself, to be honest. I've already started on the books, and the clothes are easy. But I'm really nervous about the [[7|china]] and the glasses, because a lot of it was my mother's. Could you do just those?"],
+            ["A", "Of course. For the china and glass, I'd estimate about £180, and that includes all the boxes and wrapping."],
+            ["B", "That's fine. What else? Oh, the furniture. Some of it won't go through the doors in one piece."],
+            ["A", "We can take things apart and put them back together at the other end. What have you got?"],
+            ["B", "Well, the bed comes apart quite easily, and I can do that myself with a screwdriver. But there's an enormous [[8|wardrobe]] in the main bedroom, which the previous owners must have built inside the room. I've no idea how to get it out."],
+            ["A", "We see a lot of those. That would be about £45 extra."],
+            ["B", "OK. The other problem is that the cottage is much smaller than my house, so I'll need somewhere to keep some of my things until I decide what to do with them."],
+            ["A", "We have a storage warehouse just outside Cheltenham. We don't put your things in a room alongside other people's belongings. Instead, everything goes into its own [[9|container]], which is sealed in front of you, and nobody opens it until it's delivered to your new home."],
+            ["B", "That sounds very secure. And how much does that cost?"],
+            ["A", "Our normal price is £32 a week. But we've got a special offer at the moment for anyone moving in September, so you'd only pay [[10|£28]]."],
+            ["B", "That's good. I'll probably need it for about two months."],
+            ["A", "Fine. I'll put all of that in writing and post it to you today, and then the surveyor will ring you to arrange a visit."],
+            ["B", "Oh, one more question. Is insurance included?"],
+            ["A", "Yes, our standard cover is included in the price, and it protects your belongings up to £50,000. If you have anything particularly valuable, like jewellery or paintings, we'd recommend taking out extra cover."],
+            ["B", "I don't think I've got anything like that. Thank you very much."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "notes",
+          "title": "Hartwell Removals: quotation request",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Customer",
+            "- name: Catherine {1}",
+            "- present address: 14 {2} Close, Cheltenham",
+            "# The move",
+            "- date: Friday {3} September",
+            "- new home: a small {4} in Exeter",
+            "- access: {5} steps up to the front door",
+            "- company will get a parking {6}"
+          ],
+          "answers": { "1": ["Fairbairn"], "2": ["Larch"], "3": ["19th", "19", "nineteenth"], "4": ["cottage"], "5": ["22", "twenty-two"], "6": ["permit"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Extra services",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Service", "Details", "Cost"],
+            ["Packing", "staff will pack the {7} and glasses only", "£180"],
+            ["Dismantling furniture", "large {8} in main bedroom", "£45"],
+            ["Storage", "belongings kept in a sealed {9} in the warehouse", "£{10} per week"]
+          ],
+          "answers": { "7": ["china"], "8": ["wardrobe"], "9": ["container"], "10": ["28"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A tour of a chocolate factory",
+      "context": "a guide talking to visitors at the start of a tour of a chocolate factory",
+      "speakers": { "R": { "name": "Rosie", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 15,
+          "lines": [
+            ["R", "Good morning, everybody, and welcome to Pennington's Chocolate Works. My name's Rosie, and I'll be taking you round the factory this morning. The tour lasts about an hour and a half, and we finish in the shop, which I'm sure some of you will be pleased to hear. Please make sure you've all got your hairnets on before we go into the production areas. And if anyone has an allergy, especially to nuts, do tell me now, because some of the samples contain hazelnuts. Right, before we set off, let me run through the different areas we'll be visiting, so you know what to expect."],
+            ["R", "We start in the Bean Store, where the cocoa beans arrive in sacks from the farms. You're welcome to pick a bean up and smell it, but I wouldn't recommend tasting one at this stage, because raw beans are incredibly bitter. Don't worry, there'll be plenty of chances to try chocolate later. In the corner of the store there's a little seating area where [[11|we show a ten-minute film about the farmers who grow our beans]], so you can see where it all begins."],
+            ["R", "From there we go into the Roasting Room, where the beans are roasted to bring out the flavour. People often ask to see the original roaster, which Edith Pennington bought in 1921, but sadly that went to a museum in the 1980s, and everything you'll see in there today is modern. What you will find is one of our head roasters, [[12|who'll be very happy to answer any questions you have about the process]]. They've usually been here for years and know everything there is to know."],
+            ["R", "Next is the Conching Room. Conching means mixing and grinding the chocolate for hours, sometimes days, until it's completely smooth. This is the part most people enjoy, because [[13|we'll give you samples after one hour, after one day and after three days of conching]], so you can tell the difference for yourselves."],
+            ["R", "Then we'll climb the stairs to the gallery above the Moulding Hall, where the liquid chocolate is poured into moulds. Now, you'll notice that we've asked you to keep your phones in your pockets so far. That's because some of our recipes and machines are a closely guarded secret. But the Moulding Hall is [[14|the one place where you're allowed to get your cameras out]], so do make the most of it."],
+            ["R", "Finally, we come to the Studio. Some visitors expect to find chocolate on sale there at bargain prices, but that's in the shop at the end, where we sell our misshapes cheaply. The Studio is where [[15|you'll each pour, decorate and wrap a bar of your own]] to take home with you."]
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "lines": [
+            ["R", "Let me tell you a little about the company before we go in. It was started in 1919 by Edith Pennington, in the kitchen of her house just round the corner from here. A lot of people assume she must have trained in Belgium or Switzerland, but she never went abroad in her life. [[16|Everything she knew, she worked out for herself from library books and endless experiments]]. She's sometimes described as the first woman in the city to run a factory, but that isn't quite right either. There were several others. What made her stand out was how well she treated her workers."],
+            ["R", "Now, the beans. For most of our history, we bought them from a number of countries in West Africa, and in the 1960s, Edith's grandson even bought a plantation of his own in the Caribbean, though it lost money and was sold after a few years. These days, [[17|every bean we use comes from one cooperative of small farmers in Ecuador]], which means we know exactly who grows them and that they're paid fairly."],
+            ["R", "Some of you may have noticed that our wrappers changed last year. People often assume we did it to save money, but the new ones actually cost more. And although customers did want packaging that could be recycled, our old wrappers already could be. The real reason was that [[18|in supermarkets, our bars were getting lost among all the others on the shelves]], so we went for much brighter colours."],
+            ["R", "And finally, a few words about our plans for next year. Lots of visitors ask for a café, and we'd love to have one, but there simply isn't room in this building, and we've no intention of leaving it after a hundred years. What we are going to do is [[19|open on Thursday and Friday evenings, for tours by candlelight]], which we hope will appeal to people who work during the day. We've also had requests for sugar-free chocolate. Our chocolate makers have been experimenting, but they aren't happy with the taste yet, so that won't be happening for now. But from March, [[20|we'll be running weekend courses for adults who want to learn chocolate making properly]]. Right, if you'd like to follow me into the Bean Store. And mind the step as you go in."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 11,
+          "to": 15,
+          "lead": "What can visitors do in each of the following areas of the factory?",
+          "boxTitle": "Activities",
+          "options": [
+            "taste chocolate at different stages",
+            "take photographs",
+            "watch a short film",
+            "make their own chocolate bar",
+            "ask an expert questions",
+            "buy chocolate at a reduced price",
+            "see the original machinery"
+          ],
+          "items": [
+            { "q": 11, "text": "the Bean Store", "answer": "C" },
+            { "q": 12, "text": "the Roasting Room", "answer": "E" },
+            { "q": 13, "text": "the Conching Room", "answer": "A" },
+            { "q": 14, "text": "the Moulding Hall", "answer": "B" },
+            { "q": 15, "text": "the Studio", "answer": "D" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 16,
+          "to": 18,
+          "items": [
+            {
+              "q": 16,
+              "stem": "What does Rosie say about Edith Pennington?",
+              "options": [
+                "She trained as a chocolate maker abroad.",
+                "She taught herself how to make chocolate.",
+                "She was the first woman in the city to own a factory."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 17,
+              "stem": "Where do the factory's cocoa beans come from now?",
+              "options": ["a single group of farmers", "several countries in West Africa", "the company's own plantation"],
+              "answer": "A"
+            },
+            {
+              "q": 18,
+              "stem": "Why did the company change its wrappers?",
+              "options": ["to reduce the cost of packaging", "because customers wanted recyclable materials", "to make its bars easier to notice in shops"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 19,
+          "to": 20,
+          "stem": "Which TWO things will the factory start doing next year?",
+          "options": [
+            "running a café",
+            "offering tours in the evening",
+            "selling sugar-free chocolate",
+            "moving to a larger building",
+            "holding chocolate-making courses for adults"
+          ],
+          "answer": ["B", "E"]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A nutrition project on school lunches",
+      "context": "a student and her tutor discussing a nutrition project about school lunches",
+      "speakers": { "T": { "name": "Tutor", "g": "m", "accent": "gb" }, "Z": { "name": "Zoe", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["T", "Come in, Zoe. Have a seat. So, you wanted to talk about your project on school lunches."],
+            ["Z", "Yes, thanks for seeing me. I've finished the first round of data collection, and I wanted to check I'm on the right track before I go any further."],
+            ["T", "Good. Remind me, though. Your original proposal was about secondary schools, wasn't it? What made you change?"],
+            ["Z", "Well, I'd assumed it would be hard to get secondary schools to agree, but actually two of them said yes straight away. The problem was that when I started reading, I came across [[21|a big study from last year that had looked at almost exactly the same question in secondary schools]]. So I couldn't really see what I'd be adding."],
+            ["T", "That's a sensible reason. And the comparison between cooked meals and packed lunches? Was that part of the original plan?"],
+            ["Z", "No, that only came up after I'd switched to primary schools. One of my schools cooks everything on site, and at the other one most of the children bring their own lunch, so it seemed an obvious thing to look at."],
+            ["T", "Right. And what have you found so far about the packed lunches?"],
+            ["Z", "Well, I expected them to be full of crisps and chocolate, and some of them were. Almost all of them had a sandwich of some kind, and the amount of fruit was about the same as in the cooked meals. But what I really didn't expect was that [[22|around two-thirds of the older children said they made their lunches themselves]], not their parents."],
+            ["T", "Interesting. That's definitely worth following up. Now, your method for measuring waste. You took photographs of the trays before and after lunch, is that right?"],
+            ["Z", "Yes. I know some people say photographs aren't accurate enough, and I was a little worried about that."],
+            ["T", "I wouldn't be. There's been a lot of research comparing photographs with weighing, and the estimates turn out to be very close. In an ideal world you'd weigh everything, of course, but [[23|with two hundred children coming through in forty minutes, you'd never get it done]]. Someone once suggested to me that the kitchen staff could keep a record of what gets thrown away, but they've got more than enough to do already, and I'm not sure how reliable it would be."],
+            ["Z", "That's reassuring. There was one problem with the data, though, at one of the schools. I'd backed up all the photographs every day, so nothing was lost, and the numbers are fine, about a hundred and eighty children at each school. But halfway through my two weeks at Brookfield, [[24|the school switched to a different catering company, and the whole menu changed overnight]]."],
+            ["T", "Ah. That does complicate things. I think you'll need to treat the two weeks separately. Now, your literature review. I've had a look at the draft. You've got plenty of international studies, from the US and Scandinavia, so you don't need any more of those. And the number of sources is about right for a project of this length."],
+            ["Z", "OK, good."],
+            ["T", "But what's missing is [[25|any discussion of the official standards for school food in this country, which were revised two years ago]]. You really need to show that you know what schools are supposed to be providing."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["T", "Now, have you thought about the recommendations?"],
+            ["Z", "A little. I did wonder about leaving them out altogether, because it's only a small study."],
+            ["T", "You can't, I'm afraid. The project brief asks for them."],
+            ["Z", "Right. I'd thought about sending them to the head teachers first to see what they think, but they're so busy, and you said that wasn't required."],
+            ["T", "It isn't."],
+            ["Z", "So [[26|I'll stick to things the schools could do without spending any money]], like having playtime before lunch instead of after it, so the children aren't rushing to get outside."],
+            ["T", "Good. That's the kind of thing I mean. And what about the next stage of the research?"],
+            ["Z", "Well, I want to find out why the children leave so much food. My plan was to go back to the head teachers first and ask their permission again."],
+            ["T", "You'll need to do that at some point, but before you approach the schools, [[27|you have to get the new stage approved by the university's ethics committee]], because you'll be talking directly to children this time."],
+            ["Z", "Oh, I hadn't realised that. OK. Then I thought I'd ask the parents about portion sizes, because they might know whether their kids are still hungry when they get home."],
+            ["T", "Hmm. Parents don't see what's served at school, though."],
+            ["Z", "That's true. [[28|The kitchen staff would be better, since they're the ones who decide how much goes on each plate]]."],
+            ["T", "Exactly. And then what about the children themselves?"],
+            ["Z", "I was going to give them a short questionnaire."],
+            ["T", "With seven and eight year olds, questionnaires don't tend to work very well. They just tick whatever their friends tick. [[29|You'd get much more out of talking to them in small groups]], four or five at a time."],
+            ["Z", "OK, I'll do that instead. And at the end, I'd like to share what I find. I thought of presenting it to the school governors."],
+            ["T", "You could, but think about who actually makes the packed lunches, or at least buys the food."],
+            ["Z", "The children and their parents. So it would make more sense to [[30|give a short talk at a parents' evening]]."],
+            ["T", "I think that's the best audience. Well, it sounds as if you've got plenty to be getting on with."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 26,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did Zoe change the focus of her project?",
+              "options": [
+                "Secondary schools were unwilling to take part.",
+                "Similar research on secondary schools already existed.",
+                "She wanted to compare cooked meals with packed lunches."
+              ],
+              "answer": "B"
+            },
+            {
+              "q": 22,
+              "stem": "What surprised Zoe about the packed lunches?",
+              "options": [
+                "They contained more fruit than the cooked meals.",
+                "Many of them contained no sandwich.",
+                "Many were prepared by the children themselves."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "What is the tutor's view of how Zoe measured food waste?",
+              "options": ["Weighing the food would not be practical.", "Photographs give unreliable results.", "Kitchen staff should record the waste."],
+              "answer": "A"
+            },
+            {
+              "q": 24,
+              "stem": "What problem did Zoe have with the data from Brookfield?",
+              "options": ["Some of the photographs were lost.", "There were too few pupils.", "The food changed partway through."],
+              "answer": "C"
+            },
+            {
+              "q": 25,
+              "stem": "What does the tutor say about Zoe's literature review?",
+              "options": ["It needs to cover the current national guidelines.", "It should include more studies from abroad.", "It has too many sources."],
+              "answer": "A"
+            },
+            {
+              "q": 26,
+              "stem": "What does Zoe decide about her recommendations?",
+              "options": [
+                "She will ask the head teachers for their opinion.",
+                "She will only suggest changes that cost nothing.",
+                "She will leave them out of the report."
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 27,
+          "to": 30,
+          "layout": "flow",
+          "title": "The next stage of Zoe's research",
+          "options": [
+            "the head teachers",
+            "the ethics committee",
+            "kitchen staff",
+            "parents",
+            "questionnaires",
+            "group interviews",
+            "photographs",
+            "school governors"
+          ],
+          "rows": [
+            "Before contacting the schools, get approval from {27}",
+            "Ask {28} about portion sizes",
+            "Find out children's opinions through {29}",
+            "Present the results to {30}"
+          ],
+          "answers": { "27": "B", "28": "C", "29": "F", "30": "D" }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Colour psychology in marketing",
+      "context": "part of a lecture on colour psychology in marketing",
+      "speakers": { "L": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good morning. Today's lecture is about colour, and how marketers use it to influence what we buy. Colour is very often the first thing a shopper notices about a product, long before they read the name or the price. You'll find all sorts of dramatic figures quoted on marketing websites, claiming that ninety per cent of buying decisions depend on colour, for example. Most of these figures have no reliable source at all, so treat them with caution. But there's no doubt that colour does matter. I'll look first at some of the early research, then at the associations that different colours carry, and finally at some weaknesses in the evidence."],
+            ["L", "Serious research in this area goes back to the 1940s and 50s, when an American market researcher noticed that people's feelings about a package seemed to pass directly to the product inside it. Some writers today call this colour association, but the term he used was sensation [[31|transference]], and it's still widely used. In one of his best-known experiments, people were given the same coffee in tins of three different colours. Those who drank from the yellow tin found it too weak, and those with the red tin described it as rich, while the coffee from the brown tin was judged to be far too [[32|strong]]. Of course, the coffee was identical."],
+            ["L", "Let's look at some of the associations that marketers rely on. Red is the classic example. You'll often read that red stimulates the appetite, which is supposedly why so many fast-food chains use it, but the evidence for that is rather mixed. What's much better established is that red gives people a feeling of [[33|urgency]], which is why it's used so widely on signs for sales and special offers. Some studies have even found that sports teams wearing red win slightly more often, although that's a separate debate."],
+            ["L", "Blue is often described as calming, but for marketers its real value lies elsewhere. Blue suggests [[34|reliability]], which explains why it's the most common colour for banks and insurance companies. Green, as you'd expect, is linked with health and the natural world. But it has been used so heavily by firms making dubious environmental claims that many consumers have now become [[35|sceptical]] whenever they see a green label."],
+            ["L", "Purple is an interesting case, because its associations have a historical origin. In the ancient world, purple dye was made from a particular kind of sea snail, and it took thousands of snails to produce a tiny amount. As a result, the dye was extraordinarily [[36|expensive]], and only emperors and the very wealthy could afford to wear it. In Rome, there were even laws restricting who was allowed to wear it at all. That's why, even now, purple is so often used for luxury goods."],
+            ["L", "It's important to remember, though, that colour associations are not universal. White is a good example. In much of Europe and North America it suggests purity, which is why brides traditionally wear it. But in parts of East Asia, white has long been associated with [[37|mourning]], and companies that have ignored this have sometimes had expensive failures when launching products there."],
+            ["L", "Now I'd like to turn to some problems with the research itself. The biggest is that most studies simply ask people which colours they like, or how a colour makes them feel. Preferences like these are easy to measure, but they don't necessarily match what people do in a shop, and surprisingly few studies have looked at people's actual [[38|purchases]]. When researchers have done that, the effects of colour are often much smaller than the surveys suggest."],
+            ["L", "Another finding is that no single colour works best on its own. What seems to matter far more is whether consumers feel that a colour is [[39|appropriate]] for that particular product. Pink might work very well for a box of chocolates, for instance, but it would probably do nothing to sell a power drill."],
+            ["L", "Because a distinctive colour makes a brand easy to identify from a distance, some companies have tried to claim a particular shade as their own property. Several firms have gone to court to protect a colour in this way, with mixed success. On the whole, judges have been reluctant to let a single company control a colour, especially a common one, since that could make life very difficult for its competitors."],
+            ["L", "Finally, one principle from psychology that marketers do use effectively is the so-called isolation effect. When one item differs in colour from everything around it, it becomes far more [[40|memorable]] than the others. That's why a website might show three subscription options in grey and the one the company wants you to choose in orange. The effect was first described in the 1930s by a German psychologist working on memory, and it's been confirmed in many experiments since. Next week, we'll look at how the same ideas apply to the design of shops themselves."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Colour psychology in marketing",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Early research",
+            "- 1940s–50s: feelings about packaging pass to the product, known as sensation {31}",
+            "- coffee experiment: contents of the brown tin were thought to be too {32}",
+            "# Common associations",
+            "- red: often used in sales because it creates {33}",
+            "- blue: popular with banks because it suggests {34}",
+            "- green: overuse has made many shoppers {35} of environmental claims",
+            "- purple: linked with luxury because the dye was once so {36}",
+            "# Cultural differences",
+            "- white: purity in Europe, but associated with {37} in parts of East Asia",
+            "# Problems with the research",
+            "- studies usually measure preferences rather than real {38}",
+            "- most important: whether a colour seems {39} for the product",
+            "# The isolation effect",
+            "- an item in a different colour from its surroundings is more {40}"
+          ],
+          "answers": {
+            "31": ["transference"],
+            "32": ["strong"],
+            "33": ["urgency"],
+            "34": ["reliability"],
+            "35": ["sceptical", "skeptical"],
+            "36": ["expensive"],
+            "37": ["mourning"],
+            "38": ["purchases"],
+            "39": ["appropriate"],
+            "40": ["memorable"]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+services:
+  ielts-listening:
+    build: .
+    image: ielts-listening:latest
+    container_name: ielts-listening
+    ports:
+      - "${IELTS_PORT:-10370}:80"
+    restart: unless-stopped

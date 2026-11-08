@@ -1,0 +1,412 @@
+{
+  "id": 10,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Enquiring at a children's nursery",
+      "context": "a father phoning a day nursery to ask about a place for his daughter",
+      "speakers": { "A": { "name": "Helen", "g": "f", "accent": "gb" }, "B": { "name": "Daniel", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Bramblewood Day Nursery, Helen speaking."],
+            ["B", "Oh, hi. My name's Daniel. I'm calling about a place for my daughter. We've just moved to Norwich from the States, and a neighbour recommended you."],
+            ["A", "That's nice to hear. Well, I can tell you how things work here, and take a few details so that we can hold a place while you decide."],
+            ["B", "That would be perfect, thanks."],
+            ["A", "So, what's your daughter's name?"],
+            ["B", "She's called Ella. Ella Kilbride."],
+            ["A", "And could you spell the surname for me?"],
+            ["B", "Sure. It's [[1|Kilbride]], K-I-L-B-R-I-D-E. People over here keep wanting to put a Y in the middle, but it's definitely an I."],
+            ["A", "Got it. And how old is Ella?"],
+            ["B", "She's two. She had her birthday back in March."],
+            ["A", "Could I have her exact date of birth? It decides which room she'd go into, and when she might qualify for funded hours."],
+            ["B", "Of course. It's the 14th. No, hang on, what am I saying? The 14th is my wife's birthday. Ella's is the [[2|17th]] of March, 2024."],
+            ["A", "Thank you. So she'd be in our Willow Room, for children between two and three. There are twelve children, with four staff."],
+            ["B", "That sounds like a good ratio. Do you have space at the moment?"],
+            ["A", "It depends on the days. Which ones were you thinking of?"],
+            ["B", "Well, Mondays and Wednesdays for sure. We'd talked about Thursday as the third day, but my wife has just arranged to work from home on Thursdays, so it would be Mondays, Wednesdays and [[3|Fridays]]."],
+            ["A", "Let me check. Wednesdays and Fridays are fine, and there are still two places on Mondays, so I can pencil her in."],
+            ["B", "Great. And what are your hours? I'm going to be commuting to Cambridge, so the timing's kind of important for us."],
+            ["A", "We open at eight every morning. Until last year we closed at half past five, but so many parents told us they couldn't get back from work in time that we now stay open until [[4|5.45]]."],
+            ["B", "That extra quarter of an hour would really help. And could you tell me about fees? I had a look on your website, and I think it said £58 for a day."],
+            ["A", "Ah, I'm afraid that page is out of date. That was the price until the summer, but it went up in September, so a full day is now [[5|£62]]. A morning session, which is eight until one, is £36, and that includes lunch."],
+            ["B", "OK. Believe it or not, that's still less than we were paying back home."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, a few practical things. Ella would get all her meals with us: breakfast if she arrives early, lunch, and a cooked tea."],
+            ["B", "So we don't need to send any food in with her?"],
+            ["A", "No. We used to ask parents to provide a packed lunch, but we've had our own cook for two years now, and everything's made here in our kitchen. What we do ask is that you bring in nappies, if she still needs them, and a [[6|photograph]] of you all, the whole family. We put it up next to her coat peg, and it really helps the little ones to settle."],
+            ["B", "Oh, that's a lovely idea. She'd like that. Speaking of settling in, how does that work?"],
+            ["A", "Before her first proper day, we offer some free settling-in visits, each about an hour long. For the older children, two is usually enough, but with the under-threes we find they need [[7|three]]. You'd stay with her for the first one, and then we'd see how she gets on."],
+            ["B", "That makes sense. She's pretty shy with new people."],
+            ["A", "Most of them are at that age. Anything else you wanted to ask?"],
+            ["B", "Yes, outdoor space. The place she went to before hardly had any."],
+            ["A", "Well, I'll be honest, our garden isn't enormous. People often assume we share the playground of the primary school next door, but in fact it's just for us. We'd hoped to extend it into part of the car park this year, but that's been put on hold. [[8|What I can tell you is that the children are out there every single day, whatever the weather]]. We keep a big stock of waterproof suits by the back door, so it's never a problem."],
+            ["B", "That's good to hear. And how will we know how her day's gone? I won't always be the one picking her up."],
+            ["A", "That's a question we get a lot. Last year we tried out an app, where staff posted photos and updates during the day, but most parents told us they never opened it, so we stopped. The staff always try to have a quick word at home time, but at a quarter to six it can be pretty hectic. [[9|So what we rely on is a little paper diary that her key worker fills in every day]]: what she ate, how long she slept, what she played with. It goes home in her bag."],
+            ["B", "I like that. Something we can actually keep. So, what's the next step? Do I need to fill in a form?"],
+            ["A", "There is a registration form, but honestly, you can complete that when you come in. And we do take a deposit, but not until we've confirmed a place, so there's no need to worry about that yet. [[10|The first thing is for you and Ella to come and have a look round]], so she can see the room and meet the staff. Could you manage Thursday morning?"],
+            ["B", "Thursday at ten would work for me."],
+            ["A", "Lovely. And can I take a phone number, just in case anything changes?"],
+            ["B", "Sure, it's 07946 218 305."],
+            ["A", "Thank you, Daniel. We'll look forward to seeing you both on Thursday."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 7,
+          "layout": "notes",
+          "title": "BRAMBLEWOOD DAY NURSERY: ENQUIRY NOTES",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Child",
+            "Name: Ella {1}",
+            "Date of birth: {2} March 2024",
+            "Room: Willow Room (age 2 to 3)",
+            "# Attendance and fees",
+            "- Days: Monday, Wednesday and {3}",
+            "- Full day: 8 am to {4} pm",
+            "- Cost of a full day: £{5}",
+            "# Other information",
+            "- Parents provide: nappies and a family {6}",
+            "- Free settling-in visits for Ella: {7}"
+          ],
+          "answers": {
+            "1": ["Kilbride"],
+            "2": ["17th", "17"],
+            "3": ["Fridays", "Friday"],
+            "4": ["5.45", "5.45pm"],
+            "5": ["62"],
+            "6": ["photograph"],
+            "7": ["three", "3"]
+          }
+        },
+        {
+          "type": "mcq",
+          "from": 8,
+          "to": 10,
+          "items": [
+            {
+              "q": 8,
+              "stem": "What does Helen say about the nursery's garden?",
+              "options": ["It has recently been made bigger.", "It is also used by a nearby school.", "The children use it in all conditions."],
+              "answer": "C"
+            },
+            {
+              "q": 9,
+              "stem": "How will Daniel mainly find out about Ella's day?",
+              "options": ["through an app on his phone", "from a notebook that staff write in", "by talking to staff at collection time"],
+              "answer": "B"
+            },
+            {
+              "q": 10,
+              "stem": "What does Helen want Daniel to do first?",
+              "options": ["bring Ella to see the nursery", "complete a registration form", "pay a deposit"],
+              "answer": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A youth sailing club",
+      "context": "the organiser of a youth sailing club talking to parents",
+      "speakers": { "A": { "name": "Martin", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "Good evening, everyone, and thank you for coming along. I'm Martin Hale, and I look after the junior section here at Kestrel Point Sailing Club. I'll start with what's changed this year, then go through what we need from you as parents, and finish with the practical details for the first few weeks."],
+            ["A", "So, first of all, what's different. A lot of you asked whether we could lower the minimum age from eight, so that younger brothers and sisters could join in. We did look into it seriously, but our insurers weren't prepared to cover children under eight on the water, so I'm afraid that hasn't changed. What we have been able to do is replace the old training dinghies, some of which were older than I am. [[11|Thanks to a grant from the regional sports council, we now have six brand-new boats designed specifically for beginners]]. They're much more stable and very hard to capsize."],
+            ["A", "You'll have noticed that the membership fee has gone up a little, I'm afraid. Our costs have risen, but we've kept the increase as small as we could. We also know that the changing rooms are, to put it politely, past their best. We've now raised about two thirds of the money for a new block, but the building work won't start until next autumn at the earliest. The other change, and this was by far the most common request in last year's feedback, [[12|is that from May to August we'll be running sessions on Wednesday evenings as well as on Saturday mornings]]. They'll go from six until about eight, while it's still light."],
+            ["A", "Now, what we need from you as parents. People often ask whether they have to stay at the club while their children are sailing. You don't. Plenty of parents go for a walk round the reservoir, and that's absolutely fine. You also don't need to buy a buoyancy aid. The club has plenty in every size, and they're all checked at the start of each season, though some families do prefer to have their own."],
+            ["A", "There are two things, though, that are not optional. [[13|Every child has to be signed in at the boathouse when they arrive, and signed out again when they leave]], and that must be done by an adult, every single session, with no exceptions. And secondly, [[14|it's essential that you tell us about any medical condition your child has]], whether that's asthma, an allergy or anything else. Our instructors are all trained in first aid, but they need to know what to look out for. Finally, we're always delighted when parents offer to volunteer, whether that's helping at our quiz nights or training to drive one of the safety boats, but that's entirely up to you. It isn't a condition of membership."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "Right, let's move on to what your children will need. They will get wet, so please don't send them in anything you're fond of. The one thing we're strict about is what they wear on their feet. Bare feet aren't allowed in the boats, because there are all sorts of metal fittings to stub your toes on, and wellington boots are a really bad idea, because if a child falls in, they fill up with water. So the best thing is simply an old pair of [[15|trainers]] that you don't mind getting soaked."],
+            ["A", "In April and May the water's still very cold, so the children will need something extra to keep them warm. We used to lend out waterproof jackets as well, but so many of them disappeared that we've had to stop, so you'll need to provide one of those yourselves. What we do still have is a big stock of [[16|wetsuits]] in all sizes, which your children can borrow for nothing. Please do bring them back, though. Children grow so quickly that it really isn't worth buying one."],
+            ["A", "Saturday sessions start at half past nine, but we ask the children to be ready by a quarter past, so that the instructors can give their briefing. Please don't bring them to the clubhouse. That's where the adult racing crews meet on a Saturday morning, and it gets very crowded. Instead, the juniors meet by the [[17|flagpole]], where they can see the boats and the instructors can see them."],
+            ["A", "Parents often ask what happens when the weather's bad. If the wind is too strong for the children to go out, we don't cancel; we keep them ashore in the training room. In the past we used that time for rope work, tying knots and so on, but the instructors felt the children were getting bored with it. So this year, with the help of a qualified trainer, we'll be teaching them [[18|first aid]] instead, and by the end of the season the older ones should be able to get a certificate in it."],
+            ["A", "As for keeping track of progress, we used to send home a written report at the end of each term, but parents told us it came too late to be useful. So now each child is given their own [[19|logbook]] on their first day, and the instructor signs it every time they master a new skill. That way, you can see exactly where they've got to."],
+            ["A", "And finally, the season ends in the middle of September with the Junior Regatta. It's a fun race rather than anything too serious, and there are prizes for everyone who takes part. After the prize-giving, there's a [[20|barbecue]] down on the shore for all the families, which is always a lovely evening. Right, has anyone got any questions so far?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 11,
+          "to": 12,
+          "stem": "Which TWO changes has the club made this year?",
+          "options": [
+            "It has lowered the minimum age.",
+            "It has bought new boats for beginners.",
+            "It has opened new changing rooms.",
+            "It has added evening sessions.",
+            "It has reduced the membership fee."
+          ],
+          "answer": ["B", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 13,
+          "to": 14,
+          "stem": "Which TWO things are parents required to do?",
+          "options": [
+            "stay at the club during sessions",
+            "buy their child a buoyancy aid",
+            "make sure their child is registered on arrival and departure",
+            "give the club details of any health problems",
+            "help at club events"
+          ],
+          "answer": ["C", "D"]
+        },
+        {
+          "type": "gap",
+          "from": 15,
+          "to": 20,
+          "layout": "notes",
+          "title": "Junior sailing: practical information",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# Clothing",
+            "- shoes: {15} that can get wet",
+            "- can be borrowed free of charge: {16}",
+            "# Saturday sessions",
+            "- juniors gather at the {17} at 9.15 am",
+            "- if too windy: indoor lessons in {18}",
+            "# Progress and events",
+            "- new skills are signed off in each child's {19}",
+            "- end of season: Junior Regatta, prizes, then a {20} beside the reservoir"
+          ],
+          "answers": {
+            "15": ["trainers", "old trainers"],
+            "16": ["wetsuits", "wet suits"],
+            "17": ["flagpole", "flag pole"],
+            "18": ["first aid"],
+            "19": ["logbook", "log book"],
+            "20": ["barbecue"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Food waste in university canteens",
+      "context": "two students discussing their report on food waste in university canteens",
+      "speakers": { "R": { "name": "Ruth", "g": "f", "accent": "gb" }, "K": { "name": "Kwame", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["R", "Right, Kwame, shall we go through the findings for each of the four outlets? Once we've agreed on those, the rest of the report should be fairly straightforward."],
+            ["K", "Sure. Let's start with the Main Hall, since it's the biggest. I went in assuming the problem there would be storage, because the kitchen is so old."],
+            ["R", "So did I. But when the manager showed us round, the cold room was really well organised. They hardly throw away any ingredients at all."],
+            ["K", "No. [[21|What gets wasted there is what's left on people's plates. The helpings are so huge that students just can't finish them]], especially the rice and the chips."],
+            ["R", "Yes, the bins by the tray return were full every lunchtime. OK, then there's the Riverside Café, out on the science campus. That one puzzled me at first, because the food is good, and the students we spoke to said they liked the menu."],
+            ["K", "Right. The issue there is really about timing. Since the timetable changed this year, most of the lab sessions finish at two, [[22|but the café stops serving hot food at half past one]]. So they throw away trays of food, and the students walk into town instead."],
+            ["R", "Hmm. I did wonder whether they were also just ordering too much from their suppliers."],
+            ["K", "I asked about that, actually, and they adjust their orders every week based on sales. So no, I'd say it's definitely the hours."],
+            ["R", "Fine. Then the Library Café, which is mostly sandwiches and salads. I heard quite a few people complaining that the fillings were boring."],
+            ["K", "People always complain, though. Their sales are steady right through the day, so people obviously buy them. [[23|The real problem is that every sandwich for the whole day is made at six in the morning]], so by the afternoon a lot of them are past their best, and the rules say anything unsold at four has to go in the bin."],
+            ["R", "True. And the last one is the Sports Centre."],
+            ["K", "That's the one where they changed the menu last term, to all those high-protein dishes."],
+            ["R", "Yes. And it isn't the portions there; they're actually quite small. They're open until nine, too, which suits the people using the gym. [[24|It's simply that hardly anyone wants to eat what they're offering]]. The manager told us that most people just buy a drink and leave."],
+            ["K", "OK, so that's the four. Shall we look at the survey next? We got over four hundred responses, which is more than I expected."],
+            ["R", "It's great. Although I can't say most of the results surprised me. Hardly anyone admitted to leaving food, but people never like admitting that sort of thing. And we already knew that most second- and third-years cook for themselves."],
+            ["K", "The thing I didn't expect was the answer about portion size. I assumed people would want as much food as possible, since they pay a fixed price. [[25|But nearly seventy per cent said they'd be quite happy with a smaller plate]], as long as it cost a bit less."],
+            ["R", "That's a strong argument for one of our recommendations, then."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["K", "We need a section on the limitations of the survey, too. Dr Lowe will definitely ask about that."],
+            ["R", "I don't think the number of responses is a problem. Four hundred is plenty for a study like this."],
+            ["K", "Agreed. I was a bit worried that the question about portion size wasn't clear enough, but we tried it out on ten people first, and nobody misunderstood it."],
+            ["R", "No. For me, the real issue is who answered. Because we handed the questionnaire out in the halls of residence, [[26|nearly all of the people who filled it in were first-years]], and they're the ones on the meal plan."],
+            ["K", "Yes, that's definitely the weakness to highlight. OK, what about the actual quantities of waste, the kilograms? Originally we were going to weigh the bins ourselves."],
+            ["R", "That was never going to happen. Health and safety wouldn't let us anywhere near the kitchens."],
+            ["K", "I suppose we could use the national figures from that report by the waste charity."],
+            ["R", "But they're averages for every university in the country. [[27|The catering department weighs all its waste anyway, for its contract with the council, so we might as well use their records]]."],
+            ["K", "True. They'll be far more accurate for our four outlets. Right, recommendations. We've got three. Dr Lowe said we should lead with whichever is most realistic in the short term."],
+            ["R", "Well, offering two portion sizes would make the biggest difference in the Main Hall. But the manager said changing the tills and the meal plan prices needs months of approval."],
+            ["K", "And a new menu at the Sports Centre would need the nutritionist to sign it off, and they've only just changed it. [[28|Whereas selling off whatever's left at a discount at the end of the day needs nothing more than a few price stickers]]."],
+            ["R", "So that's the one to start with. They could do it next week. Now, what about the photos we took of the bins? I'd really like to put them in the main body of the report. They're so striking."],
+            ["K", "Hmm. I think they look a bit amateurish in the middle of a report. The reader wants figures. Maybe we could save them for the presentation."],
+            ["R", "But there isn't a presentation for this module. It's just the written report."],
+            ["K", "Oh, of course. Well, [[29|what about putting them at the back, as an appendix]], and referring to them in the text?"],
+            ["R", "Fine, that's a fair compromise. So, what's next? Should you finish the survey analysis?"],
+            ["K", "I've more or less done that. I just need to tidy up the charts. And we don't need to see Dr Lowe until we've got a complete draft."],
+            ["R", "The thing we really can't do without is the waste figures for the Sports Centre. They were missing from the spreadsheet the catering department sent. [[30|Could you email the catering manager today and ask for them]]?"],
+            ["K", "Sure, I'll do it this afternoon."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 21,
+          "to": 24,
+          "lead": "What was the main cause of food waste at each of the following outlets?",
+          "boxTitle": "Causes of waste",
+          "options": [
+            "portions that were too large",
+            "food prepared too far in advance",
+            "a menu that customers did not like",
+            "poor storage of ingredients",
+            "opening hours that did not suit customers",
+            "ordering too much from suppliers"
+          ],
+          "items": [
+            { "q": 21, "text": "the Main Hall", "answer": "A" },
+            { "q": 22, "text": "the Riverside Café", "answer": "E" },
+            { "q": 23, "text": "the Library Café", "answer": "B" },
+            { "q": 24, "text": "the Sports Centre", "answer": "C" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 25,
+          "to": 30,
+          "items": [
+            {
+              "q": 25,
+              "stem": "Which survey result was unexpected?",
+              "options": ["how few students admitted wasting food", "how many students would accept less food", "how many students prepare their own meals"],
+              "answer": "B"
+            },
+            {
+              "q": 26,
+              "stem": "What do the students agree was the main weakness of their survey?",
+              "options": ["Some of the questions were unclear.", "Too few people responded.", "Most respondents were in their first year."],
+              "answer": "C"
+            },
+            {
+              "q": 27,
+              "stem": "Where will their figures for the amount of waste come from?",
+              "options": ["their own measurements", "records kept by the catering department", "a national report"],
+              "answer": "B"
+            },
+            {
+              "q": 28,
+              "stem": "Which recommendation do they decide to put first?",
+              "options": ["offering two sizes of portion", "selling unsold food cheaply", "changing the Sports Centre menu"],
+              "answer": "B"
+            },
+            {
+              "q": 29,
+              "stem": "What do they decide to do with their photographs?",
+              "options": ["include them in an appendix", "use them in a presentation", "place them in the main part of the report"],
+              "answer": "A"
+            },
+            {
+              "q": 30,
+              "stem": "What will Kwame do next?",
+              "options": ["finish analysing the survey", "arrange a meeting with Dr Lowe", "contact the catering manager"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The invention and impact of refrigeration",
+      "context": "part of a lecture on the invention and impact of refrigeration",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today I'm going to look at a technology that most of us take completely for granted, and yet one that has transformed what we eat, where we live and even how healthy we are: refrigeration. I'll begin with how people kept things cold before machines could do it, then look at the inventors who made artificial cooling possible, and finally consider its wider effects on society."],
+            ["A", "For centuries, the only way to keep anything cold was to use natural ice, cut from frozen lakes and rivers in winter and stored in ice houses. These were usually brick structures, partly underground and packed with straw for insulation, and by the eighteenth century many country estates in Britain had one. You might assume their main purpose was to keep meat fresh through the summer, but meat was generally preserved by salting or smoking. [[31|The ice was actually used for luxuries: chilling wine, and making ice cream and other desserts for the wealthy]]. Doctors did sometimes request ice to bring down a patient's temperature, but that was a minor use."],
+            ["A", "The scientific basis for artificial cooling was first demonstrated in 1755 by William Cullen at the University of Glasgow. He showed that when a liquid evaporates, it absorbs heat from its surroundings, and by evaporating ether under reduced pressure, he managed to produce a small amount of ice. His colleagues were fascinated, and the demonstration was widely discussed. [[32|But no one could see any practical application for it at the time]], and it was almost eighty years before anyone tried to build a working machine."],
+            ["A", "That machine was patented in 1834 by an American engineer living in London, Jacob Perkins, and it used the same basic principle as the fridge in your kitchen today: a vapour is compressed, allowed to cool and then expanded again. Perkins never made it a commercial success, however. A more interesting case is John Gorrie, a doctor in Florida in the 1840s. Gorrie was treating patients with yellow fever and malaria, and he believed, quite correctly, that they recovered better in cooler conditions. He wasn't interested in preserving food at all. [[33|He built a machine that made ice in order to cool the air in his patients' rooms]]. It was only later that he tried to sell ice to local businesses, hoping to raise money, and that venture failed when his financial backer died."],
+            ["A", "So who were the first real customers for mechanical refrigeration? Not, as you might expect, butchers or fishmongers, but brewers. This is because lager, which was becoming increasingly popular in Germany and elsewhere in the nineteenth century, has to ferment at low temperatures, and before refrigeration, brewers could only make it in the winter months. Transport wasn't the issue, as most beer was drunk close to where it was made, and refrigeration certainly didn't make brewing cheaper, as the machines were very expensive. [[34|But it did mean that lager could be produced in every season]], and the engineer Carl von Linde developed some of his most important designs for a brewery in Munich in the 1870s."],
+            ["A", "Next, refrigerated transport. In 1882, a ship called the Dunedin arrived in London from New Zealand carrying around five thousand frozen sheep carcasses, which were in perfect condition after a voyage of more than three months. The effect on New Zealand's economy was dramatic. Until then, sheep had been kept almost entirely for their wool, as there was no way to get the meat to distant markets. Within a few years, farmers were breeding sheep for [[35|meat]] as well, and later, dairy products such as butter and cheese also became major exports."],
+            ["A", "Refrigerators in the home came much later. Electric models appeared in the United States in the 1910s, but they were extremely expensive. In the early 1920s, buying one would have cost you rather more than buying a [[36|car]]. Not quite the price of a house, of course, but far beyond the means of most families. They were not entirely safe, either. The early machines used gases such as ammonia and sulphur dioxide, which are poisonous, and leaks caused a number of deaths. In the late 1920s, these were replaced by a new family of chemicals, the chlorofluorocarbons, or CFCs, which were thought to be completely harmless. It was only in the 1970s that scientists discovered that CFCs released into the atmosphere were damaging the [[37|ozone]] layer, and they were eventually phased out under an international agreement signed in 1987."],
+            ["A", "Finally, let's consider the wider impact. One consequence that epidemiologists have explored is the steep decline in stomach cancer in industrialised countries during the twentieth century. There are several possible explanations, including a fall in infections with a particular bacterium, but one widely discussed factor is diet. Sugar was used to preserve fruit, but meat and fish were mostly preserved with salt, so once food could be kept cold, people's consumption of [[38|salt]] fell considerably. Refrigeration also changed daily routines. Without any way of keeping food cold at home, buying fresh food had been an everyday task, usually done by women. With a fridge, and later a freezer, families could do one big [[39|weekly]] shop, which in turn encouraged the growth of large supermarkets on the edges of towns."],
+            ["A", "And today, refrigeration matters as much for health as for food. The so-called cold chain, an unbroken series of refrigerated stores and vehicles, is essential for the distribution of [[40|vaccines]], many of which lose their effectiveness if they become even slightly too warm. Getting them to remote regions without a reliable electricity supply remains one of the great logistical challenges in global health, and it's a problem that engineers are still working on today."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 31,
+          "to": 34,
+          "items": [
+            {
+              "q": 31,
+              "stem": "According to the lecturer, ice from country-house ice houses was mainly used for",
+              "options": ["preserving meat in summer.", "luxury food and drink.", "medical treatment."],
+              "answer": "B"
+            },
+            {
+              "q": 32,
+              "stem": "What does the lecturer say about William Cullen's demonstration?",
+              "options": [
+                "It quickly led to the building of machines.",
+                "It attracted little attention from other scientists.",
+                "Its usefulness was not recognised at the time."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 33,
+              "stem": "Why did John Gorrie build his ice machine?",
+              "options": ["to cool the rooms of sick people", "to supply ice to local businesses", "to keep food fresh"],
+              "answer": "A"
+            },
+            {
+              "q": 34,
+              "stem": "Breweries were among the first users of refrigeration because it allowed them to",
+              "options": ["transport beer over long distances.", "lower the cost of brewing.", "make lager all year round."],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 35,
+          "to": 40,
+          "layout": "notes",
+          "title": "The effects of refrigeration",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Refrigerated shipping",
+            "- 1882: frozen cargo from New Zealand reached London in good condition",
+            "- afterwards, New Zealand sheep were raised for {35} as well as wool",
+            "# Refrigerators in the home",
+            "- early 1920s: a fridge was more expensive than a {36}",
+            "- poisonous gases were replaced by CFCs, later found to harm the {37} layer",
+            "# Wider effects",
+            "- people ate less {38}, possibly linked to lower rates of stomach cancer",
+            "- shopping for food changed from a daily task to a {39} one",
+            "- today: refrigerated supply chains are needed to transport {40}"
+          ],
+          "answers": { "35": ["meat"], "36": ["car"], "37": ["ozone"], "38": ["salt"], "39": ["weekly"], "40": ["vaccines"] }
+        }
+      ]
+    }
+  ]
+}

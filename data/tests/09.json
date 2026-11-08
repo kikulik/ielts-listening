@@ -1,0 +1,379 @@
+{
+  "id": 9,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Hiring a car",
+      "context": "a woman phoning a car hire company to book a car for a holiday",
+      "speakers": { "A": { "name": "Callum", "g": "m", "accent": "gb" }, "B": { "name": "Helen", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Larkspur Vehicle Hire, Callum speaking."],
+            ["B", "Oh, good morning. I'd like to hire a car for about a week in October, please. We're coming up to the Highlands on holiday."],
+            ["A", "Lovely. I can certainly help with that. Can I start with your name?"],
+            ["B", "Yes, it's Helen [[1|Fairley]]."],
+            ["A", "Is that F-A-I-R-L-I-E?"],
+            ["B", "No, it ends in E-Y. F-A-I-R-L-E-Y."],
+            ["A", "Thank you. And a contact number?"],
+            ["B", "My mobile is 07958 331 204."],
+            ["A", "07958 331 204. Now, where would you like to collect the car from? We've got an office at the airport, and another at the railway station in the town centre."],
+            ["B", "Well, we're flying into Inverness, so I'd assumed the airport. But our flight doesn't land until half past seven in the evening."],
+            ["A", "Ah. I'm afraid the airport office closes at six, and we don't have an out-of-hours service there at the moment."],
+            ["B", "Oh, I see. Well, we've booked a hotel in the town for the first night anyway, so we could get a taxi there and pick the car up from the [[2|station]] the next morning. Is that far from the centre?"],
+            ["A", "Not at all. It's a five-minute walk from most of the hotels. So what date would that be?"],
+            ["B", "We arrive on the 16th, so it would be the day after that, the [[3|17th]]."],
+            ["A", "The 17th of October. And when would you bring it back?"],
+            ["B", "On the 23rd. We fly home that evening."],
+            ["A", "That's fine. Now, what sort of car were you thinking of?"],
+            ["B", "There'll be four adults: me, my husband, my brother and my daughter. And we're bringing walking boots, waterproofs, all that sort of thing. I was going to ask for a saloon, but I'm worried the boot won't be big enough."],
+            ["A", "With four adults and all that luggage, I'd definitely recommend an [[4|estate]]. You get a lot more room at the back, and it's not much more expensive."],
+            ["B", "Okay, let's go for that."],
+            ["A", "And will you be the only driver?"],
+            ["B", "Well, my husband would normally share the driving, but he's just renewed his licence and he's still waiting for the new card to arrive, so he won't be able to. But my [[5|brother]] would like to drive some of the time."],
+            ["A", "That's no problem. I'll add him as a second driver. He'll need to come with you when you pick up the car, and bring his own licence."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, let me tell you about the cost. Our standard daily rate for an estate is £46."],
+            ["B", "Oh. That's a bit more than I was hoping."],
+            ["A", "But because you're hiring it for more than five days, you get our weekly rate, which works out at [[6|£39]] a day."],
+            ["B", "That's better. And does that include insurance?"],
+            ["A", "Yes, basic insurance is included. If there's any damage, you'd pay the first £1,000 of the cost, but you can reduce that to nothing by adding our extra cover for £9 a day."],
+            ["B", "I'll talk to my husband about that and let you know."],
+            ["A", "Of course. You can decide when you collect the car. We'll also need to take a deposit of £250 when you pick it up. That has to go on a [[7|credit]] card, I'm afraid. We can't accept debit cards for the deposit, although you can use one to pay the hire charge itself."],
+            ["B", "That's fine. I've got one."],
+            ["A", "And on the day, you'll need to bring your driving licence, of course. We used to ask for proof of address as well, like a gas bill, but we don't need that any more. Just bring your [[8|passport]], so we can check your identity."],
+            ["B", "Okay. And what time do we need to bring the car back on the 23rd? Our flight's not until nine in the evening."],
+            ["A", "The station office is open until seven, but we ask for cars to be returned by [[9|5.30]], so that the staff have time to check them over before closing."],
+            ["B", "That should be fine. We can get the airport bus from just outside the station."],
+            ["A", "Yes, it goes every half an hour. One other thing to mention. If you're running late on the day, there's no extra charge, as long as you give us a call. But there is a cleaning charge of £60 if the car comes back very [[10|dirty]]. A lot of our customers drive down muddy farm tracks to get to the walks, so it's worth stopping at a car wash on your way back."],
+            ["B", "That's useful to know. My brother's a keen hill walker, so I expect we'll be on some muddy roads."],
+            ["A", "Lovely. I'll send you a text with the booking reference, and we'll see you on the 17th."],
+            ["B", "Thank you very much. Goodbye."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "LARKSPUR VEHICLE HIRE: BOOKING FORM",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "Name: Helen {1}",
+            "Mobile: 07958 331 204",
+            "Collect from: {2} office",
+            "Collection date: {3} October",
+            "Return date: 23rd October",
+            "Type of car: {4}",
+            "Second driver: customer's {5}",
+            "# Costs",
+            "Daily rate: £{6}",
+            "Extra insurance cover: £9 per day (optional)",
+            "Deposit of £250: must be paid by {7} card",
+            "# Collection and return",
+            "Documents: driving licence and {8}",
+            "Return the car by: {9} pm",
+            "£60 fee if the vehicle is returned {10}"
+          ],
+          "answers": {
+            "1": ["Fairley"],
+            "2": ["station"],
+            "3": ["17th", "17"],
+            "4": ["estate"],
+            "5": ["brother"],
+            "6": ["39"],
+            "7": ["credit"],
+            "8": ["passport"],
+            "9": ["5.30"],
+            "10": ["dirty"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A community theatre's renovation",
+      "context": "a theatre manager talking to visitors at the reopening of a community theatre",
+      "speakers": { "O": { "name": "Owen", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["O", "Good evening, everyone, and welcome to the Tannery Playhouse. My name's Owen Mallory, and I'm the theatre manager. It's wonderful to see so many of you here, eighteen months after we closed our doors. In a few minutes, our volunteers will take you on a tour of the building, but first I'd like to tell you a little about the renovation and what's changed."],
+            ["O", "When we announced that we were closing, a lot of people assumed it was because of the roof. And it's true that it leaked badly; we'd been putting buckets out in the balcony for years. The seats were famously uncomfortable, too. But neither of those things would have shut us down. What actually forced the decision was an inspection by the fire service, which found that [[11|the building didn't have enough emergency exits]] for an audience of our size."],
+            ["O", "The work has cost just over one point two million pounds, which is an enormous sum for a small community theatre. A heritage grant covered about a third of that, and several local businesses were extremely generous. But [[12|the largest share by far was given by individuals]]: more than three thousand people from the town and the villages around it, some of them giving as little as a pound."],
+            ["O", "The building work itself wasn't without its problems. It was one of the wettest winters on record, but the builders managed to keep going under temporary roofs. And we'd worried that we wouldn't find craftspeople able to repair the old stonework, but a local firm turned out to have exactly the right skills. What really held us up was [[13|the discovery of a colony of bats in the roof space]]. Bats are protected by law, so all work on the roof stopped for nine weeks while experts made sure they had somewhere safe to go."],
+            ["O", "When you go into the auditorium, you'll notice that there are actually fewer seats than before: 180 instead of 220. Part of the reason is that the new seats are wider, but the main change is that [[14|the first five rows can now be taken out]], leaving a flat floor that can be used for dances, markets and so on. Up in the balcony, by the way, we've kept the original seats. They've just been re-covered."],
+            ["O", "The café has had a makeover too. It's still run by our wonderful team of volunteers, just as it always has been. We'd love to serve food from local farms, and we're talking to suppliers, but that won't happen for a while yet. The big change is that [[15|it'll now be open in the daytime, whether or not there's a show]], from ten until four, six days a week."],
+            ["O", "Finally, access. There's now a lift from the foyer up to the first-floor bar, although sadly we couldn't extend it to the balcony, because the staircase is protected as part of the historic building. You'll still need to phone the box office to book a wheelchair space, as the online system can't handle those bookings yet. But I'm pleased to say that [[16|the hearing loop, which used to work only in the front few rows, now reaches every seat]] in the house."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["O", "Now, the renovation has also given us some new spaces, and I'd like to tell you what each of them will be used for."],
+            ["O", "Let's start at the bottom of the building. The basement used to be full of broken scenery that nobody could bear to throw away. That's all been cleared out now. We did think about keeping our costumes down there, but even with the new ventilation it's too damp for fabric. So instead, [[17|it's become the new home of our youth theatre]], who've been rehearsing in a draughty church hall for years."],
+            ["O", "Now that most tickets are sold online or at the bar, we no longer need the old box office beside the front door. A few people suggested it would make a nice spot for a second-hand bookstall, but it's really too small to browse in. Instead, [[18|we'll be hanging paintings and photographs by artists from the town on its walls]], with a new display every month."],
+            ["O", "Up in the roof, now that it's finally watertight and insulated, we have somewhere dry for the first time in the building's history. [[19|That's where our collection of over 2,000 costumes will live]], so they're no longer spread around volunteers' spare rooms. The bats, by the way, have their own section in the far corner, which is closed off."],
+            ["O", "And finally, the courtyard at the back. Some local clubs asked whether they could hold meetings out there, but it's open to the weather, and we now have a new meeting room on the first floor that groups can hire very cheaply. What we're planning for the courtyard is that [[20|in the summer months, we'll put up a big screen out there for outdoor cinema evenings]]. Right, the tour groups are ready, so please follow the volunteer holding up the colour printed on your ticket."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 16,
+          "items": [
+            {
+              "q": 11,
+              "stem": "Why did the theatre have to close?",
+              "options": ["Water was coming through the roof.", "It did not meet fire safety standards.", "The seating needed to be replaced."],
+              "answer": "B"
+            },
+            {
+              "q": 12,
+              "stem": "Most of the money for the renovation came from",
+              "options": ["a heritage grant.", "local businesses.", "members of the public."],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "What caused the longest delay to the building work?",
+              "options": ["finding protected animals", "bad weather", "a lack of skilled workers"],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "What is new about the seating in the auditorium?",
+              "options": ["There are more seats than before.", "Some seats can be removed.", "The balcony seats have been replaced."],
+              "answer": "B"
+            },
+            {
+              "q": 15,
+              "stem": "What is different about the café?",
+              "options": ["It will open on days without performances.", "It will be staffed by volunteers.", "It will sell food from local farms."],
+              "answer": "A"
+            },
+            {
+              "q": 16,
+              "stem": "What does Owen say about access for disabled visitors?",
+              "options": ["The lift now goes up to the balcony.", "Wheelchair spaces can be booked online.", "The hearing loop covers the whole auditorium."],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 17,
+          "to": 20,
+          "lead": "What will each of the following parts of the building be used for?",
+          "boxTitle": "Uses",
+          "options": [
+            "showing films",
+            "storing costumes",
+            "rehearsals for young people",
+            "displaying local artwork",
+            "selling second-hand books",
+            "meetings of local groups"
+          ],
+          "items": [
+            { "q": 17, "text": "the basement", "answer": "C" },
+            { "q": 18, "text": "the old box office", "answer": "D" },
+            { "q": 19, "text": "the roof space", "answer": "B" },
+            { "q": 20, "text": "the courtyard", "answer": "A" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A work placement at a museum",
+      "context": "a student and her tutor discussing her work placement at a museum",
+      "speakers": { "T": { "name": "Dr Lindgren", "g": "m", "accent": "gb" }, "S": { "name": "Sophie", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 26,
+          "lines": [
+            ["T", "Come in, Sophie, have a seat. So, you've finished your placement at the Calderbrook Museum. How did it go?"],
+            ["S", "Really well, thanks. I was quite nervous at the start, but the staff were very welcoming."],
+            ["T", "Good. Remind me what you were actually doing there. Your application said you were hoping to work with school groups."],
+            ["S", "That's right, and I did help with a couple of school visits in my first week. I was also supposed to help design a small exhibition about harvest festivals, but that's been put back until next year because of funding. So in the end, [[21|most of my time went on recording objects for their new collections database]]: measuring them, describing them and photographing them."],
+            ["T", "That's valuable experience. An awful lot of museum work involves exactly that. Did you find any of it difficult?"],
+            ["S", "Well, the database took me a day or so to learn, but it's quite logical once you get used to it. And handling the objects was nerve-racking at first, especially the old lace, but they give you proper training for that. What I really found hard was [[22|when people brought things in and expected to be told they were worth a fortune]]. Museum staff aren't allowed to give valuations, and some people got quite upset with me."],
+            ["T", "Managing people's expectations is a skill in itself. Now, I've read through your placement diary. The length is fine, and you've obviously kept it up every day."],
+            ["S", "I tried to."],
+            ["T", "My concern is that it's mostly a list of tasks. 'Monday: photographed forty farm tools.' What the examiners want to see is what you learned from those tasks, what surprised you, and what you'd do differently next time. [[23|At the moment, there's very little thinking about the experience]]."],
+            ["S", "Okay. I wasn't sure how personal it was supposed to be."],
+            ["T", "Quite personal is fine. So, which skills do you think you developed most?"],
+            ["S", "Well, teamwork, I suppose, but I've done a lot of group work on the course already. And I was fairly organised before I started. I think the biggest change was in my writing. The curator asked me to [[24|write the labels for two display cases, in fifty words or fewer, for visitors of all ages]]. My first attempts were far too academic, but by the end she hardly changed a word."],
+            ["T", "That's a very useful skill. Did you learn much about how the museum is run?"],
+            ["S", "Yes, quite a lot. I hadn't realised how much it depends on volunteers. There are only four paid staff and about sixty volunteers. And they're in the middle of digitising the whole collection. I'd assumed that was so people could look at it online, and that's part of it. It doesn't save any storage space, obviously, because the objects still have to be kept somewhere. But the director told me that [[25|the main reason is that the big funding bodies now insist on it]]. Without a digital catalogue, they won't even look at an application."],
+            ["T", "Interesting. Now, have you thought about your dissertation? It would be good to start planning over the summer."],
+            ["S", "I'd like to do something connected to the museum. I thought perhaps a study of the volunteers, why they do it, that kind of thing, based on interviews."],
+            ["T", "It's a nice idea, but interviews need ethical approval, and that can take months. You also mentioned once that you might compare several local museums."],
+            ["S", "Yes, but that would mean a lot of travelling."],
+            ["T", "Exactly. So why not use the records you created yourself? [[26|There's a dissertation in what the database tells us about how farm tools changed]] over the last century, and you could do all of it from your desk."],
+            ["S", "That's a really good idea. I'll ask the museum if they'd be happy with that."]
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "lines": [
+            ["T", "Before you go, the department wants every placement report to describe one museum process in detail. Which one were you planning to choose?"],
+            ["S", "I thought accessioning. That's the process when someone offers to give an object to the museum, and it's formally added to the collection."],
+            ["T", "Good choice. Talk me through it."],
+            ["S", "Well, first the person offering the object fills in a form. They aren't asked what they think it's worth, because, as I said, staff can't discuss valuations. But they are asked to write down everything they know about [[27|where it came from, who owned it and how it was used]]. The museum says an object with no story is far less useful."],
+            ["T", "And then?"],
+            ["S", "Then the object goes into [[28|a separate room for two weeks, so staff can check that it hasn't brought any insects in with it]]. People often think everything gets put in the freezer to kill pests, and some museums do that, but at Calderbrook they only freeze things if they actually find something."],
+            ["T", "Very sensible. Freezing can damage some materials. And who decides whether to keep it?"],
+            ["S", "The curator writes a report recommending whether to accept it or not, but it isn't the curator who decides. [[29|The final decision is made by a committee]] of trustees, which meets once a month."],
+            ["T", "And if it's accepted?"],
+            ["S", "Then the very first thing that happens is that [[30|it's given its own accession number]], which is written onto it in special ink. The photograph, the label and the database record all come after that."],
+            ["T", "That's very clear. Write it up exactly like that, with a diagram, and you'll be fine."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 26,
+          "items": [
+            {
+              "q": 21,
+              "stem": "What did Sophie spend most of her placement doing?",
+              "options": ["helping with school visits", "preparing an exhibition", "cataloguing items in the collection"],
+              "answer": "C"
+            },
+            {
+              "q": 22,
+              "stem": "What did Sophie find most challenging?",
+              "options": ["dealing with visitors who had unrealistic hopes", "learning to use the database", "handling delicate objects"],
+              "answer": "A"
+            },
+            {
+              "q": 23,
+              "stem": "What does the tutor say about Sophie's placement diary?",
+              "options": ["It is too long.", "It contains too little reflection.", "It was not kept up regularly."],
+              "answer": "B"
+            },
+            {
+              "q": 24,
+              "stem": "Which skill does Sophie feel she improved most?",
+              "options": ["working in a team", "organising her time", "writing for a general audience"],
+              "answer": "C"
+            },
+            {
+              "q": 25,
+              "stem": "According to the director, what is the main reason for digitising the collection?",
+              "options": ["to make it available online", "to meet the requirements of funders", "to reduce the need for storage"],
+              "answer": "B"
+            },
+            {
+              "q": 26,
+              "stem": "What does the tutor suggest for Sophie's dissertation?",
+              "options": ["researching the museum's volunteers", "analysing information from the museum's database", "comparing several local museums"],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 27,
+          "to": 30,
+          "layout": "flow",
+          "title": "Accepting a donated object into the collection",
+          "options": ["history", "value", "quarantine", "freezer", "committee", "curator", "number", "label", "photograph"],
+          "rows": [
+            "The donor completes a form giving the object's {27}",
+            "The object is kept in {28} for a fortnight and checked for insects",
+            "The curator writes a report with a recommendation",
+            "A {29} decides whether to accept the object",
+            "The object is marked with its own {30}",
+            "The object is photographed, labelled and entered on the database"
+          ],
+          "answers": { "27": "A", "28": "C", "29": "E", "30": "G" }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "How desert plants survive drought",
+      "context": "part of a lecture on how desert plants survive drought",
+      "speakers": { "L": { "name": "Lecturer", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good morning, everyone. Today we're going to look at one of the most hostile environments on Earth for plant life, the desert, and at the remarkable ways in which plants manage to survive there. A desert is usually defined as a region that receives less than two hundred and fifty millimetres of rain a year. But the real problem for plants isn't only the small amount of rain. It's that the rain is so unpredictable. A desert may go several years with almost none, and then receive half its annual total in a single afternoon."],
+            ["L", "Broadly speaking, desert plants follow one of three strategies. They can escape drought, they can avoid it, or they can tolerate it. Let's begin with the escapers. These are annual plants, often called ephemerals, which simply aren't present as living plants during the dry periods. After heavy rain, their seeds sprout, the plants grow, flower and produce new seeds, all within a few weeks, and then they die. The seeds are the key. They can lie in the soil for years, and you might expect them to start growing as soon as they get wet. But that would be fatal, because a light shower doesn't provide enough moisture to complete the life cycle. So the seed coat contains chemicals that block [[31|germination]], and these are only washed away once a substantial amount of rain has fallen."],
+            ["L", "The second group, the avoiders, includes the plants most people picture when they think of deserts: the succulents, and above all the cacti. Rather than escaping drought, they store water. The giant saguaro cactus of Arizona can hold well over a tonne of water in its stem, and the stem has deep vertical folds, so that it can swell after rain and shrink again as the water is used up, rather like an [[32|accordion]]."],
+            ["L", "Cacti, of course, have spines instead of ordinary leaves. In fact, botanically speaking, the spines are not thorns, which develop from stems, but highly modified [[33|leaves]]. Because they have almost no surface area, they lose very little water. They also shade the stem, and protect the plant from thirsty animals."],
+            ["L", "Cacti also have an unusual way of taking in carbon dioxide, which plants need for photosynthesis. Most plants open the tiny pores on their surfaces during the day, but in the desert heat that would mean losing enormous amounts of water. So cacti keep their pores closed through the day and open them only at [[34|night]], when it's cooler and the air is more humid. The carbon dioxide is stored as an acid until the sun comes up and photosynthesis can begin."],
+            ["L", "Roots are another part of the avoidance strategy, and here plants take two very different approaches. Some go deep. The mesquite tree, which grows across the deserts of North America, sends its roots down towards permanent underground water. Farmers digging wells often come across mesquite roots at ten or fifteen metres, but the deepest ever recorded were found more than fifty metres below the surface, by workers in a [[35|mine]]."],
+            ["L", "Cacti take the opposite approach. Their roots are shallow, often just a few centimetres below the surface, but they spread out widely, so that they can absorb rain before it evaporates. And when rain does arrive, a cactus can grow extra fine roots, known as rain roots, within a few [[36|hours]]. Once the soil dries out, these roots wither away again a few days later."],
+            ["L", "The third strategy is the most extraordinary: tolerance. A small number of plants, known as resurrection plants, can lose up to ninety-five per cent of their water and survive. They turn brown, curl up, and look completely dead, sometimes for years. Yet within a day of being watered, they're green again. The secret lies in their cells. It was once thought that special proteins were responsible, and proteins do play a part, but the main protection comes from [[37|sugars]], which build up in the cells as the plant dries out and turn into a glass-like solid. This holds the cell's structures in place and stops them collapsing until water returns."],
+            ["L", "Another tolerator worth mentioning is the creosote bush. Some creosote bushes in the Mojave Desert are clones that have been growing from the same root system for thousands of years, and they can survive two years without rain. Many desert plants protect their leaves with a layer of wax, but the creosote bush has something more effective: its small leaves are coated in a sticky [[38|resin]]. This cuts water loss, and its bitter taste also discourages animals from eating the leaves. It's what gives the desert its distinctive smell after rain."],
+            ["L", "So far, we've talked about rain. But in some coastal deserts, it almost never rains at all. Many desert plants collect a little dew on cold nights, but that's never enough on its own. In the Atacama Desert in Chile, though, certain plants have no working roots, and they survive entirely on water from [[39|fog]], which rolls in from the Pacific Ocean. Tiny scales on their leaves trap the droplets and absorb them directly."],
+            ["L", "Finally, why does any of this matter beyond botany? With climate change bringing more frequent droughts to farming regions, scientists are looking closely at these plants. Researchers in South Africa, for example, are studying the genes that allow resurrection plants to dry out and recover, in the hope of developing [[40|crops]] that could survive long periods without water. If a field of maize or wheat could recover after weeks of drought, the benefits for food security would be enormous."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "How desert plants survive drought",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Escaping drought: annual plants",
+            "- life cycle is completed within a few weeks of heavy rain",
+            "- seed coats contain substances that stop {31} after light showers",
+            "# Avoiding drought",
+            "- cactus stems have folds that let them expand like an {32}",
+            "- spines are really modified {33}",
+            "- pores open only at {34}, when less water is lost",
+            "- mesquite tree: roots found over 50 metres down in a {35}",
+            "- cacti: shallow roots, plus extra roots that grow within a few {36} of rain",
+            "# Tolerating drought",
+            "- resurrection plants: cells are protected by {37}, which harden like glass",
+            "- creosote bush: leaves have a coating of {38}, which reduces water loss and deters animals",
+            "# Other sources of water",
+            "- some plants in coastal deserts get all their water from {39}",
+            "# Applications",
+            "- genes may help scientists develop {40} that can survive drought"
+          ],
+          "answers": {
+            "31": ["germination"],
+            "32": ["accordion"],
+            "33": ["leaves"],
+            "34": ["night"],
+            "35": ["mine"],
+            "36": ["hours"],
+            "37": ["sugars"],
+            "38": ["resin"],
+            "39": ["fog"],
+            "40": ["crops"]
+          }
+        }
+      ]
+    }
+  ]
+}

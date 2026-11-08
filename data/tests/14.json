@@ -1,0 +1,386 @@
+{
+  "id": 14,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Joining a city bike-hire scheme",
+      "context": "a man phoning to join a city bike-hire scheme",
+      "speakers": { "A": { "name": "Hannah", "g": "f", "accent": "gb" }, "B": { "name": "Calvin", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon, Pedalway City Bikes, Hannah speaking. How can I help?"],
+            ["B", "Hi there. I'd like to join your bike scheme. I've just moved to Nottingham from Chicago for work, and I keep seeing your bikes all over town."],
+            ["A", "Welcome to Nottingham! Yes, I can sign you up over the phone. It only takes about ten minutes. Could I start with your name?"],
+            ["B", "Sure. It's Calvin [[1|Pruett]]."],
+            ["A", "And could you spell the surname for me?"],
+            ["B", "P-R-U-E-T-T."],
+            ["A", "Thank you. And what's your address?"],
+            ["B", "Well, right now I'm staying in a hotel on Carlton Road, but I move into my apartment tomorrow. Which one do you need?"],
+            ["A", "The new one, please, because that's where we'll send anything by post."],
+            ["B", "OK. It's 31 [[2|Kelham]] Street. That's K-E-L-H-A-M."],
+            ["A", "And the postcode?"],
+            ["B", "NG7 4LP."],
+            ["A", "And a contact number?"],
+            ["B", "My cell is 0752 914 3380. Sorry, my mobile, I should say."],
+            ["A", "Don't worry, I knew what you meant."],
+            ["A", "Lovely. Now, we offer three types of membership: pay as you go, monthly, and annual. Do you know which you'd like?"],
+            ["B", "I was thinking annual, since I'll be riding to work every day."],
+            ["A", "May I ask how long you're going to be in the city?"],
+            ["B", "My contract's for eight months."],
+            ["A", "In that case, annual might not be the best value. It works out cheaper per month, but there are no refunds if you leave early. And pay as you go would add up very quickly if you're riding twice a day."],
+            ["B", "Then I guess I'll go with [[3|monthly]]. Can I cancel whenever I want?"],
+            ["A", "Yes, you just give us a month's notice."],
+            ["B", "And how much is it? Your website says ten pounds a month."],
+            ["A", "Ah, that was a special offer when the scheme launched, and it finished at the end of April. I'm afraid we haven't updated every page yet. The standard rate is [[4|£12]] a month."],
+            ["B", "That's still pretty reasonable. Is there a limit on how long I can keep a bike?"],
+            ["A", "Not a limit as such, but each journey is only free for a certain time, and after that there's a small charge. For pay as you go customers it's thirty minutes. With a monthly membership, you get the first [[5|45]] minutes of every ride free."],
+            ["B", "Great. My commute should only take about twenty minutes, so that's more than enough."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, there are two kinds of bike in the scheme. Last year we tried out some cargo bikes, with a big box on the front for shopping, but they weren't very popular, so we've withdrawn them. Most of the bikes are standard ones, which are included in your membership. The others are [[6|electric]], and those cost an extra 10p a minute."],
+            ["B", "That's useful to know. The hills here are steeper than I expected."],
+            ["A", "They are! Next, how would you like to unlock the bikes? Most of our members use the app."],
+            ["B", "Normally I'd say the app, but my phone's pretty old and the battery runs out all the time. Is there any other way?"],
+            ["A", "Yes, we can post you a [[7|fob]]. It's a little plastic thing that you keep on your keyring, and you just hold it against the docking point to release a bike."],
+            ["B", "That sounds easier. Let's do that. Is there a charge for it?"],
+            ["A", "No, the first one's free. If you lose it, a replacement costs £5."],
+            ["B", "OK. And do you know where my nearest docking station would be? I'm pretty sure there's one by the cinema at the end of my street."],
+            ["A", "There is, but it's closed until the autumn because of roadworks. The nearest one that's working at the moment is outside the [[8|museum]], about five minutes' walk from you."],
+            ["B", "Right, I know where that is."],
+            ["A", "And when would you like your membership to start?"],
+            ["B", "Could we say the 1st of June? That's next Monday."],
+            ["A", "We could, but the fob usually takes three or four working days to arrive. So unless you want to pay for days when you can't ride, I'd suggest starting a little later. How about Thursday the [[9|4th]]?"],
+            ["B", "Yeah, that makes more sense. Let's go with that."],
+            ["A", "Lovely. I've set that up for you, and your membership number is PW5183."],
+            ["B", "Sorry, was that PW5138?"],
+            ["A", "No, the last two numbers are the other way round. It's [[10|PW5183]]. You'll need that whenever you call us."],
+            ["B", "Got it. Is there anything else I need to know?"],
+            ["A", "Just that we don't provide helmets, so do bring your own. And the payment will come out on the 4th of every month."],
+            ["B", "And what if a bike's broken when I go to pick it up?"],
+            ["A", "If there's anything wrong with it, press the red button on the dock before you take it out. That locks the bike so that nobody else uses it, and our mechanics will collect it. Then just choose a different one."],
+            ["B", "Perfect. Thanks so much for your help."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "PEDALWAY CITY BIKES: NEW MEMBER",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Personal details",
+            "Name: Calvin {1}",
+            "Address: 31 {2} Street, Nottingham",
+            "# Membership",
+            "Type: {3}",
+            "Cost: £{4} per month",
+            "Free time on each journey: {5} minutes",
+            "# Using the scheme",
+            "{6} bikes: additional charge of 10p per minute",
+            "Bikes unlocked with a {7}",
+            "Closest docking station until the autumn: outside the {8}",
+            "Membership begins: {9} June",
+            "Membership number: {10}"
+          ],
+          "answers": {
+            "1": ["Pruett"],
+            "2": ["Kelham"],
+            "3": ["monthly"],
+            "4": ["12"],
+            "5": ["45", "forty-five"],
+            "6": ["electric"],
+            "7": ["fob"],
+            "8": ["museum"],
+            "9": ["4th", "4", "fourth"],
+            "10": ["PW5183"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "kind": "interview",
+      "topic": "Radio interview about a charity book fair",
+      "context": "a local radio interview with the organiser of a charity book fair",
+      "speakers": { "A": { "name": "Presenter", "g": "m", "accent": "gb" }, "B": { "name": "Alison", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "And now, as promised, we turn to one of the highlights of the Shrewsbury calendar. The Readwell Book Fair is back next weekend, and with me in the studio is its organiser, Alison Prothero. Alison, welcome to the programme."],
+            ["B", "Thanks, Martin. It's lovely to be here."],
+            ["A", "Now, the fair's been going for quite a few years. How did it all begin?"],
+            ["B", "It's twenty-two years ago now. A lot of people assume it started as a fundraiser for one of the local schools, because we've always had a big children's section, or that it grew out of the literature festival, which takes place here in the autumn. But actually, [[11|it began when Marlow's, the old bookshop on Pride Hill, closed down, and the owner gave all his remaining stock to our charity]]. Suddenly we had about four thousand books and nowhere to put them, so we hired a hall for a weekend and sold them. And people just kept bringing us more."],
+            ["A", "And what can visitors expect this year? Anything different?"],
+            ["B", "Well, some things never change. It's still the second weekend in March, it still runs for two days, Saturday and Sunday, and we still charge two pounds to get in, which all goes to the charity. The big difference is [[12|that we've moved out of the town hall, which is being renovated, and we'll be in the old market hall instead]]. It's actually a lovely space, with much more natural light."],
+            ["A", "What kinds of books do people give you?"],
+            ["B", "Everything you can imagine. We get mountains of novels, and far more cookery books than we could ever sell. What we never seem to have enough of, though, is [[13|books for young children, picture books and early readers]]. They're always the first things to go on the Saturday morning, so if anyone listening has some that their children have grown out of, we'd love to have them."],
+            ["A", "And what happens to the books that don't sell?"],
+            ["B", "That used to be a real headache. For a few years we tried selling them online afterwards, but by the time we'd paid for packaging and postage we were hardly making anything, so we stopped. Books that are badly damaged go for recycling, but that's only a small number. [[14|Most of what's left goes to prisons in the region, to stock their libraries]], and they're always very grateful."],
+            ["A", "You must need a lot of volunteers to run it."],
+            ["B", "We do, about eighty over the weekend. Most are retired, although we get a few sixth-formers as well. You don't need any training, just enthusiasm, and someone will show you what to do on the day. We never have trouble filling the Saturday, but [[15|on Sunday afternoon we're always short of people]], so that's when we'd really welcome some help."],
+            ["A", "And where will the money go this year?"],
+            ["B", "Last year's money paid for a minibus, which brings people in from the villages to our reading groups. This year, [[16|the priority is training more volunteers to work one to one with adults who are learning to read]]. We've got a waiting list of over forty people at the moment, and that's really what we exist for. We'd also love to buy some e-readers for people with poor eyesight, because you can make the text as large as you like, but that will probably have to wait until next year."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "I gather there are a few special areas at this year's fair. Tell us about those."],
+            ["B", "Yes. First, there's the rare books table. That's where we put anything that might be valuable, first editions, signed copies and so on. Some of our regulars asked if it could have a room of its own, so it'd be quieter, but there isn't one available, so it'll be at the back of the main hall. All [[17|the prices there are decided by a retired antiques dealer, who goes through every single book]], so I'm afraid you won't find any bargains, but you might find a treasure."],
+            ["A", "Sounds tempting. What else?"],
+            ["B", "Well, [[18|this is the first year we've ever sold music]]. A local DJ who's moving abroad has given us his whole record collection, nearly two thousand records, and we've had boxes of CDs too. They'll be priced the same as the books, mostly a pound or two."],
+            ["A", "And for younger visitors?"],
+            ["B", "There's the children's corner, which is always busy. For years it was run by a group of teenagers from the high school, but they've all gone off to university now, so our regular volunteers are taking over. There'll be a story read aloud every hour, and [[19|every child who comes along can pick a book to take home without paying anything]]."],
+            ["A", "Lovely. And I'm told there's a café."],
+            ["B", "There is, run by volunteers from the church next door, so the cakes are homemade and very good. It'll be at the far end of the main hall. Just remember that although the fair stays open until five on both days, [[20|the café closes at three]], because the volunteers need time to clear up."],
+            ["A", "Alison Prothero, thank you very much. So, that's the Readwell Book Fair, at the market hall next Saturday and Sunday, from ten until five."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 16,
+          "items": [
+            {
+              "q": 11,
+              "stem": "How did the book fair begin?",
+              "options": ["as a fundraising event for a school", "with a large donation from a shop owner", "as part of a literature festival"],
+              "answer": "B"
+            },
+            {
+              "q": 12,
+              "stem": "What is different about this year's fair?",
+              "options": ["It will last longer.", "Entry will be free.", "It will be held in another building."],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "Which type of book does the fair need more of?",
+              "options": ["children's books", "cookery books", "novels"],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "What happens to most of the books that are not sold?",
+              "options": ["They are sold online.", "They are passed on to prisons.", "They are recycled."],
+              "answer": "B"
+            },
+            {
+              "q": 15,
+              "stem": "What does Alison say about the volunteers?",
+              "options": ["Most of them are students.", "They need to attend a training session.", "More are needed at a particular time."],
+              "answer": "C"
+            },
+            {
+              "q": 16,
+              "stem": "What will this year's money mainly be used for?",
+              "options": ["training reading tutors", "a vehicle", "electronic reading devices"],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 17,
+          "to": 20,
+          "lead": "What does Alison say about each of the following areas of the fair?",
+          "boxTitle": "Comments",
+          "options": [
+            "It will be in a room of its own.",
+            "It is run by teenagers.",
+            "It is a new feature.",
+            "An expert decides the prices.",
+            "It closes before the rest of the fair.",
+            "Visitors can get something free there."
+          ],
+          "items": [
+            { "q": 17, "text": "the rare books table", "answer": "D" },
+            { "q": 18, "text": "the music section", "answer": "C" },
+            { "q": 19, "text": "the children's corner", "answer": "F" },
+            { "q": 20, "text": "the café", "answer": "E" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Planning a short documentary film",
+      "context": "two media students planning a short documentary film",
+      "speakers": { "A": { "name": "Oliver", "g": "m", "accent": "gb" }, "B": { "name": "Nadia", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["A", "Right, Nadia, we need to send Dr Wells our proposal by Friday, so let's make sure we're both happy with the subject. Are you still keen on the repair café?"],
+            ["B", "I am. I went along again on Saturday, and it's even better than I remembered. I know you wondered whether it had been done before."],
+            ["A", "Well, it has, sort of. The local TV news did a two-minute piece on it last year. I watched it online."],
+            ["B", "Yes, but that was just a quick report. Ours will go into much more depth. And the main thing for me is that [[21|the volunteers there are really keen on the idea. Maggie, who set it up, said everyone would be happy to be filmed]], and that's half the battle with a documentary."],
+            ["A", "That's true. And from a visual point of view, it's perfect. [[22|There's someone mending a toaster at one table, someone sewing at the next, someone fixing a bike in the corner]]. There's always something different to look at. And it's a good story, too. Last year they fixed over two thousand things that would otherwise have ended up in the bin."],
+            ["B", "Exactly. The only downside is getting there. It's right on the other side of town, and it takes nearly an hour on the bus, so we'll have to set off really early."],
+            ["A", "I thought it would fit in nicely with the sustainability module from last term, too."],
+            ["B", "Dr Wells said this project's meant to be completely separate from the earlier modules, though, so I wouldn't mention that in the proposal."],
+            ["A", "Fair enough. So, problems. What do you think will be the trickiest thing on the day?"],
+            ["B", "Light, possibly. Church halls can be quite gloomy."],
+            ["A", "Not this one. It's got those huge windows all along one side, and we'll be filming in the morning, so I think we'll manage without extra lights. And at least it's all indoors, so the weather won't matter. What does worry me is [[23|the sound. The hall has a really high ceiling, so everything echoes, and there's a lot of chatter]]. We'll need to borrow the clip-on microphones from the department, or the interviews will be useless."],
+            ["B", "Good idea. The other thing is that not all the visitors will want to be on camera. [[24|Some people bring in quite personal things, and they might not want to be seen]]. We'll have to ask everyone to sign a consent form, and film around anyone who says no."],
+            ["A", "That could slow us down a lot. What about the equipment? Will we have enough time with the camera?"],
+            ["B", "Yes, the department's letting us have it for the whole week, so that's no problem."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["A", "OK, let's go through the plan section by section. For the opening, I'd like to show the hall filling up with people carrying broken things."],
+            ["B", "We could do that in slow motion, people coming through the door one by one."],
+            ["A", "Hmm, I think that might look a bit too dramatic for the start. What if we fixed the camera in a corner for the first two hours, and then [[25|speeded it all up, so the whole morning goes by in about twenty seconds]]?"],
+            ["B", "Oh, that would be great. You'd really see how busy it gets. Let's do that."],
+            ["A", "Then there's the interview with Maggie. I'd assumed we'd film her at her own table in the hall."],
+            ["B", "With all that echo? I think we should [[26|take her out into the garden at the front of the church]]. It's quiet, and it's quite pretty, with the trees behind her."],
+            ["A", "Will she mind, though? She seemed quite shy."],
+            ["B", "I asked her on Saturday, and she said she'd actually prefer it, because she won't have a crowd watching her."],
+            ["A", "Good. Then the section on the electrical repairs. I want people to see how fiddly the work is."],
+            ["B", "So we need to get really near. [[27|Close-ups of hands, screwdrivers, tiny wires]], that kind of thing."],
+            ["A", "Yes. I did wonder about filming that table from above, but there's a shelf over it, so we'd never get the camera into position."],
+            ["B", "Well, we could do that for the sewing table instead. [[28|If we put the camera on a stand pointing straight down]], you'd see the fabric moving under the needle. It would look completely different from the electrical scenes."],
+            ["A", "I love that. Now, the part where Maggie talks about how the café started, back in 2015. I thought I could use a hand-held camera and just wander round the empty hall."],
+            ["B", "That might look a bit shaky. How about keeping the camera still, but [[29|filming the empty hall without any colour]]? It would make it feel like the past, and it would match the old photos she's lending us."],
+            ["A", "Yes, that works. Do you think we need music anywhere?"],
+            ["B", "Only at the very end, I think. Something quiet. Otherwise the sounds of the hall are more interesting."],
+            ["A", "Agreed. And the ending itself. I think it has to be the boy whose bike they fixed."],
+            ["B", "Definitely. Do we speed that up too, like the opening?"],
+            ["A", "No, we've already done that once. I think when he rides off down the road, we [[30|slow it right down, so it lasts as long as possible]]."],
+            ["B", "Perfect. That'll be a lovely way to finish."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 21,
+          "to": 22,
+          "stem": "Which TWO reasons do the students give for choosing the repair café as their subject?",
+          "options": [
+            "It has not been filmed before.",
+            "It is easy to get to from the university.",
+            "The people there are willing to take part.",
+            "It offers a variety of things to film.",
+            "It links to a previous module."
+          ],
+          "answer": ["C", "D"]
+        },
+        {
+          "type": "multi",
+          "from": 23,
+          "to": 24,
+          "stem": "Which TWO problems do the students expect when filming?",
+          "options": ["poor lighting", "noise in the hall", "people refusing to appear", "limited time with the camera", "bad weather"],
+          "answer": ["B", "C"]
+        },
+        {
+          "type": "match",
+          "from": 25,
+          "to": 30,
+          "lead": "How do the students decide to film each part of their documentary?",
+          "boxTitle": "Filming methods",
+          "options": [
+            "from directly above",
+            "in slow motion",
+            "as a time-lapse sequence",
+            "outside the building",
+            "in close-up",
+            "in black and white",
+            "with a hand-held camera"
+          ],
+          "items": [
+            { "q": 25, "text": "the opening sequence", "answer": "C" },
+            { "q": 26, "text": "the interview with the founder", "answer": "D" },
+            { "q": 27, "text": "the electrical repairs", "answer": "E" },
+            { "q": 28, "text": "the sewing table", "answer": "A" },
+            { "q": 29, "text": "the history of the café", "answer": "F" },
+            { "q": 30, "text": "the final scene", "answer": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The design of medieval castles",
+      "context": "part of a lecture on the design of medieval castles",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good afternoon, everyone. Last week we looked at the political background to castle building after the Norman Conquest. Today I want to focus on the castles themselves: how they were designed, and how that design changed over roughly three centuries as attackers found new ways to break in. One point to bear in mind throughout is that castles weren't only military buildings. They were also homes, administrative centres and, perhaps above all, statements of power. But today I'll concentrate on defence."],
+            ["A", "The first castles the Normans built in England were of a type known as motte and bailey. The motte was a [[31|mound]] of earth, sometimes natural but usually piled up by hand, with a wooden tower on top. Below it was the bailey, an enclosed yard containing stables, workshops and living quarters, surrounded by a ditch and a wooden fence. Their great advantage was speed. Some chroniclers claimed they could go up in a matter of days, which is almost certainly an exaggeration, but with enough local labour, a motte and bailey could be completed in a few [[32|weeks]]. That made them ideal for an invading army trying to control a hostile country."],
+            ["A", "The weakness, of course, was that wood burns, and it also rots. So from the late eleventh century, the more important castles were rebuilt in stone, usually with a great square tower called a keep at their centre. Keeps had walls up to four metres thick, and the ground floor generally had no entrance at all. People often imagine a ladder that could be pulled up in an emergency, but in most cases the door was on the first floor and was reached by an external stone [[33|staircase]], which was often enclosed in a smaller building of its own so that it could be defended."],
+            ["A", "Square keeps had a serious flaw, though, and that was their corners. A corner is the hardest part of a wall to defend from above, and it's also where attackers could dig underneath most effectively. So by the early thirteenth century, new towers were almost always built [[34|round]]. Such a tower has no blind spots, and stones thrown or fired against it tend to glance off rather than strike it full on. Walls of this period were also pierced by narrow slits for archers. These were splayed, that is, wide on the inside, so that an archer could aim in several directions, but only a few centimetres across on the outside, which made them extremely difficult for anyone below to hit."],
+            ["A", "The entrance was always the weakest point of any castle, and gatehouses became increasingly elaborate. A typical gatehouse had a heavy wooden door, an iron grille that could be dropped in front of it, and, above the passage, openings in the ceiling known as murder holes. Films usually show defenders pouring boiling oil through these holes, but oil was far too expensive to use in that way. It's much more likely that they were mainly used to pour [[35|water]], to put out fires that attackers had lit against the wooden gates."],
+            ["A", "The most sophisticated design was the concentric castle, which appeared in Britain in the late thirteenth century, particularly in Wales. Here, there were two complete rings of walls, one inside the other. The crucial point is that the inner wall was considerably [[36|higher]] than the outer one, so archers on both walls could shoot at the enemy at the same time, and attackers who got over the outer wall found themselves trapped in a narrow space, under fire from above."],
+            ["A", "To understand why designers were so concerned about corners, let's look at what happened at Rochester in 1215, when King John besieged the castle there. His army first tried to batter the walls with stone-throwing machines, without much effect. So instead, his miners began to dig. They didn't dig an open trench, which would have exposed them to the archers above, but a [[37|tunnel]], running underground right up to, and then beneath, one corner of the keep."],
+            ["A", "As they dug, the miners held up the roof of the tunnel with wooden [[38|props]]. Once they were directly under the corner, they packed the space with brushwood and other material that would burn well. King John famously sent an order for forty of the fattest pigs that could be found, because the [[39|fat]] from them would make the fire burn hotter and for longer. When everything was in place, the miners set it alight and retreated."],
+            ["A", "The fire burned away the timber, the tunnel collapsed, and the masonry above it had nothing left underneath it. The whole [[40|corner]] of the keep came crashing down, and the defenders were forced to surrender soon afterwards. When the keep was repaired a few years later, the builders replaced it with a round tower, and you can still see the difference today: three square corners, and one round one. Next week, we'll see how the arrival of gunpowder weapons in the fourteenth and fifteenth centuries gradually made even the strongest of these designs out of date."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 36,
+          "layout": "notes",
+          "title": "Medieval castle design",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Motte and bailey castles",
+            "- a wooden tower stood on a {31} of earth",
+            "- could be built in a few {32}, so suited an invading army",
+            "# Stone keeps",
+            "- walls up to 4 metres thick; no door at ground level",
+            "- way in was via an outside {33} to the first floor",
+            "- from the early 13th century, towers were usually {34}, which removed blind spots",
+            "# Gatehouses",
+            "- murder holes were probably used mainly for pouring {35} onto fires",
+            "# Concentric castles",
+            "- the inner wall was {36} than the outer wall, so both could be defended at once"
+          ],
+          "answers": { "31": ["mound"], "32": ["weeks"], "33": ["staircase"], "34": ["round"], "35": ["water"], "36": ["higher"] }
+        },
+        {
+          "type": "gap",
+          "from": 37,
+          "to": 40,
+          "layout": "flow",
+          "title": "The siege of Rochester, 1215",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "Stone-throwing machines did little damage to the walls",
+            "Miners dug a {37} beneath one corner of the keep",
+            "Wooden {38} supported the roof as they worked",
+            "The space was filled with brushwood and pig {39}",
+            "The fire was lit, and a {40} of the keep collapsed"
+          ],
+          "answers": { "37": ["tunnel"], "38": ["props"], "39": ["fat"], "40": ["corner"] }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "id": 3,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Evening language classes",
+      "context": "a man phoning a language centre to ask about evening classes",
+      "speakers": { "A": { "name": "Lorna", "g": "f", "accent": "gb" }, "B": { "name": "Martin", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good evening, Fossgate Language Centre, Lorna speaking. How can I help?"],
+            ["B", "Oh, hello. I'm ringing to ask about your evening classes in Portuguese. My company's sending me to work in Lisbon next year, so I thought I'd better make a start."],
+            ["A", "Lovely. We run three Portuguese courses in the evenings at the moment. Have you studied the language at all before?"],
+            ["B", "A little. I did an online course a couple of years ago, but I'm afraid I've forgotten most of it."],
+            ["A", "That's very common. Well, let me tell you about each of the courses, and you can see which one suits you best. The first is Stage 1, which is for complete beginners. That's taught by Ana [[1|Teixeira]]."],
+            ["B", "Sorry, could you spell her surname for me?"],
+            ["A", "Of course. It's T-E-I-X-E-I-R-A. She's from Porto originally, and she's been teaching here for about ten years."],
+            ["B", "Thanks. And when is that one?"],
+            ["A", "It's on Monday evenings. It used to start at 7, but a lot of our students come straight from work and found they were waiting around, so it now starts at [[2|6.45]] and finishes at quarter past eight."],
+            ["B", "And how much does it cost?"],
+            ["A", "It's £135 for ten weeks, and that includes the course book."],
+            ["B", "That seems reasonable. And the second course?"],
+            ["A", "That's Stage 2, which Ana also teaches. That's on [[3|Wednesdays]] at 7. It was on Tuesdays last term, but we had to move it because the room was needed for something else."],
+            ["B", "Is that one more expensive?"],
+            ["A", "It is, slightly. It was £140 last term, but our prices went up in September, so it's now [[4|£150]] for the ten weeks. That doesn't include a book, but you can usually carry on with the Stage 1 book."],
+            ["B", "Would I be able to go straight into Stage 2, do you think? Since I've done a bit before?"],
+            ["A", "Possibly. Ana would need to check your level first. In the past, people had to do a written test, which some of them found quite stressful, so now she just has a short [[5|interview]] with each person over the phone. It only takes about ten minutes."],
+            ["B", "That sounds a lot less frightening."],
+            ["A", "And the third option is our Conversation class, on Thursdays at half past seven, with Duarte. That's £110. It's really for people who already have a reasonable level. Each week he brings in articles from Portuguese [[6|newspapers]], and the group discusses them. He used to use magazines, but people found those a bit too easy."],
+            ["B", "That might be something for later on, once I've improved."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["B", "Well, that's really helpful. I think I'll try for Stage 2, if Ana thinks I'm good enough. Is there anything else that students can take part in?"],
+            ["A", "Yes, we run a programme of cultural evenings each term, which are open to all our students, whatever language they're learning. The first one this term is on Friday the 17th of October. We'd planned a talk on Portuguese history, but unfortunately the speaker had to cancel, so instead it's going to be a [[7|film]] night, in our main hall. We're showing a Brazilian comedy, with English subtitles."],
+            ["B", "That sounds fun. Is there a charge?"],
+            ["A", "No, that one's free. The next event is a cookery evening, where a chef shows you how to make some traditional dishes. The original date was the 14th of November, but the chef's away that week, so we've moved it to the [[8|21st]]."],
+            ["B", "And where's that held? I imagine you don't have a kitchen at the centre."],
+            ["A", "No, we don't. It was going to be at the café next door, but they don't really have enough space, so it'll be at the [[9|restaurant]] on Gillygate, which is owned by one of our former students."],
+            ["B", "Gillygate? How do you spell that?"],
+            ["A", "G-I-L-L-Y-G-A-T-E. It's just outside the city walls, near the art gallery."],
+            ["B", "Got it. And is there a charge for that one?"],
+            ["A", "Yes, it's £12, which covers all the ingredients, and you get to eat what you've made, of course. Then the last event of the term is a music evening on Saturday the 6th of December, at St Saviour's church hall. There'll be a fado singer, which is the traditional music of Portugal, so it should be a lovely evening. Tickets are £8 for members of the public, but if you're enrolled on one of our courses, you only pay [[10|£5]]."],
+            ["B", "Excellent. I'll definitely come to that. Right, could you book me in for the interview with Ana?"],
+            ["A", "Of course. Could I have a phone number, so that Ana can call you?"],
+            ["B", "Yes, it's 07816 552 903. Any evening after six is best."],
+            ["A", "Lovely. I'll pass that on to her, and she should be in touch by the end of the week."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "table",
+          "title": "Portuguese evening courses",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Course", "Teacher", "Day and time", "Cost (10 weeks)", "Notes"],
+            ["Stage 1", "Ana {1}", "Monday, {2} pm", "£135", "course book included"],
+            ["Stage 2", "Ana", "{3}, 7 pm", "£{4}", "level checked by a short {5}"],
+            ["Conversation", "Duarte", "Thursday, 7.30 pm", "£110", "group discusses articles from {6}"]
+          ],
+          "answers": { "1": ["Teixeira"], "2": ["6.45", "6.45pm"], "3": ["Wednesdays", "Wednesday"], "4": ["150"], "5": ["interview"], "6": ["newspapers"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Cultural evenings",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Date", "Event", "Place", "Cost for students"],
+            ["Friday 17th October", "{7} night", "main hall", "free"],
+            ["{8} November", "cookery demonstration", "the {9} on Gillygate", "£12"],
+            ["Saturday 6th December", "music evening", "St Saviour's church hall", "£{10}"]
+          ],
+          "answers": { "7": ["film"], "8": ["21st", "21", "twenty-first"], "9": ["restaurant"], "10": ["5", "five"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Orientation for new hospital volunteers",
+      "context": "a hospital's volunteer manager giving an orientation talk to new volunteers",
+      "speakers": { "V": { "name": "Bernadette", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["V", "Good morning, everyone, and welcome to St Edric's Hospital. My name's Bernadette Shaw, and I'm the volunteer manager here. Thank you all for offering to give up your time to help us. Our volunteers make a huge difference to patients, and I hope you'll find the work rewarding. This morning, I'm going to explain what you need to do before you start, what you can and can't do on the wards, and then give you some practical information."],
+            ["V", "So, first of all, there are a few things that have to be done before your first shift. You've all provided two references, and those have been checked, so there's nothing more for you to do there. You also had your health checks when you came in for your interviews, so that's done too. Some of you have asked about uniforms. You'll each be given a green polo shirt, but there's no need to collect it in advance, because your supervisor will hand it to you on your first day."],
+            ["V", "However, [[11|everyone must complete our online course on infection control]] before they start. It takes about an hour, and you can do it at home. You'll also need to [[12|come along to one of our fire safety talks]]. There's one on Tuesday afternoon and another on Wednesday evening, so please put your name down for one of those before you leave today. Once you've done both, I'll send you your rota for the first month, and you'll be ready to begin."],
+            ["V", "Now, I want to be very clear about what volunteers can and can't do. Many of you will be helping on the wards, and you'll be a great support to the nurses. You can serve hot drinks from the trolley, for example, and lots of patients love having someone to chat to, or to read the newspaper to them. Once you've done a short training session, you'll also be able to take patients to other departments, such as X-ray, in a wheelchair."],
+            ["V", "But there are two things you must never do, however much a patient asks you to. [[13|The first is helping anyone to eat their meals]]. Some patients have difficulty swallowing, and there's a real risk of choking, so this is only done by staff who've been specially trained. [[14|The second is helping a patient to get out of bed]], or lifting them in any way at all. Even if they seem quite light, you could injure them, or yourself. If a patient needs help, always fetch a nurse."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["V", "Right, now for some practical information. When you arrive for a shift, you'll need to sign in. A lot of new volunteers go to the main reception desk, but the staff there won't be able to help you. Instead, go to the [[15|volunteer office]], which is on the ground floor, just past the lifts. That's also where you'll find lockers for your bags and coats. Each time you come in, please write down your time of arrival and the ward you'll be working on, because if the fire alarm goes off, we need to know exactly where everyone is."],
+            ["V", "On the wards, you'll need to follow the same rules as the nursing staff. Perfume's fine, as long as it isn't too strong, but please don't wear any [[16|jewellery]], apart from a plain wedding ring, because it can carry germs. And if you have long hair, it needs to be tied back."],
+            ["V", "If you're worried about a patient, or something doesn't seem right, please don't try to deal with it yourself. And don't approach the doctors, who are usually extremely busy. Instead, speak to the [[17|senior nurse]] on the ward, who'll know exactly what to do."],
+            ["V", "Now, some good news. Parking at the hospital is normally very expensive, but volunteers can park for free. Don't use the car park by the main entrance, because that's reserved for patients and visitors. Use Car Park C instead, which is behind the [[18|maternity unit]]. You'll need a permit for your windscreen, which I'll give you before you leave."],
+            ["V", "If you work a shift of four hours or more, you're also entitled to something to eat. We used to offer just free tea and coffee, but this year the hospital agreed to do more for volunteers, so now you'll get a voucher for a [[19|hot meal]] in the staff restaurant on the second floor. It's open from seven in the morning until eight at night, and the food is actually very good, so do make use of it."],
+            ["V", "And finally, once you've completed fifty hours of volunteering, you'll be invited to our annual [[20|garden party]] in July. We used to hold an awards dinner, but people told us they'd prefer something more relaxed, where they could bring their families along. Right, does anyone have any questions?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 11,
+          "to": 12,
+          "stem": "Which TWO things must new volunteers still do before their first shift?",
+          "options": ["attend a fire safety talk", "collect a uniform", "complete an online course", "have a health check", "provide references"],
+          "answer": ["A", "C"]
+        },
+        {
+          "type": "multi",
+          "from": 13,
+          "to": 14,
+          "stem": "Which TWO tasks are volunteers never allowed to do?",
+          "options": [
+            "pushing patients in wheelchairs",
+            "helping patients to eat",
+            "serving hot drinks",
+            "helping patients to get out of bed",
+            "reading to patients"
+          ],
+          "answer": ["B", "D"]
+        },
+        {
+          "type": "gap",
+          "from": 15,
+          "to": 20,
+          "layout": "notes",
+          "title": "Information for new volunteers",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# Arriving for a shift",
+            "- sign in at the {15}, not at main reception",
+            "# Rules on the wards",
+            "- {16} must not be worn, except for a plain wedding ring",
+            "- any worries about a patient: tell the {17}",
+            "# Benefits",
+            "- free parking in Car Park C, behind the {18}",
+            "- shifts of four hours or more: voucher for a {19}",
+            "- after 50 hours: invitation to a {20} in July"
+          ],
+          "answers": {
+            "15": ["volunteer office"],
+            "16": ["jewellery", "jewelry"],
+            "17": ["senior nurse"],
+            "18": ["maternity unit"],
+            "19": ["hot meal"],
+            "20": ["garden party"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Reviewing a field trip to a wind farm",
+      "context": "two students reviewing a field trip to a wind farm",
+      "speakers": { "O": { "name": "Owen", "g": "m", "accent": "gb" }, "P": { "name": "Priya", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 24,
+          "lines": [
+            ["P", "So, Owen, we need to write up our report on the trip to Carreg Wen, and I thought we could start by going through our notes."],
+            ["O", "Good idea. I must say, I enjoyed it much more than I expected. I thought standing on a windy hillside in Wales all day would be miserable."],
+            ["P", "Well, we were lucky with the weather. It hardly rained at all, which apparently is quite unusual up there."],
+            ["O", "True. Anyway, how do you want to organise the report? Dr Price gave us three sections, didn't she?"],
+            ["P", "That's right, three. For the first one, she wants us to say what we found surprising. What did you put?"],
+            ["O", "Well, not the sheep. Everyone knows that farmers carry on grazing animals under the turbines. I'd seen loads of photos of that."],
+            ["P", "And the blades were enormous, but we knew they would be, from the figures in the handout."],
+            ["O", "Exactly. What really struck me was [[21|how little noise there was]]. We were standing right underneath one, and you could have a normal conversation. I'd read that people living nearby complain about the sound, so I'd expected something much louder."],
+            ["P", "Yes, that surprised me too. And the other thing for me was that [[22|the whole site is run by just four members of staff]]. I'd imagined a team of dozens."],
+            ["O", "Because everything's monitored remotely, I suppose. Though we knew about the control centre in Scotland before we went, from the reading."],
+            ["P", "Right, so that's not really a surprise. OK, the second section is feedback on the organisation of the trip. Dr Price said we should be honest."],
+            ["O", "Well, the coach was late leaving."],
+            ["P", "Only by ten minutes, though, and that was hardly anyone's fault. There'd been an accident on the ring road. I don't think it's worth mentioning."],
+            ["O", "Fair enough. And the visitor centre was closed."],
+            ["P", "But they'd warned us about that weeks before, because of the building work, so it would be unfair to complain about it. The safety briefing went on a bit, didn't it?"],
+            ["O", "It did, but to be honest, it needed to. It's a dangerous place, with all the vehicles and machinery around. No, what I think we should mention is that [[23|there wasn't enough time at the end for us to ask questions]]. Everyone was rushing to get back on the coach."],
+            ["P", "Definitely. Half the group still had questions for the ecologist. And we should also say that [[24|we'd been told we'd be able to go inside one of the towers]], and then on the day we weren't allowed to, because of some problem with the insurance."],
+            ["O", "Yes, that was really disappointing. Several people only signed up for the trip because of that."]
+          ]
+        },
+        {
+          "from": 25,
+          "to": 30,
+          "lines": [
+            ["P", "OK, and the main part of the report is a summary of what we learned. Dr Price wants us to say where each piece of information came from. Let's start with the turbines themselves. I've got a hundred and ten metres to the tip of the blade, but I didn't write down who told us."],
+            ["O", "[[25|The engineer, wasn't it? She read it out from the specifications while we were standing under the tower]]."],
+            ["P", "Are you sure? I thought the site manager covered all that in his welcome talk."],
+            ["O", "He told us how many turbines there were and when they went up, but nothing about their size. Someone did ask him, and he said we'd hear the technical details later on."],
+            ["P", "Oh yes, I remember. Then there's whether birds get killed by the blades. The farmer was very definite about that. Fifteen years, and he'd never once found a dead bird under the turbines."],
+            ["O", "That's only what he's noticed, though, and he's not exactly neutral, since the company pays him. [[26|I'd rather we used the collision figures the ecologist showed us]]. They were very low, mainly because the turbines were put well away from the main migration routes."],
+            ["P", "Agreed. Now, the community fund. I've got a note about the new roof on the village hall, and I'm fairly sure that came up over lunch with the farmer."],
+            ["O", "No, over lunch he was telling us about the rent he gets for having the turbines on his land. That's a different thing. [[27|The fund was in the welcome talk, right at the start of the day]], along with how much goes to the villages every year."],
+            ["P", "Of course. Then there's whether the turbines get in the way of the farming."],
+            ["O", "The engineer said something about the access roads, didn't she?"],
+            ["P", "Only that they had to be wide enough for the cranes, which is really about building the site. But [[28|according to the landowner, they've actually made his work easier]], because he can get a tractor round the fields even in the middle of winter now."],
+            ["O", "Right. Then the peat bog. [[29|The ecologist took us out onto it and explained how blocking the old drains raises the water level]], so the peat can start storing carbon again."],
+            ["P", "Didn't the manager talk about that as well?"],
+            ["O", "He pointed it out from the car park, but that was all. He left the explanations to her."],
+            ["P", "And finally, what happens when the turbines reach the end of their working lives. That's in about ten years, isn't it?"],
+            ["O", "Yes. I asked the manager, and he said the company hadn't decided anything yet."],
+            ["P", "Well, that's the official position. But [[30|the engineer seemed fairly certain they'd be replaced with fewer, much bigger turbines]], using some of the same foundations. I think we should include that, as long as we make it clear it's only her view."],
+            ["O", "Fair enough. I think that covers everything, then. Shall we split up the writing?"],
+            ["P", "Why don't I draft the first two sections, since they're shorter, and you start on the summary? Then we can swap drafts on Friday and check each other's work."],
+            ["O", "That sounds fair. And we need to keep the whole thing under 2,000 words, so let's not get carried away."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "multi",
+          "from": 21,
+          "to": 22,
+          "stem": "Which TWO things surprised the students about the wind farm?",
+          "options": [
+            "how quiet the turbines were",
+            "the number of people employed on the site",
+            "the size of the blades",
+            "the use of the land for grazing",
+            "the fact that the site is controlled from a distance"
+          ],
+          "answer": ["A", "B"]
+        },
+        {
+          "type": "multi",
+          "from": 23,
+          "to": 24,
+          "stem": "Which TWO problems with the trip do the students agree to mention in their feedback?",
+          "options": [
+            "the late departure of the coach",
+            "the closure of the visitor centre",
+            "the length of the safety briefing",
+            "the lack of time for questions",
+            "not being able to enter a turbine"
+          ],
+          "answer": ["D", "E"]
+        },
+        {
+          "type": "match",
+          "from": 25,
+          "to": 30,
+          "lead": "Which person will the students name as the source of their information on each of the following topics?",
+          "boxTitle": "People",
+          "options": ["the site manager", "the engineer", "the ecologist", "the farmer"],
+          "items": [
+            { "q": 25, "text": "the height of the turbines", "answer": "B" },
+            { "q": 26, "text": "the risk to birds", "answer": "C" },
+            { "q": 27, "text": "the community fund", "answer": "A" },
+            { "q": 28, "text": "the effect on farm work", "answer": "D" },
+            { "q": 29, "text": "the restoration of the peat bog", "answer": "C" },
+            { "q": 30, "text": "the future of the turbines", "answer": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Roman concrete and why it lasted",
+      "context": "part of a lecture on Roman concrete and why it has lasted so long",
+      "speakers": { "L": { "name": "Lecturer", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["L", "Good afternoon, everyone. Today's lecture is about a building material that has fascinated engineers for centuries: Roman concrete. All around the Mediterranean, you can still see Roman harbours, bridges and domes made of concrete that are around two thousand years old. Modern concrete, by contrast, often starts to crumble within fifty to a hundred years, especially near the sea. So what was the Romans' secret?"],
+            ["L", "Let me start by correcting a common misunderstanding. People often assume that Roman concrete must have been stronger than the concrete we use today. It wasn't. If you test a sample by crushing it, [[31|it fails at a much lower pressure than a modern equivalent]]. You might also expect that, with no national standards, the quality would have varied enormously from one part of the empire to another. In fact, tests on samples from many different sites show remarkably consistent results. So the advantage of Roman concrete isn't strength. It's durability."],
+            ["L", "The basic recipe was described by the Roman architect Vitruvius. It consisted of lime, water, chunks of rock or broken brick, and, crucially, volcanic ash. The best ash came from around the Bay of Naples, especially near the town of Pozzuoli. The Romans shipped this ash all over the Mediterranean, and it's sometimes suggested that they used it simply because it was cheap and easy to load onto ships at nearby ports. Some types of volcanic rock are also extremely light, and I'll come back to that later, but that wasn't the main attraction either. The real reason was chemical. [[32|When the ash was mixed with lime, it reacted to form a material that would set hard even underwater]], which made it ideal for building harbours. Ordinary lime mortar can't do that."],
+            ["L", "This brings us to one of the most interesting discoveries of recent years. A team of geologists drilled samples out of Roman harbour walls that had been standing in seawater for two thousand years. You'd expect the sea to have slowly eaten away at the surface, and that's exactly what happens to modern concrete in seawater. Instead, they found that seawater seeping through the concrete had dissolved some of the volcanic material, and [[33|new crystals had gradually grown in the tiny spaces inside it]]. These rare minerals bound the material together more tightly, so the walls had actually become stronger over time. You'll sometimes read that this made the concrete flexible, but that's not quite right. What the crystals did was stop cracks from spreading."],
+            ["L", "A second discovery concerns something that had puzzled researchers for a long time. Roman concrete contains small white lumps of lime, a few millimetres across. For years, these were assumed to be evidence of poor mixing or low-quality ingredients. Some people even thought they might be fragments of crushed shells. But in 2023, a research team showed that the lumps were created deliberately, by mixing the concrete with quicklime, which becomes extremely hot when it reacts with water. And they turned out to have a very useful function. [[34|When a crack forms and water gets into it, the lime in the lumps dissolves and then crystallises again, filling the gap]]. In effect, the concrete can mend its own cracks."],
+            ["L", "Let's look now at the most famous Roman concrete structure of all, the dome of the Pantheon in Rome, which is still the largest unreinforced concrete dome in the world. The builders were clearly aware that the weight of the dome was a problem. So near the base, they used heavy stone in the mix. Higher up, they switched to broken brick, and at the very top, they used [[35|pumice]], a volcanic rock so full of air bubbles that it can float on water."],
+            ["L", "Another reason the Pantheon has survived so well has to do with what it doesn't contain. Almost all modern concrete is reinforced with steel bars. They make it far stronger, but they also create a weakness. When water gets into the concrete, the steel begins to [[36|rust]], and as it does so, it expands and cracks the concrete from the inside. Roman concrete contains no steel, so this simply can't happen."],
+            ["L", "So should we go back to building the Roman way? There are some good reasons to consider it. Producing modern cement is responsible for around 8% of the world's carbon dioxide emissions, partly because the raw materials have to be heated in kilns to about 1,450 degrees. Roman lime could be produced at much lower [[37|temperatures]], so far less fuel is needed."],
+            ["L", "Researchers have also suggested that the Roman recipe could be ideal for structures that have to survive in the sea for a very long time. One proposal is to use it to build the walls of [[38|lagoons]] designed to generate electricity from the tides, which would need to last for well over a century."],
+            ["L", "There are drawbacks, though. Roman concrete isn't strong enough for skyscrapers or long bridges. And it gains its strength very [[39|slowly]], over months rather than days. That doesn't suit modern construction, where builders want to remove the temporary supports and move on as quickly as possible."],
+            ["L", "For now, the most promising use may be in conservation. Some people have suggested using Roman-style mixtures for building roads, but that seems a long way off. However, engineers are already experimenting with them to repair ancient [[40|monuments]], where modern cement can actually cause damage, because it's harder than the original material and doesn't behave in the same way. Right, that's all for today."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 31,
+          "to": 34,
+          "items": [
+            {
+              "q": 31,
+              "stem": "What does the lecturer say about the strength of Roman concrete?",
+              "options": ["It is greater than that of modern concrete.", "It is lower than that of modern concrete.", "It varied greatly from region to region."],
+              "answer": "B"
+            },
+            {
+              "q": 32,
+              "stem": "Why did the Romans value volcanic ash from the Bay of Naples?",
+              "options": ["It was cheap to transport.", "It made the concrete lighter.", "It allowed concrete to harden underwater."],
+              "answer": "C"
+            },
+            {
+              "q": 33,
+              "stem": "What did the study of harbour walls reveal about the effect of seawater?",
+              "options": ["It had caused new minerals to form.", "It had gradually worn away the outer layer.", "It had made the concrete more flexible."],
+              "answer": "A"
+            },
+            {
+              "q": 34,
+              "stem": "According to the 2023 study, the white lumps in Roman concrete",
+              "options": ["were caused by poor mixing.", "allow cracks to heal.", "were pieces of seashell."],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 35,
+          "to": 40,
+          "layout": "notes",
+          "title": "Roman concrete: lessons for today",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# The Pantheon dome",
+            "- heavy stone used near the base, {35} at the top",
+            "- no steel inside, so no cracking caused by {36}",
+            "# Modern interest",
+            "- Roman lime needs lower kiln {37}, reducing fuel use",
+            "- proposed for the walls of tidal {38}",
+            "- drawback: sets too {39} for modern building schedules",
+            "- currently being trialled in the restoration of old {40}"
+          ],
+          "answers": { "35": ["pumice"], "36": ["rust"], "37": ["temperatures"], "38": ["lagoons"], "39": ["slowly"], "40": ["monuments"] }
+        }
+      ]
+    }
+  ]
+}

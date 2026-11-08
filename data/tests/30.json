@@ -1,0 +1,412 @@
+{
+  "id": 30,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Renting a stall at a farmers' market",
+      "context": "a woman phoning the manager of a farmers' market about renting a stall",
+      "speakers": { "A": { "name": "Graham", "g": "m", "accent": "gb" }, "B": { "name": "Kristen", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Hello, Abbey Meadow Farmers' Market, Graham speaking."],
+            ["B", "Oh, hi. I saw your notice in the library saying you're looking for new stallholders, and I'd like to find out a bit more."],
+            ["A", "Of course. Have you had a market stall before?"],
+            ["B", "Not here. I moved over from Ohio two years ago. Back home I sold at a couple of markets, but this would be my first one in England."],
+            ["A", "Well, we'd be glad to hear from you. Let me take a few details first. What's your name?"],
+            ["B", "Kristen Teague."],
+            ["A", "Could you spell the surname for me?"],
+            ["B", "Sure, it's T-E-A-G-U-E."],
+            ["A", "Thanks, Ms [[1|Teague]]. And what would you be selling?"],
+            ["B", "Mainly chilli sauces. I grow the chillies myself in a couple of polytunnels, so everything's my own produce. I also make jam with the fruit from our garden, so I was thinking I could bring some of that, too."],
+            ["A", "Ah, I'm afraid not. We've already got three jam stalls, and we try not to have too many people selling the same thing."],
+            ["B", "Oh, that's fine. I also do [[2|pickles]]. Cucumbers, mostly, and some onions."],
+            ["A", "Ah, nobody's doing those at the moment, so that would be great."],
+            ["B", "Good. So when is the market held?"],
+            ["A", "Once a month, on a Saturday. It used to be the last Saturday of the month, but that clashed with the antiques fair in town, so since January it's been on the [[3|first]] Saturday instead."],
+            ["B", "OK. And where is it? I'm afraid I still don't know the town that well."],
+            ["A", "Normally it's in the market square, but the council's resurfacing the whole square this year, so for now we're in the [[4|courtyard]] behind the library. It's actually rather nice, because it's sheltered from the wind."],
+            ["B", "Oh, I know where that is. What time would I need to be there?"],
+            ["A", "The gates open for stallholders at 6.30, and the market opens to the public at eight. But we ask everyone to have their stall completely set up by [[5|7.45]], because we don't want vans driving around once customers start arriving."],
+            ["B", "That's early, but fine. And how much does a stall cost?"],
+            ["A", "There are two sizes. A double pitch is £40, but for one person a single pitch is usually plenty, and that's [[6|£22]] for each market. And as a new trader, your first market would be free, so you can see how it goes."],
+            ["B", "Oh, that's generous."],
+            ["A", "Well, it's in our interest. We'd rather people tried it once and came back every month than were put off by the cost. Most of our traders have been with us for years."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["B", "Do I need to send you any paperwork?"],
+            ["A", "Yes. Because you're selling food, we'll need a copy of your food [[7|hygiene]] certificate, and we'll need to see your insurance as well. We don't ask for a business plan or anything like that, though."],
+            ["B", "I've got the certificate. I did the course last spring. And I'll check the insurance."],
+            ["A", "Great."],
+            ["B", "And where would my stall be? I guess new people usually end up at the back."],
+            ["A", "They often do, near the children's play area at the far end. The best spot is right by the entrance, but that's always been the cheese stall. They've been with us for fifteen years, so I can't really move them. I think I'd [[8|put you next to the man who sells bread]]. People who've just bought a loaf are often looking for something to go with it, so it's a good match."],
+            ["B", "That makes sense. Can I give out samples? Back home, people always want to taste a hot sauce before they buy it."],
+            ["A", "It's the same here. Samples are fine, and they're good for business. The only rule is that [[9|anything you put out for tasting has to have a lid or cover over it]], because the council's food inspectors do come round from time to time. Small plastic spoons or bits of bread work well."],
+            ["B", "And is there a limit on how many I can give out?"],
+            ["A", "No, that's entirely up to you."],
+            ["B", "OK. Is there anything else I need to do before I start?"],
+            ["A", "Some markets ask for photographs of your products, but we don't bother with that. And you're very welcome to come and look round at the next market, but you don't have to. The one thing that's compulsory is [[10|a short meeting for new traders]], on the Wednesday evening before your first market. We go through the safety rules, and what happens if the weather's really bad."],
+            ["B", "That sounds useful."],
+            ["A", "Good. I'll post you an application form, and once that's back with a copy of the certificate, we can confirm your place."],
+            ["B", "Perfect. Thanks so much, Graham."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 7,
+          "layout": "notes",
+          "title": "ABBEY MEADOW FARMERS' MARKET: STALL ENQUIRY",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Applicant",
+            "- name: Kristen {1}",
+            "- products: chilli sauces and {2}",
+            "# The market",
+            "- held on the {3} Saturday of each month",
+            "- location this year: {4} at the back of the library",
+            "- stall must be ready by {5} am",
+            "# Costs and documents",
+            "- single pitch: £{6} per market (first market free)",
+            "- send a copy of food {7} certificate and insurance details"
+          ],
+          "answers": { "1": ["Teague"], "2": ["pickles"], "3": ["first", "1st"], "4": ["courtyard"], "5": ["7.45", "7.45am"], "6": ["22"], "7": ["hygiene"] }
+        },
+        {
+          "type": "mcq",
+          "from": 8,
+          "to": 10,
+          "items": [
+            {
+              "q": 8,
+              "stem": "Where will Kristen's stall probably be?",
+              "options": ["near the entrance", "beside the bakery stall", "by the children's play area"],
+              "answer": "B"
+            },
+            {
+              "q": 9,
+              "stem": "What does Graham say about free samples?",
+              "options": ["They must be kept covered.", "They are not permitted.", "Only a limited number may be offered."],
+              "answer": "A"
+            },
+            {
+              "q": 10,
+              "stem": "What must Kristen do before her first market?",
+              "options": ["visit the market", "send photographs of her products", "attend a meeting"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A new community centre for older people",
+      "context": "a manager talking about a new community centre for older people",
+      "speakers": { "A": { "name": "Ellen", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "Good morning, everyone, and thank you for coming along to this preview of the new Brightwater Centre. I'm Ellen Marsh, and I'll be managing the centre when it opens next month. I'd like to start by showing you around the building using the plan you've been given, and then I'll tell you about some of the services we'll be offering."],
+            ["A", "So, you're standing at the main entrance, at the bottom of the plan. From here, the main corridor runs straight ahead of you, right through the building to the garden door at the far end. About halfway along, it's crossed by a second corridor, which runs from one side of the building to the other. Reception is just here on your right as you come in, so that's where you'll sign in each time you visit."],
+            ["A", "Let's start with the café, since I know that's what many of you are most interested in. We did think about putting it next to the main hall, so that people could get a drink during events, but in the end we decided it should be somewhere everyone passes. So [[11|it's on the right-hand side, immediately after reception]], before you reach the point where the corridors cross. It'll serve hot lunches every weekday."],
+            ["A", "Directly opposite the café, [[12|on the left of the main corridor, is the computer room]]. We've got twelve computers in there, and there'll be free classes for beginners on Monday and Thursday mornings."],
+            ["A", "Now, if you turn left where the two corridors cross, you'll be in the west wing. [[13|The hairdresser's is right at the far end of that corridor, the last door on your left]]. A lot of people asked us for this, and it'll be open three days a week, with reduced prices for members."],
+            ["A", "On the other side of the same corridor, [[14|the first room on your right as you turn into the west wing is the quiet lounge]]. It has big windows looking out over the garden, and it's for anyone who wants to read the papers or simply have a rest. We do ask people not to use their mobile phones in there."],
+            ["A", "If you go back to the crossroads and turn right instead, into the east wing, you'll walk past the main hall on your left. That's where we'll hold the exercise classes, the dances and the Friday film afternoons. When we first drew up the plans, the craft room was going to be in the large room at the end of this corridor on the right. But then we realised it was the only room big enough for the health clinic, so [[15|the craft room is now in the smaller room just past the main hall, at the end of the corridor on the left]]."],
+            ["A", "And that means [[16|the health clinic is in the large room opposite the craft room]], on the south side of the east wing. A nurse will be there every Tuesday, and a foot specialist will come in once a fortnight."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "Now, I'd like to tell you a little about how the centre came about, and how it will work. Many people assume we chose this site because it's so close to the bus station, and that's certainly convenient. Others have heard that the land was given to us by a local businessman, but that's not quite right. He very kindly gave money towards the garden. The real reason we're here is that [[17|the old day centre stood on exactly this spot]]. It was more than sixty years old, and the roof was beyond repair, so it was knocked down and this building went up in its place."],
+            ["A", "We know that getting here can be difficult for some of you. Parking is very limited, I'm afraid. The few spaces we have are mainly for staff and for disabled drivers. The council has been asked to put a bus stop right outside the door, but that's still being discussed. What we can offer is [[18|our own minibus, which will pick members up from their homes]]. You just need to ring reception by midday on the day before."],
+            ["A", "The official opening will be on the first Saturday of next month. We'd hoped the mayor would open the centre, but unfortunately she'll be abroad that weekend. And some of you may have heard a rumour that a famous actor is coming. Sadly, that's all it is, a rumour. Instead, [[19|the ribbon will be cut by Dorothy Fenn, who's 101 and was one of the very first people to use the old day centre]]. We thought that was rather fitting."],
+            ["A", "Finally, volunteers. We've had a fantastic response, and we already have more than enough people to help out in the café. We're also fine for minibus drivers at the moment, although if you have the right licence, do leave your name at reception. But [[20|where we really need help is with the computer classes]]. You don't need to be an expert, just patient. Thank you, and do have a look around."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "map",
+          "from": 11,
+          "to": 16,
+          "kind": "plan",
+          "title": "Brightwater Centre: ground floor",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "plain" },
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 35, "fill": "grass", "label": "Garden" },
+              { "k": "zone", "x": 20, "y": 35, "w": 560, "h": 355, "fill": "building" },
+              {
+                "k": "path",
+                "pts": [[300, 390], [300, 35]],
+                "w": 30,
+                "fill": "corridor"
+              },
+              {
+                "k": "path",
+                "pts": [[35, 200], [565, 200]],
+                "w": 30,
+                "fill": "corridor"
+              },
+              { "k": "zone", "x": 40, "y": 218, "w": 80, "h": 160, "fill": "room" },
+              { "k": "zone", "x": 124, "y": 218, "w": 78, "h": 160, "fill": "room" },
+              { "k": "zone", "x": 206, "y": 218, "w": 79, "h": 160, "fill": "room" },
+              { "k": "zone", "x": 40, "y": 45, "w": 120, "h": 140, "fill": "room" },
+              { "k": "zone", "x": 165, "y": 45, "w": 120, "h": 140, "fill": "room" },
+              { "k": "zone", "x": 315, "y": 300, "w": 110, "h": 78, "fill": "room", "label": "Reception" },
+              { "k": "zone", "x": 315, "y": 218, "w": 110, "h": 78, "fill": "room" },
+              { "k": "zone", "x": 430, "y": 218, "w": 130, "h": 160, "fill": "room" },
+              { "k": "zone", "x": 315, "y": 45, "w": 155, "h": 140, "fill": "room", "label": "Main hall" },
+              { "k": "zone", "x": 475, "y": 45, "w": 85, "h": 140, "fill": "room" },
+              { "k": "label", "x": 150, "y": 200, "text": "West wing" },
+              { "k": "label", "x": 450, "y": 200, "text": "East wing" },
+              { "k": "gate", "x": 300, "y": 392, "text": "Entrance" },
+              { "k": "gate", "x": 300, "y": 38, "text": "Garden door" },
+              { "k": "spot", "x": 80, "y": 298, "letter": "A" },
+              { "k": "spot", "x": 163, "y": 298, "letter": "B" },
+              { "k": "spot", "x": 245, "y": 298, "letter": "C" },
+              { "k": "spot", "x": 100, "y": 115, "letter": "D" },
+              { "k": "spot", "x": 225, "y": 115, "letter": "E" },
+              { "k": "spot", "x": 370, "y": 257, "letter": "F" },
+              { "k": "spot", "x": 495, "y": 298, "letter": "G" },
+              { "k": "spot", "x": 517, "y": 115, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 11, "text": "Café", "answer": "F" },
+            { "q": 12, "text": "Computer room", "answer": "C" },
+            { "q": 13, "text": "Hairdresser's", "answer": "A" },
+            { "q": 14, "text": "Quiet lounge", "answer": "E" },
+            { "q": 15, "text": "Craft room", "answer": "H" },
+            { "q": 16, "text": "Health clinic", "answer": "G" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 17,
+          "to": 20,
+          "items": [
+            {
+              "q": 17,
+              "stem": "Why was the centre built in this location?",
+              "options": ["It is close to the bus station.", "The land was given to the centre.", "It replaced an older building on the site."],
+              "answer": "C"
+            },
+            {
+              "q": 18,
+              "stem": "What does the speaker say about transport?",
+              "options": ["Members can park free of charge.", "Members can be collected from home.", "A new bus stop has been built outside."],
+              "answer": "B"
+            },
+            {
+              "q": 19,
+              "stem": "Who will open the new centre?",
+              "options": ["a long-standing user of the old centre", "the mayor of the town", "a well-known actor"],
+              "answer": "A"
+            },
+            {
+              "q": 20,
+              "stem": "Which volunteers does the centre need most?",
+              "options": ["people to work in the café", "people to drive the minibus", "people to help with computer lessons"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "An essay on street art",
+      "context": "two students discussing a draft essay on street art",
+      "speakers": { "A": { "name": "Isla", "g": "f", "accent": "gb" }, "B": { "name": "Theo", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["A", "Hi, Theo. Thanks for agreeing to look at my draft. I know you wrote about street art yourself last term."],
+            ["B", "No problem. It's a great topic. What made you go for it in the end? I thought you were going to write about public sculpture."],
+            ["A", "I was. Dr Osei did suggest street art when I told her I was stuck, but by then I'd more or less decided anyway. There was a street art exhibition at the city gallery too, which was good, but that came later. [[21|It was really going home in the summer. My town had invited artists to paint murals all over the old industrial estate, and I couldn't believe how much people were talking about them]]."],
+            ["B", "That comes across in the draft. I liked your opening section on history, too. Starting with Pompeii was clever."],
+            ["A", "I was a bit worried it was a cliché."],
+            ["B", "Not really. Most people start with New York in the 1970s. The point you make, that [[22|people were scratching messages on walls two thousand years ago]], is a strong one, because it challenges the idea that this is a modern problem. But I'd cut down the list of examples. Some were election slogans, some were just insults, but you don't need all twelve of them."],
+            ["A", "Fair enough. The part I really struggled with was defining my terms. Some writers make a big distinction between graffiti, meaning lettering and tags, and street art, meaning pictures."],
+            ["B", "And some say the difference is that street art is legal and graffiti isn't."],
+            ["A", "But that doesn't work either, because loads of street art is done without permission. Honestly, [[23|the line between them is so blurred that I don't think it's worth trying to draw it]]. So in the essay I'm just going to use street art for everything, and explain why."],
+            ["B", "That's fine, as long as you justify it. Now, your section on regeneration was interesting. You say the murals brought visitors into your town."],
+            ["A", "They did. But then I read a study showing that in some cities, once an area becomes known for its street art, property prices go up, and the artists themselves can't afford to live there any more."],
+            ["B", "Gentrification, yes. But don't you think you're blaming the art for something with much bigger causes? New transport links, people moving out of expensive city centres, that kind of thing."],
+            ["A", "Hmm, maybe. The link itself is well supported, there are quite a few studies now, so it's not a question of evidence. But I didn't mean to say the art causes it, and I can see it reads that way. I'll [[24|make it clear that street art is just one factor among many]]."],
+            ["B", "Good. One more thing on structure. Your introduction is quite long."],
+            ["A", "Dr Osei said the same. I thought I might cut the personal story about my home town."],
+            ["B", "Actually, I'd keep that. It's a good way in. What I'd cut is the paragraph defining street art, because you do that again in section two anyway. And your argument's stated clearly at the end of the introduction, so that part's fine."],
+            ["A", "Oh, you're right, it's repeated. [[25|So I'll take the definitions out of the introduction]]."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["B", "Now, your sources. You've got a good range, but I had a few thoughts on some of them."],
+            ["A", "Go on."],
+            ["B", "First, the book Paint and Protest. I know it's the classic text, and everyone says the photographs are wonderful."],
+            ["A", "Do they? Most of them are tiny and in black and white, so I wouldn't say that."],
+            ["B", "True. But the real problem is that [[26|it came out in 1994, long before social media changed everything]]. These days artists become famous from a single photo online, and that whole side of things just isn't there."],
+            ["A", "OK. What about the council report on graffiti removal? I nearly left it out because it's so dry. I expected it to be all about prosecutions and the law, but there's hardly anything on that."],
+            ["B", "Oh, keep it. It's dull, but [[27|it tells you exactly how much the city spends each year on cleaning walls, and how many sites it has paid artists to decorate]]. Nobody else gives you numbers like that."],
+            ["A", "And the documentary, Night Walls? The director's a street artist herself, so I assumed it would be totally one-sided."],
+            ["B", "So did I, but it's actually quite balanced. She talks to shop owners and the police as well. What makes it really valuable, though, is that [[28|the artists get to explain in their own words why they do it]]."],
+            ["A", "Yes, that's what I used it for. And then there's the Kessler article."],
+            ["B", "Which I found really heavy going."],
+            ["A", "Me too. [[29|I had to read some paragraphs three or four times to work out what she was actually saying]]. It's packed with theory."],
+            ["B", "It's worth citing, but I wouldn't build your argument round it. And the last one is the newspaper series from the Evening Post. That's the one I'd be careful with."],
+            ["A", "Why's that?"],
+            ["B", "Because [[30|they only spoke to people who were furious about having their walls painted]]: shopkeepers, home owners, a man whose van got sprayed. There's nobody in there who actually likes the art."],
+            ["A", "That's true. I'll balance it with something else, then. Thanks, Theo, this has been really helpful."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 25,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did Isla decide to write about street art?",
+              "options": ["Her tutor recommended it.", "She was impressed by an exhibition.", "She saw the reaction to murals in her home town."],
+              "answer": "C"
+            },
+            {
+              "q": 22,
+              "stem": "What does Theo think about the section on Pompeii?",
+              "options": ["It shows that graffiti is not a recent development.", "It needs more examples.", "It focuses too much on politics."],
+              "answer": "A"
+            },
+            {
+              "q": 23,
+              "stem": "What is Isla's view of the distinction between graffiti and street art?",
+              "options": ["It depends on whether the work is legal.", "It is too unclear to be useful.", "It is based on the style of the work."],
+              "answer": "B"
+            },
+            {
+              "q": 24,
+              "stem": "What will Isla say about street art and rising property prices?",
+              "options": ["Street art is the main cause.", "There is not enough evidence to judge.", "Street art is one of several causes."],
+              "answer": "C"
+            },
+            {
+              "q": 25,
+              "stem": "What change will Isla make to her introduction?",
+              "options": ["remove the personal story", "remove material that is repeated later", "add a statement of her argument"],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "match",
+          "from": 26,
+          "to": 30,
+          "lead": "What do the students say about each of the following sources?",
+          "boxTitle": "Comments",
+          "options": [
+            "It provides useful figures.",
+            "It presents only one side of the issue.",
+            "It is out of date.",
+            "It includes the artists' own views.",
+            "It is hard to understand.",
+            "It focuses on legal issues.",
+            "It has excellent photographs."
+          ],
+          "items": [
+            { "q": 26, "text": "the book Paint and Protest", "answer": "C" },
+            { "q": 27, "text": "the council report", "answer": "A" },
+            { "q": 28, "text": "the documentary Night Walls", "answer": "D" },
+            { "q": 29, "text": "the Kessler article", "answer": "E" },
+            { "q": 30, "text": "the newspaper series", "answer": "B" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Seaweed farming",
+      "context": "part of a lecture on seaweed farming",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning, everyone. In this session I want to look at an industry that most people in Europe know very little about, but which is growing faster than almost any other kind of food production: seaweed farming. I'll start with a brief overview of the industry, then look at what seaweed is used for and how it's actually farmed, and finally consider its environmental benefits and some of the challenges it faces."],
+            ["A", "First, the scale. Around thirty-five million tonnes of seaweed are now produced worldwide every year, and well over ninety-five per cent of that comes from farms, rather than from wild plants gathered along the shore. Almost all of it is grown in Asia. People tend to associate seaweed with Japan, because of dishes like sushi, but Japan's production is actually fairly modest. Indonesia is the second largest producer, and the largest by far is [[31|China]], which accounts for more than half of the global total."],
+            ["A", "So what is all this seaweed used for? The obvious answer is food. In East Asia, seaweed has been eaten for centuries, in soups and salads, or dried in thin sheets. But a large share of the seaweed that's grown is never eaten as seaweed at all. Instead, it's processed to extract substances that make liquids thicker or turn them into gels. If you check the label on a carton of chocolate milk or a tub of ice cream, there's a good chance you'll find one of these extracts listed. They're also widely used outside the food industry, for example in [[32|toothpaste]], where they stop the paste from separating into liquid and solid."],
+            ["A", "One of the most exciting recent developments concerns animal feed. As cattle digest grass, they produce large quantities of [[33|methane]], a greenhouse gas that's far more powerful than carbon dioxide. Trials have found that adding a small amount of one particular red seaweed to cattle feed can reduce these emissions dramatically, in some studies by more than half. It's too early to say whether this can work on a large scale, but it's attracting a great deal of investment."],
+            ["A", "Let's move on to how seaweed is farmed. There are two main approaches, depending on the climate. In cooler waters, such as those off Korea and northern China, and increasingly off Europe and North America, the main crop is kelp, a large brown seaweed. Kelp farming begins on land, in a hatchery. Mature plants release tiny spores, which are allowed to settle on lengths of [[34|string]] wound around plastic tubes in tanks of seawater. Over several weeks, these spores develop into young plants only a few millimetres long."],
+            ["A", "The string is then taken out to sea and wrapped around ropes, which are held near the surface by floats and anchored to the sea floor. This is normally done in [[35|autumn]], as the water is cooling down, and the kelp grows right through the winter. By the spring the plants can be several metres long, and they're harvested before the summer, when the water warms up, growth slows, and the plants become covered in other organisms."],
+            ["A", "In tropical regions, such as Indonesia, the Philippines and parts of East Africa, the method is quite different. Here, the main crops are red seaweeds, and instead of starting from spores, farmers simply take cuttings from adult plants. These are tied to ropes, which are stretched between wooden [[36|stakes]] pushed into the sea bed in shallow water near the shore. In deeper water, floating rafts are used instead, but the stake method is cheaper and far more common. It requires very little investment, which is one reason it's become so important for coastal communities. In Zanzibar, for example, most seaweed farmers are women, and it's become a vital source of income for them."],
+            ["A", "Now, the environmental benefits. Compared with farming on land, seaweed farming has a remarkably small footprint. It doesn't need any fresh water or fertiliser, and of course it doesn't take up any [[37|land]], which is under increasing pressure worldwide. In fact, seaweed actually improves the quality of the water around it. Rivers carry fertiliser from farms into the sea, and these extra nutrients can cause harmful blooms of algae. Seaweed absorbs nutrients as it grows, in particular [[38|nitrogen]] and phosphorus, so when the crop is harvested, they're removed from the water. Seaweed farms also provide shelter for marine life. Studies have found that young [[39|fish]] use them as a kind of nursery, hiding among the fronds from larger predators."],
+            ["A", "Finally, some challenges. You'll often read that seaweed farming could help solve climate change by absorbing carbon dioxide. Seaweed certainly takes in carbon as it grows, but when it's eaten or left to rot, most of that carbon is released again, so the long-term benefit is much less clear than some of the claims suggest. A more immediate problem is disease. In tropical farms, outbreaks of a condition known as ice-ice, which turns the plants white and brittle, have destroyed entire harvests. Several factors are involved, but outbreaks are strongly associated with rising water [[40|temperatures]], which is a worrying sign for the future. So although seaweed farming has enormous potential, it will need careful management and research if it's to live up to the expectations now being placed on it."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Seaweed farming",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# The industry",
+            "- over 95% of seaweed is farmed, mostly in Asia",
+            "- largest producer: {31}",
+            "# Uses",
+            "- food, especially in East Asia",
+            "- extracts used as thickeners in dairy foods and in non-food products, e.g. {32}",
+            "- in cattle feed: one red seaweed may greatly reduce the {33} the animals produce",
+            "# Farming methods",
+            "- cool waters (kelp): spores grown on {34} in hatchery tanks",
+            "- lines put out to sea in {35}; kelp harvested in spring",
+            "- tropical waters: cuttings tied to lines held up by {36} in shallow water",
+            "# Environmental benefits",
+            "- uses no {37}, fresh water or fertiliser",
+            "- removes {38} and phosphorus from the water",
+            "- farms give shelter to young {39}",
+            "# Challenges",
+            "- carbon benefits less certain than often claimed",
+            "- ice-ice disease linked to higher water {40}"
+          ],
+          "answers": {
+            "31": ["China"],
+            "32": ["toothpaste"],
+            "33": ["methane"],
+            "34": ["string"],
+            "35": ["autumn", "fall"],
+            "36": ["stakes"],
+            "37": ["land"],
+            "38": ["nitrogen"],
+            "39": ["fish"],
+            "40": ["temperatures"]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+/* IELTS Listening Practice: the result screen, answer review and transcripts. */
+.result-top{grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:20px 32px}
+.band-box{display:grid; justify-items:center; gap:2px; padding:18px 26px; border:2px solid var(--ink); border-radius:14px; min-width:170px}
+.band{font:700 4.2rem/1 var(--font-head); color:var(--accent); font-variant-numeric:tabular-nums}
+.raw{font-weight:700; color:var(--ink-soft); font-variant-numeric:tabular-nums}
+.bars{display:grid; gap:10px}
+.bar{display:grid; grid-template-columns:minmax(9em,13em) 1fr 4.5em; gap:12px; align-items:center}
+.bar .track{height:12px; background:var(--rule); border-radius:999px; overflow:hidden}
+.bar .track i{display:block; height:100%; background:var(--accent); border-radius:999px}
+.bar .track i.low{background:var(--bad)}
+.bar b{font-variant-numeric:tabular-nums; text-align:right}
+.tip{background:var(--hl); color:var(--hl-ink); border-radius:10px; padding:12px 16px}
+.tip:empty{display:none}
+
+.answers{width:100%; border-collapse:collapse; font-size:.96rem; table-layout:fixed}
+.answers th:nth-child(1){width:3.2em}
+.answers th:nth-child(4){width:2.6em}
+.answers th:nth-child(5){width:5.6em}
+.answers caption{text-align:left; font:700 1.05rem/1.3 var(--font-head); padding:14px 0 6px}
+.answers th,.answers td{padding:8px 10px; border-bottom:1px solid var(--rule); text-align:left; vertical-align:top}
+.answers th{font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; color:var(--ink-soft)}
+.answers td:first-child{font-weight:700; width:3em}
+.answers .mark{width:2.4em; font-weight:700}
+.answers tr.right .mark{color:var(--good)}
+.answers tr.wrong .mark{color:var(--bad)}
+.answers tr.wrong td.given{color:var(--bad); text-decoration:line-through; text-decoration-thickness:1px}
+.answers tr.blank td.given{color:var(--ink-soft); font-style:italic; text-decoration:none}
+.answers .also{color:var(--ink-soft); font-size:.86rem}
+.answers .where{white-space:nowrap}
+
+.transcript{border:1px solid var(--rule); border-radius:10px; padding:4px 16px}
+.transcript + .transcript{margin-top:12px}
+.transcript summary{cursor:pointer; font-weight:700; padding:12px 0}
+.transcript .sec{display:grid; gap:10px; padding:10px 0 16px; border-top:1px dashed var(--rule-strong)}
+.transcript .sec-head{display:flex; flex-wrap:wrap; align-items:center; gap:10px 16px}
+.transcript .sec-head audio{height:36px; max-width:100%}
+.turn{display:grid; grid-template-columns:9.5em 1fr; gap:12px; line-height:1.6}
+.turn .who{font-weight:700; color:var(--ink-soft); font-size:.9rem; padding-top:.1em}
+mark.ans{background:var(--hl); color:var(--hl-ink); padding:0 2px; border-radius:3px; scroll-margin-top:90px}
+mark.ans sup{font-weight:700; font-size:.7em; margin-left:2px}
+mark.ans.focus{outline:3px solid var(--accent); outline-offset:1px}
+
+.actions{display:flex; flex-wrap:wrap; gap:12px}
+
+@media (max-width:640px){
+  .result-top{grid-template-columns:1fr}
+  .band-box{justify-self:start}
+  .bar{grid-template-columns:1fr 3.6em}
+  .bar span{grid-column:1/-1}
+  .turn{grid-template-columns:1fr; gap:0}
+}

@@ -1,0 +1,403 @@
+{
+  "id": 15,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Getting a home insurance quote",
+      "context": "a woman phoning an insurance company for a home insurance quote",
+      "speakers": { "A": { "name": "Owen", "g": "m", "accent": "gb" }, "B": { "name": "Mrs Fairclough", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good morning, Fernleigh Home Insurance, Owen speaking. How can I help?"],
+            ["B", "Hello. I'd like a quote for home insurance, please. Our current policy ends next month, and the renewal price they've sent me is ridiculous, so I'm shopping around."],
+            ["A", "I'm sorry to hear that, but hopefully we can do better. I'll need to ask you a few questions, and then I can give you a price straight away. Is it buildings and contents you need?"],
+            ["B", "Both, please."],
+            ["A", "Lovely. Can I take your name first?"],
+            ["B", "It's Eleanor [[1|Fairclough]]."],
+            ["A", "Could you spell your surname for me?"],
+            ["B", "F-A-I-R-C-L-O-U-G-H."],
+            ["A", "Thank you. And what's the address of the property?"],
+            ["B", "9 Linton Road, Harrogate. The postcode's HG2 7PL."],
+            ["A", "And what type of property is it?"],
+            ["B", "It's a house. People always assume it's semi-detached, because from the street it looks as if it's joined on to the house next door. But there's actually a narrow passage between the two, so it's [[2|detached]]."],
+            ["A", "And how many bedrooms are there?"],
+            ["B", "Three. Well, there's a little room up in the loft as well, but we only use that for storage."],
+            ["A", "I'll put three, then. Do you know roughly when the house was built?"],
+            ["B", "When we bought it, the estate agent told us it was from the 1950s. But when we saw the deeds, it turned out to be quite a bit older than that. It was built in [[3|1928]]."],
+            ["A", "That's helpful. Older houses can cost a little more to insure, I'm afraid. And is the roof tiled?"],
+            ["B", "Most of the houses in our road have tiled roofs, but ours is [[4|slate]]. It was completely redone about five years ago, so it's in very good condition."],
+            ["A", "Good. Now, is the house ever left empty for long periods?"],
+            ["B", "Well, we go and see our daughter in Canada every summer, usually for about a month."],
+            ["A", "Is it more than thirty days? Because if so, we'd need to add some extra conditions to the policy."],
+            ["B", "Oh, let me think. No, it's never more than [[5|25]] days, because my husband can't get any longer off work."],
+            ["A", "That's fine, then. Have you made any claims on your home insurance in the last five years?"],
+            ["B", "Just the one. We had a terrible storm a couple of years ago that blew our fence down, but we paid for that ourselves. The claim was in 2021, when there was a [[6|leak]] from the washing machine while we were away for the weekend, and it ruined the kitchen floor."],
+            ["A", "That happens more often than you'd think."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["A", "Right, let's move on to your contents. Your policy would automatically cover any single item worth up to £1,500. Do you have anything worth more than that?"],
+            ["B", "Well, there's my engagement ring, but that was valued at about £1,200, so it's under your limit. The thing I'm more worried about is an antique [[7|clock]] that belonged to my grandfather. That was valued at £3,500."],
+            ["A", "Then we'll need to list that separately on the policy. Now, the excess. That's the amount you pay yourself towards any claim. Our standard excess is £100, but you can choose a higher one to bring the price down. At £250, you'd save about £30 a year, and at £500, about £55."],
+            ["B", "Hmm. £500 would be a lot to find if something did go wrong. But I don't want to pay more than I need to, either. I think [[8|£250 is a sensible compromise]]."],
+            ["A", "OK. Then there are a few optional extras. Legal expenses cover is one, but that's actually already included free with this policy, so you don't need to add it. There's also home emergency cover, for things like a broken boiler or a burst pipe."],
+            ["B", "We already have that through the company that services our boiler, so no, thank you."],
+            ["A", "And the last one is accidental damage, for things like spilling paint on the carpet or knocking the television over."],
+            ["B", "Oh, [[9|with three grandchildren running round the house every weekend, I think I'd better have that one]]."],
+            ["A", "Very wise. So that brings your quote to £318 a year. I can hold that price for fourteen days."],
+            ["B", "That's a lot better than my renewal. Can I accept it now?"],
+            ["A", "There's just one thing first. Because the clock is worth more than £2,000, we'll need to see a valuation certificate, and it has to be less than three years old."],
+            ["B", "Oh dear. My valuation's from 2019, so that won't do. Would photographs of the clock help instead?"],
+            ["A", "Photos are always useful to have, but I'm afraid they're not enough on their own."],
+            ["B", "Then I'll have to [[10|get it valued again before I go ahead]]. I'd normally talk something like this over with my husband too, but he's quite happy to leave all this kind of thing to me."],
+            ["A", "Of course. I'll send the quote to you in writing today, and you can call us back once you've got the certificate."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 7,
+          "layout": "notes",
+          "title": "HOME INSURANCE QUOTE",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Customer",
+            "- Name: Eleanor {1}",
+            "- Address: 9 Linton Road, Harrogate",
+            "# Property",
+            "- type: {2} house with three bedrooms",
+            "- year built: {3}",
+            "- roof: {4}",
+            "- never left empty for longer than {5} days",
+            "# Previous claim",
+            "- 2021: kitchen floor damaged by a {6}",
+            "# Contents",
+            "- an antique {7} must be listed separately"
+          ],
+          "answers": { "1": ["Fairclough"], "2": ["detached"], "3": ["1928"], "4": ["slate"], "5": ["25", "twenty-five"], "6": ["leak"], "7": ["clock"] }
+        },
+        {
+          "type": "mcq",
+          "from": 8,
+          "to": 10,
+          "items": [
+            { "q": 8, "stem": "Which excess does Mrs Fairclough choose?", "options": ["£100", "£250", "£500"], "answer": "B" },
+            {
+              "q": 9,
+              "stem": "Which extra cover does Mrs Fairclough add?",
+              "options": ["accidental damage", "legal expenses", "home emergency"],
+              "answer": "A"
+            },
+            {
+              "q": 10,
+              "stem": "What must Mrs Fairclough do before she can accept the quote?",
+              "options": ["send photographs of the clock", "arrange a new valuation", "discuss it with her husband"],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "School visits to a farm park",
+      "context": "an education officer talking to teachers about school visits to a farm park",
+      "speakers": { "A": { "name": "Lorna", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "Good evening, everyone, and thank you for coming out to Wychcombe Farm Park on such a cold night. I'm Lorna Peake, and I'm the education officer here, which means I look after all our school visits. Last year we welcomed just over a hundred and twenty schools, and I'm hoping some of you will be bringing your classes this year. I'll start with some general information, and then we'll look at the map of the site."],
+            ["A", "First, a word about what our visits are for. Some teachers come here expecting a science lesson, and we do cover things like life cycles, but that isn't our main focus. And although we'd be delighted if a few of the children grew up to be farmers, we're not trying to recruit them. [[11|What we really want is for children to understand where their food comes from]]: that milk doesn't start life in a plastic bottle, and that a loaf of bread begins as a field of wheat."],
+            ["A", "Now, timing. You might expect spring to be our busiest season, with all the lambs, and it is popular, but it's also when the weather's least reliable. In fact, [[12|most schools come in early summer, in June and July]], when the fields are dry and the crops are growing. Autumn is much quieter, so if you'd like the place more or less to yourselves, that's a good time to come."],
+            ["A", "As for cost, it's £7.50 per child, and [[13|that includes a member of our staff, who'll stay with your group all day]] and lead all the activities. It doesn't include lunch, so the children will need to bring a packed lunch, and anything from the gift shop is extra, of course. We need one adult for every six children, and we don't charge anything for those adults, so do bring as many helpers as you can."],
+            ["A", "Finally, the weather. We very rarely cancel a visit. If there's snow or ice, we'll ring you the day before and offer you another date, but rain on its own isn't a reason to cancel. [[14|If it's really pouring, we simply move the activities into the big barn]], and the children usually have just as much fun. So please make sure everyone brings waterproofs and boots."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "Right, if you look at the map in your pack, you'll see the car park at the bottom. When you come in through the entrance, you'll be on the main track, which runs straight up through the middle of the farm. [[15|Immediately on your left as you come in is the toilet block]], with a row of sinks outside it. We ask every child to wash their hands there before lunch and again before they leave."],
+            ["A", "About halfway up, the main track crosses another track that runs from one side of the farm to the other. If you turn left there, towards the stream, [[16|the picnic area is on your left, between the track and the pond]]. There are covered tables, so you can eat there even if it's drizzling."],
+            ["A", "One of the most popular activities is pond-dipping. [[17|The platform is on the far side of the pond from the picnic area, down in the corner near the stream]]. It has a rail all the way round, and children always stay with a member of staff there."],
+            ["A", "If you then come back along the cross track towards the main track, you'll pass the farmhouse on your left. [[18|In front of it, between the farmhouse and the track, is the small animals barn]], with the rabbits, guinea pigs and chicks. The building in the far corner, beyond the farmhouse and right next to the stream, is the old dairy. That's offices now, so it's staff only."],
+            ["A", "Back on the main track, carry on up to the top, and you'll see the big barn on your right. That's where we hold the milking demonstrations. [[19|The pig pens are on the far side of the big barn, at the eastern edge of the farm]], so you'll need to walk round the barn to reach them. Please don't let children go into the small building between the barn and the cross track, though. That's the hay store, and it's out of bounds."],
+            ["A", "And finally, the tractor rides. Every group gets a ride round the fields at the end of the day, and [[20|the trailer leaves from just inside the entrance, on the right of the main track, beside the orchard]]. So you'll finish the day very close to where you started, which makes getting everyone back onto the coach nice and easy. Right, are there any questions so far?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 14,
+          "items": [
+            {
+              "q": 11,
+              "stem": "What is the main purpose of the school visits?",
+              "options": ["to support the science curriculum", "to show children the origins of food", "to encourage interest in farming careers"],
+              "answer": "B"
+            },
+            { "q": 12, "stem": "When do most schools visit the farm park?", "options": ["in early summer", "in spring", "in autumn"], "answer": "A" },
+            {
+              "q": 13,
+              "stem": "What is included in the price per child?",
+              "options": ["a packed lunch", "a souvenir from the shop", "a guide for the day"],
+              "answer": "C"
+            },
+            {
+              "q": 14,
+              "stem": "What happens if it rains heavily on the day of a visit?",
+              "options": ["The visit is cancelled.", "Activities take place indoors.", "The school is offered another date."],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "map",
+          "from": 15,
+          "to": 20,
+          "kind": "map",
+          "title": "Wychcombe Farm Park",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              { "k": "zone", "x": 220, "y": 352, "w": 200, "h": 48, "fill": "parking", "label": "Car park" },
+              {
+                "k": "path",
+                "pts": [[40, 0], [50, 200], [40, 400]],
+                "w": 14,
+                "fill": "water",
+                "label": "Stream"
+              },
+              { "k": "round", "x": 120, "y": 290, "rx": 55, "ry": 35, "fill": "water", "label": "Pond" },
+              { "k": "zone", "x": 430, "y": 230, "w": 140, "h": 90, "fill": "wood", "label": "Orchard" },
+              {
+                "k": "path",
+                "pts": [[320, 345], [320, 75]],
+                "w": 20,
+                "fill": "path",
+                "label": "Main track"
+              },
+              {
+                "k": "path",
+                "pts": [[60, 200], [560, 200]],
+                "w": 16,
+                "fill": "path"
+              },
+              { "k": "zone", "x": 180, "y": 55, "w": 110, "h": 75, "fill": "building", "label": "Farmhouse" },
+              { "k": "zone", "x": 360, "y": 55, "w": 140, "h": 85, "fill": "building", "label": "Big barn" },
+              { "k": "zone", "x": 70, "y": 70, "w": 45, "h": 40, "fill": "building" },
+              { "k": "zone", "x": 180, "y": 145, "w": 45, "h": 38, "fill": "building" },
+              { "k": "zone", "x": 480, "y": 155, "w": 40, "h": 32, "fill": "building" },
+              { "k": "zone", "x": 250, "y": 285, "w": 45, "h": 35, "fill": "building" },
+              { "k": "zone", "x": 525, "y": 85, "w": 45, "h": 50, "fill": "paving" },
+              { "k": "gate", "x": 320, "y": 345, "text": "Entrance" },
+              { "k": "spot", "x": 120, "y": 235, "letter": "A" },
+              { "k": "spot", "x": 92, "y": 90, "letter": "B" },
+              { "k": "spot", "x": 202, "y": 164, "letter": "C" },
+              { "k": "spot", "x": 272, "y": 302, "letter": "D" },
+              { "k": "spot", "x": 500, "y": 171, "letter": "E" },
+              { "k": "spot", "x": 75, "y": 345, "letter": "F" },
+              { "k": "spot", "x": 547, "y": 110, "letter": "G" },
+              { "k": "spot", "x": 378, "y": 290, "letter": "H" }
+            ]
+          },
+          "items": [
+            { "q": 15, "text": "Toilets and hand-washing", "answer": "D" },
+            { "q": 16, "text": "Picnic area", "answer": "A" },
+            { "q": 17, "text": "Pond-dipping platform", "answer": "F" },
+            { "q": 18, "text": "Small animals barn", "answer": "C" },
+            { "q": 19, "text": "Pig pens", "answer": "G" },
+            { "q": 20, "text": "Start of tractor rides", "answer": "H" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A textbook chapter on animal migration",
+      "context": "two students discussing a textbook chapter on animal migration",
+      "speakers": { "A": { "name": "Ravi", "g": "m", "accent": "gb" }, "B": { "name": "Kayla", "g": "f", "accent": "us" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 26,
+          "lines": [
+            ["A", "Kayla, have you finished the migration chapter yet? I'm still only halfway through."],
+            ["B", "I finished it last night. It's a lot to get through, isn't it? Did you find the introduction hard going?"],
+            ["A", "I did, but not because of the length, really. And it's not that there were too many examples, either. It was [[21|all the physics. They talk about magnetic fields and polarised light as if we'd all done a physics degree]]."],
+            ["B", "I know. I had to look half of it up. It gets easier after that, though."],
+            ["A", "It does. I really liked the section on cuckoos. I hadn't realised the young ones fly to Africa completely on their own."],
+            ["B", "Right, because the adults have already left by the time the chicks are ready. I'd always assumed the young birds just followed older cuckoos, but that can't be the case. And they can't follow the birds that raised them, either, because those are a different species, with a different route, or they don't migrate at all. So the chapter says [[22|the route must be inherited. They're born with a sense of which direction to fly]]."],
+            ["A", "Amazing. And the monarch butterflies were incredible, too. What got me was the speed. Over a hundred kilometres in a single day."],
+            ["B", "That is impressive, but for me the most extraordinary part was that [[23|no single butterfly makes the whole round trip. It takes several generations to get there and back]]."],
+            ["A", "Yes, that's hard to get your head round. And they navigate by the stars, don't they?"],
+            ["B", "No, by the sun. It's some birds that use the stars."],
+            ["A", "Oh, right. So, have you got any criticisms? We're supposed to evaluate it in the seminar."],
+            ["B", "Well, I thought it was a bit bird-heavy. Something like two-thirds of the examples are birds."],
+            ["A", "That's fair enough, though, isn't it? Birds are by far the best-studied group. I'd have been more worried if they'd left them out. And the diagrams were really clear, I thought."],
+            ["B", "Yes, they were good. Actually, what bothered me more was [[24|the dates on the research. Most of the tracking studies they describe are from the early 2000s]], and the technology has moved on so much since then."],
+            ["A", "That's true. The edition we've got is quite old. That's a much better criticism."],
+            ["B", "Now, for our presentation, we have to choose one aspect to focus on. I'd quite like to do magnetic navigation."],
+            ["A", "After that introduction? I don't think I could explain it, let alone answer questions on it. What about the energy cost of migration? How much fat birds have to store before they leave?"],
+            ["B", "Hmm, that's interesting, but it's quite a short section. There isn't much to build a presentation on. What about [[25|how climate change is affecting when animals migrate]]? There's loads on it in the chapter, and it's really topical."],
+            ["A", "Yes, OK, let's go with that. And we'll need a main example. Everyone uses the Arctic tern."],
+            ["B", "Exactly, and that's the trouble with it. Its route is a bit complicated, with all that zigzagging across the Atlantic, but we could explain that easily enough with a map, and there's plenty of reliable data. It's just that [[26|everyone in the class will have heard about it a hundred times already]]. Let's use the wheatear study instead. It's a little songbird, and the chapter describes how researchers tracked it."]
+          ]
+        },
+        {
+          "from": 27,
+          "to": 30,
+          "lines": [
+            ["A", "Remind me how that worked. I haven't got that far yet."],
+            ["B", "OK. So they started at the breeding site, in Alaska. First they had to catch the birds. I'd assumed they'd use some kind of trap, with food inside, but that's not what this team did. [[27|They used very fine nets, strung between poles, which the birds fly into without seeing]]."],
+            ["A", "And then they fitted a tracker?"],
+            ["B", "Yes, but not the kind you're probably thinking of. Satellite tags are far too heavy for a bird that only weighs about twenty-five grams. Instead, they used a tiny device that weighs less than a paper clip. It doesn't measure temperature, or speed, or anything like that. [[28|It just records how bright it is every few minutes]]."],
+            ["A", "So how do they get the data? Does it send it somewhere?"],
+            ["B", "No, and that's the clever but difficult part. It just stores it. So after the birds have been released, [[29|the researchers have to wait a whole year and then catch the same birds again]] when they come back to breed. Luckily, wheatears tend to return to almost exactly the same spot."],
+            ["A", "And then they download the readings."],
+            ["B", "Right. And from those, they can work out the length of each day, and the exact time of midday, wherever the bird happened to be. Day length tells you roughly how far north or south it was, and the time of midday tells you how far east or west. Put the two together, and [[30|you can estimate where the bird was on every day of its journey]]. It's not precise, but it's accurate to within about two hundred kilometres."],
+            ["A", "That's brilliant. And the result was that they flew all the way to East Africa?"],
+            ["B", "Yes, about 14,500 kilometres each way, which is incredible for something that small."],
+            ["A", "OK, I'm convinced. Let's use it."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 26,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did Ravi find the introduction to the chapter difficult?",
+              "options": ["It was very long.", "It included too many examples.", "It assumed a knowledge of physics."],
+              "answer": "C"
+            },
+            {
+              "q": 22,
+              "stem": "According to the chapter, how do young cuckoos find their way to Africa?",
+              "options": ["by following older cuckoos", "by using an inborn sense of direction", "by flying with the birds that raised them"],
+              "answer": "B"
+            },
+            {
+              "q": 23,
+              "stem": "What does Kayla find most remarkable about monarch butterflies?",
+              "options": ["the fact that the journey involves several generations", "the distance they cover in a day", "their ability to navigate by the stars"],
+              "answer": "A"
+            },
+            {
+              "q": 24,
+              "stem": "Which criticism of the chapter do the students agree on?",
+              "options": ["It focuses too much on birds.", "Some of the research it describes is not recent.", "Its diagrams are difficult to follow."],
+              "answer": "B"
+            },
+            {
+              "q": 25,
+              "stem": "Which topic do the students choose for their presentation?",
+              "options": ["navigation using magnetic fields", "the energy needed for migration", "the effect of climate change on timing"],
+              "answer": "C"
+            },
+            {
+              "q": 26,
+              "stem": "Why do the students decide not to use the Arctic tern as their main example?",
+              "options": ["It is too familiar to their audience.", "Its route would be hard to explain.", "There is little reliable data about it."],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 27,
+          "to": 30,
+          "layout": "flow",
+          "title": "Tracking wheatears",
+          "options": ["nets", "traps", "light", "temperature", "satellites", "recaptured", "followed", "location", "speed", "weight"],
+          "rows": [
+            "Birds are caught at the breeding site using {27}",
+            "A small device that measures {28} is attached to each bird",
+            "The birds are released and are {29} a year later",
+            "The stored data is used to calculate each bird's daily {30}"
+          ],
+          "answers": { "27": "A", "28": "C", "29": "F", "30": "H" }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Bioluminescence in the ocean",
+      "context": "part of a lecture on bioluminescence in the ocean",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning. Today's topic is bioluminescence, the production of light by living organisms. On land we tend to think of it as a curiosity, limited to fireflies and a few fungi and worms, but in the ocean it's anything but rare. A large survey off the coast of California a few years ago found that around three-quarters of the animals recorded in the deep water there were capable of producing light. So in the deep sea, glowing is actually the norm. I'll look first at how the light is produced, then at what it's used for, and finally at some of the ways scientists have put it to use."],
+            ["A", "The chemistry is broadly similar across most species. A molecule known generally as luciferin reacts with [[31|oxygen]], and the reaction is controlled by an enzyme called luciferase. The energy released comes out almost entirely as light rather than heat, which is why bioluminescence is sometimes described as cold light. What's interesting is that many animals don't make luciferin themselves at all. Rather than producing it in their own bodies, they obtain it from their [[32|diet]], by eating smaller organisms that do make it."],
+            ["A", "Now, colour. The great majority of marine bioluminescence is [[33|blue]]. That's no accident. Blue light travels further through seawater than any other colour, and most deep-sea animals can only see blue light anyway. Some coastal species produce green light, which travels better in the cloudier water near the shore, but those are the exception. The most remarkable exception of all is a group of deep-sea fish called dragonfish, some of which produce red light. Because almost nothing else in the deep can see red, a dragonfish can light up its prey without the prey ever knowing. It's rather like having a hidden searchlight."],
+            ["A", "So what is all this light for? Let's start with hiding, which sounds like a contradiction. In the middle depths, there's still a faint glow of sunlight coming from above, so any animal swimming there is visible to a predator looking up from below. To avoid this, many fish, shrimp and squid have light organs along their undersides, and they adjust the brightness to match the light coming down from the surface. This removes their [[34|silhouette]], and they effectively become invisible. This strategy is known as counter-illumination."],
+            ["A", "Light is also used in defence. Some of the tiniest organisms in the ocean, single-celled plankton, flash when they're disturbed, and that's what produces the glowing waves you sometimes see on beaches at night. Why would a tiny organism do that? One early suggestion was that the flash simply startles the attacker, but the most widely accepted theory is known as the burglar alarm. When a small shrimp starts feeding on the plankton, the flashes make the shrimp visible to larger [[35|predators]], which may then eat it. So the plankton's attacker becomes the victim."],
+            ["A", "Other animals use light to escape. Releasing ink, which works so well for octopuses near the surface, would be pointless in complete darkness. So some deep-sea squid and shrimp release a cloud of glowing [[36|mucus]] instead, which distracts the predator while the animal swims away into the dark."],
+            ["A", "Light can also be used to find food. The best-known example is the anglerfish, which has a long spine growing from its head with a glowing lure at the end. Fish that come to investigate the light are swallowed. Interestingly, the anglerfish doesn't produce this light itself. The lure is full of [[37|bacteria]], which live there and produce the light, and in return they get a safe home and a supply of nutrients."],
+            ["A", "And finally, communication. In the Caribbean, there are tiny crustaceans called ostracods, each about the size of a grain of sand. On certain nights, the males produce precise patterns of light in the water, a series of dots in a particular rhythm and direction, and each species has its own pattern. The purpose is to attract [[38|females]], and the displays are so specific that researchers can identify the species from the display alone."],
+            ["A", "Let's turn now to how humans have made use of bioluminescence. The most important example comes from a jellyfish found off the west coast of North America. In the 1960s, researchers isolated a protein from it that glows green under blue light, and this work eventually led to a Nobel Prize. The gene for this protein can now be inserted into other organisms, where it acts as a kind of marker. In cancer research, for instance, it can be added to cells in laboratory animals, so that scientists can watch how a [[39|tumour]] grows and spreads through the body in real time."],
+            ["A", "A second application uses bioluminescent bacteria. These bacteria glow steadily when they're healthy, but their light dims quickly when they're exposed to anything toxic. This makes them very useful for testing water quality. Rather than running a long series of chemical analyses, a technician can add a sample of water to the bacteria, and if the light fades, that's a sign of [[40|pollution]]. These tests are quick and cheap, and they're now widely used at water treatment works."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Bioluminescence in the ocean",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Introduction",
+            "- about three-quarters of deep-sea animals in a Californian survey could produce light",
+            "# How the light is produced",
+            "- luciferin reacts with {31}, controlled by an enzyme",
+            "- many animals obtain luciferin through their {32}",
+            "- most marine light is {33}, the colour that travels furthest in seawater",
+            "- dragonfish produce red light, which their prey cannot see",
+            "# Functions",
+            "- camouflage: lights on the underside hide the animal's {34}",
+            "- defence: flashing plankton may attract larger {35}, which eat the plankton's attacker",
+            "- escape: some squid release a cloud of glowing {36}",
+            "- hunting: an anglerfish's lure gets its light from {37}",
+            "- communication: male ostracods produce light patterns to attract {38}",
+            "# Uses in science",
+            "- a jellyfish protein allows researchers to observe how a {39} develops",
+            "- bacteria whose light fades can reveal {40} in water samples"
+          ],
+          "answers": {
+            "31": ["oxygen"],
+            "32": ["diet"],
+            "33": ["blue"],
+            "34": ["silhouette"],
+            "35": ["predators"],
+            "36": ["mucus"],
+            "37": ["bacteria"],
+            "38": ["females"],
+            "39": ["tumour", "tumor"],
+            "40": ["pollution"]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "id": 27,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Joining a public library",
+      "context": "a man joining a public library",
+      "speakers": { "A": { "name": "Assistant", "g": "f", "accent": "gb" }, "B": { "name": "Marcus", "g": "m", "accent": "us" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good afternoon. Can I help you?"],
+            ["B", "Hi, yes. I moved to Cheltenham a couple of weeks ago, and I'd like to join the library, if that's possible."],
+            ["A", "Of course. Welcome to Larkfield Library. It only takes a few minutes. I'll fill in the form on the computer as we go, if that's all right. Can I start with your name?"],
+            ["B", "Sure. It's Marcus, and my last name is [[1|Lindqvist]]."],
+            ["A", "Could you spell that for me?"],
+            ["B", "Yeah, it's Swedish originally, so people always get it wrong. It's L-I-N-D-Q-V-I-S-T. There's no U after the Q."],
+            ["A", "Thank you. And your address?"],
+            ["B", "It's Flat 6, 41 Bayshill Road."],
+            ["A", "And the postcode?"],
+            ["B", "GL50 3JP. I had to learn that one pretty quickly!"],
+            ["A", "Lovely. And can I ask what you do for a living? We only collect it for our statistics."],
+            ["B", "Well, back in the States I was a pharmacist, but my qualifications have to be checked before I can work as one here, and that takes months. So right now I'm working as a laboratory [[2|technician]] at the hospital."],
+            ["A", "Right. Now, I'll need to see something that shows your address. A utility bill is best, or a bank statement."],
+            ["B", "Ah. That might be a problem. I don't have any bills in my name yet, and my bank account is still being set up. Would my tenancy agreement work?"],
+            ["A", "I'm afraid we can't accept those any more. Do you have any letters that have been posted to you there?"],
+            ["B", "Let me think. Oh, actually, yes. I have a letter from my [[3|employer]] confirming my job. It was sent to the flat, and it's right here in my bag."],
+            ["A", "That's perfect, thank you. Next, the library card. We can give you a plastic card, or you can have a digital card instead. Most people go for that these days."],
+            ["B", "I'll take the plastic one, I guess. Actually, no. I'm always losing things out of my wallet. Let's do it on my [[4|phone]]."],
+            ["A", "No problem. I'll send you a code to activate it. Now, there is a limit on how much you can borrow."],
+            ["B", "Okay. Back home I could take out about fifty books at a time."],
+            ["A", "Not quite that many here, I'm afraid! It used to be ten, but we raised it last year, so adult members can now have up to [[5|15]] items at once. That includes DVDs and audiobooks."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["B", "That's plenty. And how long can I keep them for?"],
+            ["A", "New releases, the books on the stand by the door, are two weeks, because there's usually a waiting list for them. Everything else is [[6|4]] weeks, and you can renew online as long as nobody else has reserved the book."],
+            ["B", "And is there a fine if I bring something back late?"],
+            ["A", "Not for adults any more, actually. We stopped charging fines last year, but we do send you a reminder a few days before anything is due."],
+            ["B", "Great. What if the library doesn't have something I want?"],
+            ["A", "If another library in Gloucestershire has it, we can get it sent here for you, and that's free. If it has to come from outside the county, there's a charge. It used to be £2, but it's gone up to [[7|£2.50]], I'm afraid."],
+            ["B", "That's fine. I read a lot of Scandinavian crime fiction, and I don't suppose you have much of that."],
+            ["A", "You'd be surprised! Now, we also run quite a few clubs and groups. Would you be interested in any of those?"],
+            ["B", "Maybe. I saw a sign about a book club."],
+            ["A", "Yes, that meets on Tuesday evenings, but I'm afraid it's full at the moment, and there's quite a long waiting list. There's a creative writing group, but that's on weekday mornings. And we also have a [[8|chess]] club on Saturdays, from ten till twelve."],
+            ["B", "Oh, I used to play a lot in college. Saturday mornings would work for me. Could you put me down for that?"],
+            ["A", "Of course. I'll let the organiser know. And one more thing. We've started lending out some unusual items, not just books. We've got ukuleles, sewing machines, even a telescope."],
+            ["B", "Sewing machines? Not for me, I'm afraid. But my son's really into astronomy at the moment. Could we borrow the [[9|telescope]]?"],
+            ["A", "Yes, there's a short waiting list, but I'll add you to it. Last thing. How would you like us to contact you when items are due back or when a reservation arrives? Email is what most people choose."],
+            ["B", "Email's fine, I guess. Hmm, actually, I hardly ever check my personal email. Could you send me a [[10|text]] instead?"],
+            ["A", "Yes, we can do that. Can I have your mobile number?"],
+            ["B", "Sure. It's 07781 334 905."],
+            ["A", "Thank you. That's all done. Your digital card should be ready to use within the hour."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 10,
+          "layout": "form",
+          "title": "LIBRARY MEMBERSHIP FORM",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Personal details",
+            "Name: Marcus {1}",
+            "Address: Flat 6, 41 Bayshill Road, Cheltenham GL50 3JP",
+            "Occupation: laboratory {2}",
+            "Proof of address: letter from his {3}",
+            "# Membership",
+            "Library card: digital card on his {4}",
+            "Maximum number of items: {5}",
+            "Loan period for most books: {6} weeks",
+            "Charge for books from other counties: £{7}",
+            "# Other services",
+            "Club: {8} club",
+            "Would like to borrow: a {9}",
+            "Contact by: {10}",
+            "Mobile: 07781 334 905"
+          ],
+          "answers": {
+            "1": ["Lindqvist"],
+            "2": ["technician"],
+            "3": ["employer"],
+            "4": ["phone"],
+            "5": ["15", "fifteen"],
+            "6": ["4", "four"],
+            "7": ["2.50"],
+            "8": ["chess"],
+            "9": ["telescope"],
+            "10": ["text"]
+          }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "Welcome talk at a community orchestra",
+      "context": "the chair of a community orchestra welcoming new members",
+      "speakers": { "A": { "name": "Neil", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 15,
+          "lines": [
+            ["A", "Good evening, everyone, and a very warm welcome to the Ashcombe Community Orchestra. My name's Neil Pemberton, and I'm the chair of the committee. I also play the cello, not very well, at the back of the section. We've got eleven new members starting this term, which is the most we've ever had, so thank you all for coming along to this short welcome session before your first rehearsal next week. I'm going to tell you a bit about how things work, and in particular who to talk to about what, because that's what new people usually find most confusing."],
+            ["A", "First of all, if you can't make a rehearsal, please let someone know. You might think the person to tell is our conductor, Rosalind, but she's got more than enough on her mind on a Tuesday night. Instead, [[11|send a message to the leader of your section]], so they can make sure every part is still covered. If several people from one section are going to be away, they'll sort it out between them."],
+            ["A", "Then there's the music itself. Until last year, our secretary used to post copies out to everyone, but that's changed. We now have a librarian, Pat, who looks after all the scores and parts. [[12|Pat will hand out your music]] at the start of each term, and you'll need to give it back after the concert, so please look after it."],
+            ["A", "As for money, the annual membership fee is £120, and that's paid to our treasurer, Douglas, by bank transfer. But some of you may be eligible for a reduced fee, if you're a student or on a low income, for example. If so, please don't go to Douglas about it. [[13|Applications for a reduced fee go to our secretary, Anne]], and she keeps all that information completely confidential."],
+            ["A", "Our concerts are a big part of the year, and we rely on members to help fill the hall. Each of you will be given a book of tickets to sell to friends and family. Ticket money doesn't go through Douglas, as you might expect. It's all handled by our concert manager, Ben, so [[14|if you need more tickets, or you've sold out, just see Ben]] at the tea break."],
+            ["A", "And finally, if you have ideas about music you'd like us to play, we'd love to hear them. The committee does discuss the programme, but in the end [[15|it's Rosalind who chooses the pieces]], so talk to her directly. She's very open to suggestions, though I can't promise she'll agree to everything!"]
+          ]
+        },
+        {
+          "from": 16,
+          "to": 20,
+          "lines": [
+            ["A", "Now, a few practical things. We rehearse in the main hall at Ashcombe Community College, every Tuesday from 7.30 until 9.45. There's a large car park behind the hall, and it's never full in the evenings, so you won't have any trouble there. There's no café, but we stop for a tea break at half past eight, and drinks and biscuits are provided free. The one thing I would warn you about is the heating. It's controlled by the college, and [[16|it switches itself off at nine o'clock]], so by the end of the evening it can get quite chilly. Bring an extra layer."],
+            ["A", "Our first concert of the season is on the 29th of November in the Corn Exchange. Last summer we tried playing outdoors in the park, which was great fun until it rained, and we'll probably do that again next year. Our December concert is the one where we raise money for a local charity. What's special about the November one is that [[17|we'll be giving the first performance of a piece written by one of our own violinists]], Sophie Arkwright. She's been working on it for two years, and it's wonderful."],
+            ["A", "For your first rehearsal, there's no need to come early. We'll introduce you to the rest of your section during the tea break. And we've got plenty of music stands, so don't bother bringing one. But please [[18|make sure you've got a pencil with you]]. Rosalind gives a lot of instructions, and you'll need to mark them on your music as she goes. Somebody always forgets, and it drives her mad."],
+            ["A", "Finally, the social side of things. We're a friendly group, and we do like to get together away from rehearsals. Every July, [[19|we have a barbecue at Rosalind's farm]] just outside the city, and families are welcome. We used to run a quiz night in the spring as well, but it clashed with too many other events, and we stopped it a couple of years ago. Some members have been talking about a trip abroad, to play with an orchestra in our twin town in France, but to be honest it's too expensive for most of us at the moment."],
+            ["A", "And at the end of the autumn term, after the last rehearsal before Christmas, [[20|we all go out for a meal together]] at an Italian restaurant in town. A few members also go walking together on Sunday mornings, but that's just friends meeting up, not something the orchestra arranges. Right, are there any questions before we finish?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "match",
+          "from": 11,
+          "to": 15,
+          "lead": "Who should new members contact about each of the following?",
+          "boxTitle": "People",
+          "options": ["the conductor", "the librarian", "the treasurer", "their section leader", "the secretary", "the concert manager"],
+          "items": [
+            { "q": 11, "text": "missing a rehearsal", "answer": "D" },
+            { "q": 12, "text": "getting copies of the music", "answer": "B" },
+            { "q": 13, "text": "asking to pay a lower fee", "answer": "E" },
+            { "q": 14, "text": "obtaining more concert tickets", "answer": "F" },
+            { "q": 15, "text": "suggesting music to perform", "answer": "A" }
+          ]
+        },
+        {
+          "type": "mcq",
+          "from": 16,
+          "to": 18,
+          "items": [
+            {
+              "q": 16,
+              "stem": "What does Neil say about the rehearsal venue?",
+              "options": ["The car park is often full.", "Refreshments can be bought there.", "It can become cold towards the end of rehearsals."],
+              "answer": "C"
+            },
+            {
+              "q": 17,
+              "stem": "What is special about the concert in November?",
+              "options": ["It includes a new work by a member of the orchestra.", "It will take place in the open air.", "It will raise money for a charity."],
+              "answer": "A"
+            },
+            {
+              "q": 18,
+              "stem": "What does Neil ask new members to do at their first rehearsal?",
+              "options": ["arrive before the usual start time", "bring something to write with", "bring their own music stand"],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "type": "multi",
+          "from": 19,
+          "to": 20,
+          "stem": "Which TWO social events does the orchestra organise?",
+          "options": ["a barbecue", "a quiz", "a tour abroad", "a restaurant meal", "a weekly walk"],
+          "answer": ["A", "D"]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Presentation on teenagers and sleep",
+      "context": "two students preparing a presentation on teenagers and sleep",
+      "speakers": { "A": { "name": "Priya", "g": "f", "accent": "gb" }, "B": { "name": "Dominic", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["A", "Okay, Dominic, the presentation's on Thursday, so we really need to finalise the plan today. Shall we start with how we introduce the topic?"],
+            ["B", "Sure. I suppose we should say why we chose it. I know everyone thinks it's because we were both terrible at getting up when we were at school."],
+            ["A", "Well, that's certainly true of me! But it's not really the reason."],
+            ["B", "No. And that article in the paper about schools changing their timetables came out after we'd already picked it. I think the real reason is that we're all going to be teaching teenagers in a year's time, and [[21|it's something that'll affect us directly in the classroom]]."],
+            ["A", "Exactly. Most of our seminar group are training to be secondary teachers. Let's say that. Then the biology. You were going to read up on the body clock."],
+            ["B", "Yes. So, basically, during adolescence the release of melatonin, the hormone that makes you feel sleepy, shifts later in the evening, by up to two hours. So a fifteen-year-old genuinely isn't tired at ten o'clock."],
+            ["A", "And that's because of phones, isn't it? The light from the screen?"],
+            ["B", "That's what everyone assumes, and screens can make it worse. But the shift happens even in communities that don't have electricity, so it's clearly biological. What I found most interesting is that [[22|it doesn't stop at eighteen. It carries on until about twenty, sometimes even later]]."],
+            ["A", "Really? So university students are affected too."],
+            ["B", "Yes, which might explain a few things about our nine o'clock lectures. Some articles said it starts earlier in girls than in boys, but the study we're using found no real difference, so I'd rather leave that out."],
+            ["A", "Fine. Then our own survey. We had 120 replies from sixth-formers at Westbrook College, which is more than I'd hoped for."],
+            ["B", "I expected almost all of them to take their phones to bed, and it was eighty-five percent, so no real surprise there."],
+            ["A", "No. And they knew how much sleep they should be getting. Most of them said eight or nine hours, which is about right."],
+            ["B", "The thing I didn't see coming was the naps. [[23|More than half of them said they slept for an hour or more after school]], some of them nearly every day."],
+            ["A", "Which probably makes it even harder for them to get to sleep at night. That should be one of our key points. What about the study on energy drinks I found? I thought that could be a central part of the talk."],
+            ["B", "I had a look, and I'm not sure about it. It only had forty participants, and it was paid for by a company that sells herbal tea."],
+            ["A", "Hmm, that is a bit suspicious. Maybe we could just mention it briefly, with a warning about the sample size?"],
+            ["B", "Even then, people will only remember the headline, not the warning."],
+            ["A", "True. [[24|Let's drop it completely, then]]. And there's the research on later school start times. There's so much of it."],
+            ["B", "There is, but we can't cover all of it in fifteen minutes. The evidence on exam results is quite mixed, so I'd steer clear of that."],
+            ["A", "And the cost to schools of changing the timetable is interesting, but it's really complicated, what with buses and parents' working hours."],
+            ["B", "So that leaves the attendance figures. They're really clear. [[25|In every school that started later, absence went down]], especially in the first lesson of the day."],
+            ["A", "Okay, let's focus on that, then."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "Right, I think the content's sorted. I'm a bit nervous about the presentation itself, though."],
+            ["B", "About the time? We ran through it last night and it came to fourteen minutes, so we're fine."],
+            ["A", "No, not the time. And I checked the projector in the seminar room this morning, and it works perfectly. It's the middle section that worries me. [[26|There are so many figures from the survey that I think people will switch off]]."],
+            ["B", "That's fair. Let's think about that as we go through the order. So, how do we begin? I'd thought about showing that video clip of the sleep scientist being interviewed."],
+            ["A", "It's four minutes long, though. That's over a quarter of our time. How about we start with [[27|a short quiz]] instead? Three or four true-or-false questions about sleep. It gets people thinking straight away."],
+            ["B", "Good idea. Then the biology. I was going to do a demonstration, with a volunteer playing the part of the body clock, but that might be a bit silly."],
+            ["A", "I think it would be much clearer with [[28|a diagram]]. Just a simple timeline showing when melatonin is released in adults and in teenagers."],
+            ["B", "Okay. Then the survey results. Since you're worried about the numbers, why don't we leave out the graphs completely and just give two or three key percentages?"],
+            ["A", "Yes, and we could read out [[29|some of the comments the students wrote]] at the end of the questionnaire. Some of them were really funny, and they make the point better than the figures do."],
+            ["B", "Great. And to finish? I'd thought of giving a list of further reading."],
+            ["A", "We can put that on a handout. I think we should end with [[30|some practical suggestions for teachers]], things they could actually do, like not setting homework deadlines at midnight."],
+            ["B", "Perfect. That ties it back to why we chose the topic in the first place. Shall we meet tomorrow to practise it again?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 21,
+          "to": 26,
+          "items": [
+            {
+              "q": 21,
+              "stem": "Why did the students choose this topic?",
+              "options": ["They read a newspaper article about it.", "It is relevant to their future jobs.", "They both had problems with sleep as teenagers."],
+              "answer": "B"
+            },
+            {
+              "q": 22,
+              "stem": "What does Dominic say about the change in teenagers' body clocks?",
+              "options": ["It starts earlier in girls than in boys.", "It is mainly caused by the use of screens.", "It can continue into early adulthood."],
+              "answer": "C"
+            },
+            {
+              "q": 23,
+              "stem": "What surprised the students about the results of their survey?",
+              "options": ["how many students slept during the afternoon", "how many students took phones to bed", "how much sleep students believed they needed"],
+              "answer": "A"
+            },
+            {
+              "q": 24,
+              "stem": "What do the students decide about the study on energy drinks?",
+              "options": ["They will make it a central part of the talk.", "They will not include it.", "They will mention it briefly with a warning."],
+              "answer": "B"
+            },
+            {
+              "q": 25,
+              "stem": "Which aspect of later school start times will the students focus on?",
+              "options": ["the effect on attendance", "the effect on exam results", "the cost of changing timetables"],
+              "answer": "A"
+            },
+            {
+              "q": 26,
+              "stem": "What is Priya worried about?",
+              "options": ["going over the time limit", "problems with the equipment", "the audience losing interest"],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "gap",
+          "from": 27,
+          "to": 30,
+          "layout": "flow",
+          "title": "Plan for the presentation",
+          "options": [
+            "a short quiz",
+            "a video clip",
+            "a diagram",
+            "comments from participants",
+            "graphs",
+            "practical suggestions",
+            "a demonstration",
+            "a list of further reading"
+          ],
+          "rows": [
+            "Begin with {27} to involve the audience",
+            "Explain changes in the body clock using {28}",
+            "Give key survey figures and {29}",
+            "Finish with {30} for teachers"
+          ],
+          "answers": { "27": "A", "28": "C", "29": "D", "30": "F" }
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Octopus intelligence",
+      "context": "part of a lecture on intelligence in octopuses",
+      "speakers": { "A": { "name": "Lecturer", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good morning, everyone. In this lecture I'm going to look at one of the most remarkable animals in the ocean, the octopus, and at the growing body of evidence that it is genuinely intelligent. That might seem an odd claim to make about a relative of the snail and the clam. But octopuses, along with squid and cuttlefish, belong to a group called the cephalopods, and they have by far the largest nervous systems of any invertebrate."],
+            ["A", "A common octopus has around five hundred million neurons, which is roughly the same number as a dog. What's really unusual, though, is where those neurons are. Only about a third of them are in the brain itself. The other two thirds are found in the [[31|arms]]. Each arm has its own cluster of nerve cells, which can control its movements with very little input from the brain. In experiments, an arm that has been separated from the body will still reach for food and try to pass it towards where the mouth would be. And the arms don't just feel things. The suckers are packed with receptors that allow the octopus to [[32|taste]] whatever it touches, so as it explores a crevice, it's gathering chemical information as well."],
+            ["A", "Why should an octopus have evolved this kind of intelligence? Our last common ancestor with the octopus lived more than five hundred million years ago, and it was probably a simple, worm-like creature with a very basic nervous system. So octopus intelligence has evolved completely independently of ours. One explanation focuses on the fact that the ancestors of octopuses had a hard outer [[33|shell]], as their relative the nautilus still does today. When octopuses lost that shell, they gained flexibility. They can squeeze through any gap larger than their beak. But they also became very vulnerable to predators, and the theory is that intelligence developed partly to make up for this."],
+            ["A", "Their defences are certainly sophisticated. The skin contains thousands of cells that can change colour in a fraction of a second, and the octopus can also alter the [[34|texture]] of its skin, raising small bumps and ridges so that it looks like rock or seaweed. Strangely, octopuses appear to be colour-blind, so exactly how they match their surroundings so precisely is still not fully understood."],
+            ["A", "So what's the evidence for intelligence? Some of the best-known examples come from laboratories and aquariums. Octopuses quickly learn to unscrew the lids of [[35|jars]] to get at a crab inside, and some can even do it from the inside, if they're shut in. Aquarium staff have many stories of octopuses escaping from their tanks at night, crossing the floor and climbing into neighbouring tanks to eat the [[36|fish]], and then returning home before morning."],
+            ["A", "Perhaps more surprising is a study carried out at an aquarium in which two keepers, wearing identical uniforms, spent time with a group of octopuses. One of them always fed the animals, while the other always touched them with a bristly stick. Within a week, the octopuses were behaving quite differently towards the two, and some would squirt water at the unfriendly keeper as soon as she appeared. So they can clearly tell one [[37|keeper]] from another, even when both are dressed exactly the same."],
+            ["A", "There's also evidence of tool use, which was once thought to be limited to humans and a few other mammals and birds. Divers in Indonesia filmed veined octopuses digging up halves of [[38|coconut]] shells that had been thrown into the sea, carrying them across the sea floor, and then fitting two halves together to make a shelter. What makes this significant is that carrying the shells is awkward and slows the octopus down, so it's accepting a cost now for a benefit later."],
+            ["A", "Some researchers have even described octopuses playing. In one experiment, octopuses were given an empty plastic [[39|bottle]] in their tank. After losing interest in it as possible food, several of them began pushing it repeatedly into the current from the water inlet, so that it floated back towards them, rather like a child bouncing a ball against a wall."],
+            ["A", "All of this raises a puzzle. Intelligence is usually associated with long lives and social living, where animals have time to learn and can pass knowledge on to their young. Octopuses have neither. Most species live for only one or two years, and they're largely solitary. The female dies soon after her eggs hatch, so the young never meet their parents and can't learn anything from them. Everything a young octopus knows, it must work out for itself, through [[40|exploration]]. And that may be the key. Some researchers argue that octopus intelligence is less about memory and more about curiosity, a constant drive to investigate everything around it. I'll come back to that idea next week, when we look at the cuttlefish."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Octopus intelligence",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# The nervous system",
+            "- around 500 million neurons, similar to a dog",
+            "- most neurons are located in the {31}, not the brain",
+            "- receptors on the suckers mean it can {32} as well as feel objects",
+            "# Evolution",
+            "- intelligence developed separately from that of humans",
+            "- ancestors had a protective {33}",
+            "# Camouflage",
+            "- skin changes in colour and also in {34}",
+            "# Evidence of intelligence",
+            "- learns to open {35} to reach food",
+            "- may leave its tank at night to eat {36} in other tanks",
+            "- recognised which {37} was which, even in identical uniforms",
+            "- veined octopus carries {38} shells for later use as protection",
+            "- play: repeatedly pushed a {39} into a water current",
+            "# A puzzle",
+            "- short life and no contact with parents",
+            "- must learn everything through {40}"
+          ],
+          "answers": {
+            "31": ["arms"],
+            "32": ["taste"],
+            "33": ["shell"],
+            "34": ["texture"],
+            "35": ["jars"],
+            "36": ["fish"],
+            "37": ["keeper"],
+            "38": ["coconut"],
+            "39": ["bottle"],
+            "40": ["exploration"]
+          }
+        }
+      ]
+    }
+  ]
+}

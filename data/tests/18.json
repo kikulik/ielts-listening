@@ -1,0 +1,346 @@
+{
+  "id": 18,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Arranging a pet-sitting service",
+      "context": "a woman phoning a pet-sitting agency to arrange care for her animals",
+      "speakers": { "A": { "name": "Declan", "g": "m", "accent": "gb" }, "B": { "name": "Mrs Garside", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 5,
+          "lines": [
+            ["A", "Good morning, Hollybrook Pet Sitters. Declan speaking."],
+            ["B", "Oh, hello. I'm going away for ten days in August, to a family wedding in Canada, and I need someone to look after my animals while I'm gone. A friend of mine gave me your number."],
+            ["A", "Of course. We can certainly help with that. Let me take a few details first. Could I have your name?"],
+            ["B", "It's Judith [[1|Garside]]. That's G-A-R-S-I-D-E."],
+            ["A", "Thank you, Mrs Garside. And whereabouts do you live?"],
+            ["B", "In Heworth, on the east side of York."],
+            ["A", "That's fine, Heworth is well within our area. And what are the exact dates?"],
+            ["B", "I fly out on Saturday the 9th, and I'll be back late on the 19th."],
+            ["A", "Thank you. So, tell me about the animals."],
+            ["B", "Well, there are quite a few, I'm afraid. First, there's Bruno, my Labrador. He's eleven now, so he's slowing down a bit, but he still loves his walks. He can be a bit grumpy with puppies, though, so it's best to keep him on the lead in the park."],
+            ["A", "Does he have any health problems we should know about?"],
+            ["B", "Not really, but he does have a food allergy. People always assume it's chicken, because apparently that's very common with dogs, but with Bruno it's [[2|wheat]]. So he can't have ordinary dog biscuits, and please make sure nobody gives him any toast."],
+            ["A", "I'll make a note of that. And who else is there?"],
+            ["B", "Smudge, the cat. She's sixteen, and she has a kidney problem, so she's on medication. The vet used to give me tablets for her, but she always managed to spit them out. So now it's a [[3|powder]] that you just sprinkle on her food. She doesn't even notice it."],
+            ["A", "That makes life much easier. Anything else?"],
+            ["B", "Yes, I keep hens. I had eight, but a fox got into the run in the spring and took two of them, so there are [[4|six]] now."],
+            ["A", "Oh, I'm sorry to hear that. So they'll need shutting in safely every night."],
+            ["B", "Yes, as soon as it starts to get dark. Otherwise the fox will be back."],
+            ["A", "Understood. And how would our sitter get into the house? Do you have a spare key?"],
+            ["B", "I used to leave one under the mat by the back door, but my neighbour told me that's the first place a burglar would look. So now there's a key box with a code, fixed to the wall inside the [[5|garage]]. The side door of the garage is never locked."],
+            ["A", "That's ideal. We'll give you a form to write the code on, and it's kept securely in our office."]
+          ]
+        },
+        {
+          "from": 6,
+          "to": 10,
+          "lines": [
+            ["A", "Now, before we confirm any booking, one of our sitters comes round to meet you and the animals. There's no charge for that visit. When would suit you?"],
+            ["B", "I'm at work until three most days. Could they come on Monday afternoon?"],
+            ["A", "Let me check. No, I'm afraid Monday's fully booked. How about [[6|Wednesday]] at four?"],
+            ["B", "Wednesday at four is perfect."],
+            ["A", "Good. Then for the visits while you're away. For a dog, we'd always recommend two visits a day. What time does Bruno usually go out in the morning?"],
+            ["B", "I take him out at about seven, but I suppose that's a bit early to ask of anyone."],
+            ["A", "Our sitters start their first visits at [[7|7.30]], so that's the earliest we can offer. Would that be all right?"],
+            ["B", "Yes, half an hour won't hurt him."],
+            ["A", "On the morning visit, the sitter will walk him for about forty minutes, feed all the animals and let the hens out. We can bring the post in too, if you like. That visit costs £16."],
+            ["B", "Yes, please do the post. And what about the evening?"],
+            ["A", "The evening visit is usually at about half past eight, so the hens can be shut in as it's getting dark. The sitter will feed everyone again and collect the [[8|eggs]] as well. We can keep them in the fridge for when you get back, or give them to a neighbour."],
+            ["B", "Oh, give them to my neighbour, Pat. She'll be delighted."],
+            ["A", "I'll note that down. The evening visit is normally £14, but because there's no dog walk with that one, it's only [[9|£11]]."],
+            ["B", "That's very reasonable. Oh, and one more thing. Could the sitter do a bit of watering? Not the pots on the patio, they're mostly herbs, and the rain usually takes care of those. But the tomatoes in the [[10|greenhouse]] at the bottom of the garden need a good soak every other day in August."],
+            ["A", "Yes, we can add that. It's an extra £3 every other evening."],
+            ["B", "That's fine."],
+            ["A", "Lovely. And can I take a phone number for you?"],
+            ["B", "Yes, it's 07946 281 330."],
+            ["A", "Thank you, Mrs Garside. I'll email the booking form to you this afternoon."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 5,
+          "layout": "table",
+          "title": "HOLLYBROOK PET SITTERS: CUSTOMER DETAILS",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["", "Details", "Notes"],
+            ["Owner", "Mrs Judith {1}", "lives in Heworth, York"],
+            ["Dog", "Bruno, Labrador, 11 years old", "allergic to {2}"],
+            ["Cat", "Smudge, 16 years old", "medicine is a {3} added to her food"],
+            ["Hens", "{4} in total", "must be shut in at dusk"],
+            ["Spare key", "in a box with a code", "kept in the {5}"]
+          ],
+          "answers": { "1": ["Garside"], "2": ["wheat"], "3": ["powder"], "4": ["six", "6"], "5": ["garage"] }
+        },
+        {
+          "type": "gap",
+          "from": 6,
+          "to": 10,
+          "layout": "table",
+          "title": "Visits and charges",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Visit", "Time", "Tasks", "Cost"],
+            ["Introductory", "{6} at 4 pm", "sitter meets owner and animals", "free"],
+            ["Morning", "{7}", "walk dog; feed animals; let hens out; bring in post", "£16"],
+            ["Evening", "about 8.30 pm", "feed animals; shut hens in; collect the {8}", "£{9}"],
+            ["Extra", "every other evening", "water plants in the {10}", "£3"]
+          ],
+          "answers": { "6": ["Wednesday"], "7": ["7.30", "7.30am"], "8": ["eggs"], "9": ["11"], "10": ["greenhouse"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A school trip abroad",
+      "context": "a teacher talking to parents about a school trip to Spain",
+      "speakers": { "A": { "name": "Mrs Carver", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 16,
+          "lines": [
+            ["A", "Good evening, everyone, and thank you for coming. I'm Mrs Carver, head of languages here at Holm Park School, and I'll be leading the Year 9 trip to Valencia in April. I'll start by going through the itinerary, then talk about what students need to bring and what the price covers, and there'll be time for questions at the end."],
+            ["A", "We'll be flying from Manchester on the Monday. The flight was originally at ten o'clock, so we'd told students to be at school by half past six, but the airline has moved it to eight, which means we need everyone in the school car park by [[11|4.15]] in the morning. I know that's very early, and I'm sorry, but the coach will leave on time. When we land, we'll check into the student residence, which is about ten minutes' walk from the city centre."],
+            ["A", "On Tuesday morning, students have their first Spanish lessons at a language school next to the residence. In the afternoon, we'd planned a walking tour of the old town, but the guides suggested it would be much more fun, and would cover far more ground, to do it by [[12|bike]]. Valencia is very flat, with cycle lanes almost everywhere, so it's perfectly safe. Helmets will be provided, and a guide will ride with each group."],
+            ["A", "Wednesday is a day out of the city. We'll take a boat across the Albufera, a large freshwater lagoon just south of Valencia. On the coach, we'll pass mile after mile of orange groves, but the farm where we stop for lunch actually grows [[13|rice]]. This is the area the rice for paella comes from, so the students will see how it's grown and then eat a paella cooked over an open fire."],
+            ["A", "On Thursday, there are lessons in the morning, and in the afternoon we visit our partner school. Then in the evening there's a match on the beach against the Spanish students. Last year it was football, but so many students asked for something different that this year it'll be [[14|volleyball]]."],
+            ["A", "Friday is a chance for students to explore the city in small groups, always with a member of staff close by. In the afternoon, we'd intended to visit the science museum, but it's closed for repairs until the summer, so instead we're going to the [[15|aquarium]], which is one of the largest in Europe."],
+            ["A", "And on Saturday we fly home. The plane is due to land in Manchester at about six in the evening, and it's then a two-and-a-half-hour coach journey, so we expect to be back at school at around [[16|8.30]]. Students will message you from the coach if there are any delays."]
+          ]
+        },
+        {
+          "from": 17,
+          "to": 20,
+          "lines": [
+            ["A", "Now, what to bring. You'll get a full kit list by email, but there are a few things I'd like to mention tonight. Students don't need to pack towels or bedding, as the residence provides those. And there's no need for a dictionary, because the language school gives everyone a course book with a vocabulary section at the back."],
+            ["A", "What students absolutely must bring is [[17|a water bottle they can refill]], because it's already warm in Valencia in April, and we'll be walking and cycling a lot. They also need [[18|their European health card, which entitles them to free medical treatment]] if they're ill. Please check that it hasn't expired. As for food on the way out, we'll be leaving so early that we'll stop for breakfast at the airport, so there's no need to send them with a packed lunch."],
+            ["A", "Next, the cost. The price of £695 covers the flights, the coach to and from the airport, the residence, and all meals while we're in Spain. [[19|It also includes travel insurance, so you won't need to arrange your own]]. And [[20|every entrance fee is covered, including the boat trip and the aquarium]]. What isn't included is food on the journey itself, so students will need some money for breakfast at the airport on the way out and lunch on the way home. Spending money is up to you, but we'd suggest around eighty euros, and no more than a hundred, please. Some of you have asked about the trip T-shirts. Those are optional, and they cost £8 extra if you'd like one."],
+            ["A", "Finally, a couple of reminders. The last payment is due by the end of January, and the consent form needs to be signed and returned by the same date. If your child takes any regular medication, please let me know in writing. Right, I'm happy to take any questions now."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 11,
+          "to": 16,
+          "layout": "table",
+          "title": "Year 9 trip to Valencia: itinerary",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Day", "Activities", "Notes"],
+            ["Monday", "fly to Valencia; check into student residence", "meet at school at {11} am"],
+            ["Tuesday", "Spanish lessons; tour of the old town by {12}", "helmets supplied"],
+            ["Wednesday", "boat trip on a lagoon; lunch at a {13} farm", "paella cooked on an open fire"],
+            ["Thursday", "lessons; visit to partner school", "evening: beach {14} match"],
+            ["Friday", "free time in small groups; visit to the {15}", "one of Europe's largest"],
+            ["Saturday", "return flight", "back at school at about {16} pm"]
+          ],
+          "answers": { "11": ["4.15"], "12": ["bike", "bicycle"], "13": ["rice"], "14": ["volleyball"], "15": ["aquarium"], "16": ["8.30"] }
+        },
+        {
+          "type": "multi",
+          "from": 17,
+          "to": 18,
+          "stem": "Which TWO things does the speaker say students must take with them?",
+          "options": ["a refillable water bottle", "a towel", "a European health card", "a packed lunch", "a dictionary"],
+          "answer": ["A", "C"]
+        },
+        {
+          "type": "multi",
+          "from": 19,
+          "to": 20,
+          "stem": "Which TWO things are included in the price of the trip?",
+          "options": ["travel insurance", "spending money", "meals on travel days", "entrance fees", "a trip T-shirt"],
+          "answer": ["A", "D"]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "A sports science study on hydration",
+      "context": "a student and her tutor discussing her sports science study on hydration",
+      "speakers": { "A": { "name": "Dr Kessler", "g": "m", "accent": "us" }, "B": { "name": "Lucy", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["A", "Come in, Lucy, have a seat. So, you've sent me your results chapter. How are you feeling about it?"],
+            ["B", "Better than last week, thanks. All the data's in now, so I can finally start writing up properly."],
+            ["A", "Good. Let's start with the method, just to make sure I've understood it. Remind me who took part."],
+            ["B", "Well, I originally approached the university hockey team, but they had exams right in the middle of my testing period. So in the end I recruited eighteen people from a local [[21|rowing club]]. They train three evenings a week, so it was easy to fit the testing around their sessions."],
+            ["A", "And how did you measure hydration?"],
+            ["B", "I did think about using urine colour charts, because they're quick and cheap, but the research says they're not very reliable. So I worked out how much fluid each rower lost by measuring their [[22|body weight]] before and after training, and I recorded everything they drank in between."],
+            ["A", "That's the standard approach, and it's a sensible one. So what did you find?"],
+            ["B", "The main finding was that most of them drank far less than they lost. I'd expected them to replace about half of it, because that's what a couple of earlier studies found, but on average they only replaced [[23|a third]]."],
+            ["A", "That's surprisingly low. What about the type of drink?"],
+            ["B", "About half the group used [[24|sports drinks]], and the rest just had water. I'd assumed the sports drinks would give them some sort of advantage, but there was no significant difference in performance between the two groups at all."],
+            ["A", "That's consistent with other research on sessions of an hour or so. The extra sugar and salt only really make a difference in longer events."],
+            ["B", "That's what I've said in the discussion."],
+            ["A", "Were there any problems during the data collection?"],
+            ["B", "The weather was a bit of an issue. People assume it must have been really hot, because it was July, but actually the temperatures were fairly normal for the time of year. The problem was that it was extremely [[25|humid]], almost every day, and that probably made them sweat more than usual."],
+            ["A", "Yes, you'll need to mention that when you discuss the results."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["A", "OK. Now let me give you some feedback. First, your sample. Eighteen people isn't many."],
+            ["B", "I know. I was worried you'd say it was too small to tell us anything."],
+            ["A", "Well, you couldn't use it to make claims about all athletes, certainly. But [[26|for a pilot study like this, it's perfectly reasonable]], as long as you're clear about that in the write-up. And you had a good mix of men and women, so I wouldn't worry about that either."],
+            ["B", "That's a relief."],
+            ["A", "The thing I'd question is the performance test. You used a five-hundred-metre time trial on the rowing machine."],
+            ["B", "Yes. It only takes about two minutes, and the club had three machines, so I could test everyone quickly."],
+            ["A", "And practically, that's fine. But rowing races are two thousand metres, and that's where dehydration would really show. [[27|A short sprint doesn't tell you much about what happens in an actual race]]."],
+            ["B", "So should I say that in the limitations section?"],
+            ["A", "Exactly. Note it there, and suggest a longer test for future research. Was there anything in the results that surprised you?"],
+            ["B", "Several things. I'd read that women tend to drink more than men during exercise, and that's what I found, so that wasn't a surprise. A couple of people forgot to bring a drink at all, which is a bit worrying, but it was only two. What really surprised me was that [[28|the rowers who'd been in the club the longest were the ones who lost the most fluid without replacing it]]. You'd think experience would make them more careful."],
+            ["A", "Interesting. Perhaps they're more confident about pushing through thirst. Now, your discussion section. At the moment, it's a bit thin."],
+            ["B", "I wasn't sure what else to put in it. I thought about adding more on the statistics."],
+            ["A", "No, the statistics belong in the methods and results chapters, and you've covered them well there. And I know you'd like to give advice to coaches, but keep that for the conclusion. What the discussion needs is [[29|to set your findings alongside research on athletes in other sports, like cycling and running]], so the reader can see whether rowers are typical."],
+            ["B", "OK, that makes sense."],
+            ["A", "So what's your next step?"],
+            ["B", "Well, I'd love to repeat the study in winter, to see if the results change."],
+            ["A", "That would be interesting, but there isn't time before the deadline. Maybe if you go on to do a master's."],
+            ["B", "I suppose so. I'd also thought about interviewing some of the rowers about their drinking habits, but my ethics approval only covers the measurements."],
+            ["A", "That's right. You'd have to apply again, and that takes weeks."],
+            ["B", "So, actually, I think the most useful thing would be [[30|to give a short talk to the coaches at the club about what I found]]. The head coach has already asked me if I would."],
+            ["A", "That's a great idea. It's good experience for you, and they'll be able to put it to use."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 21,
+          "to": 25,
+          "layout": "sentences",
+          "title": "Lucy's hydration study",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "Lucy recruited participants from a local {21}.",
+            "Fluid loss was calculated from changes in each rower's {22}.",
+            "On average, the rowers replaced just {23} of the fluid they lost.",
+            "Rowers who used {24} performed no better than those who drank only water.",
+            "The results may have been affected by the unusually {25} conditions."
+          ],
+          "answers": { "21": ["rowing club"], "22": ["body weight", "weight"], "23": ["a third", "one third"], "24": ["sports drinks"], "25": ["humid"] }
+        },
+        {
+          "type": "mcq",
+          "from": 26,
+          "to": 30,
+          "items": [
+            {
+              "q": 26,
+              "stem": "What does the tutor say about the size of Lucy's sample?",
+              "options": ["It is too small to be of any use.", "It is suitable for a pilot study.", "It should have included more women."],
+              "answer": "B"
+            },
+            {
+              "q": 27,
+              "stem": "Why does the tutor criticise the performance test?",
+              "options": ["It does not reflect the demands of a real race.", "It takes too long to complete.", "It needs equipment that is hard to obtain."],
+              "answer": "A"
+            },
+            {
+              "q": 28,
+              "stem": "What did Lucy find most surprising?",
+              "options": [
+                "Female rowers drank more than male rowers.",
+                "Some rowers did not bring a drink to training.",
+                "The most experienced rowers were the most dehydrated."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 29,
+              "stem": "What does the tutor suggest Lucy adds to her discussion section?",
+              "options": ["more detail on the statistical analysis", "advice for coaches", "comparisons with studies of other sports"],
+              "answer": "C"
+            },
+            {
+              "q": 30,
+              "stem": "What will Lucy do next?",
+              "options": ["repeat the study in winter", "present her results to the club's coaches", "interview some of the rowers"],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "The history of map-making",
+      "context": "part of a lecture on the history of map-making",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good afternoon. Today we're going to trace the history of map-making, from the earliest surviving maps to the great national surveys of the eighteenth century. What I'd like you to notice as we go is that maps have never been neutral pictures of the world. Each one reflects the purposes, beliefs and technology of the people who made it."],
+            ["A", "Let's begin in ancient Mesopotamia. The oldest surviving map of the world was made in Babylon around two and a half thousand years ago. It's small enough to hold in one hand, and it was drawn not on papyrus or cloth, as you might expect, but scratched into a tablet of [[31|clay]]. It shows Babylon at the centre, surrounded by a ring of water, with mysterious distant regions beyond. It's more a picture of how the Babylonians imagined the world than a practical guide."],
+            ["A", "A huge step forward came in the second century, with the Greek scholar Ptolemy, who was working in Alexandria. In his book, the Geography, he listed around 8,000 places, each with a position given by what we would now call latitude and longitude. No maps drawn by Ptolemy himself have survived, but his system meant that anyone could reconstruct a map from his figures, and when his work reached western Europe in the fifteenth century, its influence was enormous."],
+            ["A", "In medieval Europe, though, the best-known maps had a very different purpose. The great world maps known as mappae mundi, which were often displayed in cathedrals, were designed to teach religious history rather than to help anyone travel. They usually placed Jerusalem at the centre and the east at the top, because that was believed to be the direction of the Garden of Eden. In fact, this is where the English word [[32|orientation]] comes from, since the Latin for the east is oriens, the place where the sun rises."],
+            ["A", "Of course, putting north at the top is only a convention. One of the finest maps of the medieval world was produced in 1154 by the Arab geographer al-Idrisi, for King Roger the Second of Sicily. It drew on the knowledge of merchants and travellers from across the Islamic world, and it's surprisingly accurate. But to a modern eye it looks upside down, because, like many maps in the Islamic tradition, it has [[33|south]] at the top."],
+            ["A", "Meanwhile, in the Mediterranean, a far more practical kind of map was developing. From the late thirteenth century, sailors used what are called portolan charts. These were remarkably accurate outlines of the coast, criss-crossed by lines radiating from compass points, which helped navigators to set a course. Paper was available by then, but it wouldn't have survived long in the damp conditions on board ship, so the charts were usually drawn on a single animal [[34|skin]], typically from a sheep or a calf. You can often still see the shape of the animal's neck at one end of the chart."],
+            ["A", "The arrival of printing in the fifteenth century changed everything, because for the first time identical copies of a map could be produced in large numbers. The earliest printed maps were woodcuts, carved into blocks of wood, but the lines were rather thick and crude. By the late sixteenth century these had largely given way to engravings on [[35|copper]], which allowed much finer detail, such as tiny lettering and the delicate shading of hills."],
+            ["A", "The most famous map of this period is Gerardus Mercator's world map of 1569. Mercator's challenge was to show the curved surface of the earth on a flat sheet in a way that would be useful to sailors. His solution was a projection on which a course with a constant compass bearing appears as a straight [[36|line]]. So a navigator could simply draw from port to port with a ruler and read off the bearing. The price of this, though, is that areas far from the equator are greatly enlarged. Australia is shown as smaller than Greenland, although it's more than three times the size. And Greenland appears roughly as large as [[37|Africa]], when in reality Africa is about fourteen times bigger."],
+            ["A", "By the seventeenth century, rulers wanted accurate maps of their own countries, for taxation, for building roads and for defence. In France, four generations of the Cassini family spent over a century surveying the whole kingdom. Their method was to measure one baseline on the ground with great precision, and then to build up a network of [[38|triangles]] across the country, calculating each new distance from the angles. The result was the first map of an entire country based on systematic measurement."],
+            ["A", "At sea, a different problem remained. Sailors could find their latitude fairly easily from the sun or the stars, but longitude was another matter. Astronomers proposed various methods based on the movements of the moon, but the eventual solution was mechanical. To work out longitude, you need to compare the local time on board with the time at your home port, and that requires a [[39|clock]] that keeps accurate time for months on a rolling ship. It was the English carpenter John Harrison who finally built one, in the 1760s."],
+            ["A", "Finally, back on land, Britain's national mapping agency, the Ordnance Survey, was founded in 1791. The name itself is a clue to its origins. You might think a national survey would be set up to collect taxes, as happened with the Domesday Book seven centuries earlier, but the Ordnance Survey was created for [[40|military]] reasons. Britain feared an invasion from France, and the army needed detailed maps of the south coast. Only later did these maps become something ordinary people bought for walking and cycling, which is how most of us know them today."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "The history of map-making",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Early maps",
+            "- oldest known world map (Babylon) was made of {31}",
+            "- Ptolemy's Geography gave positions for about 8,000 places",
+            "# Medieval maps",
+            "- mappae mundi: east at the top, which gave us the English word {32}",
+            "- al-Idrisi's map for the King of Sicily (1154) placed {33} at the top",
+            "- portolan charts: coastal maps for sailors, made from animal {34}",
+            "# Printed maps",
+            "- woodcut maps were gradually replaced by {35} engravings, giving finer detail",
+            "- Mercator (1569): a constant compass bearing is shown as a straight {36}",
+            "-- distorts size: Greenland looks about as big as {37}",
+            "# Scientific surveys",
+            "- France: the Cassini family's survey was based on connected {38}",
+            "- calculating longitude at sea depended on a reliable {39}",
+            "- Britain's Ordnance Survey was originally set up for {40} purposes"
+          ],
+          "answers": {
+            "31": ["clay"],
+            "32": ["orientation"],
+            "33": ["south"],
+            "34": ["skin", "skins"],
+            "35": ["copper"],
+            "36": ["line"],
+            "37": ["Africa"],
+            "38": ["triangles"],
+            "39": ["clock"],
+            "40": ["military"]
+          }
+        }
+      ]
+    }
+  ]
+}

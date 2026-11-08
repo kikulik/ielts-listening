@@ -1,0 +1,402 @@
+{
+  "id": 11,
+  "parts": [
+    {
+      "n": 1,
+      "topic": "Complaining about a furniture delivery",
+      "context": "a woman phoning a furniture company to complain about a delivery",
+      "speakers": { "A": { "name": "Nathan", "g": "m", "accent": "gb" }, "B": { "name": "Mrs Garrity", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 1,
+          "to": 6,
+          "lines": [
+            ["A", "Good afternoon, Ashdown and Pike Furniture, customer services. Nathan speaking. How can I help?"],
+            ["B", "Hello. I'm phoning to make a complaint, I'm afraid. I had a delivery from you on Saturday, and almost everything about it went wrong."],
+            ["A", "I'm very sorry to hear that. Let me take some details, and then we'll see what we can do to put things right. Could I have your name first?"],
+            ["B", "Yes, it's Mrs Lorna Garrity."],
+            ["A", "Could you spell your surname for me, please?"],
+            ["B", "It's [[1|Garrity]]. G-A-R-R-I-T-Y."],
+            ["A", "Thank you, Mrs Garrity. And do you have your order number? It should be at the top of your confirmation."],
+            ["B", "I've got it here. It's WH5037. Oh, sorry, I've swapped two of those numbers round. It's [[2|WH5307]]."],
+            ["A", "Let me bring that up. Yes, here we are. A dining table, six matching chairs and a bookcase, delivered to an address in Leicester. Is that right?"],
+            ["B", "That's right."],
+            ["A", "So the table and chairs were £1,180, and with the bookcase that comes to [[3|£1,425]], not counting the delivery charge."],
+            ["B", "Yes, and I'll come back to the delivery charge, because that's part of the problem."],
+            ["A", "Of course. So, tell me what happened on Saturday."],
+            ["B", "Well, I'd booked a morning slot, between eight and twelve, so I stayed in all morning. Nobody came. At about two I got a text saying the van would be with me by 2.40, so I thought, fine. But in the end it was [[4|3.20]] when the driver finally knocked on the door."],
+            ["A", "I do apologise. Saturdays have been very busy recently, but that's no excuse at all."],
+            ["B", "And then, I'd paid extra for your two-person service, where they bring everything into the room you want and take away the packaging. But there was only one man, and he said he couldn't possibly carry a table on his own. I asked him to at least put the boxes in the hall, but he said he was already running late, and he just stacked everything in the [[5|garage]] and drove off."],
+            ["A", "That's certainly not what should have happened. How did you manage to get it all inside?"],
+            ["B", "My son came round on Sunday and we managed between us. But when we unpacked the table, there was damage. At first I thought there was a scratch on the top, but that turned out to be a bit of tape, and it wiped off. The real problem is one of the legs. There's a [[6|crack]] running right down it."],
+            ["A", "Oh dear. Please don't use the table until it's fixed, in case the leg gives way. I'll arrange for one of our technicians to come and fit a new leg. They can do that in your home, so you won't need to send the table back."]
+          ]
+        },
+        {
+          "from": 7,
+          "to": 10,
+          "lines": [
+            ["B", "Thank you. But that's not all, I'm afraid. There's a problem with the chairs as well."],
+            ["A", "What's wrong with them?"],
+            ["B", "Four of them are fine, but two are a completely different colour. In the showroom they were all grey, which is what I ordered. When I first saw them in the garage, I thought those two were blue, but when I got them into the daylight, I could see they're actually [[7|green]], a sort of olive shade. They look ridiculous next to the others."],
+            ["A", "It sounds as if they came from a different batch. I'm sorry about that. I'll arrange replacements straight away. Our van comes to Leicester on Mondays and Wednesdays, so the earliest we could do is next Monday."],
+            ["B", "I work on Mondays, and I really don't want to take another day off."],
+            ["A", "Of course. Then shall we say [[8|Wednesday]]? And this time I'll make sure it's a two-person team. They'll take the two odd chairs away with them."],
+            ["B", "That's fine. I work from home that day."],
+            ["A", "Good. Now, you mentioned the bookcase."],
+            ["B", "Yes. The frame is fine, and as far as I can tell all the screws and fittings are there. But it's supposed to come with five [[9|shelves]], and there were only three in the box."],
+            ["A", "That's easy to sort out. We'll send the missing parts by courier, so you won't need to be in. They should reach you within three working days."],
+            ["B", "Thank you. And then there's the delivery charge. I paid extra for the two-person service, and I got one person who didn't even bring anything into the house."],
+            ["A", "You're quite right. Let me look. Our standard delivery is £45, but I can see that you chose the premium service."],
+            ["B", "Yes, which was £60."],
+            ["A", "That's right. So I'll refund the full [[10|£60]] to your card today. It may take up to five working days to appear on your statement. And I'd also like to send you a voucher for £25 to spend in any of our stores, as an apology for all the trouble."],
+            ["B", "Well, that's very kind. Thank you."],
+            ["A", "Not at all. I'll send you an email this afternoon confirming everything we've agreed, so that you have it in writing. Is there anything else I can help you with?"],
+            ["B", "No, I think that covers it. Thank you for being so helpful."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 1,
+          "to": 6,
+          "layout": "notes",
+          "title": "CUSTOMER COMPLAINT",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "rows": [
+            "# Customer",
+            "Name: Mrs Lorna {1}",
+            "Order number: {2}",
+            "Cost of furniture (not including delivery): £{3}",
+            "# Delivery on Saturday",
+            "- van arrived at {4} pm, not in the morning slot",
+            "- driver left all the items in the {5}",
+            "- table: {6} in one leg"
+          ],
+          "answers": { "1": ["Garrity"], "2": ["WH5307"], "3": ["1,425", "1425"], "4": ["3.20", "3.20pm"], "5": ["garage"], "6": ["crack"] }
+        },
+        {
+          "type": "gap",
+          "from": 7,
+          "to": 10,
+          "layout": "table",
+          "title": "Problems and action agreed",
+          "limit": "ONE WORD AND/OR A NUMBER",
+          "table": [
+            ["Item", "Problem", "Action agreed"],
+            ["two dining chairs", "{7} instead of grey", "replacements delivered on {8}"],
+            ["bookcase", "two {9} missing", "missing parts sent by courier"],
+            ["delivery charge", "only one person came", "£{10} refunded"]
+          ],
+          "answers": { "7": ["green"], "8": ["Wednesday"], "9": ["shelves"], "10": ["60"] }
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "topic": "A tour of a botanic garden",
+      "context": "a guide talking to visitors at a botanic garden",
+      "speakers": { "A": { "name": "Rosalind", "g": "f", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 11,
+          "to": 14,
+          "lines": [
+            ["A", "Good morning, everyone, and welcome to Calderbrook Botanic Garden. My name's Rosalind, and I'm one of the volunteer guides here. Before we set off, I'll tell you a little about the garden's history and what's going on this year, and then I'll show you on the map where the main areas are, so that you can explore on your own afterwards."],
+            ["A", "Many visitors assume that the garden was created to show off exotic plants brought back by explorers from overseas. We do have a wonderful collection of those now, but they came much later. [[11|The garden was actually founded in 1821 by a group of the town's apothecaries, who needed a reliable supply of herbs to make their remedies]]. And although we're very popular with local families now, the public weren't allowed in at all until 1890, when the town council bought the site."],
+            ["A", "The building most people come to see is the Palm House. You may have read that it's the oldest glasshouse in the country, but I'm afraid that isn't true; there are at least two older ones. What makes ours special is its history. The original was badly damaged in a storm in the 1980s, and for years it stood empty. [[12|Then, in 2009, it was rebuilt, using the architect's original drawings, which had been found in the town archives]]. There was a rumour last week that it was closed for repairs, but don't worry, it's open as normal today."],
+            ["A", "Now, what's happening this year. Many of you will know our children's trail, which we launched last spring, and which has been a great success. And the plant sale on the first Sunday of every month has been running for as long as anyone can remember. [[13|But this summer, for the first time, we'll be offering guided walks after dark]], starting at about nine o'clock on Friday nights, when the night-scented plants are at their best. You'll need to book, as numbers are limited."],
+            ["A", "Just a few requests before we go. You're very welcome to walk on the grass; that's what it's there for. And you can feed the ducks on the lake, as long as you use the special food sold in the Visitor Centre, not bread. [[14|What we do ask is that you don't take cuttings or seeds from any of the plants]], however small. It may not seem like much, but with thousands of visitors a year, it does a great deal of damage."]
+          ]
+        },
+        {
+          "from": 15,
+          "to": 20,
+          "lines": [
+            ["A", "Right, if you'd like to look at the map in your leaflet. We're standing at the Main Gate, on Station Road, at the southern edge of the garden. The large building on your right as you come in is the Visitor Centre, where you'll find the toilets and a small exhibition. The plant shop is in a separate building just beyond it, on its eastern side."],
+            ["A", "[[15|The café is tucked in directly behind the Visitor Centre, on its north side]], so its terrace looks out over Cross Walk, the main path running from east to west across the garden. It gets very busy, so if you want lunch, I'd go before twelve."],
+            ["A", "Now, on the other side of the Long Walk, opposite the Visitor Centre, is our rock garden. [[16|It fills the space between the Long Walk and the edge of the woodland]], and it's full of alpine plants, which are at their best in late spring."],
+            ["A", "If you walk north up the Long Walk, you'll come to the crossroads where it meets Cross Walk. [[17|On your left, in the corner between the two paths, is the Herb Garden]], on the site of the original medicinal garden. Please don't confuse it with the beds a little further west, closer to the lake. Those are our nursery beds, where we raise young plants, and they're not open to the public."],
+            ["A", "If you turn left at the crossroads and follow Cross Walk towards the west, the woodland will be on your left. [[18|The children's play area is in a clearing right in the middle of the woodland]], so it's nicely sheltered, and it's well away from the water, which parents appreciate."],
+            ["A", "Keep going to the very end of Cross Walk, and then take the narrow path that leads north from there. [[19|The bird hide is at the end of that path, on the western shore of the lake]]. If you're quiet, you may well see a kingfisher."],
+            ["A", "And finally, the Palm House, which you can see in the north-eastern part of the garden. Between the Palm House and Cross Walk is an open lawn, where we hold concerts in the summer. [[20|The Butterfly House is attached to the eastern end of the Palm House]], and you can walk straight through from one to the other. Right, are there any questions before we set off?"]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "mcq",
+          "from": 11,
+          "to": 14,
+          "items": [
+            {
+              "q": 11,
+              "stem": "The garden was first created in order to",
+              "options": ["display plants collected abroad.", "grow plants for use in medicines.", "provide a park for local people."],
+              "answer": "B"
+            },
+            {
+              "q": 12,
+              "stem": "What does the guide say about the Palm House?",
+              "options": [
+                "It is older than any other glasshouse in Britain.",
+                "It is currently closed to the public.",
+                "It was reconstructed according to its original design."
+              ],
+              "answer": "C"
+            },
+            {
+              "q": 13,
+              "stem": "What is new at the garden this year?",
+              "options": ["evening tours", "a trail for children", "a monthly plant sale"],
+              "answer": "A"
+            },
+            {
+              "q": 14,
+              "stem": "Visitors are asked not to",
+              "options": ["walk on the lawns.", "feed the birds on the lake.", "remove any part of a plant."],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "type": "map",
+          "from": 15,
+          "to": 20,
+          "kind": "map",
+          "title": "Calderbrook Botanic Garden",
+          "map": {
+            "shapes": [
+              { "k": "zone", "x": 0, "y": 0, "w": 600, "h": 400, "fill": "grass" },
+              {
+                "k": "path",
+                "pts": [[0, 385], [360, 385], [600, 385]],
+                "w": 26,
+                "fill": "road",
+                "label": "Station Road"
+              },
+              { "k": "zone", "x": 20, "y": 260, "w": 170, "h": 100, "fill": "wood" },
+              { "k": "round", "x": 150, "y": 110, "rx": 100, "ry": 55, "fill": "water", "label": "Lake" },
+              { "k": "zone", "x": 380, "y": 60, "w": 140, "h": 80, "fill": "building", "label": "Palm House" },
+              { "k": "zone", "x": 520, "y": 75, "w": 60, "h": 50, "fill": "building" },
+              { "k": "zone", "x": 330, "y": 290, "w": 120, "h": 55, "fill": "building", "label": "Visitor Centre" },
+              { "k": "zone", "x": 470, "y": 298, "w": 44, "h": 40, "fill": "building" },
+              {
+                "k": "path",
+                "pts": [[300, 370], [300, 250], [300, 30]],
+                "w": 14,
+                "fill": "path",
+                "label": "Long Walk"
+              },
+              {
+                "k": "path",
+                "pts": [[20, 220], [260, 220], [580, 220]],
+                "w": 14,
+                "fill": "path",
+                "label": "Cross Walk"
+              },
+              {
+                "k": "path",
+                "pts": [[25, 220], [25, 112]],
+                "w": 8,
+                "fill": "path"
+              },
+              { "k": "gate", "x": 300, "y": 366, "text": "Main Gate" },
+              { "k": "label", "x": 105, "y": 345, "text": "Woodland" },
+              { "k": "spot", "x": 190, "y": 192, "letter": "A" },
+              { "k": "spot", "x": 390, "y": 260, "letter": "B" },
+              { "k": "spot", "x": 38, "y": 100, "letter": "C" },
+              { "k": "spot", "x": 250, "y": 300, "letter": "D" },
+              { "k": "spot", "x": 550, "y": 100, "letter": "E" },
+              { "k": "spot", "x": 265, "y": 185, "letter": "F" },
+              { "k": "spot", "x": 492, "y": 318, "letter": "G" },
+              { "k": "spot", "x": 105, "y": 300, "letter": "H" },
+              { "k": "spot", "x": 450, "y": 185, "letter": "I" }
+            ]
+          },
+          "items": [
+            { "q": 15, "text": "Café", "answer": "B" },
+            { "q": 16, "text": "Rock garden", "answer": "D" },
+            { "q": 17, "text": "Herb Garden", "answer": "F" },
+            { "q": 18, "text": "Children's play area", "answer": "H" },
+            { "q": 19, "text": "Bird hide", "answer": "C" },
+            { "q": 20, "text": "Butterfly House", "answer": "E" }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "topic": "Research into urban noise",
+      "context": "two students discussing their research project on noise in a city",
+      "speakers": { "H": { "name": "Hannah", "g": "f", "accent": "us" }, "O": { "name": "Owen", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 21,
+          "to": 25,
+          "lines": [
+            ["H", "OK, Owen, I think we should write the methods section first, while we still remember exactly what we did."],
+            ["O", "Good idea. Let's start with the equipment. Our original plan was to use that free phone app, remember?"],
+            ["H", "Which was a disaster. The readings jumped all over the place every time a bus went past or the wind caught the microphone. Thank goodness the physics department lent us a [[21|decibel meter]]. Everything we're actually reporting from the twelve sites comes from that."],
+            ["O", "And we should mention that we checked it against a reference sound every morning. Then the timing. The first set of readings each day was during the morning rush hour, at eight."],
+            ["H", "Right. And for the second set, we'd originally said three in the morning, because that's when the city's quietest, so it would give us a proper baseline."],
+            ["O", "But neither of us fancied wandering round the city centre at that time of night, so we took the second readings at [[22|midnight]] instead. I still think that's a reasonable baseline."],
+            ["H", "Mostly. Although the bars closing might have affected one or two of the sites, so we should mention that as a limitation. OK, so on to the findings. The one that surprised me most was the noisiest location."],
+            ["O", "Me too. I was certain it would be the ring road, with all the lorries."],
+            ["H", "The ring road was loud, but it's very open, so the sound spreads out. The [[23|bus station]] was higher on every single day, because it's under that huge concrete roof and everything echoes."],
+            ["O", "And the drivers leave their engines running while they wait. Then the residents' survey. We had a hundred and twenty replies, which isn't bad at all."],
+            ["H", "No. And the main complaint wasn't what I'd expected, either. I assumed it would be traffic, but traffic only came second. People living near the student area mentioned noise from bars, but there weren't many of them. By far the biggest complaint was [[24|building work]], all the drilling and the generators on those new apartment sites."],
+            ["O", "That's useful for our recommendations, actually, because the council controls the hours that building sites are allowed to operate."],
+            ["H", "True. And then there's the finding I think is the most interesting of all."],
+            ["O", "The one about the river?"],
+            ["H", "Sort of. We expected people living by the river to be less bothered, because the sound of the water might cover up some of the traffic. But there was no real difference. It was the people living next to a [[25|park]] who said they were much less annoyed, even at sites where we measured exactly the same noise levels."],
+            ["O", "I wonder whether it's partly psychological, just having something green to look at."]
+          ]
+        },
+        {
+          "from": 26,
+          "to": 30,
+          "lines": [
+            ["H", "Now, Dr Pryce said we have to be honest about the weaknesses of the questionnaire."],
+            ["O", "Well, I don't think the response rate's a problem. A hundred and twenty out of two hundred is good for a postal survey."],
+            ["H", "Agreed. And I was worried we'd only hear from retired people, since they're at home during the day, but the age range turned out to be pretty balanced."],
+            ["O", "The real problem was question six, the one about night-time noise. [[26|Some people seem to have counted night-time from about seven in the evening, and others only from midnight]], so we can't really compare their answers."],
+            ["H", "That's true. We should have defined it. OK, the literature review. I loved that book on the history of urban sound, the one about Victorian street sellers."],
+            ["O", "It's a great read, but it doesn't really say anything about the effects on people living in cities now. I found that study of noise and children's concentration in classrooms."],
+            ["H", "Mm, but that's about schools, not homes. [[27|I think the government report on traffic noise is the one we should build on]]. It's recent, and it has data from cities about the same size as ours."],
+            ["O", "Fair enough. It's definitely the most relevant. Next, how do we present the readings? I suppose a table with all twenty-four figures would be the most complete."],
+            ["H", "It would be accurate, but nobody's going to read it. A bar chart would be much clearer."],
+            ["O", "But a bar chart doesn't show where the sites are, and location is really the whole point. [[28|What about marking the twelve sites on a map of the city and giving each one a colour according to how loud it was]]?"],
+            ["H", "OK, you've convinced me. Then the recommendations. Personally, I'd love to recommend noise barriers along the whole of the ring road."],
+            ["O", "The council would never pay for that. They've just announced cuts. [[29|I think we should only suggest things that would cost almost nothing]], like limiting building work to fixed hours, or changing the times when lorries can deliver in the centre."],
+            ["H", "Hmm. What about including examples from other cities? There's that scheme in Copenhagen."],
+            ["O", "Dr Pryce told us to keep it local. And of course we'll refer to what residents told us in the survey, but the key thing is that whatever we propose has to be affordable."],
+            ["H", "OK. So, before we meet again, should we go back to the bus station and take some more readings, just to be sure?"],
+            ["O", "I don't think we need to. Three days of readings is what the project brief asked for."],
+            ["H", "Fine. Then [[30|I'll make a start on the map tonight]], since I've got the software on my laptop. Could you write up the survey results?"],
+            ["O", "Sure. I'll send you a draft by Friday."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 21,
+          "to": 25,
+          "layout": "notes",
+          "title": "Urban noise project",
+          "limit": "NO MORE THAN TWO WORDS",
+          "rows": [
+            "# Method",
+            "- noise levels recorded at twelve sites using a {21}",
+            "- second reading each day taken at {22}",
+            "# Findings",
+            "- loudest location overall: the {23}",
+            "- residents' most common complaint: {24}",
+            "- people living close to a {25} were less annoyed by noise"
+          ],
+          "answers": { "21": ["decibel meter"], "22": ["midnight"], "23": ["bus station"], "24": ["building work"], "25": ["park"] }
+        },
+        {
+          "type": "mcq",
+          "from": 26,
+          "to": 30,
+          "items": [
+            {
+              "q": 26,
+              "stem": "What problem did the students have with their questionnaire?",
+              "options": ["One question was interpreted in different ways.", "Most of the people who replied were elderly.", "Not enough people sent it back."],
+              "answer": "A"
+            },
+            {
+              "q": 27,
+              "stem": "Which source do they agree will be most useful for their literature review?",
+              "options": ["a book about the history of city sounds", "a study of noise in schools", "a report published by the government"],
+              "answer": "C"
+            },
+            {
+              "q": 28,
+              "stem": "How will they present their noise measurements?",
+              "options": ["in a bar chart", "on a colour-coded map", "in a table"],
+              "answer": "B"
+            },
+            {
+              "q": 29,
+              "stem": "What does Owen think their recommendations should focus on?",
+              "options": ["measures that are inexpensive", "examples from other cities", "the views of residents"],
+              "answer": "A"
+            },
+            {
+              "q": 30,
+              "stem": "What will Hannah do before their next meeting?",
+              "options": ["take further readings", "write about the questionnaire findings", "start producing the map"],
+              "answer": "C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "topic": "Sleep in animals",
+      "context": "part of a lecture on sleep in animals",
+      "speakers": { "A": { "name": "Lecturer", "g": "m", "accent": "gb" } },
+      "sections": [
+        {
+          "from": 31,
+          "to": 40,
+          "lines": [
+            ["A", "Good afternoon. In today's lecture I want to look at sleep, not in humans, but across the animal kingdom. Sleep is a puzzle for biologists, because an animal that is asleep cannot eat, cannot reproduce and is vulnerable to predators. And yet, as we'll see, it appears to be almost universal. I'll start with how we recognise sleep in animals, then look at some remarkable adaptations, and finish with the question of why animals sleep at all."],
+            ["A", "With humans and other mammals, we can measure sleep directly, by recording electrical activity in the brain. But for most animals that isn't possible, so researchers rely on behaviour. First, a sleeping animal responds less to what's going on around it; it takes a louder noise or a stronger touch to get a reaction. Many animals also choose a particular place to sleep, such as a nest or a burrow, but that varies so much that it isn't a reliable sign. More useful is that each species tends to adopt a characteristic [[31|posture]] when it sleeps. And sleep is quickly reversible, which is what distinguishes it from states like hibernation or a coma."],
+            ["A", "There's one more criterion, and it's perhaps the most important. If an animal is prevented from sleeping, it doesn't simply carry on as normal. Instead, it sleeps for longer, or more deeply, when it finally gets the chance. This is known as a [[32|rebound]] effect, and it tells us that sleep is regulated by the body, rather than just being a period of rest. Using these criteria, researchers have found sleep in fruit flies and in tiny worms, though these do have simple nervous systems, with a cluster of nerve cells acting as a brain. The most striking case, reported in 2017, was the upside-down [[33|jellyfish]], an animal with no brain at all, which becomes less active at night, reacts more slowly to food, and shows a rebound if it's disturbed."],
+            ["A", "Let's turn now to some of the more remarkable ways in which animals have adapted their sleep. Dolphins face a particular problem. Unlike us, they don't breathe automatically; each breath is a conscious decision. So how can they sleep? The answer is that only one half of the brain sleeps at a time, while the other half remains alert. It's sometimes said that this is mainly so that they can watch out for sharks, and that may play a part, but the essential reason is that the waking half allows them to keep rising to the surface to [[34|breathe]]."],
+            ["A", "Birds can do something similar. In a well-known experiment, ducks were filmed sleeping in a row. The birds in the middle of the row usually slept with both eyes closed. But the ducks at either end kept one [[35|eye]] open, the one facing away from the group, and the half of the brain connected to that eye stayed awake. In other words, they could sleep and keep watch for predators at the same time."],
+            ["A", "Perhaps the most extraordinary example is the frigatebird, a large seabird that can stay in the air for weeks at a time while it searches for food over the ocean. Researchers fitted these birds with small devices to record their brain activity, and found that they do sleep while flying. They never sleep while flapping their wings, though. The sleep comes in bursts of a few seconds, mostly while they are [[36|gliding]] in slow circles on rising currents of warm air. In total they sleep less than an hour a day in flight, compared with over twelve hours a day when they're back on land."],
+            ["A", "This brings us to the great variation in how much animals sleep. Some bats sleep for up to twenty hours a day, while at the other extreme, a study of wild African elephants, tracked with collars, found that they sleep only about two hours in every twenty-four, often standing up. That's far less than had been recorded for elephants in [[37|captivity]], which typically sleep for between four and six hours. One general pattern is that grazing animals such as horses and cattle sleep less than meat-eaters. Partly this is because plants contain relatively little energy, so they must spend many hours feeding, but it's also because they are more at risk from [[38|predators]], which makes long periods of deep sleep dangerous."],
+            ["A", "An interesting test case comes from fish. In Mexico, there is a species of fish that lives in rivers, but some populations have moved into underground caves, and over thousands of years they have lost their eyesight. These cave populations sleep far less than their river-dwelling relatives, in some cases about eighty per cent less. You might think this is simply a response to the permanent darkness, but the fish are blind anyway. The most likely explanation is that [[39|food]] is so scarce in caves that the fish which spend more time awake and searching have a better chance of survival."],
+            ["A", "Finally, why do animals sleep at all? There are several theories. One is that sleep saves energy, though the savings turn out to be surprisingly small. Another is that sleep helps to consolidate memories, and there's good evidence for this in mammals and birds. But one of the most exciting recent ideas comes from studies of mice. These found that during sleep, the spaces between brain cells expand, allowing fluid to flow through and wash away [[40|waste]] that builds up while the animal is awake. If this is right, sleep may be less about rest than about cleaning, and that might explain why even a jellyfish needs it."]
+          ]
+        }
+      ],
+      "groups": [
+        {
+          "type": "gap",
+          "from": 31,
+          "to": 40,
+          "layout": "notes",
+          "title": "Sleep in animals",
+          "limit": "ONE WORD ONLY",
+          "rows": [
+            "# Recognising sleep",
+            "- the animal is less responsive and adopts a typical {31}",
+            "- after being kept awake, the animal shows a {32} effect",
+            "- found even in animals without a brain, e.g. {33}",
+            "# Adaptations",
+            "- dolphins: one half of the brain stays awake so that they can surface to {34}",
+            "- ducks on the outside of a group sleep with one {35} open",
+            "- frigatebirds: sleep for a few seconds at a time, mainly when {36}",
+            "# Variation in sleep",
+            "- wild elephants sleep around two hours a day, much less than those in {37}",
+            "- grazing animals sleep less, partly due to the threat from {38}",
+            "- cave-dwelling fish sleep less, possibly because of a lack of {39}",
+            "# Why sleep?",
+            "- recent theory: sleep allows the removal of {40} from the brain"
+          ],
+          "answers": {
+            "31": ["posture"],
+            "32": ["rebound"],
+            "33": ["jellyfish"],
+            "34": ["breathe"],
+            "35": ["eye"],
+            "36": ["gliding"],
+            "37": ["captivity"],
+            "38": ["predators"],
+            "39": ["food"],
+            "40": ["waste"]
+          }
+        }
+      ]
+    }
+  ]
+}
