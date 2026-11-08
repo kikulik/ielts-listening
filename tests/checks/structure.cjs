@@ -93,10 +93,22 @@ function checkPart(part, r) {
   return words;
 }
 
+/* Optional "say": { "words in the transcript": "how the speech engine should spell them" }. */
+function checkSay(test, r) {
+  if (test.say === undefined) return;
+  if (!test.say || typeof test.say !== 'object' || Array.isArray(test.say)) return r.err('"say" must be an object');
+  const text = test.parts.flatMap(p => p.sections || []).flatMap(s => s.lines || []).map(l => M.plain(l[1])).join('\n');
+  for (const [from, to] of Object.entries(test.say)) {
+    if (typeof to !== 'string' || !to.trim() || to === from) r.err(`say "${from}": needs a different spelling`);
+    else if (!text.includes(from)) r.err(`say "${from}": not found in the transcript`);
+  }
+}
+
 function checkTest(test, id, r) {
   if (test.id !== id) r.err(`"id" is ${test.id}, file name says ${id}`);
   if (!Array.isArray(test.parts) || test.parts.length !== 4) return r.err('needs exactly 4 parts');
   test.parts.forEach((p, i) => { if (p.n !== i + 1) r.err(`part ${i + 1} has "n": ${p.n}`); });
+  checkSay(test, r);
   return test.parts.map(p => checkPart(p, r));
 }
 

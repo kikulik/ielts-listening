@@ -237,6 +237,15 @@ conventions so it is read correctly:
 | `2,500` (commas in numbers of 1,000 and more) | “two thousand five hundred” |
 | `15%`, `21st March`, `the 3rd of May` | as expected |
 
+- Words spelled one way but said two ways are often said wrongly: *lead* the metal, *read* in
+  the past, thread *wound* round, foxes *live* for, gates *close* at, my daughter *lives* there.
+  Add them to the test’s optional top-level `"say"` object, from the exact words in the
+  transcript to a spelling the engine reads right:
+  `"say": { "but lead": "but led", "She read it out": "She red it out", "gates close at": "gates cloze at" }`.
+  Only the recording changes; the transcript and the answers stay as written, and the checker
+  makes sure every phrase is in the transcript. *use* as a verb is handled for you.
+  To see how the engine will say something:
+  `.venv/bin/python -c "from kokoro_onnx.tokenizer import Tokenizer; print(Tokenizer().phonemize('but lead', 'en-gb'))"`.
 - No ellipses, brackets, stage directions, `um`, `er`, emails or web addresses.
   Hesitation is fine as words: “Well,” “Oh,” “Right,” “Let me see,” “Hmm,” “Actually,”.
 - Use British spelling everywhere (colour, centre, programme), also for American speakers.

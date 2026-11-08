@@ -96,7 +96,8 @@ node tools/catalog.cjs                             # update the test list
 
 Only files whose text changed are recorded again. All 30 tests take a little over an hour on a
 24-core CPU (`--workers 6 --threads 4`). `tools/say.cjs` turns prices, times, years, phone
-numbers, codes and spelled names into words the voices read correctly; see
+numbers, codes and spelled names into words the voices read correctly. Words spelled one way
+but said two ways (*lead* the metal, *read* in the past) go in a test’s `"say"` list; see
 [docs/AUTHORING.md](docs/AUTHORING.md).
 
 ## Share picture

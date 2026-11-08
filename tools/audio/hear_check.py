@@ -69,8 +69,19 @@ def typed_answers(part):
     return out
 
 
+def respelled(test):
+    """Words the test respells for the voices ("but lead" -> "but led"), as {word: respelling}."""
+    out = {}
+    for said, spelt in test.get('say', {}).items():
+        a, b = said.lower().split(), spelt.lower().split()
+        if len(a) == len(b):
+            out.update({x: y for x, y in zip(a, b) if x != y})
+    return out
+
+
 def check_test(tid):
     test = json.loads((ROOT / 'data' / 'tests' / f'{tid:02d}.json').read_text())
+    sounds = respelled(test)
     misses = []
     for part in test['parts']:
         answers = typed_answers(part)
@@ -80,7 +91,8 @@ def check_test(tid):
                 continue
             text = squash(heard(tid, f"p{part['n']}-{i + 1}"))
             for q in qs:
-                alts = [squash(re.sub(r'[()]', '', a)) for a in answers[q]]
+                plain = [re.sub(r'[()]', '', a) for a in answers[q]]
+                alts = [squash(a) for a in plain] + [squash(' '.join(sounds.get(w, w) for w in a.lower().split())) for a in plain]
                 if not any(a and a in text for a in alts):
                     misses.append(f'Test {tid:02d} q{q}: "{answers[q][0]}" not heard')
     return misses

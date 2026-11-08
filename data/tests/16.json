@@ -418,5 +418,6 @@
         }
       ]
     }
-  ]
+  ],
+  "say": { "but lead": "but led", "finally close": "finally cloze" }
 }

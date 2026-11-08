@@ -44,9 +44,12 @@ function castPart(test, part) {
 const seg = (v, text, gap) => ({ v, lang: lang(v), text: sayable(text), gap });
 const narration = (v, lines, lastGap) => lines.flatMap(sentences).map((s, i, all) => seg(v, s, i === all.length - 1 ? lastGap : GAP.narrator));
 
-function sectionSegs(lines, cast) {
+/* A test's "say" respellings for words the voices would get wrong: { "but lead": "but led" }. */
+const respell = (text, say = {}) => Object.entries(say).reduce((t, [from, to]) => t.split(from).join(to), text);
+
+function sectionSegs(lines, cast, say) {
   return lines.flatMap(([id, text]) => {
-    const parts = sentences(plain(text));
+    const parts = sentences(respell(plain(text), say));
     return parts.map((s, i) => seg(cast[id], s, i === parts.length - 1 ? GAP.turn : GAP.sentence));
   });
 }
@@ -73,7 +76,7 @@ function planFor(test) {
     if (step.say) segs = narration(narrator, step.say, 0);
     else {
       const part = test.parts[step.part - 1];
-      const body = sectionSegs(part.sections[step.section].lines, cast);
+      const body = sectionSegs(part.sections[step.section].lines, cast, test.say);
       body[body.length - 1].gap = GAP.around;
       segs = [...narration(narrator, step.pre, GAP.around), ...body, ...narration(narrator, step.post, 0)];
     }

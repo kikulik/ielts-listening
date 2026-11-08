@@ -350,5 +350,6 @@
         }
       ]
     }
-  ]
+  ],
+  "say": { "I'd read that": "I'd red that", "She read it out": "She red it out" }
 }

@@ -382,5 +382,6 @@
         }
       ]
     }
-  ]
+  ],
+  "say": { "story read aloud": "story red aloud" }
 }

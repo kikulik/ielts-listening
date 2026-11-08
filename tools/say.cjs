@@ -84,8 +84,18 @@ const words = s => s
   .replace(/\s+/g, ' ')
   .trim();
 
+/* "use" is a noun after these words ("no use", "make use of", "land use"). Anywhere else it is the
+   verb, which the voices often say like the noun ("people yooss it"), so it is respelled. */
+const USE_NOUN = new Set(('a an the no much any some its their our your his her my this in of for into new minor general ' +
+  'promising practical main good best full further wide widespread common everyday daily regular frequent heavy ' +
+  'limited personal proper public private land tool water energy drug make made makes making little more less same').split(' '));
+const verbUse = s => s.replace(/\b([Uu])se\b/g, (w, u, at) => {
+  const prev = (s.slice(0, at).match(/([A-Za-z']+)[^A-Za-z']*$/) || [])[1];
+  return prev && USE_NOUN.has(prev.toLowerCase()) ? w : `${u === 'U' ? 'Y' : 'y'}ooz`;
+});
+
 /* Order matters: spelling and codes before numbers, money before times. */
-const sayable = text => words(years(decades(ampm(pence(times(money(digitRuns(codes(spelled(plain(text)))))))))));
+const sayable = text => verbUse(words(years(decades(ampm(pence(times(money(digitRuns(codes(spelled(plain(text))))))))))));
 
 /* Splits a turn into sentences so long turns get natural pauses. */
 const sentences = text => text.split(/(?<=[.!?])\s+(?=["'A-Z0-9£$€])/).map(s => s.trim()).filter(Boolean);

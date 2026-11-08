@@ -392,5 +392,11 @@
         }
       ]
     }
-  ]
+  ],
+  "say": {
+    "mostly of lead": "mostly of led",
+    "I read that every": "I red that every",
+    "had to be read at": "had to be red at",
+    "have them read aloud": "have them red aloud"
+  }
 }

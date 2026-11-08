@@ -435,5 +435,6 @@
         }
       ]
     }
-  ]
+  ],
+  "say": { "gates close at": "gates cloze at" }
 }
