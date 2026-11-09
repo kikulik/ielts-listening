@@ -77,7 +77,7 @@ def record(job):
     test_id, name, digest, segs, speed = job
     chunks = [silence(EDGE[0])]
     for s in segs:
-        audio, rate = _tts.create(s['text'], voice=s['v'], speed=speed, lang=s['lang'])
+        audio, rate = _tts.create(s['text'], voice=s['v'], speed=s.get('speed', speed), lang=s['lang'])
         if rate != RATE:
             raise RuntimeError(f'unexpected sample rate {rate}')
         chunks += [level(trim(audio.astype(np.float32))), silence(s['gap'])]

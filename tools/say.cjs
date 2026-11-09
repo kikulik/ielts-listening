@@ -14,16 +14,21 @@ function spell(chars, sep = ', ') {
   return out.join(sep);
 }
 
-const spelled = s => s.replace(/\b[A-Z](?:-[A-Z])+\b/g, m => spell(m.split('-')));
+/* Everything read character by character is wrapped in SPELL marks, so tools/speech.cjs can
+   record it slower than the rest of the sentence. */
+const SPELL = ['\u27E6', '\u27E7'];
+const mark = t => `${SPELL[0]}${t}${SPELL[1]}`;
+
+const spelled = s => s.replace(/\b[A-Z](?:-[A-Z])+\b/g, m => mark(spell(m.split('-'))));
 
 /* Codes like BS7 4QN or JX472: character by character. */
-const codes = s => s.replace(/\b(?=[A-Z0-9]*\d)(?=[A-Z0-9]*[A-Z])[A-Z0-9]{2,8}\b/g, m => spell(m.split('')));
+const codes = s => s.replace(/\b(?=[A-Z0-9]*\d)(?=[A-Z0-9]*[A-Z])[A-Z0-9]{2,8}\b/g, m => mark(spell(m.split(''))));
 
 /* Phone and reference numbers: "0798 445 2210" -> "oh seven nine eight, double four five, ...".
    Four-digit numbers that cannot be years (5836) are read digit by digit too. */
 const YEAR = /^(1[1-9]\d\d|20\d\d)$/;
 const digitRuns = s => s.replace(/(?<![\d,.])\b(?:0\d{2,}(?: \d{2,})*|\d{4,})\b(?!,\d)/g,
-  m => (YEAR.test(m) ? m : m.split(' ').map(g => spell(g.split(''), ' ')).join(', ')));
+  m => (YEAR.test(m) ? m : mark(m.split(' ').map(g => spell(g.split(''), ' ')).join(', '))));
 
 /* £38 -> 38 pounds, £12.50 -> 12 pounds 50, $1.25 -> 1 dollar 25, £3 million -> 3 million pounds */
 const MONEY = { '£': ['pound', 'pounds', 'p'], '$': ['dollar', 'dollars', 'cents'], '€': ['euro', 'euros', 'cents'] };
@@ -100,4 +105,4 @@ const sayable = text => verbUse(words(years(decades(ampm(pence(times(money(digit
 /* Splits a turn into sentences so long turns get natural pauses. */
 const sentences = text => text.split(/(?<=[.!?])\s+(?=["'A-Z0-9£$€])/).map(s => s.trim()).filter(Boolean);
 
-module.exports = { sayable, sentences, spell };
+module.exports = { sayable, sentences, spell, SPELL };

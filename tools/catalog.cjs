@@ -11,7 +11,7 @@ const ROOT = path.join(__dirname, '..');
 const TESTS = path.join(ROOT, 'data', 'tests');
 const OUT = path.join(ROOT, 'data', 'catalog.json');
 const CHECK_MIN = 2;
-const WPM = 165;
+const WPM = 150;
 const pad = n => String(n).padStart(2, '0');
 
 const ids = () => fs.readdirSync(TESTS).filter(f => /^\d\d\.json$/.test(f)).map(f => Number(f.slice(0, 2))).sort((a, b) => a - b);

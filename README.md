@@ -1,7 +1,7 @@
 # IELTS Listening Practice
 
 Thirty full IELTS Listening practice tests in the real exam format: four parts, 40 questions,
-about 30 minutes each. The recording plays once, with the narrator’s instructions, 30 seconds
+about 30–33 minutes each. The recording plays once, with the narrator’s instructions, 30 seconds
 to read before each section (45 before Part 4), 30 seconds to check after each part, and 2 or 10
 minutes to check everything at the end. Afterwards you get the band score, marks by part and by
 question type, every answer against the key, and the transcript with each answer highlighted.
@@ -94,7 +94,12 @@ node tools/catalog.cjs                             # update the test list
 
 `hear_check.py` needs `.venv/bin/pip install faster-whisper` once (its model downloads on first use).
 
-Only files whose text changed are recorded again. All 30 tests take a little over an hour on a
+The pace follows the Cambridge recordings, about 150–170 words a minute: the voices speak 10%
+slower than their own speed, anything spelled or read out character by character (names, codes,
+phone numbers) 20% slower, and map and plan talks 20% slower with longer pauses (`SPEED` and
+`SLOW` in `tools/speech.cjs`).
+
+Only files whose text changed are recorded again. All 30 tests take about an hour and a half on a
 24-core CPU (`--workers 6 --threads 4`). `tools/say.cjs` turns prices, times, years, phone
 numbers, codes and spelled names into words the voices read correctly. Words spelled one way
 but said two ways (*lead* the metal, *read* in the past) go in a test’s `"say"` list; see
