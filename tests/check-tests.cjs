@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const { checkTest } = require('./checks/structure.cjs');
 const { checkGroups, checkKey } = require('./checks/groups.cjs');
+const { checkPace } = require('./checks/pace.cjs');
 
 const DIR = path.join(__dirname, '..', 'data', 'tests');
 const pad = n => String(n).padStart(2, '0');
@@ -29,6 +30,7 @@ function checkFile(file) {
   r.words = words;
   if (Array.isArray(test.parts)) test.parts.forEach(p => p && p.n && checkGroups(p, r));
   if (!r.errors.length) checkKey(test, r);
+  if (!r.errors.length) checkPace(test, r);
   return r;
 }
 

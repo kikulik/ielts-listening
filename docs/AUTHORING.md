@@ -33,7 +33,8 @@ What makes real IELTS hard, and must be in every part:
 - **Natural speed and no signalling.** Do not make answers stand out (“the answer is…”).
   Information comes at normal conversational pace, often in the middle of a sentence.
 - **Spelling and numbers** in Part 1: a surname or street name spelled letter by letter,
-  a phone number, a postcode, a price, a date or a time.
+  a phone number, a postcode, a price, a date or a time. The recording spells them slowly with
+  a pause after every letter, as in the Cambridge tests (see “Pace of the recordings”).
 - **Answers come in question order** in the recording (except within a choose-two group).
   Leave 2–4 sentences between consecutive answers, more in Parts 3 and 4.
 
@@ -228,9 +229,9 @@ conventions so it is read correctly:
 
 | Write | Heard as |
 |---|---|
-| `O-K-A-F-O-R` (capitals joined by hyphens) | “O, K, A, F, O, R” (spelled; double letters are said “double R”) |
-| `0798 445 2210` (phone numbers, starting with 0, in groups) | “oh seven nine eight, double four five…” |
-| `BS7 4QN`, `JX472` (codes: capitals and digits) | spelled character by character |
+| `O-K-A-F-O-R` (capitals joined by hyphens) | “O … K … A … F … O … R”, slowly, a pause after every letter (double letters are said “double R”) |
+| `0798 445 2210` (phone numbers, starting with 0, in groups) | “oh seven nine eight … double four five … double two one oh”, a pause after each group |
+| `BS7 4QN`, `JX472` (codes: capitals and digits) | character by character, a pause after each, a longer one between the halves |
 | `£38`, `£12.50`, `$45`, `€20` | “thirty-eight pounds”, “twelve pounds fifty” |
 | `9.30`, `10.15 am`, `7 pm`, `6 o'clock` | “nine thirty”, “ten fifteen a.m.” |
 | `1998`, `2024` | “nineteen ninety-eight”, “twenty twenty-four” |
@@ -250,6 +251,29 @@ conventions so it is read correctly:
   Hesitation is fine as words: “Well,” “Oh,” “Right,” “Let me see,” “Hmm,” “Actually,”.
 - Use British spelling everywhere (colour, centre, programme), also for American speakers.
 - Numbers of 1,000 and more need the comma, otherwise they are read digit by digit.
+
+## Pace of the recordings
+
+These are rules for every recording. `tests/checks/pace.cjs` checks them on each test’s speech
+plan and stops the build if one is broken, so they cannot be undone by accident. The numbers live in
+`SPEED`, `SLOW` and `SPELL_GAP` in `tools/speech.cjs`; never make them faster.
+
+- **Cambridge pace.** About 150–170 words a minute with the pauses, like the Cambridge IELTS
+  recordings: every voice speaks 10% slower than its own speed (0.9 or slower).
+- **Spelling like the Cambridge tests.** A listener must be able to write down every letter of a
+  name spelled out (N … I … K … O … L … O … Z). A sentence with spelling is spoken 20% slower (0.8
+  or slower), and the letters get a pause of at least 0.45 s after each one, about three-quarters
+  of a second per letter. There is a pause of at least 0.4 s before the first letter and after the
+  last. Phone numbers and codes are read the same way: a pause after each character of a code, and
+  after each group of a phone number (0.7 s).
+- **Maps and plans** are spoken 20% slower (0.8 or slower), with 25% longer pauses between
+  sentences, so there is time to follow the directions on the map.
+
+How the spelling is recorded: `tools/say.cjs` marks everything read character by character,
+`tools/speech.cjs` turns the sentence into a list (“It’s, N, I, K, O, L, O, Z.”) with the pause
+wanted after each comma, and `tools/audio/synth.py` says the whole sentence in one recording and
+widens the gap after each letter to that pause. Do not record the letters one by one: the voices
+add a stray sound before a single letter said alone.
 
 ## Checklist before you finish a test
 

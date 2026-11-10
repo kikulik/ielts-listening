@@ -13,12 +13,17 @@ const { plain } = require('../js/markup.js');
 const ROOT = path.join(__dirname, '..');
 const OUT = path.join(ROOT, 'build', 'speech');
 const VERSION = 1;          // bump to re-record every file
-/* Pace like the Cambridge recordings (150-170 words a minute with pauses): everything 10%
-   slower than the voices' own speed, spelling and codes 20% slower, map and plan talks 20% slower
-   with longer pauses so there is time to follow the directions. */
+/* Pace like the Cambridge recordings (150-170 words a minute with pauses). These are the rules in
+   "Pace of the recordings" in docs/AUTHORING.md; tests/checks/pace.cjs stops the build if a plan
+   breaks them.
+   - everything 10% slower than the voices' own speed;
+   - map and plan talks 20% slower, with longer pauses to follow the directions;
+   - a sentence with spelling (names, codes, phone numbers) 20% slower and recorded in one piece,
+     with a clear pause added after every letter so a listener can write each one down. */
 const SPEED = 0.9;
 const SLOW = { spell: 0.8, map: 0.8, mapGap: 1.25 };
-const GAP = { sentence: 0.35, turn: 0.6, narrator: 0.65, around: 1.2, spell: 0.15 };
+const GAP = { sentence: 0.35, turn: 0.6, narrator: 0.65, around: 1.2 };
+const SPELL_GAP = { around: 0.4, letter: 0.45, group: 0.7 };
 
 /* Voices by gender and accent, best first. A part never uses the same voice twice. */
 const VOICES = {
@@ -45,32 +50,50 @@ function castPart(test, part) {
   return { cast, narrator };
 }
 
-/* Cuts a sentence into plain and spelled pieces: "It's ⟦H, A, double R, Y⟧." -> ["It's", "H, A, double R, Y."].
-   Spelled runs next to each other (a postcode's two halves) become one piece. */
-function pieces(said) {
+const marksIn = t => (t.match(/[,.;:!?]/g) || []).length;
+
+/* A sentence with spelling as the voice says it, and the pause to add after each of its punctuation
+   marks (0: the voice's own). Letters are said in a list with a pause after each, groups (a phone
+   number's, a postcode's halves) with a longer one, and there is a pause before and after:
+     "It's ⟦N,I,K⟧." -> text "It's, N, I, K."  pauses [0.4, 0.45, 0.45, 0.4]  letters 3 */
+function spelledLine(said) {
   const [open, close] = SPELL;
-  const joined = said.split(`${close} ${open}`).join(' ').split(`${close}, ${open}`).join(', ');
-  const out = [];
+  const joined = said.split(`${close} ${open}`).join('/').split(`${close}, ${open}`).join('/');
+  let text = '', letters = 0;
+  const pauses = [];
+  const put = (t, pause = 0) => { text += t; pauses.push(...Array(marksIn(t)).fill(pause)); };
+  const breath = () => {
+    text = text.trimEnd();
+    if (!text) return;
+    if (/[,.;:!?]$/.test(text)) pauses[pauses.length - 1] = Math.max(pauses[pauses.length - 1], SPELL_GAP.around);
+    else put(',', SPELL_GAP.around);
+    text += ' ';
+  };
   joined.split(open).forEach((chunk, i) => {
-    const [spelt, rest] = i ? chunk.split(close) : [null, chunk];
-    if (spelt) out.push({ text: spelt, spell: true });
-    if (rest) out.push({ text: rest, spell: false });
+    const [spelt, rest = ''] = i ? chunk.split(close) : [null, chunk];
+    if (spelt) {
+      breath();
+      spelt.split('/').forEach((group, g) => {
+        if (g) put(', ', SPELL_GAP.group);
+        group.split(',').forEach((u, k) => { put(`${k ? ', ' : ''}${u.trim()}`, SPELL_GAP.letter); letters += 1; });
+      });
+      if (/^\s*[A-Za-z0-9]/.test(rest)) breath();
+    }
+    const first = pauses.length;
+    put(spelt && /^\s*[A-Za-z0-9]/.test(rest) ? rest.trimStart() : rest);
+    if (spelt && /^\s*[,.;:!?]/.test(rest)) pauses[first] = SPELL_GAP.around;
   });
-  out.forEach((p, i) => {             // punctuation after a piece stays with it: "Y" + "." -> "Y."
-    const lead = p.text.match(/^[\s,.;:!?]+/);
-    if (lead && i) { out[i - 1].text += lead[0].trim(); p.text = p.text.slice(lead[0].length); }
-  });
-  return out.map(p => ({ ...p, text: p.text.trim() })).filter(p => /[A-Za-z0-9]/.test(p.text));
+  return { text: text.trim(), pauses, letters };
 }
 
-/* One sentence as one or more recordings; the spelled pieces slower. */
+/* One sentence as one recording; with spelling, slower and with the pauses for synth.py to add. */
 function seg(v, text, gap, speed = SPEED) {
-  const parts = pieces(sayable(text));
-  return parts.map((p, i) => ({
-    v, lang: lang(v), text: p.text, speed: p.spell ? Math.min(speed, SLOW.spell) : speed, gap: i === parts.length - 1 ? gap : GAP.spell
-  }));
+  const said = sayable(text);
+  if (!said.includes(SPELL[0])) return { v, lang: lang(v), text: said, speed, gap };
+  const { text: spoken, pauses, letters } = spelledLine(said);
+  return { v, lang: lang(v), text: spoken, speed: Math.min(speed, SLOW.spell), gap, pauses, letters };
 }
-const narration = (v, lines, lastGap) => lines.flatMap(sentences).flatMap((s, i, all) => seg(v, s, i === all.length - 1 ? lastGap : GAP.narrator));
+const narration = (v, lines, lastGap) => lines.flatMap(sentences).map((s, i, all) => seg(v, s, i === all.length - 1 ? lastGap : GAP.narrator));
 
 /* A test's "say" respellings for words the voices would get wrong: { "but lead": "but led" }. */
 const respell = (text, say = {}) => Object.entries(say).reduce((t, [from, to]) => t.split(from).join(to), text);
@@ -79,7 +102,7 @@ function sectionSegs(lines, cast, say, map) {
   const speed = map ? SLOW.map : SPEED, k = map ? SLOW.mapGap : 1;
   return lines.flatMap(([id, text]) => {
     const parts = sentences(respell(plain(text), say));
-    return parts.flatMap((s, i) => seg(cast[id], s, (i === parts.length - 1 ? GAP.turn : GAP.sentence) * k, speed));
+    return parts.map((s, i) => seg(cast[id], s, (i === parts.length - 1 ? GAP.turn : GAP.sentence) * k, speed));
   });
 }
 
@@ -134,4 +157,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { planFor, VOICES, NARRATORS };
+module.exports = { planFor, isMap, respell, VOICES, NARRATORS, PACE: { SPEED, SLOW, GAP, SPELL_GAP } };

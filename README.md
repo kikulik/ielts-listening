@@ -70,6 +70,8 @@ functions) and `tests/check-tests.cjs` (every test, see below) first, and stops 
 - letters, options, matching boxes and map letters are valid; maps stay on the canvas
 - the answer key scores 40/40 through the same marking code the page uses
 - part lengths, and nothing in the transcript the voices can’t say
+- the pace rules: every voice at 0.9 of its speed or slower, map talks and spelling at 0.8 or
+  slower, and at least 0.45 s after every spelled letter
 
 ## Making the recordings
 
@@ -77,7 +79,7 @@ One-off setup (about 350 MB):
 
 ```bash
 python3 -m venv .venv
-.venv/bin/pip install kokoro-onnx soundfile lameenc
+.venv/bin/pip install kokoro-onnx soundfile lameenc onnx
 mkdir -p tools/audio/models && cd tools/audio/models
 gh release download model-files-v1.0 -R thewh1teagle/kokoro-onnx -p kokoro-v1.0.onnx -p voices-v1.0.bin
 ```
@@ -95,9 +97,12 @@ node tools/catalog.cjs                             # update the test list
 `hear_check.py` needs `.venv/bin/pip install faster-whisper` once (its model downloads on first use).
 
 The pace follows the Cambridge recordings, about 150–170 words a minute: the voices speak 10%
-slower than their own speed, anything spelled or read out character by character (names, codes,
-phone numbers) 20% slower, and map and plan talks 20% slower with longer pauses (`SPEED` and
-`SLOW` in `tools/speech.cjs`).
+slower than their own speed, map and plan talks 20% slower with longer pauses, and spelling
+(names, codes, phone numbers) 20% slower with a clear pause after every letter so each one can be
+written down. These are rules, written out in
+[docs/AUTHORING.md](docs/AUTHORING.md#pace-of-the-recordings) and enforced by the checker.
+`synth.py` makes `tools/audio/models/kokoro-v1.0-timed.onnx` from the model the first time it
+runs (the same model, also reporting when each sound is spoken, to place the pauses in spelling).
 
 Only files whose text changed are recorded again. All 30 tests take about an hour and a half on a
 24-core CPU (`--workers 6 --threads 4`). `tools/say.cjs` turns prices, times, years, phone

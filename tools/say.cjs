@@ -4,31 +4,35 @@ const { plain } = require('../js/markup.js');
 
 const UNITS = 'metres?|meters?|kilometres?|km|centimetres?|cm|millimetres?|mm|kilos?|kilograms?|kg|grams?|g|litres?|tonnes?|tons?|miles?|hectares?|degrees?|per|percent|million|billion|times|seconds?|minutes?|hours?|years?|%';
 
-/* "H-A-R-R-Y" -> "H, A, double R, Y"; sep " " reads digit groups as one run. */
-function spell(chars, sep = ', ') {
+/* ["H","A","R","R","Y"] -> ["H", "A", "double R", "Y"]; 0 is said "oh". */
+function units(chars) {
   const out = [];
   for (let i = 0; i < chars.length; i++) {
     const c = chars[i] === '0' ? 'oh' : chars[i];
     if (chars[i + 1] === chars[i] && chars[i + 2] !== chars[i]) { out.push(`double ${c}`); i += 1; } else out.push(c);
   }
-  return out.join(sep);
+  return out;
 }
 
-/* Everything read character by character is wrapped in SPELL marks, so tools/speech.cjs can
-   record it slower than the rest of the sentence. */
+/* Everything read character by character is wrapped in SPELL marks so tools/speech.cjs can record
+   it the Cambridge way (docs/AUTHORING.md, "Spelling and numbers"). Inside the marks a comma
+   separates letters said one at a time, and a slash separates groups:
+     names   O-K-A-F-O-R    -> ⟦O,K,A,F,O,R⟧          every letter on its own
+     codes   BS7 4QN        -> ⟦B,S,7⟧ ⟦4,Q,N⟧        every character on its own, a longer pause between the halves
+     phones  0798 445 2210  -> ⟦oh 7 9 8/double 4 5/2 double 2 1 oh⟧   each group in one breath */
 const SPELL = ['\u27E6', '\u27E7'];
-const mark = t => `${SPELL[0]}${t}${SPELL[1]}`;
+const mark = groups => `${SPELL[0]}${groups.join('/')}${SPELL[1]}`;
 
-const spelled = s => s.replace(/\b[A-Z](?:-[A-Z])+\b/g, m => mark(spell(m.split('-'))));
+const spelled = s => s.replace(/\b[A-Z](?:-[A-Z])+\b/g, m => mark([units(m.split('-')).join(',')]));
 
 /* Codes like BS7 4QN or JX472: character by character. */
-const codes = s => s.replace(/\b(?=[A-Z0-9]*\d)(?=[A-Z0-9]*[A-Z])[A-Z0-9]{2,8}\b/g, m => mark(spell(m.split(''))));
+const codes = s => s.replace(/\b(?=[A-Z0-9]*\d)(?=[A-Z0-9]*[A-Z])[A-Z0-9]{2,8}\b/g, m => mark([units(m.split('')).join(',')]));
 
 /* Phone and reference numbers: "0798 445 2210" -> "oh seven nine eight, double four five, ...".
    Four-digit numbers that cannot be years (5836) are read digit by digit too. */
 const YEAR = /^(1[1-9]\d\d|20\d\d)$/;
 const digitRuns = s => s.replace(/(?<![\d,.])\b(?:0\d{2,}(?: \d{2,})*|\d{4,})\b(?!,\d)/g,
-  m => (YEAR.test(m) ? m : mark(m.split(' ').map(g => spell(g.split(''), ' ')).join(', '))));
+  m => (YEAR.test(m) ? m : mark(m.split(' ').map(g => units(g.split('')).join(' ')))));
 
 /* £38 -> 38 pounds, £12.50 -> 12 pounds 50, $1.25 -> 1 dollar 25, £3 million -> 3 million pounds */
 const MONEY = { '£': ['pound', 'pounds', 'p'], '$': ['dollar', 'dollars', 'cents'], '€': ['euro', 'euros', 'cents'] };
@@ -105,4 +109,4 @@ const sayable = text => verbUse(words(years(decades(ampm(pence(times(money(digit
 /* Splits a turn into sentences so long turns get natural pauses. */
 const sentences = text => text.split(/(?<=[.!?])\s+(?=["'A-Z0-9£$€])/).map(s => s.trim()).filter(Boolean);
 
-module.exports = { sayable, sentences, spell, SPELL };
+module.exports = { sayable, sentences, units, SPELL };
